@@ -11,6 +11,16 @@
 [ NAV ]  [01 identity][02 transmission][03 archive][04 workshop][05 toolbox][06 signal][07 classified][08 frequencies]
 ```
 
+```
+ ____  _   _    _    _   _ _____ ___  __  __ _____  _    ____  _____
+|  _ \| | | |  / \  | \ | |_   _/ _ \|  \/  |_   _|/ \  |  _ \| ____|
+| |_) | |_| | / _ \ |  \| | | || | | | |\/| | | | / _ \ | |_) |  _|
+|  __/|  _  |/ ___ \| |\  | | || |_| | |  | | | |/ ___ \|  __/| |___
+|_|   |_| |_/_/   \_\_| \_| |_| \___/|_|  |_| |_/_/   \_\_|   |_____|
+```
+
+`RECEIVING ON FREQ 103.7 · FOUR-TRACK RECORDER · SIGNAL ACQUIRED 2026 · ARCHIVE NODE 07`
+
 ---
 
 ## // 01 :: IDENTITY
@@ -155,21 +165,31 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   43 │
-│ CONTRIBUTIONS ..... 895     FOLLOWERS ..........    2 │
+│ CONTRIBUTIONS ..... 894     FOLLOWERS ..........    2 │
 │ UPLINK AGE ........   30 DAYS │
-│ SIGNAL HASH ....... AACA1C   SIGNAL ......... ▓▓▓▓▓▓▓▓▒░░░░░░░  50%  PHASE 04 │
+│ SIGNAL HASH ....... 8E2C80   SIGNAL ......... ▓▓▓▓▓▓▓▒░░░░░░░░  44%  PHASE 00 │
 └──────────────────────────────────────────────────────┘
 
-// SIGNAL ACTIVITY — 53 WEEK REAL-TIME STRIP (LIVE DATA)
+// SIGNAL ACTIVITY — REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓█▒█▒
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS — SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 895
+CONTRIBUTIONS ...... 894
 REPOSITORIES ....... 43
 FOLLOWERS .......... 2
+COLLECTED STARS .... 9
 BROADCASTING FOR ... 30 DAYS (SINCE 2026-07-31 UTC)
+
+// RECENT CATCHES — LAST 3 PUSHES
+  Nortaq-PlayNexus             PUSHED 2026-08-30
+  archive-07                   PUSHED 2026-08-30
+  FreeStack                    PUSHED 2026-08-29
+
+// BROADCAST SCHEDULE — REAL WORKFLOW CRONS
+  SNAKE TRANSMITTER [daily] → .github/workflows/snake.yml
+  REBROADCAST       [nightly] → .github/workflows/rebroadcast.yml
 
 // SYSTEM STATUS
 GITHUB ........ ONLINE
@@ -179,6 +199,56 @@ BRAIN ......... QUESTIONABLE
 COFFEE ........ REQUIRED
 
 ```
+
+<details>
+  <summary><code>CASES:// RAW ARCHIVE INDEX — 43 FILES</code></summary>
+
+```text
+  Nortaq-PlayNexus                 Python       *0
+  archive-07                       -            *0
+  FreeStack                        Python       *1
+  resourcegather                   Python       *0
+  orion-sentinel-ai                JavaScript   *1
+  nasa-investigation               HTML         *2
+  PlayNexus-Foundry                TypeScript   *0
+  nexus-agent-x                    Python       *0
+  Brainarr                         C#           *0
+  hexstrike-ai                     Python       *0
+  Starminder                       Python       *0
+  Scaffold                         PHP          *0
+  swarmforge                       Python       *0
+  sentinel                         Python       *0
+  neuralforge                      Python       *0
+  military-anomaly-scanner         Python       *0
+  archon                           Python       *0
+  TerrorFibercraft-Admin           Rust         *0
+  playnexus-sovereign-meta-agent   Python       *0
+  synthesis-dj                     JavaScript   *0
+  SecureVault                      C#           *0
+  ArkNexusX                        Rust         *0
+  osmp                             TypeScript   *0
+  RustVoiceBooster                 JavaScript   *0
+  forge                            Python       *0
+  cto                              Python       *0
+  aurora-audio-engine              Rust         *1
+  aether-facility                  Python       *1
+  sonic-facility                   Python       *1
+  playnexus-musicvidforge          Python       *0
+  myskoda                          Python       *0
+  sqlalchemy-history               Python       *0
+  better_bing_image_downloader     Python       *0
+  web-widgets                      TypeScript   *0
+  cookiecutter-wagtail-vix         -            *0
+  recovar                          -            *1
+  python-hid-parser                -            *1
+  envoy-proxy-crowdsec-bouncer     -            *0
+  fusil                            -            *0
+  pygeofilter                      -            *0
+  meteofrance-api                  -            *0
+  pdb-addr2line                    -            *0
+  color_quant                      -            *0
+```
+</details>
 
 <sup>LAST REBROADCAST 20260830 UTC · data source: GRAPHQL · hash salt public in docs/how-to-verify.md</sup>
 
@@ -199,11 +269,30 @@ COFFEE ........ REQUIRED
 
 Real only.
 
-- 📡 broadcast started `2026-07-31` UTC
-- 🔓 `41` public transmissions (repositories)
-- ⚡ `893` contributions in the first broadcast year
-- 🧬 `7` detected primary genomes, dominated by Python
-- 👥 `2` listeners locked in (and counting)
+```text
+RT  broadcast started         2026-07-31 UTC
+TX  forty-plus public transmissions (repositories — live count in block 01)
+++  hundreds of contributions in the first broadcast year
+GR  7 detected primary genomes, dominated by Python
+LS  2 listeners locked in (live follower count in block 01)
+```
+
+<details>
+  <summary><code>[ RUN SIGNAL CHECK ]</code></summary>
+
+Every number in the transmission block above is machine-stamped from the live
+GitHub API, and the `SIGNAL HASH` makes that provable:
+
+```bash
+# 1. read the four public numbers from today's block
+# 2. local python, zero network:
+python3 scripts/signal_hash.py Nortaq-PlayNexus <REPOS> <FOLLOWERS> <CONTRIB> <YYYYMMDD>
+# 3. compare to SIGNAL HASH ▸ if it matches, this page is real, not hand-painted
+```
+
+Full derivation: [`docs/how-to-verify.md`](docs/how-to-verify.md). The salt is public,
+the inputs are public, and the profile still rehashes itself every night.
+</details>
 
 ---
 
@@ -272,12 +361,40 @@ ERROR 404: NORMAL PROFILE NOT FOUND
 <a name="frequencies"></a>
 
 ```text
+    FM DIAL ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+       MHz  87.5 ────────────────────────────── 108
+              ▲ broadcast band, tuned to 103.7 forever
+```
+
+```text
 GITHUB ..... @Nortaq-PlayNexus ..... https://github.com/Nortaq-PlayNexus
 DISCORD .... [ OFF AIR — <PHANTOMTAPE_P-10> ]
 MUSIC ...... [ OFF AIR — <PHANTOMTAPE_P-10> ]
 YOUTUBE .... [ OFF AIR — <PHANTOMTAPE_P-10> ]
 INSTAGRAM .. [ OFF AIR — <PHANTOMTAPE_P-10> ]
 WEBSITE .... [ OFF AIR — <PHANTOMTAPE_P-10> ]
+```
+
+`$ man phantomtape`
+
+```text
+NAME
+    phantomtape - a github profile disguised as a pirate radio transmission
+
+SYNOPSIS
+    browse it.
+
+DESCRIPTION
+    Nearly everything you just read is staged. The projects are real, the
+    numbers are real, the hashes are verifiable. The drama is a container.
+
+OPTIONS
+    --secret    there is no --secret. that would be a real secret.
+    --listen    README.md section 03, PHNT-002
+    --verify    python3 scripts/signal_hash.py (see docs/how-to-verify.md)
+
+SEE ALSO
+    archive/ (ARCHIVE NODE 07), about 41 other files upstairs
 ```
 
 ---

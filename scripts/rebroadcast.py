@@ -95,11 +95,27 @@ def reactions(hash_str: str) -> str:
     return f"▓▓▓{'▓' * (sig // 10)}▒{'░' * (12 - sig // 10)}  {sig}%  PHASE {phase:02d}"
 
 
-def build(user: dict, contrib: int, weeks: list[int], date_utc: str, has_token: bool,
+def repo_stats(repos: list[dict]) -> tuple[int, list, list]:
+    lang_counts: dict[str, int] = {}
+    total_stars = 0
+    for r in repos:
+        lang = r.get("language")
+        if lang:
+            lang_counts[lang] = lang_counts.get(lang, 0) + 1
+        total_stars += r.get("stargazers_count") or 0
+    top_langs = sorted(lang_counts.items(), key=lambda kv: -kv[1])
+    latest = sorted(repos, key=lambda r: r.get("pushed_at") or "", reverse=True)[:3]
+    return total_stars, top_langs, latest
+
+
+def build(user: dict, repos: list[dict], contrib: int, weeks: list[int], date_utc: str, has_token: bool,
           owner: str) -> str:
-    repos = user["public_repos"]
+    import datetime
+    repos = repos or []
+    repo_count = user["public_repos"]
     followers = user["followers"]
-    h = signal_hash(owner, repos, followers, contrib, date_utc)
+    total_stars, top_langs, latest = repo_stats(repos)
+    h = signal_hash(owner, repo_count, followers, contrib, date_utc)
     age_days = (datetime.date.fromisoformat(date_utc) -
                 datetime.date.fromisoformat(user["created_at"][:10])).days
     week_labels = []
@@ -112,27 +128,39 @@ def build(user: dict, contrib: int, weeks: list[int], date_utc: str, has_token: 
     src = "GRAPHQL" if has_token else "REST (CONTRIB UNSET)"
     contrib_line = str(contrib) if has_token else "<PENDING_TOKEN>"
 
+    lang_summary = ", ".join(f"{ln}×{c}" for ln, c in top_langs[:7]) or "<none>"
+    catches = "\n".join(
+        f"  {r['name']:<28} PUSHED {r.get('pushed_at', '')[:10]}" for r in latest)
+
     return "\n".join([
         BEGIN,
         "",
         "```text",
         "┌─ TRANSMISSION STATUS ─────────────────────────────┐",
-        f"│ GITHUB ........... ONLINE      REPOS ............. {repos:>4} │",
+        f"│ GITHUB ........... ONLINE      REPOS ............. {repo_count:>4} │",
         f"│ CONTRIBUTIONS ..... {contrib_line:<6}  FOLLOWERS .......... {followers:>4} │",
         f"│ UPLINK AGE ........ {age_days:>4} DAYS │",
         f"│ SIGNAL HASH ....... {h}   SIGNAL ......... {reactions(h)} │",
         "└──────────────────────────────────────────────────────┘",
         "",
-        "// SIGNAL ACTIVITY — 53 WEEK REAL-TIME STRIP (LIVE DATA)",
+        "// SIGNAL ACTIVITY — REAL-TIME WEEK STRIP (LIVE DATA)",
         "   " + labels,
         "   " + strip_line(weeks),
         "   LOW ───────────────────────────────────────────── HIGH",
         "",
         "// SYSTEM METRICS — SNAPSHOT (AUDITABLE)",
         f"CONTRIBUTIONS ...... {contrib_line}",
-        f"REPOSITORIES ....... {repos}",
+        f"REPOSITORIES ....... {repo_count}",
         f"FOLLOWERS .......... {followers}",
+        f"COLLECTED STARS .... {total_stars}",
         f"BROADCASTING FOR ... {age_days} DAYS (SINCE {user['created_at'][:10]} UTC)",
+        "",
+        "// RECENT CATCHES — LAST 3 PUSHES",
+        catches,
+        "",
+        "// BROADCAST SCHEDULE — REAL WORKFLOW CRONS",
+        "  SNAKE TRANSMITTER [daily] → .github/workflows/snake.yml",
+        "  REBROADCAST       [nightly] → .github/workflows/rebroadcast.yml",
         "",
         "// SYSTEM STATUS",
         "GITHUB ........ ONLINE",
@@ -142,6 +170,15 @@ def build(user: dict, contrib: int, weeks: list[int], date_utc: str, has_token: 
         "COFFEE ........ REQUIRED",
         "",
         "```",
+        "",
+        "<details>",
+        f"  <summary><code>CASES:// RAW ARCHIVE INDEX — {repo_count} FILES</code></summary>",
+        "",
+        "```text",
+        *[f"  {r['name']:<32} {r.get('language') or '-':<12} *{r.get('stargazers_count') or 0}"
+          for r in repos],
+        "```",
+        "</details>",
         "",
         f"<sup>LAST REBROADCAST {date_utc} UTC · data source: {src} · hash salt public in "
         "docs/how-to-verify.md</sup>",
@@ -165,6 +202,12 @@ def main() -> int:
     date_utc = now.strftime("%Y%m%d")
 
     user = http_json(f"https://api.github.com/users/{owner}", token)
+    repos: list[dict] = []
+    try:
+        repos = http_json(
+            f"https://api.github.com/users/{owner}/repos?per_page=100&sort=pushed", token)
+    except Exception as exc:
+        print(f"repos fetch failed ({exc}); archive index omitted", file=sys.stderr)
     contrib = 0
     weeks: list[int] = []
     has_token = bool(token)
@@ -175,7 +218,7 @@ def main() -> int:
             print(f"graphql failed ({exc}); contribution fields left unset", file=sys.stderr)
             has_token = False
 
-    block = build(user, contrib, weeks, date_utc, has_token, owner)
+    block = build(user, repos, contrib, weeks, date_utc, has_token, owner)
 
     if "--gen-only" in sys.argv:
         sys.stdout.write(block)
