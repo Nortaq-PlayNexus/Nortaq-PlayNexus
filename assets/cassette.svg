@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160" viewBox="0 0 240 160" role="img" aria-label="cassette tape labeled PHANTOMTAPE, SKU PHNT-001">
+  <rect x="2" y="4" width="236" height="152" rx="10" fill="#0A0A0A" stroke="#1A1A1A" stroke-width="2"/>
+  <rect x="4" y="18" width="232" height="56" rx="8" fill="#111111" stroke="#1A1A1A"/>
+  <rect x="14" y="52" width="60" height="14" fill="#050505"/>
+  <rect x="166" y="52" width="60" height="14" fill="#050505"/>
+  <text x="18" y="38" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="12" letter-spacing="3" fill="#00E5FF">PHANTOMTAPE</text>
+  <text x="18" y="52" font-family="'Cascadia Code',monospace" font-size="9" letter-spacing="2" fill="#4D4D4D">SIDE A // PIRATE DIGITAL</text>
+
+  <g>
+    <circle cx="44" cy="108" r="30" fill="#050505" stroke="#1A1A1A" stroke-width="3"/>
+    <circle cx="44" cy="108" r="10" fill="#0A0A0A" stroke="#2A2A2A"/>
+    <circle cx="44" cy="108" r="3" fill="#8A8A8A"/>
+    <path d="M44 84 v10 M44 122 v10 M22 108 h10 M56 108 h10" stroke="#2A2A2A" stroke-width="2"/>
+  </g>
+  <g>
+    <circle cx="196" cy="108" r="30" fill="#050505" stroke="#1A1A1A" stroke-width="3"/>
+    <circle cx="196" cy="108" r="10" fill="#0A0A0A" stroke="#2A2A2A"/>
+    <circle cx="196" cy="108" r="3" fill="#8A8A8A"/>
+    <path d="M196 84 v10 M196 122 v10 M174 108 h10 M208 108 h10" stroke="#2A2A2A" stroke-width="2"/>
+  </g>
+  <rect x="112" y="84" width="16" height="48" rx="3" fill="#E8E8E8" opacity="0.07"/>
+  <line x1="18" y1="146" x2="30" y2="146" stroke="#B8FF1E" stroke-width="2"/>
+  <line x1="38" y1="146" x2="52" y2="146" stroke="#8A8A8A" stroke-width="2"/>
+  <path d="M60 140 h38 M60 146 h80 M60 152 h52" stroke="#4D4D4D" stroke-width="2"/>
+  <text x="180" y="150" font-family="'Cascadia Code',monospace" font-size="8" letter-spacing="1" fill="#4D4D4D">PHNT-001</text>
+</svg>

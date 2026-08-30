@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="360" viewBox="0 0 800 360" role="img" aria-label="PHANTOMTAPE pirate radio broadcast hero, static reduced-motion variant">
+  <defs>
+    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.7"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#050505"/>
+      <rect width="4" height="1" fill="#ffffff" opacity="0.035"/>
+    </pattern>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="360" fill="#050505"/>
+  <rect width="800" height="360" fill="url(#vig)"/>
+  <rect width="800" height="360" fill="url(#scan)"/>
+  <rect width="800" height="360" filter="url(#noise)" opacity="0.045"/>
+
+  <g stroke="#B8FF1E" fill="none" opacity="0.8">
+    <path d="M18 38 h52 M18 38 v52" />
+    <path d="M782 38 h-52 M782 38 v52" />
+    <path d="M18 322 h52 M18 322 v-52" />
+    <path d="M782 322 h-52 M782 322 v-52" />
+  </g>
+
+  <text x="42" y="66" font-family="'Cascadia Code','Fira Code',Consolas,'Courier New',monospace" font-size="13" letter-spacing="3" fill="#8A8A8A">[&#160;</text>
+  <text x="58" y="66" font-family="'Cascadia Code','Fira Code',Consolas,'Courier New',monospace" font-size="13" letter-spacing="3" fill="#00E5FF">SIGNAL DETECTED&#160;</text>
+  <text x="226" y="66" font-family="'Cascadia Code','Fira Code',Consolas,'Courier New',monospace" font-size="13" letter-spacing="3" fill="#8A8A8A">]</text>
+
+  <g font-family="'Tomorrow','Orbitron','Space Grotesk',Impact,sans-serif">
+    <text x="42" y="150" font-size="26" letter-spacing="8" fill="#4D4D4D">DJ</text>
+    <text x="106" y="150" font-size="13" letter-spacing="2" fill="#1A1A1A" font-family="'Cascadia Code',monospace">//</text>
+    <text x="42" y="216" font-size="58" font-weight="800" letter-spacing="4" fill="#E8E8E8">PHANTOMTAPE</text>
+    <text x="42" y="252" font-size="15" letter-spacing="5" fill="#8A8A8A">DIGITAL AUDIO // SOFTWARE // EXPERIMENTS</text>
+    <text x="42" y="284" font-size="12" letter-spacing="3" fill="#4D4D4D">[&#160;<tspan fill="#B8FF1E">TRANSMISSION</tspan>&#160;<tspan fill="#4D4D4D">/</tspan>&#160;<tspan fill="#B8FF1E">ONLINE</tspan>&#160;]</text>
+  </g>
+
+  <g transform="translate(620,110)">
+    <rect x="0" y="0" width="140" height="92" rx="8" fill="#0A0A0A" stroke="#1A1A1A" stroke-width="2"/>
+    <rect x="6" y="6" width="128" height="34" rx="5" fill="#111111" stroke="#1A1A1A"/>
+    <text x="14" y="26" font-family="'Cascadia Code',monospace" font-size="10" letter-spacing="2" fill="#00E5FF">PHANTOMTAPE</text>
+    <text x="14" y="38" font-family="'Cascadia Code',monospace" font-size="8" letter-spacing="1" fill="#4D4D4D">PHNT-001</text>
+    <circle cx="42" cy="66" r="17" fill="#050505" stroke="#1A1A1A" stroke-width="2"/>
+    <circle cx="42" cy="66" r="4" fill="#8A8A8A"/>
+    <circle cx="98" cy="66" r="17" fill="#050505" stroke="#1A1A1A" stroke-width="2" opacity="0.25"/>
+    <circle cx="98" cy="66" r="4" fill="#8A8A8A" opacity="0.25"/>
+    <rect x="66" y="56" width="8" height="20" rx="2" fill="#E8E8E8" opacity="0.08"/>
+  </g>
+
+  <g transform="translate(42,296)">
+    <rect x="0" y="8" width="716" height="2" fill="#1A1A1A" opacity="0.6"/>
+    <rect x="0" y="8" width="4" height="14" fill="#B8FF1E" opacity="0.55"/>
+    <rect x="7" y="8" width="4" height="22" fill="#B8FF1E" opacity="0.55"/>
+    <rect x="14" y="8" width="4" height="10" fill="#B8FF1E" opacity="0.55"/>
+    <rect x="21" y="8" width="4" height="26" fill="#00E5FF" opacity="0.5"/>
+    <rect x="28" y="8" width="4" height="16" fill="#B8FF1E" opacity="0.55"/>
+    <rect x="35" y="8" width="4" height="8" fill="#B8FF1E" opacity="0.5"/>
+    <rect x="42" y="8" width="4" height="20" fill="#B8FF1E" opacity="0.55"/>
+    <rect x="49" y="8" width="4" height="13" fill="#B8FF1E" opacity="0.5"/>
+    <rect x="56" y="8" width="4" height="24" fill="#00E5FF" opacity="0.45"/>
+    <rect x="63" y="8" width="4" height="12" fill="#B8FF1E" opacity="0.55"/>
+    <rect x="70" y="8" width="4" height="9" fill="#B8FF1E" opacity="0.5"/>
+    <rect x="77" y="8" width="4" height="28" fill="#9B5CFF" opacity="0.5"/>
+    <rect x="84" y="8" width="4" height="15" fill="#B8FF1E" opacity="0.55"/>
+    <rect x="91" y="8" width="4" height="18" fill="#B8FF1E" opacity="0.5"/>
+    <rect x="98" y="8" width="4" height="11" fill="#00E5FF" opacity="0.5"/>
+    <rect x="105" y="8" width="4" height="9" fill="#B8FF1E" opacity="0.55"/>
+    <rect x="112" y="8" width="4" height="25" fill="#B8FF1E" opacity="0.5"/>
+    <rect x="119" y="8" width="4" height="13" fill="#B8FF1E" opacity="0.55"/>
+  </g>
+
+  <g font-family="'Cascadia Code','Fira Code',Consolas,'Courier New',monospace" font-size="10.5" letter-spacing="1.5">
+    <text x="42" y="340" fill="#8A8A8A">FREQ</text><text x="78" y="340" fill="#E8E8E8">103.7</text>
+    <text x="130" y="340" fill="#8A8A8A">CHANNEL</text><text x="186" y="340" fill="#E8E8E8">PHANTOM-01</text>
+    <text x="286" y="340" fill="#8A8A8A">MODE</text><text x="332" y="340" fill="#E8E8E8">BROADCAST</text>
+    <text x="404" y="340" fill="#8A8A8A">SOURCE</text><text x="462" y="340" fill="#4D4D4D">UNKNOWN</text>
+    <text x="524" y="340" fill="#8A8A8A">TIME</text><text x="566" y="340" fill="#4D4D4D">UTC</text>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+name: Rebroadcast
+# The profile re-transmits itself: every night it pulls the owner's live
+# public facts and rebuilds the dynamic block in README.md between the
+# REBROADCAST markers, updating the SIGNAL HASH so it stays verifiable.
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/rebroadcast.py"]
+
+permissions:
+  contents: write
+
+jobs:
+  rebroadcast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run rebroadcast
+        run: python3 scripts/rebroadcast.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push
+        uses: EndBug/add-and-commit@v9
+        with:
+          default_author: github_actions
+          message: "rebroadcast: transmission refreshed"
+          add: "README.md"
+
+      - name: Show what changed
+        run: git show --stat --oneline HEAD || true
