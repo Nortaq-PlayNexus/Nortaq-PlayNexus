@@ -22,9 +22,16 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/snake-signal-dark.svg
+            dist/snake-signal-dark.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Stage snake asset
+        shell: bash
+        run: |
+          sudo chown -R runner:docker dist || true
+          mkdir -p assets
+          cp dist/snake-signal-dark.svg assets/snake-signal-dark.svg
 
       - name: Recolor into signal palette
         run: python3 scripts/recolor_snake.py assets/snake-signal-dark.svg
@@ -35,3 +42,4 @@ jobs:
           default_author: github_actions
           message: "rebroadcast: signal snake refreshed"
           add: "assets/snake-signal-dark.svg"
+          pull: '--rebase'
