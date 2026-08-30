@@ -81,6 +81,7 @@ Classified records from the music-engineering side of the room. SKUs are real pr
 | `PHNT-003` | MUSICVIDFORGE | beat-synced music video generator | ◆ SHIPPED | `/playnexus-musicvidforge` |
 | `PHNT-004` | BRAINARR | local AI music discovery for Lidarr | ◐ IN DEVELOPMENT | `/Brainarr` |
 | `PHNT-005` | RUST VOICE BOOSTER | pro DJ audio suite + virtual cable | ⚠ EXPERIMENTAL | `/RustVoiceBooster` |
+| `PHNT-006` | FESTIVAL AUDIO POLISHER | beatgrid mashup pipeline: analyze → arrange → build → validate | ◆ SHIPPED | `/dj-festival-audio-polisher` |
 
 `// full discography on external platforms pending <PHANTOMTAPE_P-09>`
 
@@ -117,6 +118,7 @@ Classified records from the music-engineering side of the room. SKUs are real pr
 | 004 | [aurora-audio-engine](https://github.com/Nortaq-PlayNexus/aurora-audio-engine) | ultra-low-latency virtual audio routing/mixing for Windows (WASAPI + DSP) | Rust | ⚠ EXPERIMENTAL |
 | 005 | [orion-sentinel-ai](https://github.com/Nortaq-PlayNexus/orion-sentinel-ai) | cinematic 3D Earth observation platform + simulated multi-agent anomaly detection | React 19 · Three.js | ◐ IN DEVELOPMENT |
 | 006 | [PlayNexus-Foundry](https://github.com/Nortaq-PlayNexus/PlayNexus-Foundry) | web-based server command + config forge for game servers | TypeScript | ◐ IN DEVELOPMENT |
+| 007 | [dj-festival-audio-polisher](https://github.com/Nortaq-PlayNexus/dj-festival-audio-polisher) | festival mashup pipeline on one shared beat grid — the tool behind the N×WAA bootleg | Python · librosa · scipy | ◆ SHIPPED |
 
 `// complete living inventory in docs/projects.md`
 
