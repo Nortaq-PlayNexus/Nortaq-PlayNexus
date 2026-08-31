@@ -119,6 +119,9 @@ Classified records from the music-engineering side of the room. SKUs are real pr
 | 005 | [orion-sentinel-ai](https://github.com/Nortaq-PlayNexus/orion-sentinel-ai) | cinematic 3D Earth observation platform + simulated multi-agent anomaly detection | React 19 · Three.js | ◐ IN DEVELOPMENT |
 | 006 | [PlayNexus-Foundry](https://github.com/Nortaq-PlayNexus/PlayNexus-Foundry) | web-based server command + config forge for game servers | TypeScript | ◐ IN DEVELOPMENT |
 | 007 | [dj-festival-audio-polisher](https://github.com/Nortaq-PlayNexus/dj-festival-audio-polisher) | festival mashup pipeline on one shared beat grid — the tool behind the N×WAA bootleg | Python · librosa · scipy | ◆ SHIPPED |
+| 008 | [heart](https://github.com/Nortaq-PlayNexus/heart) | H.E.A.R.T. — AI emotional cognition: perception, appraisal, episodic memory, response | Python | ◆ SHIPPED |
+| 009 | [promoforge](https://github.com/Nortaq-PlayNexus/promoforge) | turn a local codebase into a launch strategy — scan, PKB, playbook, LLM content | Tauri · Rust · React | ◆ SHIPPED |
+| 010 | [earth-globe](https://github.com/Nortaq-PlayNexus/earth-globe) | tiny interactive 3D Earth globe — pygame + PyOpenGL, offline, no external APIs | Python · pygame · PyOpenGL | ◆ SHIPPED |
 
 `// complete living inventory in docs/projects.md`
 
@@ -134,13 +137,13 @@ Only what's actually in the repos. Nothing here is aspirational.
 
 ```text
 AUDIO   : WEB AUDIO · WASAPI DSP · BEAT/KEY DETECTION · CAMELOT WHEEL · VIRTUAL AUDIO CABLE
-CODE    : PYTHON(19) · JAVASCRIPT(3) · TYPESCRIPT(3) · RUST(3) · C#(2) · HTML(1) · PHP(1)
+CODE    : PYTHON(23) · RUST(4) · JAVASCRIPT(3) · TYPESCRIPT(3) · C#(2) · HTML(1) · PHP(1)
 TOOLS   : GITHUB ACTIONS · TAURI · OLLAMA · LM STUDIO · OPENCV/YOLO · THREE.JS · ELECTRON
 SYSTEMS : WINDOWS (WASAPI/TPM) · LINUX · CROSS-PLATFORM · LOCAL-FIRST
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/main/assets/dna-strip.svg" alt="PHANTOMTAPE DNA genome strip: 41 repositories, 32 with detected primary language, Python 19, JS 3, TypeScript 3, Rust 3, C sharp 2, HTML 1, PHP 1" width="100%" />
+  <img src="https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/main/assets/dna-strip.svg" alt="PHANTOMTAPE DNA genome strip: 48 repositories, 37 with detected primary language, Python 23, Rust 4, JavaScript 3, TypeScript 3, C sharp 2, HTML 1, PHP 1" width="100%" />
 </p>
 
 ---
