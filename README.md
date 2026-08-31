@@ -188,9 +188,9 @@ COLLECTED STARS .... 9
 BROADCASTING FOR ... 31 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES — LAST 3 PUSHES
+  aurora-audio-engine          PUSHED 2026-08-31
   Nortaq-PlayNexus             PUSHED 2026-08-31
   promoforge                   PUSHED 2026-08-31
-  heart                        PUSHED 2026-08-31
 
 // BROADCAST SCHEDULE — REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] → .github/workflows/snake.yml
@@ -209,6 +209,7 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX — 47 FILES</code></summary>
 
 ```text
+  aurora-audio-engine              Rust         *1
   Nortaq-PlayNexus                 Python       *0
   promoforge                       Rust         *0
   heart                            Python       *0
@@ -239,7 +240,6 @@ COFFEE ........ REQUIRED
   RustVoiceBooster                 JavaScript   *0
   forge                            Python       *0
   cto                              Python       *0
-  aurora-audio-engine              Rust         *1
   aether-facility                  Python       *1
   sonic-facility                   Python       *1
   playnexus-musicvidforge          Python       *0
