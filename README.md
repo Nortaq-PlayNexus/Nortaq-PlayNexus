@@ -7,6 +7,19 @@
   <em><code>// decorative readout: not a factual claim</code></em>
 </p>
 
+<p align="center">
+  <a href="https://github.com/Nortaq-PlayNexus?tab=repositories"><img src="https://img.shields.io/badge/repos-47-ffc430?style=flat-square&logo=github&labelColor=0a0e1a" alt="repos"/></a>
+  <img src="https://img.shields.io/github/followers/Nortaq-PlayNexus?style=flat-square&logo=github&labelColor=0a0e1a&color=3dd5ff" alt="followers"/>
+  <img src="https://img.shields.io/github/stars/Nortaq-PlayNexus?style=flat-square&logo=github&labelColor=0a0e1a&color=ff3b3b" alt="stars"/>
+  <img src="https://img.shields.io/badge/now-103.7%20FM-ff3b3b?style=flat-square&labelColor=0a0e1a" alt="now"/>
+</p>
+
+<p align="center">
+  <a href="https://nortaq-playnexus.github.io/nasa-investigation/"><img src="https://img.shields.io/badge/NASA-HiRISE%20Dossier-05070a?style=flat-square&logo=nasa&logoColor=ffc430&labelColor=0a0e1a" alt="nasa"/></a>
+  <a href="https://github.com/Nortaq-PlayNexus/aurora-audio-engine"><img src="https://img.shields.io/badge/AURORA-Audio%20Engine-0a0e1a?style=flat-square&logo=rust&logoColor=ffc430" alt="aurora"/></a>
+  <a href="https://github.com/Nortaq-PlayNexus/FreeStack"><img src="https://img.shields.io/badge/FreeStack-150%20services-0a0e1a?style=flat-square&logo=cloudflare&logoColor=3dd5ff" alt="freestack"/></a>
+</p>
+
 ```
 [ NAV ]  [01 identity][02 transmission][03 archive][04 workshop][05 toolbox][06 signal][07 classified][08 frequencies]
 ```
@@ -405,6 +418,41 @@ OPTIONS
 SEE ALSO
     archive/ (ARCHIVE NODE 07), about 41 other files upstairs
 ```
+
+---
+
+## // 09b :: SIGNAL // GITHUB TELEMETRY
+
+<a name="telemetry"></a>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Nortaq-PlayNexus&show_icons=true&theme=dark&hide_border=true&bg_color=05070a&title_color=ffc430&text_color=e6edf7&icon_color=3dd5ff&count_private=true&include_all_commits=true" height="165" alt="github stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nortaq-PlayNexus&layout=compact&theme=dark&hide_border=true&bg_color=05070a&title_color=ffc430&text_color=e6edf7&langs_count=8" height="165" alt="top langs"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Nortaq-PlayNexus&theme=dark&background=05070a&ring=ffc430&fire=ff3b3b&currStreakLabel=ffc430&border_radius=8&hide_border=true" height="165" alt="streak"/>
+</p>
+
+<p align="center">
+  <em><code>// telemetry via vercel.app — if it 404s, GitHub is having a moment</code></em>
+</p>
+
+<details>
+<summary><code>$ cat telemetry/pinned.txt — top signals</code></summary>
+
+| SIGNAL | REPO | LANGUAGE | TOPIC |
+|---|---|---|---|
+| `01` | [nasa-investigation](https://github.com/Nortaq-PlayNexus/nasa-investigation) — 6578 candidates, 20 findings, Pages dossier | `Python` `HTML` | `mars` `nasa` `anomaly` |
+| `02` | [aurora-audio-engine](https://github.com/Nortaq-PlayNexus/aurora-audio-engine) — WASAPI + DSP | `Rust` | `audio` `dsp` |
+| `03` | [FreeStack](https://github.com/Nortaq-PlayNexus/FreeStack) — 150 free services | `Python` | `cloudflare` `self-hosted` |
+| `04` | [promoforge](https://github.com/Nortaq-PlayNexus/promoforge) — Tauri marketing forge | `Rust` | `tauri` `saas` |
+| `05` | [heart](https://github.com/Nortaq-PlayNexus/heart) — AI emotional cognition | `Python` | `ai` `affective` |
+| `06` | [orion-sentinel-ai](https://github.com/Nortaq-PlayNexus/orion-sentinel-ai) — planetary intel | `JS` | `threejs` `gis` |
+
+`$ gh repo list --limit 6 --json name,stargazerCount --jq 'sort_by(.stargazerCount) | reverse'`
+
+</details>
 
 ---
 
