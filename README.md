@@ -454,6 +454,11 @@ SEE ALSO
 
 </details>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/output/github-snake-dark.svg" alt="contribution snake" width="100%"/>
+  <em><code>// snake via Platane/snk — generated daily at 00:00 UTC</code></em>
+</p>
+
 ---
 
 ## // 10 :: MANIFEST.TXT

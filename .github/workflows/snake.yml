@@ -1,50 +1,32 @@
-name: Snake Transmitter
-# Renders the contribution calendar as the PHANTOMTAPE snake and recolors
-# it into the broadcast signal palette every day (and on demand).
+name: Snake
+
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: write
 
 jobs:
-  generate:
+  snake:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Generate snake
-        uses: Platane/snk@v3
+      - uses: actions/checkout@v4
+      - uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: Nortaq-PlayNexus
           outputs: |
-            dist/snake-signal-dark.svg
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Stage snake asset
-        shell: bash
-        run: |
-          sudo chown -R runner:docker dist || true
-          mkdir -p assets
-          cp dist/snake-signal-dark.svg assets/snake-signal-dark.svg
-
-      - name: Recolor into signal palette
-        run: python3 scripts/recolor_snake.py assets/snake-signal-dark.svg
-
-      - name: Commit and push
-        shell: bash
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/snake-signal-dark.svg
-          if git diff --cached --quiet; then echo "snake unchanged"; exit 0; fi
-          git commit -m "rebroadcast: signal snake refreshed"
-          for i in 1 2 3; do
-            if git push; then break; fi
-            git pull --rebase --autostash || true
-          done
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
