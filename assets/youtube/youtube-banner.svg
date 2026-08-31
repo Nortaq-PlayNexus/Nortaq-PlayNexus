@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 2560 1440" role="img" aria-label="PHANTOMTAPE YouTube banner 2560x1440: DJ PHANTOMTAPE FREQ 103.7 pirate broadcast, safe area centered">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#050505"/>
+      <rect width="4" height="1" fill="#ffffff" opacity="0.035"/>
+    </pattern>
+    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#B8FF1E" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#B8FF1E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- base -->
+  <rect width="2560" height="1440" fill="#050505"/>
+  <rect width="2560" height="1440" fill="url(#scan)"/>
+  <rect width="2560" height="1440" fill="url(#vig)"/>
+  <rect width="2560" height="1440" fill="url(#glow)"/>
+
+  <!-- outer bleed - subtle waveform rails top/bottom (outside safe area, visible on TV/desktop) -->
+  <g opacity="0.35">
+    <!-- top rail -->
+    <g transform="translate(80,90)">
+      <rect x="0" width="2400" height="2" fill="#1A1A1A"/>
+      <g fill="#B8FF1E" opacity="0.4">
+        <rect x="0" y="0" width="6" height="18"/><rect x="14" y="0" width="6" height="32"/><rect x="28" y="0" width="6" height="12"/><rect x="42" y="0" width="6" height="44"/><rect x="56" y="0" width="6" height="20"/><rect x="70" y="0" width="6" height="28"/><rect x="84" y="0" width="6" height="36"/><rect x="98" y="0" width="6" height="14"/><rect x="112" y="0" width="6" height="40"/><rect x="126" y="0" width="6" height="22"/>
+        <!-- repeat pattern faded -->
+        <g opacity="0.25"><rect x="140" y="0" width="6" height="18"/><rect x="154" y="0" width="6" height="32"/><rect x="168" y="0" width="6" height="12"/><rect x="182" y="0" width="6" height="44"/><rect x="196" y="0" width="6" height="20"/></g>
+      </g>
+      <g fill="#B8FF1E" opacity="0.4" transform="translate(2100,0)">
+        <rect x="0" y="0" width="6" height="18"/><rect x="14" y="0" width="6" height="32"/><rect x="28" y="0" width="6" height="12"/><rect x="42" y="0" width="6" height="44"/><rect x="56" y="0" width="6" height="20"/><rect x="70" y="0" width="6" height="28"/><rect x="84" y="0" width="6" height="36"/><rect x="98" y="0" width="6" height="40"/>
+      </g>
+    </g>
+    <!-- bottom rail -->
+    <g transform="translate(80,1330)">
+      <rect x="0" width="2400" height="2" fill="#1A1A1A"/>
+      <g fill="#00E5FF" opacity="0.35">
+        <rect x="0" y="-18" width="6" height="18"/><rect x="14" y="-32" width="6" height="32"/><rect x="28" y="-12" width="6" height="12"/><rect x="42" y="-44" width="6" height="44"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- SAFE AREA GUIDE (for export reference - set opacity 0 before upload, keep at 0.06 for preview) -->
+  <!-- YouTube cuts to 1235x338 on mobile, 1546x423 on tablet, full 2560x1440 on TV. This rect = 1235x338 center -->
+  <rect x="662.5" y="551" width="1235" height="338" fill="none" stroke="#B8FF1E" stroke-width="2" stroke-dasharray="14 10" opacity="0.0"/>
+  <rect x="507" y="508.5" width="1546" height="423" fill="none" stroke="#00E5FF" stroke-width="1.5" stroke-dasharray="10 10" opacity="0.0"/>
+
+  <!-- CENTER SAFE CONTENT - this is what MUST stay inside 1235x338 -->
+  <g>
+
+    <!-- top readout inside safe -->
+    <g font-family="'Cascadia Code','Fira Code',Consolas,monospace" letter-spacing="4">
+      <text x="700" y="640" font-size="26" fill="#8A8A8A">[</text>
+      <text x="730" y="640" font-size="26" fill="#00E5FF">SIGNAL DETECTED</text>
+      <text x="1080" y="640" font-size="26" fill="#8A8A8A">]</text>
+      <text x="1120" y="640" font-size="22" fill="#4D4D4D">FREQ 103.7</text>
+      <circle cx="1295" cy="632" r="7" fill="#B8FF1E"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
+      <text x="1320" y="640" font-size="22" fill="#B8FF1E">ON AIR</text>
+    </g>
+
+    <!-- wordmark - DJ -->
+    <text x="700" y="760" font-family="'Tomorrow','Orbitron','Space Grotesk',Impact,sans-serif" font-size="52" letter-spacing="18" fill="#4D4D4D">DJ</text>
+    <text x="840" y="760" font-family="'Cascadia Code',monospace" font-size="26" letter-spacing="2" fill="#1A1A1A">//</text>
+
+    <!-- PHANTOMTAPE - large, fits safely -->
+    <text x="700" y="870" font-family="'Tomorrow','Orbitron',Impact,sans-serif" font-size="132" font-weight="800" letter-spacing="8" fill="#E8E8E8">PHANTOMTAPE</text>
+    <!-- glitch copies -->
+    <text x="704" y="867" font-family="'Tomorrow','Orbitron',Impact,sans-serif" font-size="132" font-weight="800" letter-spacing="8" fill="#00E5FF" opacity="0.0">PHANTOMTAPE<animate attributeName="opacity" values="0;0;0.45;0" dur="6s" repeatCount="indefinite"/></text>
+    <text x="696" y="873" font-family="'Tomorrow','Orbitron',Impact,sans-serif" font-size="132" font-weight="800" letter-spacing="8" fill="#B8FF1E" opacity="0.0">PHANTOMTAPE<animate attributeName="opacity" values="0;0.12;0;0" dur="7s" repeatCount="indefinite"/></text>
+
+    <!-- subline -->
+    <text x="700" y="930" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="28" letter-spacing="6" fill="#8A8A8A">DIGITAL AUDIO // SOFTWARE // EXPERIMENTS</text>
+    <text x="700" y="975" font-family="'Cascadia Code',monospace" font-size="26" letter-spacing="4" fill="#4D4D4D">[ <tspan fill="#B8FF1E">TRANSMISSION</tspan> / <tspan fill="#B8FF1E">ONLINE</tspan> ]</text>
+
+    <!-- bottom meta inside safe -->
+    <g font-family="'Cascadia Code',monospace" font-size="22" letter-spacing="2">
+      <text x="700" y="855" fill="#4D4D4D" opacity="0">spacer</text>
+    </g>
+  </g>
+
+  <!-- RIGHT SIDE SAFE - cassette motif, still inside 1235 width (662+1235=1897, so cassette at ~1520 stays inside) -->
+  <g transform="translate(1520,660)">
+    <rect x="0" y="0" width="320" height="210" rx="16" fill="#0A0A0A" stroke="#1A1A1A" stroke-width="3"/>
+    <rect x="12" y="14" width="296" height="78" rx="10" fill="#111111" stroke="#1A1A1A" stroke-width="2"/>
+    <text x="32" y="58" font-family="'Cascadia Code',monospace" font-size="24" letter-spacing="4" fill="#00E5FF">PHANTOMTAPE</text>
+    <text x="32" y="86" font-family="'Cascadia Code',monospace" font-size="18" letter-spacing="2" fill="#4D4D4D">PHNT-001</text>
+    <!-- reels -->
+    <circle cx="88" cy="148" r="38" fill="#050505" stroke="#1A1A1A" stroke-width="3"/>
+    <circle cx="88" cy="148" r="9" fill="#8A8A8A"/>
+    <circle cx="232" cy="148" r="38" fill="#050505" stroke="#1A1A1A" stroke-width="3" opacity="0.7"/>
+    <circle cx="232" cy="148" r="9" fill="#8A8A8A" opacity="0.7"/>
+    <rect x="150" y="126" width="20" height="44" rx="4" fill="#E8E8E8" opacity="0.09"/>
+  </g>
+
+  <!-- CORNER BRACKETS - visible on desktop/TV bleed, outside safe but intentional -->
+  <g stroke="#B8FF1E" fill="none" opacity="0.85" stroke-width="3">
+    <path d="M60 60 h100 M60 60 v100"/>
+    <path d="M2500 60 h-100 M2500 60 v100"/>
+    <path d="M60 1380 h100 M60 1380 v-100"/>
+    <path d="M2500 1380 h-100 M2500 1380 v-100"/>
+  </g>
+
+  <!-- bottom center outside safe - extra lore visible on TV only (not cropped on mobile) -->
+  <g font-family="'Cascadia Code',monospace" font-size="20" letter-spacing="3" opacity="0.9">
+    <text x="1280" y="1360" text-anchor="middle" fill="#4D4D4D">ARCHIVE NODE 07 // SIGNAL 07 // <tspan fill="#8A8A8A">github.com/Nortaq-PlayNexus</tspan> // FREQ 103.7 FOREVER</text>
+  </g>
+
+  <!-- EXPORT NOTE (delete before upload - keep as comment) -->
+  <!-- YouTube requires 2560x1440 JPG/PNG <6MB. Export this SVG to PNG at 2560x1440. Ensure text stays inside 1235x338 safe rect. Preview on mobile: youtube.com/channel/xxx?banner -->
+</svg>

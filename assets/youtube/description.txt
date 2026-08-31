@@ -1,0 +1,49 @@
+DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST // FREQ 103.7
+ARCHIVE NODE 07 // SIGNAL 07 // TRANSMISSION ONLINE
+
+I build autonomous systems that make, analyze and move sound: AI DJ mixing engines, DSP audio routing, music-publishing pipelines, and the local AI infrastructure that powers them. Everything runs local-first, offline where it can.
+
+► CURRENT TRANSMISSION: SYNTHESIS - autonomous AI DJ that fingerprints every track as Music DNA (tempo/key/energy/structure) then mixes via AI Transition Director. Fully offline. No cloud.
+  → github.com/Nortaq-PlayNexus/synthesis-dj
+
+► PHANTOMTAPE ARCHIVE:
+ PHNT-002 SONIC FACILITY - music analysis / artifact / publishing pipeline (exe available) → /sonic-facility
+ PHNT-003 MUSICVIDFORGE - beat-synced music video generator → /playnexus-musicvidforge
+ PHNT-004 BRAINARR - local AI music discovery for Lidarr (Ollama/LM Studio) → /Brainarr
+ PHNT-005 RUST VOICE BOOSTER - pro DJ audio suite + virtual cable → /RustVoiceBooster
+ PHNT-006 FESTIVAL AUDIO POLISHER - beatgrid mashup pipeline → /dj-festival-audio-polisher
+ Full inventory → github.com/Nortaq-PlayNexus (README // 04 workshop)
+
+► TOOLBOX
+ AUDIO: WEB AUDIO / WASAPI DSP / BEAT-KEY DETECTION / CAMELOT WHEEL / VIRTUAL CABLE
+ CODE: PYTHON(23) RUST(4) JS(3) TS(3) C#(2) HTML(1) PHP(1)
+ SYSTEMS: WINDOWS (WASAPI/TPM) LINUX CROSS-PLATFORM LOCAL-FIRST
+
+► VERIFY THIS SIGNAL
+ Every number on the GitHub profile is live GraphQL + SIGNAL HASH. Recompute: python3 scripts/signal_hash.py Nortaq-PlayNexus <REPOS> <FOLLOWERS> <CONTRIB> <YYYYMMDD>
+ → docs/how-to-verify.md
+
+► FREQUENCIES
+ GITHUB ..... github.com/Nortaq-PlayNexus
+ DISCORD .... [ OFF AIR - invite on GitHub 09 ]
+ WEBSITE .... [ OFF AIR - hub via GitHub Pages ]
+ INSTAGRAM .. [ OFF AIR ]
+ TIKTOK ..... [ OFF AIR ]
+
+ FREQ 103.7 FOREVER || ARCHIVE NODE 07
+ Make things. Break things. Learn why. Make them better. Ship something.
+
+#phantomtape #synthesisdj #aidj #audioprogramming #dsp #rust #wasapi #ollama #localfirst
+
+---
+TIMESTAMPS / CHAPTERS (template)
+00:00 SIGNAL ACQUIRED // INTRO
+00:15 CURRENT TRANSMISSION
+03:33 PHNT-XXX DEMO
+05:55 SIGNAL LOST // OUTRO
+
+---
+LINKS (add per video)
+GitHub: https://github.com/Nortaq-PlayNexus
+Sonic Facility: https://github.com/Nortaq-PlayNexus/sonic-facility
+PromoForge: https://github.com/Nortaq-PlayNexus/promoforge

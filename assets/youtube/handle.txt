@@ -1,0 +1,20 @@
+Preferred handle: @phantomtape1037
+Fallbacks if taken:
+1. @dj-phantomtape
+2. @phantomtape-fm
+3. @nortaq-playnexus
+4. @phantomtape07
+
+Channel name: DJ PHANTOMTAPE
+Display exactly: DJ PHANTOMTAPE
+Search tags: phantomtape, dj phantomtape, freq 103.7, archive node 07
+
+Banner text safe check:
+- Mobile crops to 1235x338 center - all critical text at 700,640 to 1820,975 inside safe
+- Tablet shows 1546x423 - outer waveform rails visible as bleed
+- TV shows full 2560x1440 - bottom lore line appears
+
+Verification after upload:
+1. Check youtube.com/@phantomtape1037 on phone + desktop
+2. PFP should read as cassette at 48px
+3. Banner text not clipped

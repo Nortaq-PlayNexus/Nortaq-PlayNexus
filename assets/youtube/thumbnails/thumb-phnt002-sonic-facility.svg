@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="PHNT-002 SONIC FACILITY thumbnail">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#050505"/><rect width="4" height="1" fill="#ffffff" opacity="0.04"/></pattern>
+  </defs>
+  <rect width="1280" height="720" fill="#050505"/><rect width="1280" height="720" fill="url(#scan)"/>
+  <rect x="0" y="0" width="1280" height="720" fill="none" stroke="#B8FF1E" stroke-width="8"/><rect x="12" y="12" width="1256" height="696" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <g stroke="#B8FF1E" fill="none" stroke-width="3" opacity="0.9"><path d="M32 32 h70 M32 32 v70"/><path d="M1248 32 h-70 M1248 32 v70"/><path d="M32 688 h70 M32 688 v-70"/><path d="M1248 688 h-70 M1248 688 v-70"/></g>
+  <g font-family="'Cascadia Code','Fira Code',Consolas,monospace">
+    <rect x="48" y="48" width="220" height="44" rx="6" fill="#B8FF1E"/><text x="158" y="78" text-anchor="middle" font-size="24" font-weight="700" letter-spacing="3" fill="#050505">PHNT-002</text>
+    <text x="290" y="78" font-size="20" letter-spacing="4" fill="#8A8A8A">SONIC FACILITY</text>
+    <g transform="translate(1120,56)"><circle cx="0" cy="14" r="10" fill="#B8FF1E"/><rect x="22" y="4" width="14" height="20" rx="2" fill="#B8FF1E" opacity="0.9"/><rect x="42" y="4" width="14" height="20" rx="2" fill="#B8FF1E" opacity="0.9"/><rect x="62" y="4" width="14" height="20" rx="2" fill="#1A1A1A"/></g>
+  </g>
+  <g font-family="'Tomorrow','Orbitron',Impact,sans-serif" font-weight="800">
+    <text x="64" y="340" font-size="96" letter-spacing="4" fill="#E8E8E8">SONIC</text>
+    <text x="64" y="450" font-size="96" letter-spacing="4" fill="#B8FF1E">FACILITY</text><text x="67" y="448" font-size="96" letter-spacing="4" fill="#00E5FF" opacity="0.12">FACILITY</text>
+  </g>
+  <text x="64" y="512" font-family="'Cascadia Code',monospace" font-size="26" letter-spacing="3" fill="#8A8A8A">MUSIC ANALYSIS // ARTIFACT // PUBLISH</text>
+  <g font-family="'Cascadia Code',monospace" font-size="18" letter-spacing="2"><text x="64" y="640" fill="#4D4D4D">FREQ <tspan fill="#E8E8E8">103.7</tspan> // EXE AVAILABLE // SHIPPED</text><text x="64" y="670" font-size="16" fill="#1A1A1A">github.com/Nortaq-PlayNexus/sonic-facility</text></g>
+  <g transform="translate(860,520)"><rect x="0" y="0" width="340" height="140" rx="12" fill="#0A0A0A" stroke="#1F1F1F" stroke-width="2.5"/><rect x="10" y="12" width="320" height="52" rx="8" fill="#111111"/><text x="22" y="44" font-family="'Cascadia Code',monospace" font-size="16" letter-spacing="3" fill="#00E5FF">PHANTOMTAPE</text><circle cx="90" cy="100" r="26" fill="#050505" stroke="#1F1F1F" stroke-width="2"/><circle cx="90" cy="100" r="6" fill="#B8FF1E"/><circle cx="250" cy="100" r="26" fill="#050505" stroke="#1F1F1F" stroke-width="2"/><circle cx="250" cy="100" r="6" fill="#8A8A8A" opacity="0.7"/><rect x="158" y="84" width="24" height="32" rx="3" fill="#E8E8E8" opacity="0.08"/></g>
+</svg>

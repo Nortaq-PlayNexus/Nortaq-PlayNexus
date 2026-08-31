@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="PHANTOMTAPE YouTube intro 3s and outro card 1920x1080">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#050505"/>
+      <rect width="4" height="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <!-- ===== INTRO CARD (0:00-0:03) - top half ===== -->
+  <!-- Use first 1080x540 slice as intro, or whole frame with animation -->
+  <rect width="1920" height="1080" fill="#050505"/>
+  <rect width="1920" height="1080" fill="url(#scan)"/>
+
+  <!-- INTRO -->
+  <g>
+    <rect x="0" y="0" width="1920" height="540" fill="#050505"/>
+    <!-- label -->
+    <text x="960" y="120" text-anchor="middle" font-family="'Cascadia Code',monospace" font-size="28" letter-spacing="12" fill="#4D4D4D">FREQ 103.7 // SIGNAL ACQUIRED</text>
+
+    <!-- big PHANTOMTAPE intro -->
+    <text x="960" y="300" text-anchor="middle" font-family="'Tomorrow','Orbitron',Impact,sans-serif" font-size="140" font-weight="800" letter-spacing="10" fill="#E8E8E8">PHANTOMTAPE</text>
+    <text x="964" y="296" text-anchor="middle" font-family="'Tomorrow','Orbitron',Impact,sans-serif" font-size="140" font-weight="800" letter-spacing="10" fill="#00E5FF" opacity="0.14">PHANTOMTAPE</text>
+
+    <!-- visualizer lane intro -->
+    <g transform="translate(560,380)">
+      <g fill="#B8FF1E">
+        <rect x="0" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="24;64;24" dur="0.6s" repeatCount="indefinite"/></rect>
+        <rect x="28" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="48;20;48" dur="0.7s" repeatCount="indefinite"/></rect>
+        <rect x="56" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="32;72;32" dur="0.55s" repeatCount="indefinite"/></rect>
+        <rect x="84" y="0" width="18" height="48" rx="3" fill="#00E5FF"><animate attributeName="height" values="60;28;60" dur="0.65s" repeatCount="indefinite"/></rect>
+        <rect x="112" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="20;56;20" dur="0.6s" repeatCount="indefinite"/></rect>
+        <rect x="140" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="40;16;40" dur="0.7s" repeatCount="indefinite"/></rect>
+        <rect x="168" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="56;32;56" dur="0.6s" repeatCount="indefinite"/></rect>
+        <rect x="196" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="28;60;28" dur="0.55s" repeatCount="indefinite"/></rect>
+        <rect x="224" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="72;24;72" dur="0.65s" repeatCount="indefinite"/></rect>
+        <rect x="252" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="36;52;36" dur="0.6s" repeatCount="indefinite"/></rect>
+        <rect x="280" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="16;48;16" dur="0.7s" repeatCount="indefinite"/></rect>
+        <rect x="308" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="52;36;52" dur="0.6s" repeatCount="indefinite"/></rect>
+        <rect x="336" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="24;64;24" dur="0.55s" repeatCount="indefinite"/></rect>
+        <rect x="364" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="44;20;44" dur="0.65s" repeatCount="indefinite"/></rect>
+        <rect x="392" y="0" width="18" height="48" rx="3" fill="#B8FF1E"><animate attributeName="height" values="60;28;60" dur="0.6s" repeatCount="indefinite"/></rect>
+        <rect x="420" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="32;72;32" dur="0.7s" repeatCount="indefinite"/></rect>
+        <rect x="448" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="20;56;20" dur="0.6s" repeatCount="indefinite"/></rect>
+        <rect x="476" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="40;16;40" dur="0.55s" repeatCount="indefinite"/></rect>
+        <rect x="504" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="56;32;56" dur="0.65s" repeatCount="indefinite"/></rect>
+        <rect x="532" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="28;60;28" dur="0.6s" repeatCount="indefinite"/></rect>
+        <rect x="560" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="72;24;72" dur="0.7s" repeatCount="indefinite"/></rect>
+        <rect x="588" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="36;52;36" dur="0.6s" repeatCount="indefinite"/></rect>
+        <rect x="616" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="16;48;16" dur="0.55s" repeatCount="indefinite"/></rect>
+        <rect x="644" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="52;36;52" dur="0.65s" repeatCount="indefinite"/></rect>
+        <rect x="672" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="24;64;24" dur="0.6s" repeatCount="indefinite"/></rect>
+        <rect x="700" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="44;20;44" dur="0.7s" repeatCount="indefinite"/></rect>
+        <rect x="728" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="60;28;60" dur="0.6s" repeatCount="indefinite"/></rect>
+        <rect x="756" y="0" width="18" height="48" rx="3"><animate attributeName="height" values="32;72;32" dur="0.55s" repeatCount="indefinite"/></rect>
+      </g>
+    </g>
+    <text x="960" y="500" text-anchor="middle" font-family="'Cascadia Code',monospace" font-size="20" letter-spacing="8" fill="#8A8A8A">● REC // 103.7 FM // ARCHIVE NODE 07</text>
+  </g>
+
+  <!-- DIVIDER -->
+  <rect x="0" y="538" width="1920" height="4" fill="#1A1A1A"/>
+  <rect x="760" y="538" width="400" height="4" fill="#B8FF1E"/>
+
+  <!-- OUTRO (last 15s) -->
+  <g transform="translate(0,542)">
+    <rect width="1920" height="538" fill="#0A0A0A"/>
+    <!-- left - signal lost -->
+    <g transform="translate(80,40)">
+      <text x="0" y="80" font-family="'Tomorrow','Orbitron',Impact,sans-serif" font-size="64" font-weight="800" letter-spacing="6" fill="#E8E8E8">SIGNAL LOST.</text>
+      <text x="0" y="140" font-family="'Cascadia Code',monospace" font-size="22" letter-spacing="3" fill="#8A8A8A">END OF TRANSMISSION // 2026</text>
+      <text x="0" y="180" font-family="'Cascadia Code',monospace" font-size="18" letter-spacing="2" fill="#4D4D4D">ARCHIVE NODE 07 // SIGNAL 07 // FREQ 103.7 FOREVER</text>
+      <!-- subscribe disguised -->
+      <g transform="translate(0,240)">
+        <rect x="0" y="0" width="420" height="64" rx="8" fill="#B8FF1E"/>
+        <text x="210" y="42" text-anchor="middle" font-family="'Cascadia Code',monospace" font-size="24" font-weight="700" letter-spacing="3" fill="#050505">[ RECONNECT ? ]</text>
+        <text x="210" y="88" text-anchor="middle" font-family="'Cascadia Code',monospace" font-size="14" letter-spacing="2" fill="#4D4D4D">SUBSCRIBE // LOCK IN 103.7</text>
+      </g>
+    </g>
+
+    <!-- right - video placeholders for end screen -->
+    <g transform="translate(1100,40)">
+      <!-- YouTube end screen elements go here - keep 2 boxes clear -->
+      <rect x="0" y="0" width="740" height="420" rx="12" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-dasharray="14 10"/>
+      <text x="370" y="210" text-anchor="middle" font-family="'Cascadia Code',monospace" font-size="18" letter-spacing="3" fill="#4D4D4D">[ END SCREEN VIDEOS HERE ]</text>
+      <text x="370" y="234" text-anchor="middle" font-family="'Cascadia Code',monospace" font-size="13" letter-spacing="2" fill="#1A1A1A">YouTube Studio -&gt; Add Elements -&gt; Video + Subscribe</text>
+      <g transform="translate(0,440)">
+        <rect x="0" y="0" width="360" height="56" rx="8" fill="#111111" stroke="#1F1F1F"/>
+        <text x="18" y="22" font-family="'Cascadia Code',monospace" font-size="13" letter-spacing="2" fill="#8A8A8A">GITHUB</text>
+        <text x="18" y="40" font-family="'Cascadia Code',monospace" font-size="13" fill="#E8E8E8">github.com/Nortaq-PlayNexus</text>
+        <rect x="380" y="0" width="360" height="56" rx="8" fill="#111111" stroke="#1F1F1F"/>
+        <text x="398" y="22" font-family="'Cascadia Code',monospace" font-size="13" letter-spacing="2" fill="#8A8A8A">NEXT TRANSMISSION</text>
+        <text x="398" y="40" font-family="'Cascadia Code',monospace" font-size="13" fill="#00E5FF">SYNTHESIS // PHNT-001</text>
+      </g>
+    </g>
+
+    <!-- corner brackets outro -->
+    <g stroke="#B8FF1E" fill="none" stroke-width="2" opacity="0.6">
+      <path d="M30 30 h50 M30 30 v50"/>
+      <path d="M1890 30 h-50 M1890 30 v50"/>
+      <path d="M30 508 h50 M30 508 v-50"/>
+      <path d="M1890 508 h-50 M1890 508 v-50"/>
+    </g>
+  </g>
+</svg>

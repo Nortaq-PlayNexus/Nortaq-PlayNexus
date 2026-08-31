@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="SYNTHESIS AI DJ trailer thumbnail - NOW TRANSMITTING">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#050505"/><rect width="4" height="1" fill="#ffffff" opacity="0.04"/></pattern>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.6"/></linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="#050505"/><rect width="1280" height="720" fill="url(#scan)"/><rect width="1280" height="720" fill="url(#vignette)"/>
+  <!-- special transmission border - cyan + acid double -->
+  <rect x="0" y="0" width="1280" height="720" fill="none" stroke="#00E5FF" stroke-width="8"/><rect x="12" y="12" width="1256" height="696" fill="none" stroke="#B8FF1E" stroke-width="2" opacity="0.5"/>
+  <g stroke="#00E5FF" fill="none" stroke-width="3" opacity="0.9"><path d="M32 32 h70 M32 32 v70"/><path d="M1248 32 h-70 M1248 32 v70"/><path d="M32 688 h70 M32 688 v-70"/><path d="M1248 688 h-70 M1248 688 v-70"/></g>
+  <g font-family="'Cascadia Code',Consolas,monospace">
+    <rect x="48" y="48" width="260" height="44" rx="6" fill="#00E5FF"/><text x="178" y="78" text-anchor="middle" font-size="22" font-weight="700" letter-spacing="3" fill="#050505">● ON AIR</text>
+    <text x="330" y="78" font-size="20" letter-spacing="4" fill="#E8E8E8">NOW TRANSMITTING</text>
+    <g transform="translate(1120,56)"><circle cx="0" cy="14" r="10" fill="#FF4D00"><animate attributeName="opacity" values="1;0.2;1" dur="0.8s" repeatCount="indefinite"/></circle><text x="-30" y="22" font-size="16" fill="#FF4D00" font-weight="700">REC</text></g>
+  </g>
+  <g font-family="'Tomorrow','Orbitron',Impact,sans-serif" font-weight="800">
+    <text x="64" y="320" font-size="92" letter-spacing="4" fill="#E8E8E8">SYNTHESIS</text>
+    <text x="64" y="420" font-size="64" letter-spacing="10" fill="#00E5FF">AI DJ ENGINE</text>
+    <text x="67" y="418" font-size="64" letter-spacing="10" fill="#B8FF1E" opacity="0.10">AI DJ ENGINE</text>
+  </g>
+  <g font-family="'Cascadia Code',monospace" font-size="22" letter-spacing="3">
+    <text x="64" y="470" fill="#B8FF1E">MUSIC DNA</text><text x="210" y="470" fill="#4D4D4D"> // </text><text x="260" y="470" fill="#8A8A8A">BEAT + KEY + ENERGY + CROWD</text>
+  </g>
+  <text x="64" y="510" font-family="'Cascadia Code',monospace" font-size="20" letter-spacing="3" fill="#8A8A8A">AUTONOMOUS MIX // OFFLINE // NO CLOUD</text>
+  <g font-family="'Cascadia Code',monospace" font-size="18" letter-spacing="2"><text x="64" y="640" fill="#4D4D4D">FREQ <tspan fill="#00E5FF">103.7</tspan> // SIGNAL ACQUIRED 2026 // JS + ELECTRON + WEB AUDIO</text><text x="64" y="670" font-size="16" fill="#1A1A1A">github.com/Nortaq-PlayNexus/synthesis-dj</text></g>
+  <!-- right cassette with ON AIR glow -->
+  <g transform="translate(860,520)"><rect x="0" y="0" width="340" height="140" rx="12" fill="#0A0A0A" stroke="#00E5FF" stroke-width="2" opacity="0.8"/><rect x="10" y="12" width="320" height="52" rx="8" fill="#111111"/><text x="22" y="44" font-family="'Cascadia Code',monospace" font-size="16" letter-spacing="3" fill="#00E5FF">PHANTOMTAPE</text><circle cx="90" cy="100" r="26" fill="#050505" stroke="#00E5FF" stroke-width="2"/><circle cx="90" cy="100" r="6" fill="#B8FF1E"/><circle cx="250" cy="100" r="26" fill="#050505" stroke="#1F1F1F" stroke-width="2"/><circle cx="250" cy="100" r="6" fill="#8A8A8A" opacity="0.7"/><rect x="158" y="84" width="24" height="32" rx="3" fill="#00E5FF" opacity="0.12"/><text x="170" y="138" text-anchor="middle" font-family="'Cascadia Code',monospace" font-size="8" fill="#B8FF1E">PHNT-001</text></g>
+  <!-- play triangle hint -->
+  <g transform="translate(600, 520)" opacity="0.15"><polygon points="0,0 60,36 0,72" fill="#E8E8E8"/></g>
+</svg>

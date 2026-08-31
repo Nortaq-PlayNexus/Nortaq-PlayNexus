@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-label="PHANTOMTAPE YouTube profile picture 800x800 - cassette PHNT-001, circular crop">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#050505"/>
+      <rect width="4" height="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <!-- base - will be cropped to circle by YouTube, keep critical content inside 650px circle -->
+  <rect width="800" height="800" fill="#050505"/>
+  <rect width="800" height="800" fill="url(#scan)"/>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <!-- outer ring - subtle -->
+  <circle cx="400" cy="400" r="388" fill="none" stroke="#1A1A1A" stroke-width="4"/>
+  <circle cx="400" cy="400" r="378" fill="none" stroke="#B8FF1E" stroke-width="2" opacity="0.35"/>
+
+  <!-- SAFE CIRCLE GUIDE - YouTube crops to circle, keep logo inside r=290 -->
+  <circle cx="400" cy="400" r="290" fill="none" stroke="#B8FF1E" stroke-dasharray="12 12" opacity="0.0"/>
+
+  <!-- CASSETTE - centered, large -->
+  <g transform="translate(110, 260)">
+    <rect x="0" y="0" width="580" height="380" rx="22" fill="#0A0A0A" stroke="#1F1F1F" stroke-width="4"/>
+    <rect x="14" y="22" width="552" height="138" rx="14" fill="#111111" stroke="#1F1F1F" stroke-width="2"/>
+    <!-- label -->
+    <text x="36" y="88" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="38" letter-spacing="8" fill="#00E5FF" font-weight="700">PHANTOMTAPE</text>
+    <text x="36" y="124" font-family="'Cascadia Code',monospace" font-size="22" letter-spacing="4" fill="#4D4D4D">SIDE A // PIRATE DIGITAL</text>
+    <!-- reels -->
+    <g>
+      <circle cx="142" cy="262" r="74" fill="#050505" stroke="#1F1F1F" stroke-width="4"/>
+      <circle cx="142" cy="262" r="26" fill="#0A0A0A" stroke="#2A2A2A" stroke-width="2"/>
+      <circle cx="142" cy="262" r="7" fill="#E8E8E8"/>
+      <g stroke="#2A2A2A" stroke-width="4" stroke-linecap="round">
+        <path d="M142 188 v24 M142 312 v24 M68 262 h24 M192 262 h24"/>
+        <path d="M92 212 l14 14 M178 298 l14 14 M92 312 l14 -14 M178 212 l14 -14" opacity="0.6"/>
+      </g>
+      <!-- spin hint -->
+      <circle cx="142" cy="262" r="74" fill="none" stroke="#B8FF1E" stroke-width="1.5" stroke-dasharray="10 14" opacity="0.0">
+        <animateTransform attributeName="transform" type="rotate" from="0 142 262" to="360 142 262" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g>
+      <circle cx="438" cy="262" r="74" fill="#050505" stroke="#1F1F1F" stroke-width="4"/>
+      <circle cx="438" cy="262" r="26" fill="#0A0A0A" stroke="#2A2A2A" stroke-width="2"/>
+      <circle cx="438" cy="262" r="7" fill="#E8E8E8"/>
+      <g stroke="#2A2A2A" stroke-width="4" stroke-linecap="round">
+        <path d="M438 188 v24 M438 312 v24 M364 262 h24 M488 262 h24"/>
+      </g>
+    </g>
+    <!-- tape window -->
+    <rect x="248" y="206" width="84" height="112" rx="8" fill="#E8E8E8" opacity="0.07" stroke="#1A1A1A" stroke-width="1.5"/>
+    <rect x="262" y="220" width="56" height="84" rx="4" fill="#050505" opacity="0.5"/>
+
+    <!-- bottom code -->
+    <text x="36" y="358" font-family="'Cascadia Code',monospace" font-size="18" letter-spacing="3" fill="#4D4D4D">PHNT-001</text>
+    <g transform="translate(460,342)">
+      <rect x="0" y="0" width="84" height="6" rx="3" fill="#B8FF1E" opacity="0.9"/>
+      <rect x="0" y="12" width="54" height="6" rx="3" fill="#8A8A8A" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- top small readout - still inside circle crop top -->
+  <g font-family="'Cascadia Code',monospace" text-anchor="middle">
+    <text x="400" y="150" font-size="22" letter-spacing="6" fill="#B8FF1E">● ON AIR</text>
+    <text x="400" y="180" font-size="16" letter-spacing="4" fill="#4D4D4D">FREQ 103.7</text>
+  </g>
+
+  <!-- bottom hint - inside circle bottom -->
+  <text x="400" y="700" text-anchor="middle" font-family="'Cascadia Code',monospace" font-size="16" letter-spacing="5" fill="#1A1A1A">DJ PHANTOMTAPE</text>
+</svg>
