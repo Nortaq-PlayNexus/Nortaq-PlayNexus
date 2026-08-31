@@ -169,28 +169,28 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
-│ GITHUB ........... ONLINE      REPOS .............   44 │
-│ CONTRIBUTIONS ..... 895     FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   30 DAYS │
-│ SIGNAL HASH ....... C9815B   SIGNAL ......... ▓▓▓▓▓▓▓▒░░░░░░░░  41%  PHASE 03 │
+│ GITHUB ........... ONLINE      REPOS .............   47 │
+│ CONTRIBUTIONS ..... 903     FOLLOWERS ..........    2 │
+│ UPLINK AGE ........   31 DAYS │
+│ SIGNAL HASH ....... 2C24F9   SIGNAL ......... ▓▓▓▓▓▓▓▓▓▓▓▒░░░░  89%  PHASE 01 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY — REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
-   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓█▒█▒
+   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓█▒█▓
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS — SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 895
-REPOSITORIES ....... 44
+CONTRIBUTIONS ...... 903
+REPOSITORIES ....... 47
 FOLLOWERS .......... 2
 COLLECTED STARS .... 9
-BROADCASTING FOR ... 30 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 31 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES — LAST 3 PUSHES
-  dj-festival-audio-polisher   PUSHED 2026-08-30
-  Nortaq-PlayNexus             PUSHED 2026-08-30
-  archive-07                   PUSHED 2026-08-30
+  Nortaq-PlayNexus             PUSHED 2026-08-31
+  promoforge                   PUSHED 2026-08-31
+  heart                        PUSHED 2026-08-31
 
 // BROADCAST SCHEDULE — REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] → .github/workflows/snake.yml
@@ -206,11 +206,14 @@ COFFEE ........ REQUIRED
 ```
 
 <details>
-  <summary><code>CASES:// RAW ARCHIVE INDEX — 44 FILES</code></summary>
+  <summary><code>CASES:// RAW ARCHIVE INDEX — 47 FILES</code></summary>
 
 ```text
-  dj-festival-audio-polisher       Python       *0
   Nortaq-PlayNexus                 Python       *0
+  promoforge                       Rust         *0
+  heart                            Python       *0
+  earth-globe                      Python       *0
+  dj-festival-audio-polisher       Python       *0
   archive-07                       -            *0
   FreeStack                        Python       *1
   resourcegather                   Python       *0
@@ -256,7 +259,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20260830 UTC · data source: GRAPHQL · hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20260831 UTC · data source: GRAPHQL · hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
