@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="150" viewBox="0 0 760 150" role="img" aria-label="PHANTOMTAPE DNA genome strip rendered from real repository language counts: Python, JavaScript, TypeScript, Rust, C sharp, HTML, PHP">
   <rect width="760" height="150" fill="#050505"/>
   <text x="40" y="28" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="13" letter-spacing="3" fill="#00E5FF">PHANTOMTAPE DNA</text>
-  <text x="40" y="44" font-family="'Cascadia Code',Consolas,monospace" font-size="10" letter-spacing="1.5" fill="#4D4D4D">GENOME // 48 REPOSITORIES // 37 WITH DETECTED PRIMARY GENOME</text>
+  <text x="40" y="44" font-family="'Cascadia Code',Consolas,monospace" font-size="10" letter-spacing="1.5" fill="#4D4D4D">GENOME // 47 REPOSITORIES // 37 WITH DETECTED PRIMARY GENOME</text>
 
   <!-- genome bands -->
   <g y="60" height="48">

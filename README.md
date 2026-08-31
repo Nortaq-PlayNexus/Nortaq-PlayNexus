@@ -143,7 +143,7 @@ SYSTEMS : WINDOWS (WASAPI/TPM) · LINUX · CROSS-PLATFORM · LOCAL-FIRST
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/main/assets/dna-strip.svg" alt="PHANTOMTAPE DNA genome strip: 48 repositories, 37 with detected primary language, Python 23, Rust 4, JavaScript 3, TypeScript 3, C sharp 2, HTML 1, PHP 1" width="100%" />
+  <img src="https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/main/assets/dna-strip.svg" alt="PHANTOMTAPE DNA genome strip: 47 repositories, 37 with detected primary language, Python 23, Rust 4, JavaScript 3, TypeScript 3, C sharp 2, HTML 1, PHP 1" width="100%" />
 </p>
 
 ---

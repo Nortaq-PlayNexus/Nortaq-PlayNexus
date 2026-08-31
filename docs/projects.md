@@ -34,6 +34,6 @@ Rule: never inflate. An abandoned repo is `○ ARCHIVED` or gets dropped from th
 
 ## Base facts (from the GitHub API)
 
-- public_repos = 48 · followers = 2
+- public_repos = 47 · followers = 2
 - languages by primary counts (all owned repos incl forks): Python 23, Rust 4, JS 3, TS 3, C# 2, HTML 1, PHP 1 (37 detected, 11 null)
 - contributions (rolling year, GraphQL) = 895 · account created 2026-07-31 UTC
