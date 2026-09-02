@@ -184,8 +184,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   47 │
 │ CONTRIBUTIONS ..... 918     FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   32 DAYS │
-│ SIGNAL HASH ....... 4B2D6A   SIGNAL ......... ▓▓▓▓▓▓▓▓▓▒░░░░░░  66%  PHASE 02 │
+│ UPLINK AGE ........   33 DAYS │
+│ SIGNAL HASH ....... A1C19C   SIGNAL ......... ▓▓▓▓▓▓▓▓▒░░░░░░░  50%  PHASE 04 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY — REAL-TIME WEEK STRIP (LIVE DATA)
@@ -198,10 +198,10 @@ CONTRIBUTIONS ...... 918
 REPOSITORIES ....... 47
 FOLLOWERS .......... 2
 COLLECTED STARS .... 9
-BROADCASTING FOR ... 32 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 33 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES — LAST 3 PUSHES
-  Nortaq-PlayNexus             PUSHED 2026-09-01
+  Nortaq-PlayNexus             PUSHED 2026-09-02
   archive-07                   PUSHED 2026-08-31
   dj-festival-audio-polisher   PUSHED 2026-08-31
 
@@ -272,7 +272,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20260901 UTC · data source: GRAPHQL · hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20260902 UTC · data source: GRAPHQL · hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
