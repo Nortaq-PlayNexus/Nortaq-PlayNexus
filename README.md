@@ -182,10 +182,10 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
-│ GITHUB ........... ONLINE      REPOS .............   49 │
-│ CONTRIBUTIONS ..... 924     FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   34 DAYS │
-│ SIGNAL HASH ....... C5FBB4   SIGNAL ......... ▓▓▓▓▓▓▓▓▓▒░░░░░░  68%  PHASE 04 │
+│ GITHUB ........... ONLINE      REPOS .............   50 │
+│ CONTRIBUTIONS ..... 926     FOLLOWERS ..........    2 │
+│ UPLINK AGE ........   35 DAYS │
+│ SIGNAL HASH ....... 4D7D70   SIGNAL ......... ▓▓▓▓▓▓▓▓▓▓▒░░░░░  74%  PHASE 00 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY — REAL-TIME WEEK STRIP (LIVE DATA)
@@ -194,16 +194,16 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS — SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 924
-REPOSITORIES ....... 49
+CONTRIBUTIONS ...... 926
+REPOSITORIES ....... 50
 FOLLOWERS .......... 2
 COLLECTED STARS .... 9
-BROADCASTING FOR ... 34 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 35 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES — LAST 3 PUSHES
-  terrorfibercraftark          PUSHED 2026-09-03
-  register                     PUSHED 2026-09-03
-  Nortaq-PlayNexus             PUSHED 2026-09-03
+  orion-sentinel-ai            PUSHED 2026-09-04
+  Nortaq-PlayNexus             PUSHED 2026-09-04
+  phantom                      PUSHED 2026-09-03
 
 // BROADCAST SCHEDULE — REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] → .github/workflows/snake.yml
@@ -219,12 +219,14 @@ COFFEE ........ REQUIRED
 ```
 
 <details>
-  <summary><code>CASES:// RAW ARCHIVE INDEX — 49 FILES</code></summary>
+  <summary><code>CASES:// RAW ARCHIVE INDEX — 50 FILES</code></summary>
 
 ```text
+  orion-sentinel-ai                JavaScript   *1
+  Nortaq-PlayNexus                 Python       *0
+  phantom                          Python       *0
   terrorfibercraftark              HTML         *0
   register                         -            *0
-  Nortaq-PlayNexus                 Python       *0
   osmp                             TypeScript   *0
   archive-07                       -            *0
   dj-festival-audio-polisher       Python       *0
@@ -235,7 +237,6 @@ COFFEE ........ REQUIRED
   aurora-audio-engine              Rust         *1
   FreeStack                        Python       *1
   resourcegather                   Python       *0
-  orion-sentinel-ai                JavaScript   *1
   PlayNexus-Foundry                TypeScript   *0
   nexus-agent-x                    Python       *0
   Brainarr                         C#           *0
@@ -274,7 +275,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20260903 UTC · data source: GRAPHQL · hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20260904 UTC · data source: GRAPHQL · hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
