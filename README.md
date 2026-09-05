@@ -182,10 +182,10 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
-│ GITHUB ........... ONLINE      REPOS .............   50 │
-│ CONTRIBUTIONS ..... 926     FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   35 DAYS │
-│ SIGNAL HASH ....... 4D7D70   SIGNAL ......... ▓▓▓▓▓▓▓▓▓▓▒░░░░░  74%  PHASE 00 │
+│ GITHUB ........... ONLINE      REPOS .............   53 │
+│ CONTRIBUTIONS ..... 950     FOLLOWERS ..........    2 │
+│ UPLINK AGE ........   36 DAYS │
+│ SIGNAL HASH ....... 87B30F   SIGNAL ......... ▓▓▓▓▓▓▓▓▓▓▓▒░░░░  89%  PHASE 07 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY — REAL-TIME WEEK STRIP (LIVE DATA)
@@ -194,16 +194,16 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS — SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 926
-REPOSITORIES ....... 50
+CONTRIBUTIONS ...... 950
+REPOSITORIES ....... 53
 FOLLOWERS .......... 2
 COLLECTED STARS .... 9
-BROADCASTING FOR ... 35 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 36 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES — LAST 3 PUSHES
-  orion-sentinel-ai            PUSHED 2026-09-04
-  Nortaq-PlayNexus             PUSHED 2026-09-04
-  phantom                      PUSHED 2026-09-03
+  ProjectPhoenix               PUSHED 2026-09-05
+  Nortaq-PlayNexus             PUSHED 2026-09-05
+  agency-swarm                 PUSHED 2026-09-04
 
 // BROADCAST SCHEDULE — REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] → .github/workflows/snake.yml
@@ -219,15 +219,35 @@ COFFEE ........ REQUIRED
 ```
 
 <details>
-  <summary><code>CASES:// RAW ARCHIVE INDEX — 50 FILES</code></summary>
+  <summary><code>CASES:// RAW ARCHIVE INDEX — 53 FILES</code></summary>
 
 ```text
-  orion-sentinel-ai                JavaScript   *1
+  ProjectPhoenix                   C#           *0
   Nortaq-PlayNexus                 Python       *0
+  agency-swarm                     Python       *0
+  osmp                             TypeScript   *0
+  ark-arena-architect              TypeScript   *0
+  cto                              Python       *0
+  playnexus-sovereign-meta-agent   Python       *0
+  TerrorFibercraft-Admin           Python       *0
+  sqlalchemy-history               Python       *0
+  register                         JavaScript   *0
+  hexstrike-ai                     Python       *0
+  Scaffold                         PHP          *0
+  Brainarr                         C#           *0
+  recovar                          Python       *1
+  envoy-proxy-crowdsec-bouncer     Go           *0
+  web-widgets                      TypeScript   *0
+  meteofrance-api                  -            *0
+  fusil                            Python       *0
+  color_quant                      -            *0
+  pdb-addr2line                    -            *0
+  better_bing_image_downloader     Python       *0
+  myskoda                          Python       *0
+  PlayNexus-Foundry                TypeScript   *0
+  orion-sentinel-ai                JavaScript   *1
   phantom                          Python       *0
   terrorfibercraftark              HTML         *0
-  register                         -            *0
-  osmp                             TypeScript   *0
   archive-07                       -            *0
   dj-festival-audio-polisher       Python       *0
   earth-globe                      Python       *0
@@ -237,45 +257,28 @@ COFFEE ........ REQUIRED
   aurora-audio-engine              Rust         *1
   FreeStack                        Python       *1
   resourcegather                   Python       *0
-  PlayNexus-Foundry                TypeScript   *0
   nexus-agent-x                    Python       *0
-  Brainarr                         C#           *0
-  hexstrike-ai                     Python       *0
   Starminder                       Python       *0
-  Scaffold                         PHP          *0
   swarmforge                       Python       *0
   sentinel                         Python       *0
   neuralforge                      Python       *0
   military-anomaly-scanner         Python       *0
   archon                           Python       *0
-  TerrorFibercraft-Admin           Rust         *0
-  playnexus-sovereign-meta-agent   Python       *0
   synthesis-dj                     JavaScript   *0
   SecureVault                      C#           *0
   ArkNexusX                        Rust         *0
   RustVoiceBooster                 JavaScript   *0
   forge                            Python       *0
-  cto                              Python       *0
   aether-facility                  Python       *1
   sonic-facility                   Python       *1
   playnexus-musicvidforge          Python       *0
-  myskoda                          Python       *0
-  sqlalchemy-history               Python       *0
-  better_bing_image_downloader     Python       *0
-  web-widgets                      TypeScript   *0
   cookiecutter-wagtail-vix         -            *0
-  recovar                          -            *1
   python-hid-parser                -            *1
-  envoy-proxy-crowdsec-bouncer     -            *0
-  fusil                            -            *0
   pygeofilter                      -            *0
-  meteofrance-api                  -            *0
-  pdb-addr2line                    -            *0
-  color_quant                      -            *0
 ```
 </details>
 
-<sup>LAST REBROADCAST 20260904 UTC · data source: GRAPHQL · hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20260905 UTC · data source: GRAPHQL · hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
