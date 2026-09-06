@@ -183,27 +183,27 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   53 │
-│ CONTRIBUTIONS ..... 950     FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   36 DAYS │
-│ SIGNAL HASH ....... 87B30F   SIGNAL ......... ▓▓▓▓▓▓▓▓▓▓▓▒░░░░  89%  PHASE 07 │
+│ CONTRIBUTIONS ..... 960     FOLLOWERS ..........    2 │
+│ UPLINK AGE ........   37 DAYS │
+│ SIGNAL HASH ....... 5CEB87   SIGNAL ......... ▓▓▓▓▓▓▓▒░░░░░░░░  47%  PHASE 07 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY — REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
-   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓█▒██
+   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓█▒██░
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS — SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 950
+CONTRIBUTIONS ...... 960
 REPOSITORIES ....... 53
 FOLLOWERS .......... 2
 COLLECTED STARS .... 9
-BROADCASTING FOR ... 36 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 37 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES — LAST 3 PUSHES
-  ProjectPhoenix               PUSHED 2026-09-05
-  Nortaq-PlayNexus             PUSHED 2026-09-05
-  agency-swarm                 PUSHED 2026-09-04
+  Nortaq-PlayNexus             PUSHED 2026-09-06
+  orion-sentinel-ai            PUSHED 2026-09-05
+  synthesis-dj                 PUSHED 2026-09-05
 
 // BROADCAST SCHEDULE — REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] → .github/workflows/snake.yml
@@ -222,8 +222,18 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX — 53 FILES</code></summary>
 
 ```text
-  ProjectPhoenix                   C#           *0
   Nortaq-PlayNexus                 Python       *0
+  orion-sentinel-ai                JavaScript   *1
+  synthesis-dj                     JavaScript   *0
+  heart                            Python       *0
+  FreeStack                        Python       *1
+  promoforge                       Rust         *0
+  aurora-audio-engine              Rust         *1
+  nasa-investigation               HTML         *2
+  color_quant                      -            *0
+  envoy-proxy-crowdsec-bouncer     Go           *0
+  better_bing_image_downloader     Python       *0
+  ProjectPhoenix                   C#           *0
   agency-swarm                     Python       *0
   osmp                             TypeScript   *0
   ark-arena-architect              TypeScript   *0
@@ -236,26 +246,17 @@ COFFEE ........ REQUIRED
   Scaffold                         PHP          *0
   Brainarr                         C#           *0
   recovar                          Python       *1
-  envoy-proxy-crowdsec-bouncer     Go           *0
   web-widgets                      TypeScript   *0
   meteofrance-api                  -            *0
   fusil                            Python       *0
-  color_quant                      -            *0
   pdb-addr2line                    -            *0
-  better_bing_image_downloader     Python       *0
   myskoda                          Python       *0
   PlayNexus-Foundry                TypeScript   *0
-  orion-sentinel-ai                JavaScript   *1
   phantom                          Python       *0
   terrorfibercraftark              HTML         *0
   archive-07                       -            *0
   dj-festival-audio-polisher       Python       *0
   earth-globe                      Python       *0
-  heart                            Python       *0
-  promoforge                       Rust         *0
-  nasa-investigation               HTML         *2
-  aurora-audio-engine              Rust         *1
-  FreeStack                        Python       *1
   resourcegather                   Python       *0
   nexus-agent-x                    Python       *0
   Starminder                       Python       *0
@@ -264,7 +265,6 @@ COFFEE ........ REQUIRED
   neuralforge                      Python       *0
   military-anomaly-scanner         Python       *0
   archon                           Python       *0
-  synthesis-dj                     JavaScript   *0
   SecureVault                      C#           *0
   ArkNexusX                        Rust         *0
   RustVoiceBooster                 JavaScript   *0
@@ -278,7 +278,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20260905 UTC · data source: GRAPHQL · hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20260906 UTC · data source: GRAPHQL · hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
