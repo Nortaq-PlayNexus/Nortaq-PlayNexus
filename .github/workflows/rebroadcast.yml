@@ -1,15 +1,15 @@
 name: Rebroadcast
 # The profile re-transmits itself: every night it pulls the owner's live
 # public facts, rebuilds the dynamic block in README.md, generates all new
-# assets (constellation, genome, DNA cards, intelligence report), and
-# deploys Mission Control to GitHub Pages.
+# assets (constellation, genome, DNA cards, intelligence report, CRT equalizer),
+# and deploys Mission Control to GitHub Pages.
 on:
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/rebroadcast.py", "scripts/generate_assets.py"]
+    paths: ["scripts/rebroadcast.py", "scripts/generate_assets.py", "scripts/crt_equalizer.py"]
 
 permissions:
   contents: write
@@ -29,6 +29,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Generate CRT equalizer
+        run: python3 scripts/crt_equalizer.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Run rebroadcast (includes asset generation)
         run: python3 scripts/rebroadcast.py
         env:
@@ -39,7 +44,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/generated/
+          git add README.md assets/generated/ assets/crt-equalizer.svg
           if git diff --cached --quiet; then echo "transmission unchanged"; exit 0; fi
           git commit -m "rebroadcast: transmission refreshed + assets regenerated"
           for i in 1 2 3; do
