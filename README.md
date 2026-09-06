@@ -15,24 +15,47 @@
 </p>
 
 <p align="center">
+  <a href="https://nortaq-playnexus.github.io/Nortaq-PlayNexus/mission-control"><img src="https://img.shields.io/badge/MISSION%20CONTROL-LIVE-0a0e1a?style=flat-square&logo=electron&logoColor=B8FF1E&labelColor=0a0e1a" alt="mission control"/></a>
   <a href="https://nortaq-playnexus.github.io/nasa-investigation/"><img src="https://img.shields.io/badge/NASA-HiRISE%20Dossier-05070a?style=flat-square&logo=nasa&logoColor=ffc430&labelColor=0a0e1a" alt="nasa"/></a>
   <a href="https://github.com/Nortaq-PlayNexus/aurora-audio-engine"><img src="https://img.shields.io/badge/AURORA-Audio%20Engine-0a0e1a?style=flat-square&logo=rust&logoColor=ffc430" alt="aurora"/></a>
   <a href="https://github.com/Nortaq-PlayNexus/FreeStack"><img src="https://img.shields.io/badge/FreeStack-150%20services-0a0e1a?style=flat-square&logo=cloudflare&logoColor=3dd5ff" alt="freestack"/></a>
 </p>
 
+---
+
+## PHANTOMTAPE OS v7.4
+
 ```
-[ NAV ]  [01 identity][02 transmission][03 archive][04 workshop][05 toolbox][06 signal][07 classified][08 frequencies]
+PHANTOMTAPE OS v7.4
+──────────────────────────────────────
+
+BOOT SEQUENCE
+[████████████████████████] 100%
+
+KERNEL ............... ONLINE
+AUDIO BUS ............ ONLINE
+AI CORTEX ............ ONLINE
+REPOSITORY MESH ...... ONLINE
+TELEMETRY ............ ONLINE
+SIGNAL ............... LOCKED
+
+> type "help" to continue
 ```
 
 ```
- ____  _   _    _    _   _ _____ ___  __  __ _____  _    ____  _____
-|  _ \| | | |  / \  | \ | |_   _/ _ \|  \/  |_   _|/ \  |  _ \| ____|
-| |_) | |_| | / _ \ |  \| | | || | | | |\/| | | | / _ \ | |_) |  _|
-|  __/|  _  |/ ___ \| |\  | | || |_| | |  | | | |/ ___ \|  __/| |___
-|_|   |_| |_/_/   \_\_| \_| |_| \___/|_|  |_| |_/_/   \_\_|   |_____|
-```
+> help
 
-`RECEIVING ON FREQ 103.7 · FOUR-TRACK RECORDER · SIGNAL ACQUIRED 2026 · ARCHIVE NODE 07`
+IDENTITY       → #identity
+PROJECTS       → #workshop
+TELEMETRY      → #signal
+ARCHIVE        → #archive
+CONSTELLATION  → #constellation
+NETWORK        → #frequencies
+AUDIO          → #transmission
+AI             → #ai-map
+VERIFY         → #verify
+MISSION CTRL   → https://nortaq-playnexus.github.io/Nortaq-PlayNexus/mission-control
+```
 
 ---
 
@@ -56,9 +79,9 @@ LOCATION ...... <PHANTOMTAPE_P-03 UNKNOWN: TUNED TO PLANET EARTH>
 
 ---
 
-## // 02 :: CURRENT TRANSMISSION
-
 <a name="transmission"></a>
+
+## // 02 :: CURRENT TRANSMISSION
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/main/assets/cassette.svg" alt="cassette tape labeled PHANTOMTAPE, SKU PHNT-001" width="180" />
@@ -80,9 +103,9 @@ The `CURRENT TRANSMISSION` is real: **SYNTHESIS** compiles every track into a co
 
 ---
 
-## // 03 :: PHANTOMTAPE ARCHIVE
-
 <a name="archive"></a>
+
+## // 03 :: PHANTOMTAPE ARCHIVE
 
 `$ ls archive/`
 
@@ -107,9 +130,9 @@ Classified records from the music-engineering side of the room. SKUs are real pr
 
 ---
 
-## // 04 :: THE WORKSHOP
-
 <a name="workshop"></a>
+
+## // 04 :: THE WORKSHOP
 
 `$ cat workshop/manifest.txt` — REAL SOFTWARE, NO FICTION. Statuses reflect actual repo activity.
 
@@ -140,9 +163,9 @@ Classified records from the music-engineering side of the room. SKUs are real pr
 
 ---
 
-## // 05 :: TOOLBOX
-
 <a name="toolbox"></a>
+
+## // 05 :: TOOLBOX
 
 `$ cat toolbox/`
 
@@ -155,15 +178,26 @@ TOOLS   : GITHUB ACTIONS · TAURI · OLLAMA · LM STUDIO · OPENCV/YOLO · THREE
 SYSTEMS : WINDOWS (WASAPI/TPM) · LINUX · CROSS-PLATFORM · LOCAL-FIRST
 ```
 
+---
+
+<a name="constellation"></a>
+
+## // 06 :: REPOSITORY CONSTELLATION
+
+`$ phantomtape --map`
+
+Live architecture map of the entire PHANTOMTAPE NETWORK. Every node is a real repository. Activity dots: green = active this week, yellow = this month, grey = dormant.
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/main/assets/dna-strip.svg" alt="PHANTOMTAPE DNA genome strip: 47 repositories, 37 with detected primary language, Python 23, Rust 4, JavaScript 3, TypeScript 3, C sharp 2, HTML 1, PHP 1" width="100%" />
+  <img src="https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/main/assets/generated/constellation.svg" alt="PHANTOMTAPE repository constellation -- live map of all repos grouped by domain" width="100%" />
+  <em><code>generated nightly by scripts/generate_assets.py from live GitHub API data</code></em>
 </p>
 
 ---
 
-## // 06 :: SIGNAL ACTIVITY
-
 <a name="signal"></a>
+
+## // 07 :: SIGNAL ACTIVITY
 
 Every commit is a transmission. The snake below is your contribution graph, recolored into the broadcast signal palette and re-rendered nightly from real data.
 
@@ -284,49 +318,387 @@ COFFEE ........ REQUIRED
 
 ---
 
-## // 07 :: SYSTEM METRICS — LIVE CARDS
+<a name="assets"></a>
 
-<a name="metrics"></a>
+## // 08 :: LIVE ASSETS
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nortaq-PlayNexus&show_icons=true&hide_rank=true&theme=transparent&title_color=B8FF1E&text_color=E8E8E8&icon_color=00E5FF&border_color=1A1A1A&bg_color=0A0A0A" alt="GitHub stats, dark transparent theme" />
-  <img src="https://streak-stats.demolab.com/?user=Nortaq-PlayNexus&background=0A0A0A&border=1F1F1F&stroke=1F1F1F&ring=B8FF1E&fire=FF4D00&currStreakLabel=00E5FF&sideNums=E8E8E8&currStreakNum=B8FF1E&sideLabels=8A8A8A&dates=8A8A8A&hide_border=true" alt="contribution streak, dark themed" />
-</p>
+All generated nightly from real GitHub API data by `scripts/generate_assets.py`. Every number below is auditable.
 
-## // MILESTONES
+<!-- ASSETS:BEGIN -->
 
-Real only.
-
-```text
-RT  broadcast started         2026-07-31 UTC
-TX  forty-plus public transmissions (repositories — live count in block 01)
-++  hundreds of contributions in the first broadcast year
-GR  7 detected primary genomes, dominated by Python
-LS  2 listeners locked in (live follower count in block 01)
+```
+╔══════════════════════════════════════╗
+║       PHANTOMTAPE SIGNAL WEATHER     ║
+╠══════════════════════════════════════╣
+║                                      ║
+║  ACTIVITY       █░░░░░░░░░░░   10%    ║
+║  MOMENTUM       ████████████  100%    ║
+║  BUILD PRESSURE ████████████  100%    ║
+║  CHAOS INDEX    ██░░░░░░░░░░   20%    ║
+║                                      ║
+║  FORECAST                             ║
+  [~] MULTIPLE SYSTEMS IN DEVELOPMENT
+  [+] BUILD PRESSURE INCREASING
+╚══════════════════════════════════════╝
 ```
 
-<details>
-  <summary><code>[ RUN SIGNAL CHECK ]</code></summary>
+```
+PHANTOMTAPE TECHNOLOGY GENOME
 
-Every number in the transmission block above is machine-stamped from the live
-GitHub API, and the `SIGNAL HASH` makes that provable:
+Python         ████████████████████  28
+JavaScript     ██░░░░░░░░░░░░░░░░░░  4
+TypeScript     ██░░░░░░░░░░░░░░░░░░  4
+Rust           ██░░░░░░░░░░░░░░░░░░  3
+C#             ██░░░░░░░░░░░░░░░░░░  3
+HTML           █░░░░░░░░░░░░░░░░░░░  2
+Go             ░░░░░░░░░░░░░░░░░░░░  1
+PHP            ░░░░░░░░░░░░░░░░░░░░  1
 
-```bash
-# 1. read the four public numbers from today's block
-# 2. local python, zero network:
-python3 scripts/signal_hash.py Nortaq-PlayNexus <REPOS> <FOLLOWERS> <CONTRIB> <YYYYMMDD>
-# 3. compare to SIGNAL HASH ▸ if it matches, this page is real, not hand-painted
+DOMAIN GENOME
+
+AI             ████████████████████  14
+AUDIO          ████████████░░░░░░░░  9
+LANG           ███████████░░░░░░░░░  8
+SYSTEMS        ██████████░░░░░░░░░░  7
+EARTH          █████░░░░░░░░░░░░░░░  4
+DATA           █████░░░░░░░░░░░░░░░  4
+GAMING         ████░░░░░░░░░░░░░░░░  3
+OTHER          ██░░░░░░░░░░░░░░░░░░  2
+WEB            ██░░░░░░░░░░░░░░░░░░  2
 ```
 
-Full derivation: [`docs/how-to-verify.md`](docs/how-to-verify.md). The salt is public,
-the inputs are public, and the profile still rehashes itself every night.
-</details>
+<!-- ASSETS:END -->
 
 ---
 
-## // 08 :: CLASSIFIED ARCHIVE
+<a name="dna"></a>
+
+## // 09 :: REPOSITORY DNA
+
+`$ phantomtape --dna`
+
+Auto-generated DNA cards for the top repositories. Status bars reflect real activity metrics.
+
+<!-- DNA_CARDS:BEGIN -->
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ NASA-INVESTIGATION                    │
+│                                          │
+│ Exclusive anomaly detection pipeline for NASA HiRISE│
+│                                          │
+│ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
+│                                          │
+│ STARS  2     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY █████░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ ORION-SENTINEL-AI                     │
+│                                          │
+│ Enterprise-grade planetary intelligence platform - c│
+│                                          │
+│ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 10  │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ FREESTACK                             │
+│                                          │
+│ Run websites, MCP servers, SSH tunnels, APIs, databa│
+│                                          │
+│ AUTOMATION · CLOUDFLARE-WORKERS · DEVOPS · FREE-STACK│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/FreeStack]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ AURORA-AUDIO-ENGINE                   │
+│                                          │
+│ AURORA Audio Engine - ultra-low-latency virtual audi│
+│                                          │
+│ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 6   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ RECOVAR                               │
+│                                          │
+│ Fork of ma-gilles/recovar - an end-to-end cryo-EM re│
+│                                          │
+│ BIOINFORMATICS · CRYO-EM · PYTHON · SINGLE-PARTICLE-ANALYSIS│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  94%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/recovar]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ AETHER-FACILITY                       │
+│                                          │
+│ Military-grade research scaffold for collecting, ver│
+│                                          │
+│ DATA-COLLECTION · FORENSICS · INVESTIGATION · RESEARCH│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS ███████░░░  70%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/aether-facility]                        │
+╰──────────────────────────────────────────╯
+```
+
+<!-- DNA_CARDS:END -->
+
+---
+
+<a name="weather"></a>
+
+## // 10 :: SIGNAL WEATHER
+
+`$ phantomtape --weather`
+
+Activity metrics computed from actual GitHub data. Updated nightly.
+
+<!-- WEATHER:BEGIN -->
+
+```
+╔══════════════════════════════════════╗
+║       PHANTOMTAPE SIGNAL WEATHER     ║
+╠══════════════════════════════════════╣
+║                                      ║
+║  ACTIVITY       █░░░░░░░░░░░   10%    ║
+║  MOMENTUM       ████████████  100%    ║
+║  BUILD PRESSURE ████████████  100%    ║
+║  CHAOS INDEX    ██░░░░░░░░░░   20%    ║
+║                                      ║
+║  FORECAST                             ║
+  [~] MULTIPLE SYSTEMS IN DEVELOPMENT
+  [+] BUILD PRESSURE INCREASING
+╚══════════════════════════════════════╝
+```
+
+<!-- WEATHER:END -->
+
+---
+
+<a name="intel"></a>
+
+## // 11 :: NIGHTLY INTELLIGENCE REPORT
+
+`$ phantomtape --intel`
+
+Generated every night from live data. The machine watches itself.
+
+<!-- INTEL:BEGIN -->
+
+```text
+PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
+20260906
+
+NEW REPOSITORIES ........ 53
+CONTRIBUTIONS (YR) ...... 0
+REPOSITORIES ............ 53
+LANGUAGES ............... 8
+TOTAL STARS ............. 9
+
+MOST ACTIVE (7 DAYS):
+  01 Nortaq-PlayNexus               0d ago
+  02 orion-sentinel-ai              1d ago
+  03 synthesis-dj                   1d ago
+  04 heart                          1d ago
+  05 FreeStack                      1d ago
+
+SIGNAL WEATHER:
+  ACTIVITY       █░░░░░░░░░░░  10%
+  CHAOS INDEX    ██░░░░░░░░░░  20%
+
+ANOMALIES:
+  [!] pygeofilter -- no activity for 35 days
+
+FORECAST:
+  MODERATE development activity
+  49 repositories active in last 14 days
+
+```
+
+<!-- INTEL:END -->
+
+---
+
+<a name="integrity"></a>
+
+## // 12 :: SYSTEM INTEGRITY
+
+`$ phantomtape --verify`
+
+<!-- INTEGRITY:BEGIN -->
+
+```
+╔════════════════════════════════╗
+║       SYSTEM INTEGRITY         ║
+╠════════════════════════════════╣
+║                                ║
+║ CI/CD .............. ● PASS    ║
+║ TESTS .............. ● PASS    ║
+║ SECURITY ........... ● PASS    ║
+║ DEPENDENCIES ........● PASS    ║
+║ BUILD ...............● PASS    ║
+║ DOCUMENTATION .......● PASS    ║
+║                                ║
+║ LAST AUDIT          20260906  ║
+╚════════════════════════════════╝
+```
+
+<!-- INTEGRITY:END -->
+
+---
+
+<a name="obsession"></a>
+
+## // 13 :: CURRENT OBSESSION
+
+`$ phantomtape --obsess`
+
+<!-- OBSESSION:BEGIN -->
+
+```
+╭────────────────────────────────╮
+│ CURRENT OBSESSION              │
+├────────────────────────────────┤
+│                                │
+│  Python                        │
+│  JavaScript                    │
+│  Rust                          │
+│  TypeScript                    │
+│                                │
+│  #ai                           │
+│  #audio                        │
+│  #dsp                          │
+│                                │
+│ STATUS: OBSESSED               │
+╰────────────────────────────────╯
+```
+
+<!-- OBSESSION:END -->
+
+---
+
+<a name="timeline"></a>
+
+## // 14 :: LANGUAGE EVOLUTION
+
+`$ phantomtape --timeline`
+
+How the stack evolved over time:
+
+<!-- TIMELINE:BEGIN -->
+
+```text
+  2026 ───── Python, JavaScript, TypeScript, Rust, C#, HTML, Go, PHP
+             │
+             ▼
+        CURRENT STACK
+```
+
+<!-- TIMELINE:END -->
+
+---
+
+<a name="lifecycle"></a>
+
+## // 15 :: PROJECT LIFECYCLE
+
+`$ phantomtape --lifecycle`
+
+<!-- LIFECYCLE:BEGIN -->
+
+```text
+PROJECT LIFECYCLE
+
+  ACTIVE (19)
+    ├─ orion-sentinel-ai
+    ├─ synthesis-dj
+    ├─ heart
+    ├─ FreeStack
+    ├─ Nortaq-PlayNexus
+    └─ ... +14 more
+
+  PROTOTYPE (18)
+    ├─ promoforge
+    ├─ nasa-investigation
+    ├─ aurora-audio-engine
+    ├─ better_bing_image_downloader
+    ├─ recovar
+    └─ ... +13 more
+
+  MAINTENANCE (14)
+    ├─ color_quant
+    ├─ envoy-proxy-crowdsec-bouncer
+    ├─ ProjectPhoenix
+    ├─ agency-swarm
+    ├─ osmp
+    └─ ... +9 more
+
+```
+
+<!-- LIFECYCLE:END -->
+
+---
+
+<a name="away"></a>
+
+## // 16 :: WHILE YOU WERE AWAY
+
+<!-- WHILE_AWAY:BEGIN -->
+
+```text
+WHILE YOU WERE AWAY...
+
+  +9 repositories modified
+  +0 contributions (rolling year)
+  +0 new experiments this year
+  +53 total transmissions
+
+  The machine did not sleep.
+```
+
+<!-- WHILE_AWAY:END -->
+
+---
 
 <a name="classified"></a>
+
+## // 17 :: CLASSIFIED ARCHIVE
 
 `ACCESS LEVEL: ████`
 
@@ -384,9 +756,38 @@ ERROR 404: NORMAL PROFILE NOT FOUND
 
 ---
 
-## // 09 :: FREQUENCIES
+<a name="verify"></a>
+
+## // 18 :: VERIFY SIGNAL
+
+Every number in the transmission block is machine-stamped from the live GitHub API, and the `SIGNAL HASH` makes that provable:
+
+```bash
+# 1. read the four public numbers from today's block
+# 2. local python, zero network:
+python3 scripts/signal_hash.py Nortaq-PlayNexus <REPOS> <FOLLOWERS> <CONTRIB> <YYYYMMDD>
+# 3. compare to SIGNAL HASH - if it matches, this page is real, not hand-painted
+```
+
+Full derivation: [`docs/how-to-verify.md`](docs/how-to-verify.md). The salt is public,
+the inputs are public, and the profile still rehashes itself every night.
+
+---
+
+<a name="metrics"></a>
+
+## // 19 :: TELEMETRY
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Nortaq-PlayNexus&show_icons=true&hide_rank=true&theme=transparent&title_color=B8FF1E&text_color=E8E8E8&icon_color=00E5FF&border_color=1A1A1A&bg_color=0A0A0A" alt="GitHub stats, dark transparent theme" />
+  <img src="https://streak-stats.demolab.com/?user=Nortaq-PlayNexus&background=0A0A0A&border=1F1F1F&stroke=1F1F1F&ring=B8FF1E&fire=FF4D00&currStreakLabel=00E5FF&sideNums=E8E8E8&currStreakNum=B8FF1E&sideLabels=8A8A8A&dates=8A8A8A&hide_border=true" alt="contribution streak, dark themed" />
+</p>
+
+---
 
 <a name="frequencies"></a>
+
+## // 20 :: FREQUENCIES
 
 ```text
     FM DIAL ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
@@ -427,47 +828,35 @@ SEE ALSO
 
 ---
 
-## // 09b :: SIGNAL // GITHUB TELEMETRY
-
-<a name="telemetry"></a>
+## // 21 :: MASHBOARD
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nortaq-PlayNexus&show_icons=true&theme=dark&hide_border=true&bg_color=05070a&title_color=ffc430&text_color=e6edf7&icon_color=3dd5ff&count_private=true&include_all_commits=true" height="165" alt="github stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nortaq-PlayNexus&layout=compact&theme=dark&hide_border=true&bg_color=05070a&title_color=ffc430&text_color=e6edf7&langs_count=8" height="165" alt="top langs"/>
+  <a href="https://nortaq-playnexus.github.io/Nortaq-PlayNexus/mission-control">
+    <img src="https://img.shields.io/badge/ENTER%20MISSION%20CONTROL-LIVE%20DASHBOARD-0a0e1a?style=for-the-badge&logo=electron&logoColor=B8FF1E&labelColor=0a0e1a&color=B8FF1E" alt="ENTER MISSION CONTROL" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Nortaq-PlayNexus&theme=dark&background=05070a&ring=ffc430&fire=ff3b3b&currStreakLabel=ffc430&border_radius=8&hide_border=true" height="165" alt="streak"/>
-</p>
-
-<p align="center">
-  <em><code>// telemetry via vercel.app — if it 404s, GitHub is having a moment</code></em>
-</p>
-
-<details>
-<summary><code>$ cat telemetry/pinned.txt — top signals</code></summary>
-
-| SIGNAL | REPO | LANGUAGE | TOPIC |
-|---|---|---|---|
-| `01` | [nasa-investigation](https://github.com/Nortaq-PlayNexus/nasa-investigation) — 6578 candidates, 20 findings, Pages dossier | `Python` `HTML` | `mars` `nasa` `anomaly` |
-| `02` | [aurora-audio-engine](https://github.com/Nortaq-PlayNexus/aurora-audio-engine) — WASAPI + DSP | `Rust` | `audio` `dsp` |
-| `03` | [FreeStack](https://github.com/Nortaq-PlayNexus/FreeStack) — 150 free services | `Python` | `cloudflare` `self-hosted` |
-| `04` | [promoforge](https://github.com/Nortaq-PlayNexus/promoforge) — Tauri marketing forge | `Rust` | `tauri` `saas` |
-| `05` | [heart](https://github.com/Nortaq-PlayNexus/heart) — AI emotional cognition | `Python` | `ai` `affective` |
-| `06` | [orion-sentinel-ai](https://github.com/Nortaq-PlayNexus/orion-sentinel-ai) — planetary intel | `JS` | `threejs` `gis` |
-
-`$ gh repo list --limit 6 --json name,stargazerCount --jq 'sort_by(.stargazerCount) | reverse'`
-
-</details>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/output/github-snake-dark.svg" alt="contribution snake" width="100%"/>
-  <em><code>// snake via Platane/snk — generated daily at 00:00 UTC</code></em>
+  <em><code>repository count · languages · commits · streak · stars · forks · issues · releases · project statuses · CI health · activity · signal weather</code></em>
 </p>
 
 ---
 
-## // 10 :: MANIFEST.TXT
+## // MILESTONES
+
+Real only.
+
+```text
+RT  broadcast started         2026-07-31 UTC
+TX  forty-plus public transmissions (repositories — live count in block 01)
+++  hundreds of contributions in the first broadcast year
+GR  7 detected primary genomes, dominated by Python
+LS  2 listeners locked in (live follower count in block 01)
+```
+
+---
+
+## // 22 :: MANIFEST.TXT
 
 ```text
 MAKE THINGS.
@@ -492,4 +881,12 @@ SIGNAL LOST.
 </p>
 
 <!-- PHNT-OS: if you deciphered all seven eggs, whisper "103.7" to a friend within 24 hours. -->
+<!-- ARG-NODE-07: the constellation has 9 domains. the genome has 8 languages. the signal has 6 hash chars. 9+8+6 = 23. the 23rd character of the README is... keep looking. -->
+<!-- HINT-01: the DNA cards are ranked by stars + recency. the top card has 2 stars. -->
+<!-- HINT-02: frequency 103.7 appears in the boot sequence, the dial, and the archive clue trail. -->
+<!-- HINT-03: ARCHIVE NODE 07 = the 7th egg. find all 7 to unlock the backdoor. -->
+<!-- HINT-04: the system integrity panel says LAST AUDIT is the rebroadcast date. -->
+<!-- HINT-05: the signal hash is 6 hex chars. that's 24 bits of entropy. -->
+<!-- HINT-06: the constellation SVG has a green dot for active repos, yellow for monthly. -->
+<!-- HINT-07: the manifest says MAKE, BREAK, LEARN, BETTER, SHIP. five words. five what? -->
 <sup>profile lives in <code>Nortaq-PlayNexus/Nortaq-PlayNexus</code> · assets verified in <code>docs/</code> · no tokens, ever (docs/security.md)</sup>

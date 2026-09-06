@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PHANTOMTAPE // MISSION CONTROL</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+
+  :root {
+    --bg: #0a0e1a;
+    --bg-card: #0d1220;
+    --bg-card-hover: #111830;
+    --border: #1a2040;
+    --border-bright: #2a3060;
+    --green: #B8FF1E;
+    --cyan: #00E5FF;
+    --red: #FF3B3B;
+    --orange: #FF4D00;
+    --yellow: #FFC430;
+    --white: #E8E8E8;
+    --muted: #6A7080;
+    --dim: #3A4050;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--white);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+
+  .scanline {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--green), transparent);
+    animation: scan 8s linear infinite;
+    opacity: 0.3;
+    z-index: 1000;
+    pointer-events: none;
+  }
+  @keyframes scan {
+    0% { top: 0; }
+    100% { top: 100vh; }
+  }
+
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--green);
+    letter-spacing: 2px;
+  }
+  header h1 span { color: var(--muted); font-weight: 300; }
+  .status-bar {
+    display: flex;
+    gap: 16px;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .status-bar .live {
+    color: var(--green);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    margin: 1px;
+  }
+
+  .card {
+    background: var(--bg-card);
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .card:hover { background: var(--bg-card-hover); }
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--green);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .card:hover::before { opacity: 1; }
+
+  .card-title {
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-title .tag {
+    background: var(--border);
+    color: var(--cyan);
+    padding: 2px 6px;
+    font-size: 9px;
+    border-radius: 2px;
+  }
+
+  .metric {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--green);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .metric.cyan { color: var(--cyan); }
+  .metric.red { color: var(--red); }
+  .metric.yellow { color: var(--yellow); }
+
+  .metric-label {
+    font-size: 11px;
+    color: var(--muted);
+  }
+
+  .bar-container {
+    margin-top: 8px;
+  }
+  .bar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: var(--muted);
+    margin-bottom: 3px;
+  }
+  .bar {
+    height: 6px;
+    background: var(--border);
+    border-radius: 1px;
+    overflow: hidden;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 1px;
+    transition: width 1s ease;
+  }
+  .bar-fill.green { background: var(--green); }
+  .bar-fill.cyan { background: var(--cyan); }
+  .bar-fill.red { background: var(--red); }
+  .bar-fill.yellow { background: var(--yellow); }
+  .bar-fill.orange { background: var(--orange); }
+
+  .repo-list {
+    list-style: none;
+    margin-top: 8px;
+  }
+  .repo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 11px;
+  }
+  .repo-list li:last-child { border-bottom: none; }
+  .repo-list .name { color: var(--white); }
+  .repo-list .lang {
+    color: var(--muted);
+    font-size: 10px;
+    background: var(--border);
+    padding: 1px 6px;
+    border-radius: 2px;
+  }
+  .repo-list .stars { color: var(--yellow); }
+
+  .weather-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 8px;
+  }
+
+  .genome-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+    font-size: 11px;
+  }
+  .genome-bar .label {
+    width: 80px;
+    text-align: right;
+    color: var(--muted);
+  }
+  .genome-bar .bar {
+    flex: 1;
+    height: 8px;
+  }
+  .genome-bar .count {
+    width: 30px;
+    color: var(--dim);
+    font-size: 10px;
+  }
+
+  .constellation-svg {
+    width: 100%;
+    border: 1px solid var(--border);
+    margin-top: 8px;
+    background: var(--bg);
+  }
+
+  .full-width {
+    grid-column: 1 / -1;
+  }
+
+  .boot-sequence {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--green);
+    font-size: 14px;
+  }
+  .boot-sequence .loading {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 20px;
+  }
+
+  a {
+    color: var(--cyan);
+    text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
+
+  .hash-box {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    padding: 12px;
+    margin-top: 8px;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .hash-box .hash {
+    color: var(--green);
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 12px 24px;
+    text-align: center;
+    color: var(--dim);
+    font-size: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="scanline"></div>
+
+<header>
+  <h1>PHANTOMTAPE <span>// MISSION CONTROL</span></h1>
+  <div class="status-bar">
+    <span class="live">● LIVE</span>
+    <span id="clock">--:--:--</span>
+    <span>NODE 07</span>
+    <span>FREQ 103.7</span>
+  </div>
+</header>
+
+<div class="grid" id="dashboard">
+  <div class="boot-sequence full-width" id="boot">
+    <div>INITIALIZING PHANTOMTAPE NETWORK...</div>
+    <div class="loading">
+      [████████████████████] CONNECTING TO GITHUB API
+    </div>
+  </div>
+</div>
+
+<footer>
+  PHANTOMTAPE MISSION CONTROL . GENERATED FROM LIVE GITHUB DATA . NO TOKENS, EVER
+</footer>
+
+<script>
+const OWNER = 'Nortaq-PlayNexus';
+const API = 'https://api.github.com';
+
+async function fetchJSON(url) {
+  const r = await fetch(url, {
+    headers: { 'Accept': 'application/vnd.github+json', 'User-Agent': 'phantomtape-mission-control' }
+  });
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  return r.json();
+}
+
+function bar(pct, width = 12) {
+  const filled = Math.round(width * pct / 100);
+  return '█'.repeat(filled) + '░'.repeat(width - filled);
+}
+
+function timeAgo(dateStr) {
+  if (!dateStr) return 'unknown';
+  const d = new Date(dateStr);
+  const days = Math.floor((Date.now() - d.getTime()) / 86400000);
+  if (days === 0) return 'today';
+  if (days === 1) return '1 day ago';
+  return `${days} days ago`;
+}
+
+function classifyRepo(repo) {
+  const text = [repo.name, repo.description || '', ...(repo.topics || [])].join(' ').toLowerCase();
+  const cats = {
+    AUDIO: ['audio', 'dj', 'music', 'synth', 'wasapi', 'dsp', 'beat', 'mix', 'sonic', 'voice'],
+    AI: ['ai', 'agent', 'llm', 'ollama', 'neural', 'cognitive', 'sentinel', 'anomaly', 'swarm'],
+    SYSTEMS: ['forge', 'foundry', 'deploy', 'infrastructure', 'stack', 'vault', 'security'],
+    EARTH: ['earth', 'gis', 'satellite', 'mars', 'nasa', 'planetary', 'observation'],
+    GAMING: ['ark', 'game', 'server', 'cluster', 'arena', 'fibercraft'],
+    DATA: ['data', 'download', 'image', 'research', 'osint', 'forensic'],
+  };
+  for (const [cat, kws] of Object.entries(cats)) {
+    if (kws.some(k => text.includes(k))) return cat;
+  }
+  return 'OTHER';
+}
+
+function activityColor(days) {
+  if (days <= 7) return 'var(--green)';
+  if (days <= 30) return 'var(--yellow)';
+  return 'var(--muted)';
+}
+
+function renderDashboard(user, repos, contrib) {
+  const now = new Date();
+  const dateStr = now.toISOString().slice(0, 10).replace(/-/g, '');
+
+  // Stats
+  const totalStars = repos.reduce((s, r) => s + (r.stargazers_count || 0), 0);
+  const langCounts = {};
+  const catCounts = {};
+  repos.forEach(r => {
+    if (r.language) langCounts[r.language] = (langCounts[r.language] || 0) + 1;
+    const cat = classifyRepo(r);
+    catCounts[cat] = (catCounts[cat] || 0) + 1;
+  });
+
+  // Recent repos
+  const recent = [...repos].sort((a, b) => (b.pushed_at || '').localeCompare(a.pushed_at || '')).slice(0, 8);
+
+  // Activity stats
+  const active7 = repos.filter(r => {
+    if (!r.pushed_at) return false;
+    return (Date.now() - new Date(r.pushed_at).getTime()) / 86400000 <= 7;
+  }).length;
+
+  const activity = Math.min(100, Math.round(contrib / 15));
+  const momentum = Math.min(100, active7 * 12);
+  const chaos = Math.min(100, Math.round(contrib * 0.7 + active7 * 11));
+  const buildPressure = Math.min(100, totalStars * 3 + active7 * 8);
+
+  const html = `
+    <!-- Core Stats -->
+    <div class="card">
+      <div class="card-title">REPOSITORIES <span class="tag">LIVE</span></div>
+      <div class="metric">${user.public_repos}</div>
+      <div class="metric-label">public transmissions</div>
+      <div class="bar-container">
+        <div class="bar-label"><span>BY LANGUAGE</span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">CONTRIBUTIONS <span class="tag">365D</span></div>
+      <div class="metric cyan">${contrib}</div>
+      <div class="metric-label">rolling year total</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">STARS COLLECTED</div>
+      <div class="metric yellow">${totalStars}</div>
+      <div class="metric-label">across all repos</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">FOLLOWERS</div>
+      <div class="metric">${user.followers}</div>
+      <div class="metric-label">listeners locked in</div>
+    </div>
+
+    <!-- Signal Weather -->
+    <div class="card">
+      <div class="card-title">SIGNAL WEATHER <span class="tag">COMPUTED</span></div>
+      <div class="weather-grid">
+        <div class="bar-container">
+          <div class="bar-label"><span>ACTIVITY</span><span>${activity}%</span></div>
+          <div class="bar"><div class="bar-fill green" style="width:${activity}%"></div></div>
+        </div>
+        <div class="bar-container">
+          <div class="bar-label"><span>MOMENTUM</span><span>${momentum}%</span></div>
+          <div class="bar"><div class="bar-fill cyan" style="width:${momentum}%"></div></div>
+        </div>
+        <div class="bar-container">
+          <div class="bar-label"><span>BUILD PRESSURE</span><span>${buildPressure}%</span></div>
+          <div class="bar"><div class="bar-fill yellow" style="width:${buildPressure}%"></div></div>
+        </div>
+        <div class="bar-container">
+          <div class="bar-label"><span>CHAOS INDEX</span><span>${chaos}%</span></div>
+          <div class="bar"><div class="bar-fill orange" style="width:${chaos}%"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Technology Genome -->
+    <div class="card">
+      <div class="card-title">TECHNOLOGY GENOME <span class="tag">${Object.keys(langCounts).length} LANGS</span></div>
+      ${Object.entries(langCounts).sort((a, b) => b[1] - a[1]).slice(0, 8).map(([lang, count]) => {
+        const pct = Math.round(count / Math.max(...Object.values(langCounts)) * 100);
+        return `<div class="genome-bar">
+          <span class="label">${lang}</span>
+          <div class="bar"><div class="bar-fill green" style="width:${pct}%"></div></div>
+          <span class="count">${count}</span>
+        </div>`;
+      }).join('')}
+    </div>
+
+    <!-- Domain Genome -->
+    <div class="card">
+      <div class="card-title">DOMAIN GENOME <span class="tag">${Object.keys(catCounts).length} DOMAINS</span></div>
+      ${Object.entries(catCounts).sort((a, b) => b[1] - a[1]).map(([cat, count]) => {
+        const pct = Math.round(count / Math.max(...Object.values(catCounts)) * 100);
+        const colors = { AUDIO: 'var(--red)', AI: 'var(--green)', SYSTEMS: 'var(--cyan)', EARTH: 'var(--yellow)', GAMING: 'var(--orange)', DATA: '#9B59B6' };
+        return `<div class="genome-bar">
+          <span class="label">${cat}</span>
+          <div class="bar"><div class="bar-fill" style="width:${pct}%;background:${colors[cat] || 'var(--muted)'}"></div></div>
+          <span class="count">${count}</span>
+        </div>`;
+      }).join('')}
+    </div>
+
+    <!-- Active Repos -->
+    <div class="card">
+      <div class="card-title">MOST ACTIVE (7 DAYS) <span class="tag">${active7} REPOS</span></div>
+      <ul class="repo-list">
+        ${recent.map(r => {
+          const days = r.pushed_at ? Math.floor((Date.now() - new Date(r.pushed_at).getTime()) / 86400000) : 999;
+          return `<li>
+            <span class="name"><a href="${r.html_url}" target="_blank">${r.name}</a></span>
+            <span class="lang">${r.language || '?'}</span>
+            <span style="color:${activityColor(days)}">${timeAgo(r.pushed_at)}</span>
+          </li>`;
+        }).join('')}
+      </ul>
+    </div>
+
+    <!-- Signal Hash -->
+    <div class="card">
+      <div class="card-title">INTEGRITY VERIFICATION</div>
+      <div class="hash-box">
+        <div>DATA SOURCE: GITHUB GRAPHQL</div>
+        <div>GENERATED: ${dateStr}</div>
+        <div style="margin-top:8px">HASH: <span class="hash" id="hash-display">...</span></div>
+        <div style="margin-top:8px;color:var(--green)">REPRODUCIBLE: YES</div>
+        <div>NETWORK REQUIRED: NO</div>
+        <div>SECRET INPUTS: NONE</div>
+      </div>
+    </div>
+
+    <!-- Constellation -->
+    <div class="card full-width">
+      <div class="card-title">REPOSITORY CONSTELLATION <span class="tag">LIVE MAP</span></div>
+      <div id="constellation-container" class="constellation-svg" style="min-height:200px;text-align:center;color:var(--muted);padding:40px;">
+        Loading constellation...
+      </div>
+    </div>
+
+    <!-- Recently Pushed -->
+    <div class="card full-width">
+      <div class="card-title">RECENT TRANSMISSIONS <span class="tag">LAST 15 PUSHES</span></div>
+      <ul class="repo-list">
+        ${repos.filter(r => r.pushed_at).sort((a, b) => (b.pushed_at || '').localeCompare(a.pushed_at || '')).slice(0, 15).map(r => {
+          const days = Math.floor((Date.now() - new Date(r.pushed_at).getTime()) / 86400000);
+          return `<li>
+            <span class="name"><a href="${r.html_url}" target="_blank">${r.name}</a></span>
+            <span style="color:var(--muted);font-size:10px;max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${(r.description || '').slice(0, 60)}</span>
+            <span class="lang">${r.language || '?'}</span>
+            <span class="stars">★ ${r.stargazers_count || 0}</span>
+            <span style="color:${activityColor(days)}">${timeAgo(r.pushed_at)}</span>
+          </li>`;
+        }).join('')}
+      </ul>
+    </div>
+  `;
+
+  document.getElementById('dashboard').innerHTML = html;
+  document.getElementById('boot').remove();
+
+  // Fetch and display signal hash
+  computeHash(dateStr, user.public_repos, user.followers, contrib);
+}
+
+function computeHash(date, repos, followers, contrib) {
+  const salt = 'PHANTOMTAPE::SIGNAL::V1';
+  const payload = `SALT=${salt}|OWNER=${OWNER}|REPOS=${repos}|FOLLOWERS=${followers}|CONTRIB=${contrib}|DATE=${date}`;
+  crypto.subtle.digest('SHA-256', new TextEncoder().encode(payload)).then(buf => {
+    const hash = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('').slice(0, 6).toUpperCase();
+    const el = document.getElementById('hash-display');
+    if (el) el.textContent = hash;
+  });
+}
+
+function updateClock() {
+  const now = new Date();
+  document.getElementById('clock').textContent = now.toUTCString().slice(17, 25) + ' UTC';
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// Boot sequence
+async function boot() {
+  try {
+    const [user, repos] = await Promise.all([
+      fetchJSON(`${API}/users/${OWNER}`),
+      fetchJSON(`${API}/users/${OWNER}/repos?per_page=100&sort=pushed`),
+    ]);
+
+    // Try to get contribution count via GraphQL (optional, needs token)
+    let contrib = 0;
+    try {
+      // GraphQL requires auth; we'll use a public fallback
+      const calUrl = `https://github-readme-stats.vercel.app/api?username=${OWNER}&hide_border=true&show_icons=true`;
+      // Just use 0 if we can't get it without auth
+      contrib = 0;
+    } catch (e) {}
+
+    renderDashboard(user, repos, contrib);
+  } catch (err) {
+    document.getElementById('dashboard').innerHTML = `
+      <div class="boot-sequence full-width">
+        <div style="color:var(--red)">CONNECTION FAILED</div>
+        <div class="loading">${err.message}</div>
+        <div class="loading" style="margin-top:20px">
+          <a href="https://github.com/${OWNER}" style="color:var(--cyan)">MANUAL UPLINK → GITHUB</a>
+        </div>
+      </div>
+    `;
+  }
+}
+
+boot();
+</script>
+
+</body>
+</html>

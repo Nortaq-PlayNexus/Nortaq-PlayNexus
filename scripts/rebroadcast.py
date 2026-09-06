@@ -6,7 +6,9 @@ Every scheduled run:
      is available),
   2. recomputes the verifiable SIGNAL HASH,
   3. rebuilds the dynamic block between the REBROADCAST markers in README.md,
-  4. prints a summary; the workflow commits the change.
+  4. runs generate_assets.py to build constellation, genome, DNA cards, etc.
+  5. injects the combined assets block into README.md,
+  6. prints a summary; the workflow commits the change.
 
 Nothing here invents data: unavailable values degrade to honest placeholders.
 
@@ -16,6 +18,7 @@ import datetime
 import json
 import os
 import re
+import subprocess
 import sys
 import urllib.request
 
@@ -24,10 +27,8 @@ SALT_HELPER = "scripts/signal_hash.py"
 BEGIN = "<!-- REBROADCAST:BEGIN -->"
 END = "<!-- REBROADCAST:END -->"
 
-LEVEL_EMPTY = "\u2591"   # ░
-LEVEL_LOW = "\u2592"     # ▒
-LEVEL_MID = "\u2593"     # ▓
-LEVEL_HIGH = "\u2588"    # █
+ASSETS_BEGIN = "<!-- ASSETS:BEGIN -->"
+ASSETS_END = "<!-- ASSETS:END -->"
 
 def http_json(url: str, token: str | None = None) -> dict:
     req = urllib.request.Request(url, headers={
@@ -75,12 +76,12 @@ def signal_hash(owner: str, repos: int, followers: int, contrib: int, date_utc: 
 
 def cell(c: int) -> str:
     if c <= 0:
-        return LEVEL_EMPTY
+        return "."
     if c <= 5:
-        return LEVEL_LOW
+        return "-"
     if c <= 19:
-        return LEVEL_MID
-    return LEVEL_HIGH
+        return "="
+    return "#"
 
 
 def strip_line(weeks: list[int]) -> str:
@@ -92,7 +93,7 @@ def reactions(hash_str: str) -> str:
     n = int(hash_str, 16)
     sig = 40 + (n % 50)              # 40..89 %
     phase = n % 8
-    return f"▓▓▓{'▓' * (sig // 10)}▒{'░' * (12 - sig // 10)}  {sig}%  PHASE {phase:02d}"
+    return f"###{'#' * (sig // 10)}={'.' * (12 - sig // 10)}  {sig}%  PHASE {phase:02d}"
 
 
 def repo_stats(repos: list[dict]) -> tuple[int, list, list]:
@@ -110,7 +111,6 @@ def repo_stats(repos: list[dict]) -> tuple[int, list, list]:
 
 def build(user: dict, repos: list[dict], contrib: int, weeks: list[int], date_utc: str, has_token: bool,
           owner: str) -> str:
-    import datetime
     repos = repos or []
     repo_count = user["public_repos"]
     followers = user["followers"]
@@ -128,7 +128,7 @@ def build(user: dict, repos: list[dict], contrib: int, weeks: list[int], date_ut
     src = "GRAPHQL" if has_token else "REST (CONTRIB UNSET)"
     contrib_line = str(contrib) if has_token else "<PENDING_TOKEN>"
 
-    lang_summary = ", ".join(f"{ln}×{c}" for ln, c in top_langs[:7]) or "<none>"
+    lang_summary = ", ".join(f"{ln}x{c}" for ln, c in top_langs[:7]) or "<none>"
     catches = "\n".join(
         f"  {r['name']:<28} PUSHED {r.get('pushed_at', '')[:10]}" for r in latest)
 
@@ -143,24 +143,25 @@ def build(user: dict, repos: list[dict], contrib: int, weeks: list[int], date_ut
         f"│ SIGNAL HASH ....... {h}   SIGNAL ......... {reactions(h)} │",
         "└──────────────────────────────────────────────────────┘",
         "",
-        "// SIGNAL ACTIVITY — REAL-TIME WEEK STRIP (LIVE DATA)",
+        "// SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)",
         "   " + labels,
         "   " + strip_line(weeks),
         "   LOW ───────────────────────────────────────────── HIGH",
         "",
-        "// SYSTEM METRICS — SNAPSHOT (AUDITABLE)",
+        "// SYSTEM METRICS -- SNAPSHOT (AUDITABLE)",
         f"CONTRIBUTIONS ...... {contrib_line}",
         f"REPOSITORIES ....... {repo_count}",
         f"FOLLOWERS .......... {followers}",
         f"COLLECTED STARS .... {total_stars}",
         f"BROADCASTING FOR ... {age_days} DAYS (SINCE {user['created_at'][:10]} UTC)",
         "",
-        "// RECENT CATCHES — LAST 3 PUSHES",
+        "// RECENT CATCHES -- LAST 3 PUSHES",
         catches,
         "",
-        "// BROADCAST SCHEDULE — REAL WORKFLOW CRONS",
-        "  SNAKE TRANSMITTER [daily] → .github/workflows/snake.yml",
-        "  REBROADCAST       [nightly] → .github/workflows/rebroadcast.yml",
+        "// BROADCAST SCHEDULE -- REAL WORKFLOW CRONS",
+        "  SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml",
+        "  REBROADCAST       [nightly] -> .github/workflows/rebroadcast.yml",
+        "  ASSET GENERATOR   [nightly] -> scripts/generate_assets.py",
         "",
         "// SYSTEM STATUS",
         "GITHUB ........ ONLINE",
@@ -172,7 +173,7 @@ def build(user: dict, repos: list[dict], contrib: int, weeks: list[int], date_ut
         "```",
         "",
         "<details>",
-        f"  <summary><code>CASES:// RAW ARCHIVE INDEX — {repo_count} FILES</code></summary>",
+        f"  <summary><code>CASES:// RAW ARCHIVE INDEX -- {repo_count} FILES</code></summary>",
         "",
         "```text",
         *[f"  {r['name']:<32} {r.get('language') or '-':<12} *{r.get('stargazers_count') or 0}"
@@ -180,19 +181,48 @@ def build(user: dict, repos: list[dict], contrib: int, weeks: list[int], date_ut
         "```",
         "</details>",
         "",
-        f"<sup>LAST REBROADCAST {date_utc} UTC · data source: {src} · hash salt public in "
+        f"<sup>LAST REBROADCAST {date_utc} UTC . data source: {src} . hash salt public in "
         "docs/how-to-verify.md</sup>",
         "",
         END,
     ])
 
 
-def replace_block(readme: str, block: str) -> str:
-    pattern = re.escape(BEGIN) + r".*?" + re.escape(END)
+def replace_block(readme: str, block: str, begin: str, end: str) -> str:
+    pattern = re.escape(begin) + r".*?" + re.escape(end)
     if re.search(pattern, readme, flags=re.DOTALL):
         return re.sub(pattern, block, readme, flags=re.DOTALL)
     # no markers yet: append at the end (first run)
     return readme.rstrip() + "\n\n" + block + "\n"
+
+
+def run_asset_generator(token: str | None) -> str | None:
+    """Run generate_assets.py and return the combined block, or None on failure."""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    gen_script = os.path.join(script_dir, "generate_assets.py")
+    if not os.path.exists(gen_script):
+        print("[!] generate_assets.py not found, skipping asset generation", file=sys.stderr)
+        return None
+    env = os.environ.copy()
+    if token:
+        env["GH_TOKEN"] = token
+    try:
+        result = subprocess.run(
+            [sys.executable, gen_script],
+            capture_output=True, text=True, timeout=120, env=env,
+        )
+        if result.returncode != 0:
+            print(f"[!] generate_assets.py failed: {result.stderr}", file=sys.stderr)
+            return None
+        print(result.stdout)
+        # Read the combined block
+        combined_path = os.path.join(script_dir, "..", "assets", "generated", "combined_block.md")
+        if os.path.exists(combined_path):
+            with open(combined_path, encoding="utf-8") as f:
+                return f.read()
+    except Exception as exc:
+        print(f"[!] Asset generation failed: {exc}", file=sys.stderr)
+    return None
 
 
 def main() -> int:
@@ -220,17 +250,31 @@ def main() -> int:
 
     block = build(user, repos, contrib, weeks, date_utc, has_token, owner)
 
+    # Generate assets (constellation, genome, DNA cards, etc.)
+    assets_block = run_asset_generator(token)
+
     if "--gen-only" in sys.argv:
-        sys.stdout.write(block)
+        sys.stdout.buffer.write(block.encode("utf-8"))
+        if assets_block:
+            sys.stdout.buffer.write(("\n\n" + assets_block).encode("utf-8"))
         return 0
 
     readme_path = "README.md"
     with open(readme_path, encoding="utf-8") as fh:
         readme = fh.read()
-    updated = replace_block(readme, block)
+
+    # Replace rebroadcast block
+    updated = replace_block(readme, block, BEGIN, END)
+
+    # Replace assets block
+    if assets_block:
+        updated = replace_block(updated, assets_block, ASSETS_BEGIN, ASSETS_END)
+
     with open(readme_path, "w", encoding="utf-8") as fh:
         fh.write(updated)
     print(f"rebroadcast ok: {len(weeks)} weeks, {contrib if has_token else 0} contribs, hash updated")
+    if assets_block:
+        print("assets ok: constellation, genome, DNA cards, intelligence report injected")
     return 0
 
 

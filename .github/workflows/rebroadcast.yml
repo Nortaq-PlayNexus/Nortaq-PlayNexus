@@ -1,17 +1,20 @@
 name: Rebroadcast
 # The profile re-transmits itself: every night it pulls the owner's live
-# public facts and rebuilds the dynamic block in README.md between the
-# REBROADCAST markers, updating the SIGNAL HASH so it stays verifiable.
+# public facts, rebuilds the dynamic block in README.md, generates all new
+# assets (constellation, genome, DNA cards, intelligence report), and
+# deploys Mission Control to GitHub Pages.
 on:
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/rebroadcast.py"]
+    paths: ["scripts/rebroadcast.py", "scripts/generate_assets.py"]
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   rebroadcast:
@@ -21,7 +24,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Run rebroadcast
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run rebroadcast (includes asset generation)
         run: python3 scripts/rebroadcast.py
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -31,9 +39,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md assets/generated/
           if git diff --cached --quiet; then echo "transmission unchanged"; exit 0; fi
-          git commit -m "rebroadcast: transmission refreshed"
+          git commit -m "rebroadcast: transmission refreshed + assets regenerated"
           for i in 1 2 3; do
             if git push; then break; fi
             git pull --rebase --autostash || true
@@ -41,3 +49,23 @@ jobs:
 
       - name: Show what changed
         run: git show --stat --oneline HEAD || true
+
+  deploy-pages:
+    needs: rebroadcast
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

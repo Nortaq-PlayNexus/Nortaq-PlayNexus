@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1832" width="800" font-family="monospace">
+<rect width="100%" height="100%" fill="#0a0e1a"/>
+<text x="20" y="20" fill="#B8FF1E" font-size="11" font-weight="bold">PHANTOMTAPE NETWORK — REPOSITORY CONSTELLATION</text>
+<circle cx="40" cy="46" r="6" fill="#B8FF1E"/>
+<text x="52" y="50" fill="#B8FF1E" font-size="11" font-weight="bold">* CORE -- Nortaq-PlayNexus</text>
+<line x1="40" y1="52" x2="40" y2="74" stroke="#FF3B3B" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="40" cy="74" r="5" fill="#FF3B3B"/>
+<text x="52" y="78" fill="#FF3B3B" font-size="11" font-weight="bold">~ AUDIO (9)</text>
+<line x1="40" y1="80" x2="40" y2="102" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="102" r="3" fill="#B8FF1E"/>
+<text x="52" y="105" fill="#E8E8E8" font-size="9">Nortaq-PlayNexus</text>
+<text x="660" y="105" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="108" x2="40" y2="130" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="130" r="3" fill="#B8FF1E"/>
+<text x="52" y="133" fill="#E8E8E8" font-size="9">synthesis-dj</text>
+<text x="660" y="133" fill="#8A8A8A" font-size="9">JavaScript</text>
+<line x1="40" y1="136" x2="40" y2="158" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="158" r="3" fill="#B8FF1E"/>
+<text x="52" y="161" fill="#E8E8E8" font-size="9">aurora-audio-engine</text>
+<text x="660" y="161" fill="#8A8A8A" font-size="9">Rust</text>
+<line x1="40" y1="164" x2="40" y2="186" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="186" r="3" fill="#B8FF1E"/>
+<text x="52" y="189" fill="#E8E8E8" font-size="9">phantom</text>
+<text x="660" y="189" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="192" x2="40" y2="214" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="214" r="3" fill="#B8FF1E"/>
+<text x="52" y="217" fill="#E8E8E8" font-size="9">dj-festival-audio-polisher</text>
+<text x="660" y="217" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="220" x2="40" y2="242" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="242" r="3" fill="#FFC430"/>
+<text x="52" y="245" fill="#E8E8E8" font-size="9">RustVoiceBooster</text>
+<text x="660" y="245" fill="#8A8A8A" font-size="9">JavaScript</text>
+<line x1="40" y1="248" x2="40" y2="270" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="270" r="3" fill="#FFC430"/>
+<text x="52" y="273" fill="#E8E8E8" font-size="9">sonic-facility</text>
+<text x="660" y="273" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="276" x2="40" y2="298" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="298" r="3" fill="#FFC430"/>
+<text x="52" y="301" fill="#E8E8E8" font-size="9">playnexus-musicvidforge</text>
+<text x="660" y="301" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="304" x2="40" y2="326" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="326" r="3" fill="#FFC430"/>
+<text x="52" y="329" fill="#E8E8E8" font-size="9">cookiecutter-wagtail-vix</text>
+<text x="660" y="329" fill="#8A8A8A" font-size="9">?</text>
+<line x1="40" y1="332" x2="40" y2="354" stroke="#B8FF1E" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="40" cy="354" r="5" fill="#B8FF1E"/>
+<text x="52" y="358" fill="#B8FF1E" font-size="11" font-weight="bold">@ AI (14)</text>
+<line x1="40" y1="360" x2="40" y2="382" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="382" r="3" fill="#B8FF1E"/>
+<text x="52" y="385" fill="#E8E8E8" font-size="9">orion-sentinel-ai</text>
+<text x="660" y="385" fill="#8A8A8A" font-size="9">JavaScript</text>
+<line x1="40" y1="388" x2="40" y2="410" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="410" r="3" fill="#B8FF1E"/>
+<text x="52" y="413" fill="#E8E8E8" font-size="9">heart</text>
+<text x="660" y="413" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="416" x2="40" y2="438" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="438" r="3" fill="#B8FF1E"/>
+<text x="52" y="441" fill="#E8E8E8" font-size="9">promoforge</text>
+<text x="660" y="441" fill="#8A8A8A" font-size="9">Rust</text>
+<line x1="40" y1="444" x2="40" y2="466" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="466" r="3" fill="#B8FF1E"/>
+<text x="52" y="469" fill="#E8E8E8" font-size="9">agency-swarm</text>
+<text x="660" y="469" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="472" x2="40" y2="494" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="494" r="3" fill="#B8FF1E"/>
+<text x="52" y="497" fill="#E8E8E8" font-size="9">playnexus-sovereign-meta-agent</text>
+<text x="660" y="497" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="500" x2="40" y2="522" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="522" r="3" fill="#B8FF1E"/>
+<text x="52" y="525" fill="#E8E8E8" font-size="9">register</text>
+<text x="660" y="525" fill="#8A8A8A" font-size="9">JavaScript</text>
+<line x1="40" y1="528" x2="40" y2="550" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="550" r="3" fill="#B8FF1E"/>
+<text x="52" y="553" fill="#E8E8E8" font-size="9">hexstrike-ai</text>
+<text x="660" y="553" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="556" x2="40" y2="578" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="578" r="3" fill="#B8FF1E"/>
+<text x="52" y="581" fill="#E8E8E8" font-size="9">Brainarr</text>
+<text x="660" y="581" fill="#8A8A8A" font-size="9">C#</text>
+<line x1="40" y1="584" x2="40" y2="606" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="606" r="3" fill="#FFC430"/>
+<text x="52" y="609" fill="#E8E8E8" font-size="9">nexus-agent-x</text>
+<text x="660" y="609" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="612" x2="40" y2="634" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="634" r="3" fill="#FFC430"/>
+<text x="52" y="637" fill="#E8E8E8" font-size="9">swarmforge</text>
+<text x="660" y="637" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="640" x2="40" y2="662" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="662" r="3" fill="#FFC430"/>
+<text x="52" y="665" fill="#E8E8E8" font-size="9">sentinel</text>
+<text x="660" y="665" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="668" x2="40" y2="690" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="690" r="3" fill="#FFC430"/>
+<text x="52" y="693" fill="#E8E8E8" font-size="9">neuralforge</text>
+<text x="660" y="693" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="696" x2="40" y2="718" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="718" r="3" fill="#FFC430"/>
+<text x="52" y="721" fill="#E8E8E8" font-size="9">military-anomaly-scanner</text>
+<text x="660" y="721" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="724" x2="40" y2="746" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="746" r="3" fill="#FFC430"/>
+<text x="52" y="749" fill="#E8E8E8" font-size="9">ArkNexusX</text>
+<text x="660" y="749" fill="#8A8A8A" font-size="9">Rust</text>
+<line x1="40" y1="752" x2="40" y2="774" stroke="#00E5FF" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="40" cy="774" r="5" fill="#00E5FF"/>
+<text x="52" y="778" fill="#00E5FF" font-size="11" font-weight="bold"># SYSTEMS (7)</text>
+<line x1="40" y1="780" x2="40" y2="802" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="802" r="3" fill="#B8FF1E"/>
+<text x="52" y="805" fill="#E8E8E8" font-size="9">FreeStack</text>
+<text x="660" y="805" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="808" x2="40" y2="830" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="830" r="3" fill="#B8FF1E"/>
+<text x="52" y="833" fill="#E8E8E8" font-size="9">envoy-proxy-crowdsec-bouncer</text>
+<text x="660" y="833" fill="#8A8A8A" font-size="9">Go</text>
+<line x1="40" y1="836" x2="40" y2="858" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="858" r="3" fill="#B8FF1E"/>
+<text x="52" y="861" fill="#E8E8E8" font-size="9">cto</text>
+<text x="660" y="861" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="864" x2="40" y2="886" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="886" r="3" fill="#B8FF1E"/>
+<text x="52" y="889" fill="#E8E8E8" font-size="9">PlayNexus-Foundry</text>
+<text x="660" y="889" fill="#8A8A8A" font-size="9">TypeScript</text>
+<line x1="40" y1="892" x2="40" y2="914" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="914" r="3" fill="#FFC430"/>
+<text x="52" y="917" fill="#E8E8E8" font-size="9">archon</text>
+<text x="660" y="917" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="920" x2="40" y2="942" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="942" r="3" fill="#FFC430"/>
+<text x="52" y="945" fill="#E8E8E8" font-size="9">SecureVault</text>
+<text x="660" y="945" fill="#8A8A8A" font-size="9">C#</text>
+<line x1="40" y1="948" x2="40" y2="970" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="970" r="3" fill="#FFC430"/>
+<text x="52" y="973" fill="#E8E8E8" font-size="9">forge</text>
+<text x="660" y="973" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="976" x2="40" y2="998" stroke="#FFC430" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="40" cy="998" r="5" fill="#FFC430"/>
+<text x="52" y="1002" fill="#FFC430" font-size="11" font-weight="bold">* EARTH (4)</text>
+<line x1="40" y1="1004" x2="40" y2="1026" stroke="#FFC430" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1026" r="3" fill="#B8FF1E"/>
+<text x="52" y="1029" fill="#E8E8E8" font-size="9">nasa-investigation</text>
+<text x="660" y="1029" fill="#8A8A8A" font-size="9">HTML</text>
+<line x1="40" y1="1032" x2="40" y2="1054" stroke="#FFC430" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1054" r="3" fill="#B8FF1E"/>
+<text x="52" y="1057" fill="#E8E8E8" font-size="9">meteofrance-api</text>
+<text x="660" y="1057" fill="#8A8A8A" font-size="9">?</text>
+<line x1="40" y1="1060" x2="40" y2="1082" stroke="#FFC430" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1082" r="3" fill="#B8FF1E"/>
+<text x="52" y="1085" fill="#E8E8E8" font-size="9">earth-globe</text>
+<text x="660" y="1085" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="1088" x2="40" y2="1110" stroke="#FFC430" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1110" r="3" fill="#8A8A8A"/>
+<text x="52" y="1113" fill="#E8E8E8" font-size="9">pygeofilter</text>
+<text x="660" y="1113" fill="#8A8A8A" font-size="9">?</text>
+<line x1="40" y1="1116" x2="40" y2="1138" stroke="#FF4D00" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="40" cy="1138" r="5" fill="#FF4D00"/>
+<text x="52" y="1142" fill="#FF4D00" font-size="11" font-weight="bold">x GAMING (3)</text>
+<line x1="40" y1="1144" x2="40" y2="1166" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1166" r="3" fill="#B8FF1E"/>
+<text x="52" y="1169" fill="#E8E8E8" font-size="9">ark-arena-architect</text>
+<text x="660" y="1169" fill="#8A8A8A" font-size="9">TypeScript</text>
+<line x1="40" y1="1172" x2="40" y2="1194" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1194" r="3" fill="#B8FF1E"/>
+<text x="52" y="1197" fill="#E8E8E8" font-size="9">TerrorFibercraft-Admin</text>
+<text x="660" y="1197" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="1200" x2="40" y2="1222" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1222" r="3" fill="#B8FF1E"/>
+<text x="52" y="1225" fill="#E8E8E8" font-size="9">terrorfibercraftark</text>
+<text x="660" y="1225" fill="#8A8A8A" font-size="9">HTML</text>
+<line x1="40" y1="1228" x2="40" y2="1250" stroke="#9B59B6" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="40" cy="1250" r="5" fill="#9B59B6"/>
+<text x="52" y="1254" fill="#9B59B6" font-size="11" font-weight="bold">+ DATA (4)</text>
+<line x1="40" y1="1256" x2="40" y2="1278" stroke="#9B59B6" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1278" r="3" fill="#B8FF1E"/>
+<text x="52" y="1281" fill="#E8E8E8" font-size="9">better_bing_image_downloader</text>
+<text x="660" y="1281" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="1284" x2="40" y2="1306" stroke="#9B59B6" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1306" r="3" fill="#B8FF1E"/>
+<text x="52" y="1309" fill="#E8E8E8" font-size="9">sqlalchemy-history</text>
+<text x="660" y="1309" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="1312" x2="40" y2="1334" stroke="#9B59B6" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1334" r="3" fill="#FFC430"/>
+<text x="52" y="1337" fill="#E8E8E8" font-size="9">resourcegather</text>
+<text x="660" y="1337" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="1340" x2="40" y2="1362" stroke="#9B59B6" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1362" r="3" fill="#FFC430"/>
+<text x="52" y="1365" fill="#E8E8E8" font-size="9">aether-facility</text>
+<text x="660" y="1365" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="1368" x2="40" y2="1390" stroke="#3498DB" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="40" cy="1390" r="5" fill="#3498DB"/>
+<text x="52" y="1394" fill="#3498DB" font-size="11" font-weight="bold">> WEB (2)</text>
+<line x1="40" y1="1396" x2="40" y2="1418" stroke="#3498DB" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1418" r="3" fill="#B8FF1E"/>
+<text x="52" y="1421" fill="#E8E8E8" font-size="9">Scaffold</text>
+<text x="660" y="1421" fill="#8A8A8A" font-size="9">PHP</text>
+<line x1="40" y1="1424" x2="40" y2="1446" stroke="#3498DB" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1446" r="3" fill="#B8FF1E"/>
+<text x="52" y="1449" fill="#E8E8E8" font-size="9">web-widgets</text>
+<text x="660" y="1449" fill="#8A8A8A" font-size="9">TypeScript</text>
+<line x1="40" y1="1452" x2="40" y2="1474" stroke="#E8E8E8" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="40" cy="1474" r="5" fill="#E8E8E8"/>
+<text x="52" y="1478" fill="#E8E8E8" font-size="11" font-weight="bold">^ LANG (8)</text>
+<line x1="40" y1="1480" x2="40" y2="1502" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1502" r="3" fill="#B8FF1E"/>
+<text x="52" y="1505" fill="#E8E8E8" font-size="9">color_quant</text>
+<text x="660" y="1505" fill="#8A8A8A" font-size="9">?</text>
+<line x1="40" y1="1508" x2="40" y2="1530" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1530" r="3" fill="#B8FF1E"/>
+<text x="52" y="1533" fill="#E8E8E8" font-size="9">osmp</text>
+<text x="660" y="1533" fill="#8A8A8A" font-size="9">TypeScript</text>
+<line x1="40" y1="1536" x2="40" y2="1558" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1558" r="3" fill="#B8FF1E"/>
+<text x="52" y="1561" fill="#E8E8E8" font-size="9">recovar</text>
+<text x="660" y="1561" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="1564" x2="40" y2="1586" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1586" r="3" fill="#B8FF1E"/>
+<text x="52" y="1589" fill="#E8E8E8" font-size="9">fusil</text>
+<text x="660" y="1589" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="1592" x2="40" y2="1614" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1614" r="3" fill="#B8FF1E"/>
+<text x="52" y="1617" fill="#E8E8E8" font-size="9">pdb-addr2line</text>
+<text x="660" y="1617" fill="#8A8A8A" font-size="9">?</text>
+<line x1="40" y1="1620" x2="40" y2="1642" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1642" r="3" fill="#B8FF1E"/>
+<text x="52" y="1645" fill="#E8E8E8" font-size="9">myskoda</text>
+<text x="660" y="1645" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="1648" x2="40" y2="1670" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1670" r="3" fill="#FFC430"/>
+<text x="52" y="1673" fill="#E8E8E8" font-size="9">Starminder</text>
+<text x="660" y="1673" fill="#8A8A8A" font-size="9">Python</text>
+<line x1="40" y1="1676" x2="40" y2="1698" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1698" r="3" fill="#FFC430"/>
+<text x="52" y="1701" fill="#E8E8E8" font-size="9">python-hid-parser</text>
+<text x="660" y="1701" fill="#8A8A8A" font-size="9">?</text>
+<line x1="40" y1="1704" x2="40" y2="1726" stroke="#8A8A8A" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="40" cy="1726" r="5" fill="#8A8A8A"/>
+<text x="52" y="1730" fill="#8A8A8A" font-size="11" font-weight="bold">. OTHER (2)</text>
+<line x1="40" y1="1732" x2="40" y2="1754" stroke="#8A8A8A" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1754" r="3" fill="#B8FF1E"/>
+<text x="52" y="1757" fill="#E8E8E8" font-size="9">ProjectPhoenix</text>
+<text x="660" y="1757" fill="#8A8A8A" font-size="9">C#</text>
+<line x1="40" y1="1760" x2="40" y2="1782" stroke="#8A8A8A" stroke-width="1" opacity="0.4"/>
+<circle cx="40" cy="1782" r="3" fill="#B8FF1E"/>
+<text x="52" y="1785" fill="#E8E8E8" font-size="9">archive-07</text>
+<text x="660" y="1785" fill="#8A8A8A" font-size="9">?</text>
+</svg>
