@@ -1032,11 +1032,6 @@ the inputs are public, and the profile still rehashes itself every night.
 ## // 19 :: TELEMETRY
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Nortaq-PlayNexus&theme=onedark&no-frame=true&no-bg=true&column=7" alt="GitHub trophies" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nortaq-PlayNexus&show_icons=true&hide_rank=true&theme=transparent&title_color=B8FF1E&text_color=E8E8E8&icon_color=00E5FF&border_color=1A1A1A&bg_color=0A0A0A" alt="GitHub stats, dark transparent theme" />
   <img src="https://streak-stats.demolab.com/?user=Nortaq-PlayNexus&background=0A0A0A&border=1F1F1F&stroke=1F1F1F&ring=B8FF1E&fire=FF4D00&currStreakLabel=00E5FF&sideNums=E8E8E8&currStreakNum=B8FF1E&sideLabels=8A8A8A&dates=8A8A8A&hide_border=true" alt="contribution streak, dark themed" />
 </p>
 
