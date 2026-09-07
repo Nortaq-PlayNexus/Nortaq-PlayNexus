@@ -9,7 +9,7 @@
 <line x1="40" y1="80" x2="40" y2="102" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="102" r="3" fill="#B8FF1E"/>
 <text x="52" y="105" fill="#E8E8E8" font-size="9">Nortaq-PlayNexus</text>
-<text x="660" y="105" fill="#8A8A8A" font-size="9">Python</text>
+<text x="660" y="105" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="108" x2="40" y2="130" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="130" r="3" fill="#B8FF1E"/>
 <text x="52" y="133" fill="#E8E8E8" font-size="9">synthesis-dj</text>

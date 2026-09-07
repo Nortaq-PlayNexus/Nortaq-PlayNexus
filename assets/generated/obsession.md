@@ -3,8 +3,8 @@
 ├────────────────────────────────┤
 │
 │  Python                        │
-│  JavaScript                    │
 │  TypeScript                    │
+│  JavaScript                    │
 │  Rust                          │
 │  C#                            │
 │  #python                       │

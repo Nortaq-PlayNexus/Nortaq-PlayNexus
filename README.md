@@ -271,25 +271,25 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   53 │
-│ CONTRIBUTIONS ..... 960     FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   37 DAYS │
-│ SIGNAL HASH ....... 5CEB87   SIGNAL ......... #######=........  47%  PHASE 07 │
+│ CONTRIBUTIONS ..... 965     FOLLOWERS ..........    2 │
+│ UPLINK AGE ........   38 DAYS │
+│ SIGNAL HASH ....... D257AD   SIGNAL ......... #######=........  45%  PHASE 05 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
-   ..............................................==#-##.
+   ..............................................==#-##-
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 960
+CONTRIBUTIONS ...... 965
 REPOSITORIES ....... 53
 FOLLOWERS .......... 2
 COLLECTED STARS .... 9
-BROADCASTING FOR ... 37 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 38 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  Nortaq-PlayNexus             PUSHED 2026-09-06
+  Nortaq-PlayNexus             PUSHED 2026-09-07
   orion-sentinel-ai            PUSHED 2026-09-05
   synthesis-dj                 PUSHED 2026-09-05
 
@@ -311,14 +311,14 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX -- 53 FILES</code></summary>
 
 ```text
-  Nortaq-PlayNexus                 Python       *0
+  Nortaq-PlayNexus                 TypeScript   *0
   orion-sentinel-ai                JavaScript   *1
   synthesis-dj                     JavaScript   *0
   heart                            Python       *0
   FreeStack                        Python       *1
   promoforge                       Rust         *0
-  aurora-audio-engine              Rust         *1
   nasa-investigation               HTML         *2
+  aurora-audio-engine              Rust         *1
   color_quant                      -            *0
   envoy-proxy-crowdsec-bouncer     Go           *0
   better_bing_image_downloader     Python       *0
@@ -367,7 +367,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20260906 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20260907 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -401,9 +401,9 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ```
 PHANTOMTAPE TECHNOLOGY GENOME
 
-Python         ████████████████████  28
+Python         ████████████████████  27
+TypeScript     ███░░░░░░░░░░░░░░░░░  5
 JavaScript     ██░░░░░░░░░░░░░░░░░░  4
-TypeScript     ██░░░░░░░░░░░░░░░░░░  4
 Rust           ██░░░░░░░░░░░░░░░░░░  3
 C#             ██░░░░░░░░░░░░░░░░░░  3
 HTML           █░░░░░░░░░░░░░░░░░░░  2
@@ -432,7 +432,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -448,7 +448,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
@@ -464,7 +464,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · CLOUDFLARE-WORKERS · DEVOPS · FREE-STACK│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/FreeStack]                        │
@@ -480,7 +480,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
@@ -496,7 +496,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ BIOINFORMATICS · CRYO-EM · PYTHON · SINGLE-PARTICLE-ANALYSIS│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/recovar]                        │
@@ -505,26 +505,26 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ AETHER-FACILITY                       │
+│ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
-│ Military-grade research scaffold for collecting, ver│
+│ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
 │                                          │
-│ DATA-COLLECTION · FORENSICS · INVESTIGATION · RESEARCH│
+│ AUDIO                                   │
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  70%     │
-│ MATURITY ███░░░░░░░            │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/aether-facility]                        │
+│ [https://github.com/Nortaq-PlayNexus/Nortaq-PlayNexus]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260906
+20260907
 
 NEW REPOSITORIES ........ 53
-CONTRIBUTIONS (YR) ...... 960
+CONTRIBUTIONS (YR) ...... 965
 REPOSITORIES ............ 53
 LANGUAGES ............... 8
 TOTAL STARS ............. 9
@@ -541,7 +541,7 @@ SIGNAL WEATHER:
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] pygeofilter -- no activity for 35 days
+  [!] pygeofilter -- no activity for 36 days
 
 FORECAST:
   HIGH development activity
@@ -561,7 +561,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20260906  ║
+║ LAST AUDIT          20260907  ║
 ╚════════════════════════════════╝
 ```
 
@@ -570,8 +570,8 @@ FORECAST:
 ├────────────────────────────────┤
 │
 │  Python                        │
-│  JavaScript                    │
 │  TypeScript                    │
+│  JavaScript                    │
 │  Rust                          │
 │  C#                            │
 │  #python                       │
@@ -591,8 +591,8 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +32 repositories modified
-  +960 contributions (rolling year)
+  +31 repositories modified
+  +965 contributions (rolling year)
   +53 new experiments this year
   +53 total transmissions
 

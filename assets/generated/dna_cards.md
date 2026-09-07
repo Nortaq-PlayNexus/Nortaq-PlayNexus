@@ -7,7 +7,7 @@
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -23,7 +23,7 @@
 │ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
@@ -39,7 +39,7 @@
 │ AUTOMATION · CLOUDFLARE-WORKERS · DEVOPS · FREE-STACK│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/FreeStack]                        │
@@ -55,7 +55,7 @@
 │ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
@@ -71,7 +71,7 @@
 │ BIOINFORMATICS · CRYO-EM · PYTHON · SINGLE-PARTICLE-ANALYSIS│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/recovar]                        │
@@ -80,16 +80,16 @@
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ AETHER-FACILITY                       │
+│ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
-│ Military-grade research scaffold for collecting, ver│
+│ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
 │                                          │
-│ DATA-COLLECTION · FORENSICS · INVESTIGATION · RESEARCH│
+│ AUDIO                                   │
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  70%     │
-│ MATURITY ███░░░░░░░            │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/aether-facility]                        │
+│ [https://github.com/Nortaq-PlayNexus/Nortaq-PlayNexus]                        │
 ╰──────────────────────────────────────────╯
 ```
