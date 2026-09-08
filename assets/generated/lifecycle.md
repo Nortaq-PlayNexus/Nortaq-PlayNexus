@@ -1,18 +1,17 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (4)
-    ├─ playnexus-musicvidforge
+  PROTOTYPE (3)
     ├─ cookiecutter-wagtail-vix
     ├─ python-hid-parser
     ├─ pygeofilter
 
-  ACTIVE (49)
+  ACTIVE (50)
     ├─ Nortaq-PlayNexus
-    ├─ orion-sentinel-ai
-    ├─ synthesis-dj
-    ├─ heart
-    ├─ FreeStack
-    └─ ... +44 more
+    ├─ playnexus-sovereign-meta-agent
+    ├─ archive-07
+    ├─ TerrorFibercraft-Admin
+    ├─ phantom
+    └─ ... +45 more
 
 ```
