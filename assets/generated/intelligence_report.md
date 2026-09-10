@@ -1,6 +1,6 @@
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260909
+20260910
 
 NEW REPOSITORIES ........ 53
 CONTRIBUTIONS (YR) ...... 987
@@ -10,17 +10,17 @@ TOTAL STARS ............. 9
 
 MOST ACTIVE (7 DAYS):
   01 Nortaq-PlayNexus               0d ago
-  02 playnexus-sovereign-meta-agent 1d ago
-  03 archive-07                     1d ago
-  04 TerrorFibercraft-Admin         1d ago
-  05 phantom                        1d ago
+  02 osmp                           0d ago
+  03 playnexus-sovereign-meta-agent 2d ago
+  04 archive-07                     2d ago
+  05 TerrorFibercraft-Admin         2d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ███████░░░░░  65%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] pygeofilter -- no activity for 38 days
+  [!] pygeofilter -- no activity for 39 days
 
 FORECAST:
   HIGH development activity

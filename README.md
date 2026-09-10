@@ -272,8 +272,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   53 │
 │ CONTRIBUTIONS ..... 987     FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   40 DAYS │
-│ SIGNAL HASH ....... B489FA   SIGNAL ......... #######=........  42%  PHASE 02 │
+│ UPLINK AGE ........   41 DAYS │
+│ SIGNAL HASH ....... 583896   SIGNAL ......... #######=........  44%  PHASE 06 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -286,12 +286,12 @@ CONTRIBUTIONS ...... 987
 REPOSITORIES ....... 53
 FOLLOWERS .......... 2
 COLLECTED STARS .... 9
-BROADCASTING FOR ... 40 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 41 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  Nortaq-PlayNexus             PUSHED 2026-09-09
+  Nortaq-PlayNexus             PUSHED 2026-09-10
+  osmp                         PUSHED 2026-09-09
   playnexus-sovereign-meta-agent PUSHED 2026-09-07
-  archive-07                   PUSHED 2026-09-07
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -312,6 +312,7 @@ COFFEE ........ REQUIRED
 
 ```text
   Nortaq-PlayNexus                 TypeScript   *0
+  osmp                             TypeScript   *0
   playnexus-sovereign-meta-agent   Python       *0
   archive-07                       -            *0
   TerrorFibercraft-Admin           Python       *0
@@ -322,7 +323,6 @@ COFFEE ........ REQUIRED
   playnexus-musicvidforge          Python       *0
   ArkNexusX                        Rust         *0
   sonic-facility                   Python       *1
-  osmp                             TypeScript   *0
   cto                              Python       *0
   military-anomaly-scanner         Python       *0
   aether-facility                  Python       *1
@@ -367,7 +367,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20260909 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20260910 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -432,7 +432,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -448,7 +448,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AI-ART · AUDIO-ANALYSIS · BPM-DETECTION · MUSIC│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/sonic-facility]                        │
@@ -464,7 +464,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ DATA-COLLECTION · FORENSICS · INVESTIGATION · RESEARCH│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aether-facility]                        │
@@ -480,7 +480,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
@@ -496,7 +496,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · CLOUDFLARE-WORKERS · DEVOPS · FREE-STACK│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/FreeStack]                        │
@@ -512,7 +512,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
@@ -521,7 +521,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260909
+20260910
 
 NEW REPOSITORIES ........ 53
 CONTRIBUTIONS (YR) ...... 987
@@ -531,17 +531,17 @@ TOTAL STARS ............. 9
 
 MOST ACTIVE (7 DAYS):
   01 Nortaq-PlayNexus               0d ago
-  02 playnexus-sovereign-meta-agent 1d ago
-  03 archive-07                     1d ago
-  04 TerrorFibercraft-Admin         1d ago
-  05 phantom                        1d ago
+  02 osmp                           0d ago
+  03 playnexus-sovereign-meta-agent 2d ago
+  04 archive-07                     2d ago
+  05 TerrorFibercraft-Admin         2d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ███████░░░░░  65%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] pygeofilter -- no activity for 38 days
+  [!] pygeofilter -- no activity for 39 days
 
 FORECAST:
   HIGH development activity
@@ -561,7 +561,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20260909  ║
+║ LAST AUDIT          20260910  ║
 ╚════════════════════════════════╝
 ```
 
@@ -591,7 +591,7 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +33 repositories modified
+  +23 repositories modified
   +987 contributions (rolling year)
   +53 new experiments this year
   +53 total transmissions
@@ -609,10 +609,10 @@ PROJECT LIFECYCLE
 
   ACTIVE (50)
     ├─ Nortaq-PlayNexus
+    ├─ osmp
     ├─ playnexus-sovereign-meta-agent
     ├─ archive-07
     ├─ TerrorFibercraft-Admin
-    ├─ phantom
     └─ ... +45 more
 
 ```

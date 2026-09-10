@@ -8,10 +8,10 @@ PROJECT LIFECYCLE
 
   ACTIVE (50)
     ├─ Nortaq-PlayNexus
+    ├─ osmp
     ├─ playnexus-sovereign-meta-agent
     ├─ archive-07
     ├─ TerrorFibercraft-Admin
-    ├─ phantom
     └─ ... +45 more
 
 ```
