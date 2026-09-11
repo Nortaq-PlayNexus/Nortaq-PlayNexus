@@ -6,12 +6,12 @@ PROJECT LIFECYCLE
     ├─ python-hid-parser
     ├─ pygeofilter
 
-  ACTIVE (50)
+  ACTIVE (61)
+    ├─ orion-sentinel-ai
     ├─ Nortaq-PlayNexus
-    ├─ osmp
-    ├─ playnexus-sovereign-meta-agent
-    ├─ archive-07
-    ├─ TerrorFibercraft-Admin
-    └─ ... +45 more
+    ├─ counter-intel
+    ├─ hwid-sentinel
+    ├─ rust-voice-booster
+    └─ ... +56 more
 
 ```

@@ -270,10 +270,10 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
-│ GITHUB ........... ONLINE      REPOS .............   53 │
-│ CONTRIBUTIONS ..... 987     FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   41 DAYS │
-│ SIGNAL HASH ....... 583896   SIGNAL ......... #######=........  44%  PHASE 06 │
+│ GITHUB ........... ONLINE      REPOS .............   64 │
+│ CONTRIBUTIONS ..... 1008    FOLLOWERS ..........    2 │
+│ UPLINK AGE ........   42 DAYS │
+│ SIGNAL HASH ....... 2F2E71   SIGNAL ......... ##########=.....  71%  PHASE 01 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -282,16 +282,16 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 987
-REPOSITORIES ....... 53
+CONTRIBUTIONS ...... 1008
+REPOSITORIES ....... 64
 FOLLOWERS .......... 2
 COLLECTED STARS .... 9
-BROADCASTING FOR ... 41 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 42 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  Nortaq-PlayNexus             PUSHED 2026-09-10
-  osmp                         PUSHED 2026-09-09
-  playnexus-sovereign-meta-agent PUSHED 2026-09-07
+  orion-sentinel-ai            PUSHED 2026-09-11
+  Nortaq-PlayNexus             PUSHED 2026-09-11
+  counter-intel                PUSHED 2026-09-10
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -308,19 +308,34 @@ COFFEE ........ REQUIRED
 ```
 
 <details>
-  <summary><code>CASES:// RAW ARCHIVE INDEX -- 53 FILES</code></summary>
+  <summary><code>CASES:// RAW ARCHIVE INDEX -- 64 FILES</code></summary>
 
 ```text
+  orion-sentinel-ai                JavaScript   *1
   Nortaq-PlayNexus                 TypeScript   *0
+  counter-intel                    -            *0
+  hwid-sentinel                    -            *0
+  rust-voice-booster               -            *0
+  ark-ini-manager                  -            *0
+  ark-erge-loader                  -            *0
+  deepventure                      -            *0
+  zero-day-exploit                 -            *0
+  911-investigation                -            *0
+  better_bing_image_downloader     Python       *0
+  reports                          Shell        *0
+  dark-web-monitoring              Python       *0
+  sovereign-training               -            *0
+  playnexus-musicvidforge          Python       *0
+  swarmforge                       Python       *0
+  forge                            Python       *0
+  archive-07                       -            *0
+  ProjectPhoenix                   C#           *0
   osmp                             TypeScript   *0
   playnexus-sovereign-meta-agent   Python       *0
-  archive-07                       -            *0
   TerrorFibercraft-Admin           Python       *0
   phantom                          Python       *0
   earth-globe                      Python       *0
-  ProjectPhoenix                   C#           *0
   dj-festival-audio-polisher       Python       *0
-  playnexus-musicvidforge          Python       *0
   ArkNexusX                        Rust         *0
   sonic-facility                   Python       *1
   cto                              Python       *0
@@ -331,19 +346,15 @@ COFFEE ........ REQUIRED
   PlayNexus-Foundry                TypeScript   *0
   sentinel                         Python       *0
   SecureVault                      C#           *0
-  swarmforge                       Python       *0
   nexus-agent-x                    Python       *0
-  forge                            Python       *0
-  orion-sentinel-ai                JavaScript   *1
   synthesis-dj                     JavaScript   *0
   heart                            Python       *0
   promoforge                       Rust         *0
   FreeStack                        Python       *1
-  nasa-investigation               HTML         *2
   aurora-audio-engine              Rust         *1
+  nasa-investigation               HTML         *2
   color_quant                      -            *0
   envoy-proxy-crowdsec-bouncer     Go           *0
-  better_bing_image_downloader     Python       *0
   agency-swarm                     Python       *0
   ark-arena-architect              TypeScript   *0
   sqlalchemy-history               Python       *0
@@ -367,7 +378,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20260910 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20260911 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -386,7 +397,7 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ║       PHANTOMTAPE SIGNAL WEATHER     ║
 ╠══════════════════════════════════════╣
 ║                                      ║
-║  ACTIVITY       ███████░░░░░   65%    ║
+║  ACTIVITY       ████████░░░░   67%    ║
 ║  MOMENTUM       ████████████  100%    ║
 ║  BUILD PRESSURE ████████████  100%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
@@ -401,24 +412,24 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ```
 PHANTOMTAPE TECHNOLOGY GENOME
 
-Python         ████████████████████  27
+Python         ████████████████████  28
 TypeScript     ███░░░░░░░░░░░░░░░░░  5
 JavaScript     ██░░░░░░░░░░░░░░░░░░  4
 C#             ██░░░░░░░░░░░░░░░░░░  3
 Rust           ██░░░░░░░░░░░░░░░░░░  3
 HTML           █░░░░░░░░░░░░░░░░░░░  2
+Shell          ░░░░░░░░░░░░░░░░░░░░  1
 Go             ░░░░░░░░░░░░░░░░░░░░  1
-PHP            ░░░░░░░░░░░░░░░░░░░░  1
 
 DOMAIN GENOME
 
-AI             ████████████████████  14
-AUDIO          ████████████░░░░░░░░  9
-LANG           ███████████░░░░░░░░░  8
-SYSTEMS        ██████████░░░░░░░░░░  7
-EARTH          █████░░░░░░░░░░░░░░░  4
-DATA           █████░░░░░░░░░░░░░░░  4
-GAMING         ████░░░░░░░░░░░░░░░░  3
+AI             ████████████████████  19
+AUDIO          ██████████░░░░░░░░░░  10
+LANG           ████████░░░░░░░░░░░░  8
+GAMING         ███████░░░░░░░░░░░░░  7
+SYSTEMS        ███████░░░░░░░░░░░░░  7
+DATA           █████░░░░░░░░░░░░░░░  5
+EARTH          ████░░░░░░░░░░░░░░░░  4
 OTHER          ██░░░░░░░░░░░░░░░░░░  2
 WEB            ██░░░░░░░░░░░░░░░░░░  2
 ```
@@ -432,10 +443,26 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ ORION-SENTINEL-AI                     │
+│                                          │
+│ Enterprise-grade planetary intelligence platform - c│
+│                                          │
+│ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 12  │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -448,7 +475,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AI-ART · AUDIO-ANALYSIS · BPM-DETECTION · MUSIC│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/sonic-facility]                        │
@@ -464,26 +491,10 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ DATA-COLLECTION · FORENSICS · INVESTIGATION · RESEARCH│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aether-facility]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ ORION-SENTINEL-AI                     │
-│                                          │
-│ Enterprise-grade planetary intelligence platform - c│
-│                                          │
-│ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS ████████░░  85%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -496,7 +507,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · CLOUDFLARE-WORKERS · DEVOPS · FREE-STACK│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/FreeStack]                        │
@@ -512,7 +523,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
@@ -521,31 +532,31 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260910
+20260911
 
-NEW REPOSITORIES ........ 53
-CONTRIBUTIONS (YR) ...... 987
-REPOSITORIES ............ 53
-LANGUAGES ............... 8
+NEW REPOSITORIES ........ 64
+CONTRIBUTIONS (YR) ...... 1008
+REPOSITORIES ............ 64
+LANGUAGES ............... 9
 TOTAL STARS ............. 9
 
 MOST ACTIVE (7 DAYS):
-  01 Nortaq-PlayNexus               0d ago
-  02 osmp                           0d ago
-  03 playnexus-sovereign-meta-agent 2d ago
-  04 archive-07                     2d ago
-  05 TerrorFibercraft-Admin         2d ago
+  01 orion-sentinel-ai              0d ago
+  02 Nortaq-PlayNexus               0d ago
+  03 counter-intel                  0d ago
+  04 hwid-sentinel                  0d ago
+  05 rust-voice-booster             0d ago
 
 SIGNAL WEATHER:
-  ACTIVITY       ███████░░░░░  65%
+  ACTIVITY       ████████░░░░  67%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] pygeofilter -- no activity for 39 days
+  [!] pygeofilter -- no activity for 40 days
 
 FORECAST:
   HIGH development activity
-  50 repositories active in last 14 days
+  61 repositories active in last 14 days
 
 ```
 
@@ -561,7 +572,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20260910  ║
+║ LAST AUDIT          20260911  ║
 ╚════════════════════════════════╝
 ```
 
@@ -582,7 +593,7 @@ FORECAST:
 ╰────────────────────────────────╯
 
 ```
-  2026 ───── C#, Go, HTML, JavaScript, PHP, Python, Rust, TypeScript
+  2026 ───── C#, Go, HTML, JavaScript, PHP, Python, Rust, Shell, TypeScript
              │
              ▼
         CURRENT STACK
@@ -591,10 +602,10 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +23 repositories modified
-  +987 contributions (rolling year)
-  +53 new experiments this year
-  +53 total transmissions
+  +36 repositories modified
+  +1008 contributions (rolling year)
+  +64 new experiments this year
+  +64 total transmissions
 
   The machine did not sleep.
 ```
@@ -607,13 +618,13 @@ PROJECT LIFECYCLE
     ├─ python-hid-parser
     ├─ pygeofilter
 
-  ACTIVE (50)
+  ACTIVE (61)
+    ├─ orion-sentinel-ai
     ├─ Nortaq-PlayNexus
-    ├─ osmp
-    ├─ playnexus-sovereign-meta-agent
-    ├─ archive-07
-    ├─ TerrorFibercraft-Admin
-    └─ ... +45 more
+    ├─ counter-intel
+    ├─ hwid-sentinel
+    ├─ rust-voice-booster
+    └─ ... +56 more
 
 ```
 
