@@ -110,19 +110,19 @@
 <text x="52" y="805" fill="#E8E8E8" font-size="9">promoforge</text>
 <text x="660" y="805" fill="#8A8A8A" font-size="9">Rust</text>
 <line x1="40" y1="808" x2="40" y2="830" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="830" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="830" r="3" fill="#FFC430"/>
 <text x="52" y="833" fill="#E8E8E8" font-size="9">agency-swarm</text>
 <text x="660" y="833" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="836" x2="40" y2="858" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="858" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="858" r="3" fill="#FFC430"/>
 <text x="52" y="861" fill="#E8E8E8" font-size="9">register</text>
 <text x="660" y="861" fill="#8A8A8A" font-size="9">JavaScript</text>
 <line x1="40" y1="864" x2="40" y2="886" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="886" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="886" r="3" fill="#FFC430"/>
 <text x="52" y="889" fill="#E8E8E8" font-size="9">hexstrike-ai</text>
 <text x="660" y="889" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="892" x2="40" y2="914" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="914" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="914" r="3" fill="#FFC430"/>
 <text x="52" y="917" fill="#E8E8E8" font-size="9">Brainarr</text>
 <text x="660" y="917" fill="#8A8A8A" font-size="9">C#</text>
 <line x1="40" y1="920" x2="40" y2="942" stroke="#00E5FF" stroke-width="1" stroke-dasharray="3,3"/>
@@ -168,7 +168,7 @@
 <text x="52" y="1225" fill="#E8E8E8" font-size="9">nasa-investigation</text>
 <text x="660" y="1225" fill="#8A8A8A" font-size="9">HTML</text>
 <line x1="40" y1="1228" x2="40" y2="1250" stroke="#FFC430" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1250" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1250" r="3" fill="#FFC430"/>
 <text x="52" y="1253" fill="#E8E8E8" font-size="9">meteofrance-api</text>
 <text x="660" y="1253" fill="#8A8A8A" font-size="9">?</text>
 <line x1="40" y1="1256" x2="40" y2="1278" stroke="#FFC430" stroke-width="1" opacity="0.4"/>
@@ -199,7 +199,7 @@
 <text x="52" y="1449" fill="#E8E8E8" font-size="9">TerrorFibercraft-Admin</text>
 <text x="660" y="1449" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1452" x2="40" y2="1474" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1474" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1474" r="3" fill="#FFC430"/>
 <text x="52" y="1477" fill="#E8E8E8" font-size="9">ark-arena-architect</text>
 <text x="660" y="1477" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="1480" x2="40" y2="1502" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
@@ -222,7 +222,7 @@
 <text x="52" y="1617" fill="#E8E8E8" font-size="9">aether-facility</text>
 <text x="660" y="1617" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1620" x2="40" y2="1642" stroke="#9B59B6" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1642" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1642" r="3" fill="#FFC430"/>
 <text x="52" y="1645" fill="#E8E8E8" font-size="9">sqlalchemy-history</text>
 <text x="660" y="1645" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1648" x2="40" y2="1670" stroke="#9B59B6" stroke-width="1" opacity="0.4"/>
@@ -233,11 +233,11 @@
 <circle cx="40" cy="1698" r="5" fill="#3498DB"/>
 <text x="52" y="1702" fill="#3498DB" font-size="11" font-weight="bold">> WEB (2)</text>
 <line x1="40" y1="1704" x2="40" y2="1726" stroke="#3498DB" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1726" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1726" r="3" fill="#FFC430"/>
 <text x="52" y="1729" fill="#E8E8E8" font-size="9">Scaffold</text>
 <text x="660" y="1729" fill="#8A8A8A" font-size="9">PHP</text>
 <line x1="40" y1="1732" x2="40" y2="1754" stroke="#3498DB" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1754" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1754" r="3" fill="#FFC430"/>
 <text x="52" y="1757" fill="#E8E8E8" font-size="9">web-widgets</text>
 <text x="660" y="1757" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="1760" x2="40" y2="1782" stroke="#E8E8E8" stroke-width="1" stroke-dasharray="3,3"/>
@@ -252,19 +252,19 @@
 <text x="52" y="1841" fill="#E8E8E8" font-size="9">color_quant</text>
 <text x="660" y="1841" fill="#8A8A8A" font-size="9">?</text>
 <line x1="40" y1="1844" x2="40" y2="1866" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1866" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1866" r="3" fill="#FFC430"/>
 <text x="52" y="1869" fill="#E8E8E8" font-size="9">recovar</text>
 <text x="660" y="1869" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1872" x2="40" y2="1894" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1894" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1894" r="3" fill="#FFC430"/>
 <text x="52" y="1897" fill="#E8E8E8" font-size="9">fusil</text>
 <text x="660" y="1897" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1900" x2="40" y2="1922" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1922" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1922" r="3" fill="#FFC430"/>
 <text x="52" y="1925" fill="#E8E8E8" font-size="9">pdb-addr2line</text>
 <text x="660" y="1925" fill="#8A8A8A" font-size="9">?</text>
 <line x1="40" y1="1928" x2="40" y2="1950" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1950" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1950" r="3" fill="#FFC430"/>
 <text x="52" y="1953" fill="#E8E8E8" font-size="9">myskoda</text>
 <text x="660" y="1953" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1956" x2="40" y2="1978" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>

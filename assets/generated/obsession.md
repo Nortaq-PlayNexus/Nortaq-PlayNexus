@@ -9,7 +9,7 @@
 │  Rust                          │
 │  #python                       │
 │  #ai                           │
-│  #rust                         │
+│  #open-source                  │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯

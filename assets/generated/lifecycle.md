@@ -1,17 +1,19 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (3)
+  PROTOTYPE (5)
+    ├─ Starminder
+    ├─ RustVoiceBooster
     ├─ cookiecutter-wagtail-vix
     ├─ python-hid-parser
     ├─ pygeofilter
 
-  ACTIVE (61)
-    ├─ orion-sentinel-ai
+  ACTIVE (59)
     ├─ Nortaq-PlayNexus
+    ├─ orion-sentinel-ai
     ├─ counter-intel
     ├─ hwid-sentinel
     ├─ rust-voice-booster
-    └─ ... +56 more
+    └─ ... +54 more
 
 ```

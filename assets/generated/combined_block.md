@@ -51,7 +51,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  82%     │
+│ STATUS ███████░░░  79%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -67,7 +67,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 12  │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
@@ -83,7 +83,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AI-ART · AUDIO-ANALYSIS · BPM-DETECTION · MUSIC│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/sonic-facility]                        │
@@ -99,7 +99,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ DATA-COLLECTION · FORENSICS · INVESTIGATION · RESEARCH│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aether-facility]                        │
@@ -115,7 +115,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · CLOUDFLARE-WORKERS · DEVOPS · FREE-STACK│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  82%     │
+│ STATUS ███████░░░  79%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/FreeStack]                        │
@@ -131,7 +131,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ████████░░  82%     │
+│ STATUS ███████░░░  79%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
@@ -140,7 +140,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260911
+20260912
 
 NEW REPOSITORIES ........ 64
 CONTRIBUTIONS (YR) ...... 1008
@@ -149,22 +149,23 @@ LANGUAGES ............... 9
 TOTAL STARS ............. 9
 
 MOST ACTIVE (7 DAYS):
-  01 orion-sentinel-ai              0d ago
-  02 Nortaq-PlayNexus               0d ago
-  03 counter-intel                  0d ago
-  04 hwid-sentinel                  0d ago
-  05 rust-voice-booster             0d ago
+  01 Nortaq-PlayNexus               0d ago
+  02 orion-sentinel-ai              1d ago
+  03 counter-intel                  1d ago
+  04 hwid-sentinel                  1d ago
+  05 rust-voice-booster             1d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  67%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] pygeofilter -- no activity for 40 days
+  [!] python-hid-parser -- no activity for 31 days
+  [!] pygeofilter -- no activity for 41 days
 
 FORECAST:
   HIGH development activity
-  61 repositories active in last 14 days
+  59 repositories active in last 14 days
 
 ```
 
@@ -180,7 +181,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20260911  ║
+║ LAST AUDIT          20260912  ║
 ╚════════════════════════════════╝
 ```
 
@@ -195,7 +196,7 @@ FORECAST:
 │  Rust                          │
 │  #python                       │
 │  #ai                           │
-│  #rust                         │
+│  #open-source                  │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
@@ -210,7 +211,7 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +36 repositories modified
+  +20 repositories modified
   +1008 contributions (rolling year)
   +64 new experiments this year
   +64 total transmissions
@@ -221,18 +222,20 @@ WHILE YOU WERE AWAY...
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (3)
+  PROTOTYPE (5)
+    ├─ Starminder
+    ├─ RustVoiceBooster
     ├─ cookiecutter-wagtail-vix
     ├─ python-hid-parser
     ├─ pygeofilter
 
-  ACTIVE (61)
-    ├─ orion-sentinel-ai
+  ACTIVE (59)
     ├─ Nortaq-PlayNexus
+    ├─ orion-sentinel-ai
     ├─ counter-intel
     ├─ hwid-sentinel
     ├─ rust-voice-booster
-    └─ ... +56 more
+    └─ ... +54 more
 
 ```
 
