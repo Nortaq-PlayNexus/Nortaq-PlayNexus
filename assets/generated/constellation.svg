@@ -31,11 +31,11 @@
 <text x="52" y="245" fill="#E8E8E8" font-size="9">sonic-facility</text>
 <text x="660" y="245" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="248" x2="40" y2="270" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="270" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="270" r="3" fill="#FFC430"/>
 <text x="52" y="273" fill="#E8E8E8" font-size="9">synthesis-dj</text>
 <text x="660" y="273" fill="#8A8A8A" font-size="9">JavaScript</text>
 <line x1="40" y1="276" x2="40" y2="298" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="298" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="298" r="3" fill="#FFC430"/>
 <text x="52" y="301" fill="#E8E8E8" font-size="9">aurora-audio-engine</text>
 <text x="660" y="301" fill="#8A8A8A" font-size="9">Rust</text>
 <line x1="40" y1="304" x2="40" y2="326" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
@@ -43,7 +43,7 @@
 <text x="52" y="329" fill="#E8E8E8" font-size="9">RustVoiceBooster</text>
 <text x="660" y="329" fill="#8A8A8A" font-size="9">JavaScript</text>
 <line x1="40" y1="332" x2="40" y2="354" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="354" r="3" fill="#FFC430"/>
+<circle cx="40" cy="354" r="3" fill="#8A8A8A"/>
 <text x="52" y="357" fill="#E8E8E8" font-size="9">cookiecutter-wagtail-vix</text>
 <text x="660" y="357" fill="#8A8A8A" font-size="9">?</text>
 <line x1="40" y1="360" x2="40" y2="382" stroke="#B8FF1E" stroke-width="1" stroke-dasharray="3,3"/>
@@ -102,11 +102,11 @@
 <text x="52" y="749" fill="#E8E8E8" font-size="9">nexus-agent-x</text>
 <text x="660" y="749" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="752" x2="40" y2="774" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="774" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="774" r="3" fill="#FFC430"/>
 <text x="52" y="777" fill="#E8E8E8" font-size="9">heart</text>
 <text x="660" y="777" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="780" x2="40" y2="802" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="802" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="802" r="3" fill="#FFC430"/>
 <text x="52" y="805" fill="#E8E8E8" font-size="9">promoforge</text>
 <text x="660" y="805" fill="#8A8A8A" font-size="9">Rust</text>
 <line x1="40" y1="808" x2="40" y2="830" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
@@ -149,11 +149,11 @@
 <text x="52" y="1085" fill="#E8E8E8" font-size="9">SecureVault</text>
 <text x="660" y="1085" fill="#8A8A8A" font-size="9">C#</text>
 <line x1="40" y1="1088" x2="40" y2="1110" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1110" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1110" r="3" fill="#FFC430"/>
 <text x="52" y="1113" fill="#E8E8E8" font-size="9">FreeStack</text>
 <text x="660" y="1113" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1116" x2="40" y2="1138" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1138" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1138" r="3" fill="#FFC430"/>
 <text x="52" y="1141" fill="#E8E8E8" font-size="9">envoy-proxy-crowdsec-bouncer</text>
 <text x="660" y="1141" fill="#8A8A8A" font-size="9">Go</text>
 <line x1="40" y1="1144" x2="40" y2="1166" stroke="#FFC430" stroke-width="1" stroke-dasharray="3,3"/>
@@ -164,7 +164,7 @@
 <text x="52" y="1197" fill="#E8E8E8" font-size="9">earth-globe</text>
 <text x="660" y="1197" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1200" x2="40" y2="1222" stroke="#FFC430" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1222" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1222" r="3" fill="#FFC430"/>
 <text x="52" y="1225" fill="#E8E8E8" font-size="9">nasa-investigation</text>
 <text x="660" y="1225" fill="#8A8A8A" font-size="9">HTML</text>
 <line x1="40" y1="1228" x2="40" y2="1250" stroke="#FFC430" stroke-width="1" opacity="0.4"/>
@@ -248,7 +248,7 @@
 <text x="52" y="1813" fill="#E8E8E8" font-size="9">osmp</text>
 <text x="660" y="1813" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="1816" x2="40" y2="1838" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1838" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1838" r="3" fill="#FFC430"/>
 <text x="52" y="1841" fill="#E8E8E8" font-size="9">color_quant</text>
 <text x="660" y="1841" fill="#8A8A8A" font-size="9">?</text>
 <line x1="40" y1="1844" x2="40" y2="1866" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
