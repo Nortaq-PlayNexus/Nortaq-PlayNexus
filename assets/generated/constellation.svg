@@ -130,24 +130,24 @@
 <text x="52" y="946" fill="#00E5FF" font-size="11" font-weight="bold"># SYSTEMS (7)</text>
 <line x1="40" y1="948" x2="40" y2="970" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="970" r="3" fill="#B8FF1E"/>
-<text x="52" y="973" fill="#E8E8E8" font-size="9">forge</text>
-<text x="660" y="973" fill="#8A8A8A" font-size="9">Python</text>
+<text x="52" y="973" fill="#E8E8E8" font-size="9">SecureVault</text>
+<text x="660" y="973" fill="#8A8A8A" font-size="9">C#</text>
 <line x1="40" y1="976" x2="40" y2="998" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="998" r="3" fill="#B8FF1E"/>
-<text x="52" y="1001" fill="#E8E8E8" font-size="9">cto</text>
+<text x="52" y="1001" fill="#E8E8E8" font-size="9">forge</text>
 <text x="660" y="1001" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1004" x2="40" y2="1026" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="1026" r="3" fill="#B8FF1E"/>
-<text x="52" y="1029" fill="#E8E8E8" font-size="9">archon</text>
+<text x="52" y="1029" fill="#E8E8E8" font-size="9">cto</text>
 <text x="660" y="1029" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1032" x2="40" y2="1054" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="1054" r="3" fill="#B8FF1E"/>
-<text x="52" y="1057" fill="#E8E8E8" font-size="9">PlayNexus-Foundry</text>
-<text x="660" y="1057" fill="#8A8A8A" font-size="9">TypeScript</text>
+<text x="52" y="1057" fill="#E8E8E8" font-size="9">archon</text>
+<text x="660" y="1057" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1060" x2="40" y2="1082" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="1082" r="3" fill="#B8FF1E"/>
-<text x="52" y="1085" fill="#E8E8E8" font-size="9">SecureVault</text>
-<text x="660" y="1085" fill="#8A8A8A" font-size="9">C#</text>
+<text x="52" y="1085" fill="#E8E8E8" font-size="9">PlayNexus-Foundry</text>
+<text x="660" y="1085" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="1088" x2="40" y2="1110" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="1110" r="3" fill="#FFC430"/>
 <text x="52" y="1113" fill="#E8E8E8" font-size="9">FreeStack</text>
