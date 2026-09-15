@@ -4,12 +4,12 @@
 │
 │  Python                        │
 │  TypeScript                    │
+│  Rust                          │
 │  C#                            │
 │  JavaScript                    │
-│  Rust                          │
 │  #python                       │
 │  #ai                           │
-│  #open-source                  │
+│  #rust                         │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯

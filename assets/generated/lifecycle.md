@@ -10,11 +10,11 @@ PROJECT LIFECYCLE
     └─ ... +1 more
 
   ACTIVE (58)
-    ├─ SecureVault
     ├─ Nortaq-PlayNexus
+    ├─ aurora-audio-engine
+    ├─ SecureVault
     ├─ orion-sentinel-ai
     ├─ counter-intel
-    ├─ hwid-sentinel
     └─ ... +53 more
 
 ```
