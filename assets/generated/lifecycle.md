@@ -10,11 +10,11 @@ PROJECT LIFECYCLE
     └─ ... +1 more
 
   ACTIVE (58)
+    ├─ playnexus-musicvidforge
     ├─ Nortaq-PlayNexus
+    ├─ osmp
     ├─ aurora-audio-engine
     ├─ SecureVault
-    ├─ orion-sentinel-ai
-    ├─ counter-intel
     └─ ... +53 more
 
 ```

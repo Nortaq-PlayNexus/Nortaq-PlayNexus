@@ -7,7 +7,7 @@
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ██████░░░░  67%     │
+│ STATUS ██████░░░░  64%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -23,7 +23,7 @@
 │ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
@@ -39,7 +39,7 @@
 │ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 12  │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
@@ -55,7 +55,7 @@
 │ AI-ART · AUDIO-ANALYSIS · BPM-DETECTION · MUSIC│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  73%     │
+│ STATUS ███████░░░  70%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/sonic-facility]                        │
@@ -71,7 +71,7 @@
 │ DATA-COLLECTION · FORENSICS · INVESTIGATION · RESEARCH│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  73%     │
+│ STATUS ███████░░░  70%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aether-facility]                        │
@@ -80,16 +80,16 @@
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ NORTAQ-PLAYNEXUS                      │
+│ ◉ PLAYNEXUS-MUSICVIDFORGE               │
 │                                          │
-│ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
+│ MusicVidForge - turn any song into a beat-synced mus│
 │                                          │
-│ AUDIO                                   │
+│ AI · AUDIO · BEAT-DETECTION · FFMPEG    │
 │                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
+│ STARS  0     FORKS  0     ISSUES 8   │
 │ STATUS ██████████ 100%     │
 │ MATURITY ██░░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/Nortaq-PlayNexus]                        │
+│ [https://github.com/Nortaq-PlayNexus/playnexus-musicvidforge]                        │
 ╰──────────────────────────────────────────╯
 ```
