@@ -1,5 +1,21 @@
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ ORION-SENTINEL-AI                     │
+│                                          │
+│ Enterprise-grade planetary intelligence platform - c│
+│                                          │
+│ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 13  │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ NASA-INVESTIGATION                    │
 │                                          │
 │ Exclusive anomaly detection pipeline for NASA HiRISE│
@@ -7,7 +23,7 @@
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ██████░░░░  64%     │
+│ STATUS ██████░░░░  61%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -23,7 +39,7 @@
 │ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
@@ -32,17 +48,17 @@
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ ORION-SENTINEL-AI                     │
+│ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
-│ Enterprise-grade planetary intelligence platform - c│
+│ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
 │                                          │
-│ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
+│ AUDIO                                   │
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 12  │
-│ STATUS ████████░░  82%     │
-│ MATURITY ███░░░░░░░            │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
+│ [https://github.com/Nortaq-PlayNexus/Nortaq-PlayNexus]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -55,7 +71,7 @@
 │ AI-ART · AUDIO-ANALYSIS · BPM-DETECTION · MUSIC│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  70%     │
+│ STATUS ██████░░░░  67%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/sonic-facility]                        │
@@ -71,25 +87,9 @@
 │ DATA-COLLECTION · FORENSICS · INVESTIGATION · RESEARCH│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  70%     │
+│ STATUS ██████░░░░  67%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aether-facility]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ PLAYNEXUS-MUSICVIDFORGE               │
-│                                          │
-│ MusicVidForge - turn any song into a beat-synced mus│
-│                                          │
-│ AI · AUDIO · BEAT-DETECTION · FFMPEG    │
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 8   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/playnexus-musicvidforge]                        │
 ╰──────────────────────────────────────────╯
 ```
