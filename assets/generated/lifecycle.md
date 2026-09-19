@@ -10,8 +10,8 @@ PROJECT LIFECYCLE
     └─ ... +2 more
 
   ACTIVE (57)
-    ├─ orion-sentinel-ai
     ├─ Nortaq-PlayNexus
+    ├─ orion-sentinel-ai
     ├─ playnexus-musicvidforge
     ├─ osmp
     ├─ aurora-audio-engine
