@@ -1,20 +1,20 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (7)
-    ├─ terrorfibercraftark
-    ├─ resourcegather
-    ├─ Starminder
-    ├─ RustVoiceBooster
-    ├─ cookiecutter-wagtail-vix
-    └─ ... +2 more
+  PROTOTYPE (20)
+    ├─ agency-swarm
+    ├─ ark-arena-architect
+    ├─ sqlalchemy-history
+    ├─ register
+    ├─ hexstrike-ai
+    └─ ... +15 more
 
-  ACTIVE (57)
+  ACTIVE (45)
     ├─ Nortaq-PlayNexus
+    ├─ EXP-0007
     ├─ orion-sentinel-ai
     ├─ playnexus-musicvidforge
     ├─ osmp
-    ├─ aurora-audio-engine
-    └─ ... +52 more
+    └─ ... +40 more
 
 ```
