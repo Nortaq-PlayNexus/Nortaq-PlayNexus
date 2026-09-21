@@ -5,8 +5,8 @@
 │  Python                        │
 │  TypeScript                    │
 │  Rust                          │
-│  JavaScript                    │
 │  C#                            │
+│  JavaScript                    │
 │  #python                       │
 │  #ai                           │
 │  #open-source                  │

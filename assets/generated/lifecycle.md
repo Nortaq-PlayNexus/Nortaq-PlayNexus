@@ -1,20 +1,20 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (20)
-    ├─ agency-swarm
-    ├─ ark-arena-architect
-    ├─ sqlalchemy-history
-    ├─ register
-    ├─ hexstrike-ai
-    └─ ... +15 more
+  PROTOTYPE (27)
+    ├─ synthesis-dj
+    ├─ heart
+    ├─ FreeStack
+    ├─ promoforge
+    ├─ nasa-investigation
+    └─ ... +22 more
 
-  ACTIVE (45)
+  ACTIVE (38)
     ├─ Nortaq-PlayNexus
     ├─ EXP-0007
     ├─ orion-sentinel-ai
     ├─ playnexus-musicvidforge
     ├─ osmp
-    └─ ... +40 more
+    └─ ... +33 more
 
 ```
