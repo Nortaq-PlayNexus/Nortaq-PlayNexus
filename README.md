@@ -272,8 +272,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   65 │
 │ CONTRIBUTIONS ..... 1009    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   52 DAYS │
-│ SIGNAL HASH ....... E3423C   SIGNAL ......... #########=......  68%  PHASE 04 │
+│ UPLINK AGE ........   53 DAYS │
+│ SIGNAL HASH ....... C31A39   SIGNAL ......... ##########=.....  73%  PHASE 01 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -286,10 +286,10 @@ CONTRIBUTIONS ...... 1009
 REPOSITORIES ....... 65
 FOLLOWERS .......... 2
 COLLECTED STARS .... 10
-BROADCASTING FOR ... 52 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 53 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  Nortaq-PlayNexus             PUSHED 2026-09-21
+  Nortaq-PlayNexus             PUSHED 2026-09-22
   EXP-0007                     PUSHED 2026-09-20
   orion-sentinel-ai            PUSHED 2026-09-18
 
@@ -379,7 +379,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20260921 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20260922 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -399,8 +399,8 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ╠══════════════════════════════════════╣
 ║                                      ║
 ║  ACTIVITY       ████████░░░░   67%    ║
-║  MOMENTUM       ██████████░░   84%    ║
-║  BUILD PRESSURE ██████████░░   86%    ║
+║  MOMENTUM       ████████░░░░   72%    ║
+║  BUILD PRESSURE █████████░░░   78%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
 ║  FORECAST                             ║
@@ -444,7 +444,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ OTHER                                   │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -460,7 +460,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 13  │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
@@ -476,7 +476,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS █████░░░░░  52%     │
+│ STATUS ████░░░░░░  49%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -492,7 +492,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ███████░░░  79%     │
+│ STATUS ███████░░░  76%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
@@ -524,7 +524,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AI-ART · AUDIO-ANALYSIS · BPM-DETECTION · MUSIC│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████░░░░░  58%     │
+│ STATUS █████░░░░░  55%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/sonic-facility]                        │
@@ -533,7 +533,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260921
+20260922
 
 NEW REPOSITORIES ........ 65
 CONTRIBUTIONS (YR) ...... 1009
@@ -543,19 +543,19 @@ TOTAL STARS ............. 10
 
 MOST ACTIVE (7 DAYS):
   01 Nortaq-PlayNexus               0d ago
-  02 EXP-0007                       0d ago
-  03 orion-sentinel-ai              3d ago
-  04 playnexus-musicvidforge        4d ago
-  05 osmp                           4d ago
+  02 EXP-0007                       1d ago
+  03 orion-sentinel-ai              4d ago
+  04 playnexus-musicvidforge        5d ago
+  05 osmp                           5d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  67%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] cookiecutter-wagtail-vix -- no activity for 39 days
-  [!] python-hid-parser -- no activity for 40 days
-  [!] pygeofilter -- no activity for 50 days
+  [!] cookiecutter-wagtail-vix -- no activity for 40 days
+  [!] python-hid-parser -- no activity for 41 days
+  [!] pygeofilter -- no activity for 51 days
 
 FORECAST:
   HIGH development activity
@@ -575,7 +575,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20260921  ║
+║ LAST AUDIT          20260922  ║
 ╚════════════════════════════════╝
 ```
 
@@ -605,7 +605,7 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +3 repositories modified
+  +2 repositories modified
   +1009 contributions (rolling year)
   +65 new experiments this year
   +65 total transmissions
