@@ -1,20 +1,20 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (27)
-    ├─ synthesis-dj
-    ├─ heart
-    ├─ FreeStack
-    ├─ promoforge
-    ├─ nasa-investigation
-    └─ ... +22 more
+  PROTOTYPE (42)
+    ├─ playnexus-sovereign-meta-agent
+    ├─ TerrorFibercraft-Admin
+    ├─ phantom
+    ├─ earth-globe
+    ├─ dj-festival-audio-polisher
+    └─ ... +37 more
 
-  ACTIVE (38)
+  ACTIVE (24)
+    ├─ phantom_vision_lab
     ├─ Nortaq-PlayNexus
     ├─ EXP-0007
     ├─ orion-sentinel-ai
     ├─ playnexus-musicvidforge
-    ├─ osmp
-    └─ ... +33 more
+    └─ ... +19 more
 
 ```
