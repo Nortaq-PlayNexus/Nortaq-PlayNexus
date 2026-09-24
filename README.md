@@ -272,8 +272,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   66 │
 │ CONTRIBUTIONS ..... 1010    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   54 DAYS │
-│ SIGNAL HASH ....... 323B56   SIGNAL ......... ###########=....  80%  PHASE 06 │
+│ UPLINK AGE ........   55 DAYS │
+│ SIGNAL HASH ....... 4A25D6   SIGNAL ......... #######=........  40%  PHASE 06 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -286,12 +286,12 @@ CONTRIBUTIONS ...... 1010
 REPOSITORIES ....... 66
 FOLLOWERS .......... 2
 COLLECTED STARS .... 10
-BROADCASTING FOR ... 54 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 55 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
+  Nortaq-PlayNexus             PUSHED 2026-09-24
+  osmp                         PUSHED 2026-09-23
   phantom_vision_lab           PUSHED 2026-09-23
-  Nortaq-PlayNexus             PUSHED 2026-09-23
-  EXP-0007                     PUSHED 2026-09-20
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -311,20 +311,20 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX -- 66 FILES</code></summary>
 
 ```text
-  phantom_vision_lab               Python       *0
   Nortaq-PlayNexus                 TypeScript   *0
+  osmp                             TypeScript   *0
+  phantom_vision_lab               Python       *0
   EXP-0007                         Python       *1
   orion-sentinel-ai                JavaScript   *1
   playnexus-musicvidforge          Python       *0
-  osmp                             TypeScript   *0
   aurora-audio-engine              Rust         *1
   SecureVault                      C#           *0
   counter-intel                    -            *0
   hwid-sentinel                    -            *0
   rust-voice-booster               -            *0
-  deepventure                      -            *0
-  ark-erge-loader                  -            *0
   ark-ini-manager                  -            *0
+  ark-erge-loader                  -            *0
+  deepventure                      -            *0
   zero-day-exploit                 -            *0
   911-investigation                -            *0
   better_bing_image_downloader     Python       *0
@@ -380,7 +380,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20260923 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20260924 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -445,7 +445,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ OTHER                                   │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -461,7 +461,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 13  │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
@@ -477,7 +477,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ████░░░░░░  46%     │
+│ STATUS ████░░░░░░  43%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -493,26 +493,10 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ███████░░░  73%     │
+│ STATUS ███████░░░  70%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ PHANTOM_VISION_LAB                    │
-│                                          │
-│ Computational research application simulating altere│
-│                                          │
-│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -532,9 +516,25 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 ╰──────────────────────────────────────────╯
 ```
 
+```
+╭──────────────────────────────────────────╮
+│ ◉ OSMP                                  │
+│                                          │
+│ Open Source Modernization Platform - an autonomous e│
+│                                          │
+│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│                                          │
+│ STARS  0     FORKS  0     ISSUES 9   │
+│ STATUS █████████░  97%     │
+│ MATURITY ██░░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+╰──────────────────────────────────────────╯
+```
+
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260923
+20260924
 
 NEW REPOSITORIES ........ 66
 CONTRIBUTIONS (YR) ...... 1010
@@ -543,20 +543,20 @@ LANGUAGES ............... 9
 TOTAL STARS ............. 10
 
 MOST ACTIVE (7 DAYS):
-  01 phantom_vision_lab             0d ago
-  02 Nortaq-PlayNexus               0d ago
-  03 EXP-0007                       2d ago
-  04 orion-sentinel-ai              5d ago
-  05 playnexus-musicvidforge        6d ago
+  01 Nortaq-PlayNexus               0d ago
+  02 osmp                           0d ago
+  03 phantom_vision_lab             1d ago
+  04 EXP-0007                       3d ago
+  05 orion-sentinel-ai              6d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  67%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] cookiecutter-wagtail-vix -- no activity for 41 days
-  [!] python-hid-parser -- no activity for 42 days
-  [!] pygeofilter -- no activity for 52 days
+  [!] cookiecutter-wagtail-vix -- no activity for 42 days
+  [!] python-hid-parser -- no activity for 43 days
+  [!] pygeofilter -- no activity for 53 days
 
 FORECAST:
   HIGH development activity
@@ -576,7 +576,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20260923  ║
+║ LAST AUDIT          20260924  ║
 ╚════════════════════════════════╝
 ```
 
@@ -590,8 +590,8 @@ FORECAST:
 │  JavaScript                    │
 │  Rust                          │
 │  #python                       │
-│  #ai                           │
 │  #open-source                  │
+│  #ai                           │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
@@ -606,7 +606,7 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +3 repositories modified
+  +4 repositories modified
   +1010 contributions (rolling year)
   +66 new experiments this year
   +66 total transmissions
@@ -626,11 +626,11 @@ PROJECT LIFECYCLE
     └─ ... +37 more
 
   ACTIVE (24)
-    ├─ phantom_vision_lab
     ├─ Nortaq-PlayNexus
+    ├─ osmp
+    ├─ phantom_vision_lab
     ├─ EXP-0007
     ├─ orion-sentinel-ai
-    ├─ playnexus-musicvidforge
     └─ ... +19 more
 
 ```
