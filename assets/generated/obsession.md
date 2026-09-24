@@ -8,8 +8,8 @@
 │  JavaScript                    │
 │  Rust                          │
 │  #python                       │
-│  #ai                           │
 │  #open-source                  │
+│  #ai                           │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
