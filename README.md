@@ -272,8 +272,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   66 │
 │ CONTRIBUTIONS ..... 1010    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   55 DAYS │
-│ SIGNAL HASH ....... 4A25D6   SIGNAL ......... #######=........  40%  PHASE 06 │
+│ UPLINK AGE ........   56 DAYS │
+│ SIGNAL HASH ....... C9ACDB   SIGNAL ......... ##########=.....  77%  PHASE 03 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -286,10 +286,10 @@ CONTRIBUTIONS ...... 1010
 REPOSITORIES ....... 66
 FOLLOWERS .......... 2
 COLLECTED STARS .... 10
-BROADCASTING FOR ... 55 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 56 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  Nortaq-PlayNexus             PUSHED 2026-09-24
+  Nortaq-PlayNexus             PUSHED 2026-09-25
   osmp                         PUSHED 2026-09-23
   phantom_vision_lab           PUSHED 2026-09-23
 
@@ -380,7 +380,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20260924 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20260925 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -400,8 +400,8 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ╠══════════════════════════════════════╣
 ║                                      ║
 ║  ACTIVITY       ████████░░░░   67%    ║
-║  MOMENTUM       ████████░░░░   72%    ║
-║  BUILD PRESSURE █████████░░░   78%    ║
+║  MOMENTUM       ███████░░░░░   60%    ║
+║  BUILD PRESSURE ████████░░░░   70%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
 ║  FORECAST                             ║
@@ -445,7 +445,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ OTHER                                   │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -461,7 +461,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 13  │
-│ STATUS ████████░░  82%     │
+│ STATUS ███████░░░  79%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
@@ -477,26 +477,10 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ████░░░░░░  43%     │
+│ STATUS ████░░░░░░  40%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ AURORA-AUDIO-ENGINE                   │
-│                                          │
-│ AURORA Audio Engine - ultra-low-latency virtual audi│
-│                                          │
-│ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ███████░░░  70%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -518,6 +502,22 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ AURORA-AUDIO-ENGINE                   │
+│                                          │
+│ AURORA Audio Engine - ultra-low-latency virtual audi│
+│                                          │
+│ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 6   │
+│ STATUS ██████░░░░  67%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ OSMP                                  │
 │                                          │
 │ Open Source Modernization Platform - an autonomous e│
@@ -525,7 +525,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 9   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ██░░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -534,7 +534,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260924
+20260925
 
 NEW REPOSITORIES ........ 66
 CONTRIBUTIONS (YR) ...... 1010
@@ -544,19 +544,19 @@ TOTAL STARS ............. 10
 
 MOST ACTIVE (7 DAYS):
   01 Nortaq-PlayNexus               0d ago
-  02 osmp                           0d ago
-  03 phantom_vision_lab             1d ago
-  04 EXP-0007                       3d ago
-  05 orion-sentinel-ai              6d ago
+  02 osmp                           1d ago
+  03 phantom_vision_lab             2d ago
+  04 EXP-0007                       4d ago
+  05 orion-sentinel-ai              7d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  67%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] cookiecutter-wagtail-vix -- no activity for 42 days
-  [!] python-hid-parser -- no activity for 43 days
-  [!] pygeofilter -- no activity for 53 days
+  [!] cookiecutter-wagtail-vix -- no activity for 43 days
+  [!] python-hid-parser -- no activity for 44 days
+  [!] pygeofilter -- no activity for 54 days
 
 FORECAST:
   HIGH development activity
@@ -576,7 +576,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20260924  ║
+║ LAST AUDIT          20260925  ║
 ╚════════════════════════════════╝
 ```
 
@@ -606,7 +606,7 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +4 repositories modified
+  +3 repositories modified
   +1010 contributions (rolling year)
   +66 new experiments this year
   +66 total transmissions
