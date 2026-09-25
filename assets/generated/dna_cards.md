@@ -7,7 +7,7 @@
 │ OTHER                                   │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -23,7 +23,7 @@
 │ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 13  │
-│ STATUS ████████░░  82%     │
+│ STATUS ███████░░░  79%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
@@ -39,26 +39,10 @@
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ████░░░░░░  43%     │
+│ STATUS ████░░░░░░  40%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ AURORA-AUDIO-ENGINE                   │
-│                                          │
-│ AURORA Audio Engine - ultra-low-latency virtual audi│
-│                                          │
-│ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ███████░░░  70%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -80,6 +64,22 @@
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ AURORA-AUDIO-ENGINE                   │
+│                                          │
+│ AURORA Audio Engine - ultra-low-latency virtual audi│
+│                                          │
+│ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 6   │
+│ STATUS ██████░░░░  67%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ OSMP                                  │
 │                                          │
 │ Open Source Modernization Platform - an autonomous e│
@@ -87,7 +87,7 @@
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 9   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ██░░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
