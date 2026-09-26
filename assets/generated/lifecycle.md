@@ -1,20 +1,20 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (42)
-    ├─ playnexus-sovereign-meta-agent
-    ├─ TerrorFibercraft-Admin
-    ├─ phantom
-    ├─ earth-globe
-    ├─ dj-festival-audio-polisher
-    └─ ... +37 more
+  PROTOTYPE (58)
+    ├─ counter-intel
+    ├─ hwid-sentinel
+    ├─ rust-voice-booster
+    ├─ deepventure
+    ├─ ark-erge-loader
+    └─ ... +53 more
 
-  ACTIVE (24)
+  ACTIVE (9)
+    ├─ alien-image-investigation
     ├─ Nortaq-PlayNexus
     ├─ osmp
     ├─ phantom_vision_lab
     ├─ EXP-0007
-    ├─ orion-sentinel-ai
-    └─ ... +19 more
+    └─ ... +4 more
 
 ```
