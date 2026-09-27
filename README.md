@@ -272,13 +272,13 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   67 │
 │ CONTRIBUTIONS ..... 1011    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   57 DAYS │
-│ SIGNAL HASH ....... 655897   SIGNAL ......... ########=.......  55%  PHASE 07 │
+│ UPLINK AGE ........   58 DAYS │
+│ SIGNAL HASH ....... 4D6464   SIGNAL ......... #########=......  62%  PHASE 04 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
-   ............................................==#-###--
+   ...........................................==#-###--.
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
@@ -286,11 +286,11 @@ CONTRIBUTIONS ...... 1011
 REPOSITORIES ....... 67
 FOLLOWERS .......... 2
 COLLECTED STARS .... 10
-BROADCASTING FOR ... 57 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 58 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
+  Nortaq-PlayNexus             PUSHED 2026-09-27
   alien-image-investigation    PUSHED 2026-09-26
-  Nortaq-PlayNexus             PUSHED 2026-09-26
   osmp                         PUSHED 2026-09-23
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
@@ -311,8 +311,8 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX -- 67 FILES</code></summary>
 
 ```text
-  alien-image-investigation        HTML         *0
   Nortaq-PlayNexus                 TypeScript   *0
+  alien-image-investigation        HTML         *0
   osmp                             TypeScript   *0
   phantom_vision_lab               Python       *0
   EXP-0007                         Python       *1
@@ -381,7 +381,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20260926 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20260927 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -446,7 +446,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ OTHER                                   │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  82%     │
+│ STATUS ███████░░░  79%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -462,26 +462,10 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 13  │
-│ STATUS ███████░░░  76%     │
+│ STATUS ███████░░░  73%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ ALIEN-IMAGE-INVESTIGATION             │
-│                                          │
-│ Source-traced audit of the alien-imagery question. N│
-│                                          │
-│ INVESTIGATIVE-JOURNALISM · OPEN-DATA · OSINT · PUBLIC-DOMAIN│
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/alien-image-investigation]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -503,6 +487,22 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ ALIEN-IMAGE-INVESTIGATION             │
+│                                          │
+│ Source-traced audit of the alien-imagery question. N│
+│                                          │
+│ INVESTIGATIVE-JOURNALISM · OPEN-DATA · OSINT · PUBLIC-DOMAIN│
+│                                          │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ██░░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/alien-image-investigation]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ NASA-INVESTIGATION                    │
 │                                          │
 │ Exclusive anomaly detection pipeline for NASA HiRISE│
@@ -510,7 +510,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ███░░░░░░░  37%     │
+│ STATUS ███░░░░░░░  34%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -526,7 +526,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ██████░░░░  64%     │
+│ STATUS ██████░░░░  61%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
@@ -535,7 +535,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260926
+20260927
 
 NEW REPOSITORIES ........ 67
 CONTRIBUTIONS (YR) ...... 1011
@@ -544,20 +544,20 @@ LANGUAGES ............... 9
 TOTAL STARS ............. 10
 
 MOST ACTIVE (7 DAYS):
-  01 alien-image-investigation      0d ago
-  02 Nortaq-PlayNexus               0d ago
-  03 osmp                           2d ago
-  04 phantom_vision_lab             3d ago
-  05 EXP-0007                       5d ago
+  01 Nortaq-PlayNexus               0d ago
+  02 alien-image-investigation      1d ago
+  03 osmp                           4d ago
+  04 phantom_vision_lab             4d ago
+  05 EXP-0007                       6d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  67%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] cookiecutter-wagtail-vix -- no activity for 44 days
-  [!] python-hid-parser -- no activity for 45 days
-  [!] pygeofilter -- no activity for 55 days
+  [!] cookiecutter-wagtail-vix -- no activity for 45 days
+  [!] python-hid-parser -- no activity for 46 days
+  [!] pygeofilter -- no activity for 56 days
 
 FORECAST:
   HIGH development activity
@@ -577,7 +577,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20260926  ║
+║ LAST AUDIT          20260927  ║
 ╚════════════════════════════════╝
 ```
 
@@ -607,7 +607,7 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +4 repositories modified
+  +2 repositories modified
   +1011 contributions (rolling year)
   +67 new experiments this year
   +67 total transmissions
@@ -627,8 +627,8 @@ PROJECT LIFECYCLE
     └─ ... +53 more
 
   ACTIVE (9)
-    ├─ alien-image-investigation
     ├─ Nortaq-PlayNexus
+    ├─ alien-image-investigation
     ├─ osmp
     ├─ phantom_vision_lab
     ├─ EXP-0007

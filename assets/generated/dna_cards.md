@@ -7,7 +7,7 @@
 │ OTHER                                   │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  82%     │
+│ STATUS ███████░░░  79%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -23,26 +23,10 @@
 │ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 13  │
-│ STATUS ███████░░░  76%     │
+│ STATUS ███████░░░  73%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ ALIEN-IMAGE-INVESTIGATION             │
-│                                          │
-│ Source-traced audit of the alien-imagery question. N│
-│                                          │
-│ INVESTIGATIVE-JOURNALISM · OPEN-DATA · OSINT · PUBLIC-DOMAIN│
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/alien-image-investigation]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -64,6 +48,22 @@
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ ALIEN-IMAGE-INVESTIGATION             │
+│                                          │
+│ Source-traced audit of the alien-imagery question. N│
+│                                          │
+│ INVESTIGATIVE-JOURNALISM · OPEN-DATA · OSINT · PUBLIC-DOMAIN│
+│                                          │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ██░░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/alien-image-investigation]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ NASA-INVESTIGATION                    │
 │                                          │
 │ Exclusive anomaly detection pipeline for NASA HiRISE│
@@ -71,7 +71,7 @@
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ███░░░░░░░  37%     │
+│ STATUS ███░░░░░░░  34%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -87,7 +87,7 @@
 │ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ██████░░░░  64%     │
+│ STATUS ██████░░░░  61%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │

@@ -39,7 +39,7 @@
 <text x="52" y="301" fill="#E8E8E8" font-size="9">synthesis-dj</text>
 <text x="660" y="301" fill="#8A8A8A" font-size="9">JavaScript</text>
 <line x1="40" y1="304" x2="40" y2="326" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="326" r="3" fill="#FFC430"/>
+<circle cx="40" cy="326" r="3" fill="#8A8A8A"/>
 <text x="52" y="329" fill="#E8E8E8" font-size="9">RustVoiceBooster</text>
 <text x="660" y="329" fill="#8A8A8A" font-size="9">JavaScript</text>
 <line x1="40" y1="332" x2="40" y2="354" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
@@ -276,7 +276,7 @@
 <text x="52" y="2009" fill="#E8E8E8" font-size="9">myskoda</text>
 <text x="660" y="2009" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="2012" x2="40" y2="2034" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="2034" r="3" fill="#FFC430"/>
+<circle cx="40" cy="2034" r="3" fill="#8A8A8A"/>
 <text x="52" y="2037" fill="#E8E8E8" font-size="9">Starminder</text>
 <text x="660" y="2037" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="2040" x2="40" y2="2062" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>

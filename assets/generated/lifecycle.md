@@ -10,8 +10,8 @@ PROJECT LIFECYCLE
     └─ ... +53 more
 
   ACTIVE (9)
-    ├─ alien-image-investigation
     ├─ Nortaq-PlayNexus
+    ├─ alien-image-investigation
     ├─ osmp
     ├─ phantom_vision_lab
     ├─ EXP-0007
