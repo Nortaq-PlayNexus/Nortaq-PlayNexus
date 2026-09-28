@@ -21,6 +21,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/Nortaq-PlayNexus/phantomtape-radio"><img src="https://img.shields.io/badge/103.7%20BROADCAST-0a0e1a?style=flat-square&logo=soundcloud&logoColor=ff3b3b&labelColor=0a0e1a" alt="103.7 broadcast, live now"/></a>
   <a href="https://nortaq-playnexus.github.io/Nortaq-PlayNexus/mission-control"><img src="https://img.shields.io/badge/MISSION%20CONTROL-LIVE-0a0e1a?style=flat-square&logo=electron&logoColor=B8FF1E&labelColor=0a0e1a" alt="mission control"/></a>
   <a href="https://nortaq-playnexus.github.io/nasa-investigation/"><img src="https://img.shields.io/badge/NASA-HiRISE%20Dossier-05070a?style=flat-square&logo=nasa&logoColor=ffc430&labelColor=0a0e1a" alt="nasa"/></a>
   <a href="https://github.com/Nortaq-PlayNexus/aurora-audio-engine"><img src="https://img.shields.io/badge/AURORA-Audio%20Engine-0a0e1a?style=flat-square&logo=rust&logoColor=ffc430" alt="aurora"/></a>
@@ -109,7 +110,14 @@ LOCATION ...... <PHANTOMTAPE_P-03 UNKNOWN: TUNED TO PLANET EARTH>
 └──────────────────────────────────────┘
 ```
 
-The `CURRENT TRANSMISSION` is real: **SYNTHESIS** compiles every track into a compact *Music DNA* fingerprint (tempo, key, energy, structure), then an in-browser AI Transition Director decides when and how to move between decks — fully offline. No cloud, no tracking. `// live music streaming integration pending (<PHANTOMTAPE_P-09>)`
+The `CURRENT TRANSMISSION` is real: **SYNTHESIS** compiles every track into a compact *Music DNA* fingerprint (tempo, key, energy, structure), then an in-browser AI Transition Director decides when and how to move between decks — fully offline. No cloud, no tracking. `// live music streaming integration SHIPPED — see <PHNT-007>`
+
+<p align="center">
+  <a href="https://nortaq-playnexus.github.io/phantomtape-radio/">
+    <img src="https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/main/assets/visualizer.svg" alt="decorative audio visualizer, 24 animated equalizer bars" width="100%" />
+  </a>
+  <em><code>// PHNT-007 :: 60 transmissions, streamed from source · <a href="https://nortaq-playnexus.github.io/phantomtape-radio/">TUNE IN</a></code></em>
+</p>
 
 ---
 
@@ -128,8 +136,9 @@ Classified records from the music-engineering side of the room. SKUs are real pr
 | `PHNT-004` | BRAINARR | local AI music discovery for Lidarr | ◐ IN DEVELOPMENT | `/Brainarr` |
 | `PHNT-005` | RUST VOICE BOOSTER | pro DJ audio suite + virtual cable | ⚠ EXPERIMENTAL | `/RustVoiceBooster` |
 | `PHNT-006` | FESTIVAL AUDIO POLISHER | beatgrid mashup pipeline: analyze → arrange → build → validate | ◆ SHIPPED | `/dj-festival-audio-polisher` |
+| `PHNT-007` | **103.7 BROADCAST** | self-hosted player: 60 tracks, real waveforms, scrubbable | ● **ON AIR** | [`nortaq-playnexus.github.io/phantomtape-radio`](https://nortaq-playnexus.github.io/phantomtape-radio/) |
 
-`// full discography on external platforms pending <PHANTOMTAPE_P-09>`
+`// 60 transmissions live on the relay — <PHANTOMTAPE_P-09> CLOSED`
 
 ---
 
@@ -1006,7 +1015,7 @@ really good 34-day press run.
 
 ```
 /archive-07  →  https://github.com/Nortaq-PlayNexus/archive-07
-clue trail: FREQ 103.7 → PHNT-001 → ARCHIVE NODE 07 → SIGNAL 07
+clue trail: FREQ 103.7 → PHNT-001 → ARCHIVE NODE 07 → SIGNAL 07 → PHNT-007
 ```
 
 **INTERNAL TRACK LIST** (B-sides, obviously fictional — no point pretending otherwise)
@@ -1068,10 +1077,11 @@ the inputs are public, and the profile still rehashes itself every night.
 ```text
 GITHUB ..... @Nortaq-PlayNexus ..... https://github.com/Nortaq-PlayNexus
 DISCORD .... [ OFF AIR — <PHANTOMTAPE_P-10> ]
-MUSIC ...... [ OFF AIR — <PHANTOMTAPE_P-10> ]
+MUSIC ...... <PHNT-007> 103.7 ..... https://nortaq-playnexus.github.io/phantomtape-radio/
+WEBSITE .... <PHNT-007> 103.7 ..... https://nortaq-playnexus.github.io/phantomtape-radio/
+SOUNDCLOUD . soundcloud/phantomtape
 YOUTUBE .... [ OFF AIR — <PHANTOMTAPE_P-10> ]
 INSTAGRAM .. [ OFF AIR — <PHANTOMTAPE_P-10> ]
-WEBSITE .... [ OFF AIR — <PHANTOMTAPE_P-10> ]
 ```
 
 `$ man phantomtape`
@@ -1090,6 +1100,7 @@ DESCRIPTION
 OPTIONS
     --secret    there is no --secret. that would be a real secret.
     --listen    README.md section 03, PHNT-002
+    --tune      https://nortaq-playnexus.github.io/phantomtape-radio/  (PHNT-007, 60 tracks)
     --verify    python3 scripts/signal_hash.py (see docs/how-to-verify.md)
 
 SEE ALSO
