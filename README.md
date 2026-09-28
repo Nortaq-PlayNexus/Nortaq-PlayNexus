@@ -114,9 +114,16 @@ The `CURRENT TRANSMISSION` is real: **SYNTHESIS** compiles every track into a co
 
 <p align="center">
   <a href="https://nortaq-playnexus.github.io/phantomtape-radio/">
+    <img src="https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/main/assets/broadcast-1037.png" alt="PHANTOMTAPE 103.7 broadcast player mid-playback: waveform with lit playhead, ON AIR, 0:47 of 3:39 on Lonely (Remix)" width="100%" />
+  </a>
+  <em><code>// PHNT-007 :: <a href="https://nortaq-playnexus.github.io/phantomtape-radio/">TUNE IN</a> — 60 transmissions, real waveforms, streamed from source</code></em>
+</p>
+
+<p align="center">
+  <a href="https://nortaq-playnexus.github.io/phantomtape-radio/">
     <img src="https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/main/assets/visualizer.svg" alt="decorative audio visualizer, 24 animated equalizer bars" width="100%" />
   </a>
-  <em><code>// PHNT-007 :: 60 transmissions, streamed from source · <a href="https://nortaq-playnexus.github.io/phantomtape-radio/">TUNE IN</a></code></em>
+  <em><code>// decorative waveform</code></em>
 </p>
 
 ---
