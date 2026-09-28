@@ -9,12 +9,12 @@ PROJECT LIFECYCLE
     ├─ ark-erge-loader
     └─ ... +53 more
 
-  ACTIVE (9)
+  ACTIVE (10)
+    ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
     ├─ alien-image-investigation
     ├─ osmp
     ├─ phantom_vision_lab
-    ├─ EXP-0007
-    └─ ... +4 more
+    └─ ... +5 more
 
 ```

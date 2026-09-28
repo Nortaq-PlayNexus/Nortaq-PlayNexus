@@ -3,9 +3,9 @@
 ├────────────────────────────────┤
 │
 │  Python                        │
+│  JavaScript                    │
 │  TypeScript                    │
 │  HTML                          │
-│  JavaScript                    │
 │  Rust                          │
 │  #open-source                  │
 │  #investigative-journalism     │

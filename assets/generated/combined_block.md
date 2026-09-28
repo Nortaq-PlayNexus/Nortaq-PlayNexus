@@ -6,8 +6,8 @@
 ╠══════════════════════════════════════╣
 ║                                      ║
 ║  ACTIVITY       ████████░░░░   67%    ║
-║  MOMENTUM       ███████░░░░░   60%    ║
-║  BUILD PRESSURE ████████░░░░   70%    ║
+║  MOMENTUM       ████████░░░░   72%    ║
+║  BUILD PRESSURE █████████░░░   78%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
 ║  FORECAST                             ║
@@ -21,8 +21,8 @@
 PHANTOMTAPE TECHNOLOGY GENOME
 
 Python         ████████████████████  30
+JavaScript     ███░░░░░░░░░░░░░░░░░  5
 TypeScript     ███░░░░░░░░░░░░░░░░░  5
-JavaScript     ██░░░░░░░░░░░░░░░░░░  4
 HTML           ██░░░░░░░░░░░░░░░░░░  3
 Rust           ██░░░░░░░░░░░░░░░░░░  3
 C#             ██░░░░░░░░░░░░░░░░░░  3
@@ -32,7 +32,7 @@ Go             ░░░░░░░░░░░░░░░░░░░░  1
 DOMAIN GENOME
 
 AI             ████████████████████  20
-AUDIO          ██████████░░░░░░░░░░  10
+AUDIO          ███████████░░░░░░░░░  11
 LANG           ████████░░░░░░░░░░░░  8
 SYSTEMS        ███████░░░░░░░░░░░░░  7
 GAMING         ███████░░░░░░░░░░░░░  7
@@ -51,7 +51,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ OTHER                                   │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  79%     │
+│ STATUS ███████░░░  76%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -60,17 +60,17 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ ORION-SENTINEL-AI                     │
+│ ◉ PHANTOMTAPE-RADIO                     │
 │                                          │
-│ Enterprise-grade planetary intelligence platform - c│
+│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
 │                                          │
-│ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
+│ AUDIO                                   │
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 13  │
-│ STATUS ███████░░░  73%     │
-│ MATURITY ███░░░░░░░            │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
+│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -92,6 +92,22 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ ORION-SENTINEL-AI                     │
+│                                          │
+│ Enterprise-grade planetary intelligence platform - c│
+│                                          │
+│ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 13  │
+│ STATUS ███████░░░  70%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ ALIEN-IMAGE-INVESTIGATION             │
 │                                          │
 │ Source-traced audit of the alien-imagery question. N│
@@ -99,7 +115,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ INVESTIGATIVE-JOURNALISM · OPEN-DATA · OSINT · PUBLIC-DOMAIN│
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ██░░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/alien-image-investigation]                        │
@@ -115,58 +131,42 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ███░░░░░░░  34%     │
+│ STATUS ███░░░░░░░  31%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
 ╰──────────────────────────────────────────╯
 ```
 
-```
-╭──────────────────────────────────────────╮
-│ ◉ AURORA-AUDIO-ENGINE                   │
-│                                          │
-│ AURORA Audio Engine - ultra-low-latency virtual audi│
-│                                          │
-│ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ██████░░░░  61%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
-╰──────────────────────────────────────────╯
-```
-
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260927
+20260928
 
-NEW REPOSITORIES ........ 67
-CONTRIBUTIONS (YR) ...... 1011
-REPOSITORIES ............ 67
+NEW REPOSITORIES ........ 68
+CONTRIBUTIONS (YR) ...... 1012
+REPOSITORIES ............ 68
 LANGUAGES ............... 9
 TOTAL STARS ............. 10
 
 MOST ACTIVE (7 DAYS):
-  01 Nortaq-PlayNexus               0d ago
-  02 alien-image-investigation      1d ago
-  03 osmp                           4d ago
-  04 phantom_vision_lab             4d ago
-  05 EXP-0007                       6d ago
+  01 phantomtape-radio              0d ago
+  02 Nortaq-PlayNexus               0d ago
+  03 alien-image-investigation      2d ago
+  04 osmp                           5d ago
+  05 phantom_vision_lab             5d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  67%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] cookiecutter-wagtail-vix -- no activity for 45 days
-  [!] python-hid-parser -- no activity for 46 days
-  [!] pygeofilter -- no activity for 56 days
+  [!] Starminder -- no activity for 31 days
+  [!] RustVoiceBooster -- no activity for 31 days
+  [!] cookiecutter-wagtail-vix -- no activity for 46 days
 
 FORECAST:
   HIGH development activity
-  9 repositories active in last 14 days
+  10 repositories active in last 14 days
 
 ```
 
@@ -182,7 +182,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20260927  ║
+║ LAST AUDIT          20260928  ║
 ╚════════════════════════════════╝
 ```
 
@@ -191,9 +191,9 @@ FORECAST:
 ├────────────────────────────────┤
 │
 │  Python                        │
+│  JavaScript                    │
 │  TypeScript                    │
 │  HTML                          │
-│  JavaScript                    │
 │  Rust                          │
 │  #open-source                  │
 │  #investigative-journalism     │
@@ -212,10 +212,10 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +2 repositories modified
-  +1011 contributions (rolling year)
-  +67 new experiments this year
-  +67 total transmissions
+  +3 repositories modified
+  +1012 contributions (rolling year)
+  +68 new experiments this year
+  +68 total transmissions
 
   The machine did not sleep.
 ```
@@ -231,13 +231,13 @@ PROJECT LIFECYCLE
     ├─ ark-erge-loader
     └─ ... +53 more
 
-  ACTIVE (9)
+  ACTIVE (10)
+    ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
     ├─ alien-image-investigation
     ├─ osmp
     ├─ phantom_vision_lab
-    ├─ EXP-0007
-    └─ ... +4 more
+    └─ ... +5 more
 
 ```
 

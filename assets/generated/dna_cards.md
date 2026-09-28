@@ -7,7 +7,7 @@
 │ OTHER                                   │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  79%     │
+│ STATUS ███████░░░  76%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -16,17 +16,17 @@
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ ORION-SENTINEL-AI                     │
+│ ◉ PHANTOMTAPE-RADIO                     │
 │                                          │
-│ Enterprise-grade planetary intelligence platform - c│
+│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
 │                                          │
-│ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
+│ AUDIO                                   │
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 13  │
-│ STATUS ███████░░░  73%     │
-│ MATURITY ███░░░░░░░            │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
+│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -48,6 +48,22 @@
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ ORION-SENTINEL-AI                     │
+│                                          │
+│ Enterprise-grade planetary intelligence platform - c│
+│                                          │
+│ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 13  │
+│ STATUS ███████░░░  70%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ ALIEN-IMAGE-INVESTIGATION             │
 │                                          │
 │ Source-traced audit of the alien-imagery question. N│
@@ -55,7 +71,7 @@
 │ INVESTIGATIVE-JOURNALISM · OPEN-DATA · OSINT · PUBLIC-DOMAIN│
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ██░░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/alien-image-investigation]                        │
@@ -71,25 +87,9 @@
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ███░░░░░░░  34%     │
+│ STATUS ███░░░░░░░  31%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ AURORA-AUDIO-ENGINE                   │
-│                                          │
-│ AURORA Audio Engine - ultra-low-latency virtual audi│
-│                                          │
-│ AUDIO-ENGINE · AUDIO-PROCESSING · DSP · MUSIC-TECHNOLOGY│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ██████░░░░  61%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/aurora-audio-engine]                        │
 ╰──────────────────────────────────────────╯
 ```
