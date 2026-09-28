@@ -757,226 +757,7 @@ Auto-generated DNA cards for the top repositories. Status bars reflect real acti
 
 <!-- DNA_CARDS:END -->
 
----
-
-<a name="weather"></a>
-
-## // 10 :: SIGNAL WEATHER
-
-`$ phantomtape --weather`
-
-Activity metrics computed from actual GitHub data. Updated nightly.
-
-<!-- WEATHER:BEGIN -->
-
-```
-╔══════════════════════════════════════╗
-║       PHANTOMTAPE SIGNAL WEATHER     ║
-╠══════════════════════════════════════╣
-║                                      ║
-║  ACTIVITY       █░░░░░░░░░░░   10%    ║
-║  MOMENTUM       ████████████  100%    ║
-║  BUILD PRESSURE ████████████  100%    ║
-║  CHAOS INDEX    ██░░░░░░░░░░   20%    ║
-║                                      ║
-║  FORECAST                             ║
-  [~] MULTIPLE SYSTEMS IN DEVELOPMENT
-  [+] BUILD PRESSURE INCREASING
-╚══════════════════════════════════════╝
-```
-
-<!-- WEATHER:END -->
-
----
-
-<a name="intel"></a>
-
-## // 11 :: NIGHTLY INTELLIGENCE REPORT
-
-`$ phantomtape --intel`
-
-Generated every night from live data. The machine watches itself.
-
-<!-- INTEL:BEGIN -->
-
-```text
-PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260906
-
-NEW REPOSITORIES ........ 53
-CONTRIBUTIONS (YR) ...... 0
-REPOSITORIES ............ 53
-LANGUAGES ............... 8
-TOTAL STARS ............. 9
-
-MOST ACTIVE (7 DAYS):
-  01 Nortaq-PlayNexus               0d ago
-  02 orion-sentinel-ai              1d ago
-  03 synthesis-dj                   1d ago
-  04 heart                          1d ago
-  05 FreeStack                      1d ago
-
-SIGNAL WEATHER:
-  ACTIVITY       █░░░░░░░░░░░  10%
-  CHAOS INDEX    ██░░░░░░░░░░  20%
-
-ANOMALIES:
-  [!] pygeofilter -- no activity for 35 days
-
-FORECAST:
-  MODERATE development activity
-  49 repositories active in last 14 days
-
-```
-
-<!-- INTEL:END -->
-
----
-
-<a name="integrity"></a>
-
-## // 12 :: SYSTEM INTEGRITY
-
-`$ phantomtape --verify`
-
-<!-- INTEGRITY:BEGIN -->
-
-```
-╔════════════════════════════════╗
-║       SYSTEM INTEGRITY         ║
-╠════════════════════════════════╣
-║                                ║
-║ CI/CD .............. ● PASS    ║
-║ TESTS .............. ● PASS    ║
-║ SECURITY ........... ● PASS    ║
-║ DEPENDENCIES ........● PASS    ║
-║ BUILD ...............● PASS    ║
-║ DOCUMENTATION .......● PASS    ║
-║                                ║
-║ LAST AUDIT          20260906  ║
-╚════════════════════════════════╝
-```
-
-<!-- INTEGRITY:END -->
-
----
-
-<a name="obsession"></a>
-
-## // 13 :: CURRENT OBSESSION
-
-`$ phantomtape --obsess`
-
-<!-- OBSESSION:BEGIN -->
-
-```
-╭────────────────────────────────╮
-│ CURRENT OBSESSION              │
-├────────────────────────────────┤
-│                                │
-│  Python                        │
-│  JavaScript                    │
-│  Rust                          │
-│  TypeScript                    │
-│                                │
-│  #ai                           │
-│  #audio                        │
-│  #dsp                          │
-│                                │
-│ STATUS: OBSESSED               │
-╰────────────────────────────────╯
-```
-
-<!-- OBSESSION:END -->
-
----
-
-<a name="timeline"></a>
-
-## // 14 :: LANGUAGE EVOLUTION
-
-`$ phantomtape --timeline`
-
-How the stack evolved over time:
-
-<!-- TIMELINE:BEGIN -->
-
-```text
-  2026 ───── Python, JavaScript, TypeScript, Rust, C#, HTML, Go, PHP
-             │
-             ▼
-        CURRENT STACK
-```
-
-<!-- TIMELINE:END -->
-
----
-
-<a name="lifecycle"></a>
-
-## // 15 :: PROJECT LIFECYCLE
-
-`$ phantomtape --lifecycle`
-
-<!-- LIFECYCLE:BEGIN -->
-
-```text
-PROJECT LIFECYCLE
-
-  ACTIVE (19)
-    ├─ orion-sentinel-ai
-    ├─ synthesis-dj
-    ├─ heart
-    ├─ FreeStack
-    ├─ Nortaq-PlayNexus
-    └─ ... +14 more
-
-  PROTOTYPE (18)
-    ├─ promoforge
-    ├─ nasa-investigation
-    ├─ aurora-audio-engine
-    ├─ better_bing_image_downloader
-    ├─ recovar
-    └─ ... +13 more
-
-  MAINTENANCE (14)
-    ├─ color_quant
-    ├─ envoy-proxy-crowdsec-bouncer
-    ├─ ProjectPhoenix
-    ├─ agency-swarm
-    ├─ osmp
-    └─ ... +9 more
-
-```
-
-<!-- LIFECYCLE:END -->
-
----
-
-<a name="away"></a>
-
-## // 16 :: WHILE YOU WERE AWAY
-
-<!-- WHILE_AWAY:BEGIN -->
-
-```text
-WHILE YOU WERE AWAY...
-
-  +9 repositories modified
-  +0 contributions (rolling year)
-  +0 new experiments this year
-  +53 total transmissions
-
-  The machine did not sleep.
-```
-
-<!-- WHILE_AWAY:END -->
-
----
-
-<a name="classified"></a>
-
-## // 17 :: CLASSIFIED ARCHIVE
+## // 10 :: CLASSIFIED ARCHIVE
 
 `ACCESS LEVEL: ████`
 
@@ -1038,7 +819,7 @@ ERROR 404: NORMAL PROFILE NOT FOUND
 
 <a name="verify"></a>
 
-## // 18 :: VERIFY SIGNAL
+## // 11 :: VERIFY SIGNAL
 
 Every number in the transmission block is machine-stamped from the live GitHub API, and the `SIGNAL HASH` makes that provable:
 
@@ -1056,7 +837,7 @@ the inputs are public, and the profile still rehashes itself every night.
 
 <a name="metrics"></a>
 
-## // 19 :: TELEMETRY
+## // 12 :: TELEMETRY
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=Nortaq-PlayNexus&background=0A0A0A&border=1F1F1F&stroke=1F1F1F&ring=B8FF1E&fire=FF4D00&currStreakLabel=00E5FF&sideNums=E8E8E8&currStreakNum=B8FF1E&sideLabels=8A8A8A&dates=8A8A8A&hide_border=true" alt="contribution streak, dark themed" />
@@ -1066,7 +847,7 @@ the inputs are public, and the profile still rehashes itself every night.
 
 <a name="frequencies"></a>
 
-## // 20 :: FREQUENCIES
+## // 13 :: FREQUENCIES
 
 ```text
     FM DIAL ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
@@ -1109,7 +890,7 @@ SEE ALSO
 
 ---
 
-## // 21 :: MASHBOARD
+## // 14 :: MASHBOARD
 
 <p align="center">
   <a href="https://nortaq-playnexus.github.io/Nortaq-PlayNexus/mission-control">
@@ -1137,7 +918,7 @@ LS  2 listeners locked in (live follower count in block 01)
 
 ---
 
-## // 22 :: MANIFEST.TXT
+## // 15 :: MANIFEST.TXT
 
 ```text
 MAKE THINGS.
@@ -1149,7 +930,7 @@ SHIP SOMETHING.
 
 ---
 
-## // 23 :: HIDDEN LAYER
+## // 16 :: HIDDEN LAYER
 
 <details>
   <summary><code>[ CLASSIFIED: PRESS <kbd>.</kbd> ON ANY REPO FOR VS CODE ]</code></summary>
