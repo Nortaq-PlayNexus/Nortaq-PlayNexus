@@ -1,20 +1,20 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (58)
-    ├─ counter-intel
-    ├─ hwid-sentinel
-    ├─ rust-voice-booster
-    ├─ deepventure
-    ├─ ark-erge-loader
-    └─ ... +53 more
+  PROTOTYPE (48)
+    ├─ aurora-audio-engine
+    ├─ SecureVault
+    ├─ 911-investigation
+    ├─ better_bing_image_downloader
+    ├─ forge
+    └─ ... +43 more
 
-  ACTIVE (10)
+  ACTIVE (13)
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
-    ├─ alien-image-investigation
-    ├─ osmp
+    ├─ dark-web-monitoring
+    ├─ reports
     ├─ phantom_vision_lab
-    └─ ... +5 more
+    └─ ... +8 more
 
 ```

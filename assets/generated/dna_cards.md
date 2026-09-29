@@ -4,10 +4,10 @@
 │                                          │
 │ no description                          │
 │                                          │
-│ OTHER                                   │
+│ PYTHON                                  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  76%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -20,7 +20,7 @@
 │                                          │
 │ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
 │                                          │
-│ AUDIO                                   │
+│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 0   │
 │ STATUS ██████████ 100%     │
@@ -36,7 +36,7 @@
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
 │                                          │
-│ AUDIO                                   │
+│ AUDIO · TYPESCRIPT                      │
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 0   │
 │ STATUS ██████████ 100%     │
@@ -48,48 +48,48 @@
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ ORION-SENTINEL-AI                     │
+│ ◉ DARK-WEB-MONITORING                   │
 │                                          │
-│ Enterprise-grade planetary intelligence platform - c│
+│ Dark web monitoring orchestrator — paste scanner, te│
 │                                          │
-│ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 13  │
-│ STATUS ███████░░░  70%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ ALIEN-IMAGE-INVESTIGATION             │
-│                                          │
-│ Source-traced audit of the alien-imagery question. N│
-│                                          │
-│ INVESTIGATIVE-JOURNALISM · OPEN-DATA · OSINT · PUBLIC-DOMAIN│
+│ PYTHON                                  │
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS ██████████ 100%     │
 │ MATURITY ██░░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/alien-image-investigation]                        │
+│ [https://github.com/Nortaq-PlayNexus/dark-web-monitoring]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ NASA-INVESTIGATION                    │
+│ ◉ REPORTS                               │
 │                                          │
-│ Exclusive anomaly detection pipeline for NASA HiRISE│
+│ Intelligence reporting facility — risk scoring, repo│
 │                                          │
-│ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
+│ SHELL                                   │
 │                                          │
-│ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ███░░░░░░░  31%     │
-│ MATURITY █████░░░░░            │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
+│ [https://github.com/Nortaq-PlayNexus/reports]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ PHANTOM_VISION_LAB                    │
+│                                          │
+│ Computational research application simulating altere│
+│                                          │
+│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
+│                                          │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
 ╰──────────────────────────────────────────╯
 ```

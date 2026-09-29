@@ -3,9 +3,9 @@
 ║       PHANTOMTAPE SIGNAL WEATHER     ║
 ╠══════════════════════════════════════╣
 ║                                      ║
-║  ACTIVITY       ████████░░░░   67%    ║
-║  MOMENTUM       ████████░░░░   72%    ║
-║  BUILD PRESSURE █████████░░░   78%    ║
+║  ACTIVITY       ████████░░░░   69%    ║
+║  MOMENTUM       ████████████  100%    ║
+║  BUILD PRESSURE ████████████  100%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
 ║  FORECAST                             ║

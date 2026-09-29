@@ -5,9 +5,9 @@
 ║       PHANTOMTAPE SIGNAL WEATHER     ║
 ╠══════════════════════════════════════╣
 ║                                      ║
-║  ACTIVITY       ████████░░░░   67%    ║
-║  MOMENTUM       ████████░░░░   72%    ║
-║  BUILD PRESSURE █████████░░░   78%    ║
+║  ACTIVITY       ████████░░░░   69%    ║
+║  MOMENTUM       ████████████  100%    ║
+║  BUILD PRESSURE ████████████  100%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
 ║  FORECAST                             ║
@@ -20,25 +20,25 @@
 ```
 PHANTOMTAPE TECHNOLOGY GENOME
 
-Python         ████████████████████  30
+Python         ████████████████████  31
 JavaScript     ███░░░░░░░░░░░░░░░░░  5
 TypeScript     ███░░░░░░░░░░░░░░░░░  5
-HTML           ██░░░░░░░░░░░░░░░░░░  3
-Rust           ██░░░░░░░░░░░░░░░░░░  3
-C#             ██░░░░░░░░░░░░░░░░░░  3
+Rust           █░░░░░░░░░░░░░░░░░░░  3
+HTML           █░░░░░░░░░░░░░░░░░░░  3
+C#             █░░░░░░░░░░░░░░░░░░░  3
 Shell          ░░░░░░░░░░░░░░░░░░░░  1
 Go             ░░░░░░░░░░░░░░░░░░░░  1
 
 DOMAIN GENOME
 
-AI             ████████████████████  20
-AUDIO          ███████████░░░░░░░░░  11
-LANG           ████████░░░░░░░░░░░░  8
-SYSTEMS        ███████░░░░░░░░░░░░░  7
-GAMING         ███████░░░░░░░░░░░░░  7
-DATA           ██████░░░░░░░░░░░░░░  6
+AI             ████████████████████  17
+LANG           ███████████░░░░░░░░░  10
+AUDIO          ██████████░░░░░░░░░░  9
+SYSTEMS        ████████░░░░░░░░░░░░  7
+DATA           ███████░░░░░░░░░░░░░  6
+GAMING         ████░░░░░░░░░░░░░░░░  4
 EARTH          ████░░░░░░░░░░░░░░░░  4
-OTHER          ███░░░░░░░░░░░░░░░░░  3
+OTHER          ██░░░░░░░░░░░░░░░░░░  2
 WEB            ██░░░░░░░░░░░░░░░░░░  2
 ```
 
@@ -48,10 +48,10 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │                                          │
 │ no description                          │
 │                                          │
-│ OTHER                                   │
+│ PYTHON                                  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  76%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -64,7 +64,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │                                          │
 │ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
 │                                          │
-│ AUDIO                                   │
+│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 0   │
 │ STATUS ██████████ 100%     │
@@ -80,7 +80,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
 │                                          │
-│ AUDIO                                   │
+│ AUDIO · TYPESCRIPT                      │
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 0   │
 │ STATUS ██████████ 100%     │
@@ -92,81 +92,81 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ ORION-SENTINEL-AI                     │
+│ ◉ DARK-WEB-MONITORING                   │
 │                                          │
-│ Enterprise-grade planetary intelligence platform - c│
+│ Dark web monitoring orchestrator — paste scanner, te│
 │                                          │
-│ ANOMALY-DETECTION · COMMAND-CENTER · DATA-VISUALIZATION · EARTH-OBSERVATION│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 13  │
-│ STATUS ███████░░░  70%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/orion-sentinel-ai]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ ALIEN-IMAGE-INVESTIGATION             │
-│                                          │
-│ Source-traced audit of the alien-imagery question. N│
-│                                          │
-│ INVESTIGATIVE-JOURNALISM · OPEN-DATA · OSINT · PUBLIC-DOMAIN│
+│ PYTHON                                  │
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS ██████████ 100%     │
 │ MATURITY ██░░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/alien-image-investigation]                        │
+│ [https://github.com/Nortaq-PlayNexus/dark-web-monitoring]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ NASA-INVESTIGATION                    │
+│ ◉ REPORTS                               │
 │                                          │
-│ Exclusive anomaly detection pipeline for NASA HiRISE│
+│ Intelligence reporting facility — risk scoring, repo│
 │                                          │
-│ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · IMAGE-ANALYSIS│
+│ SHELL                                   │
 │                                          │
-│ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ███░░░░░░░  31%     │
-│ MATURITY █████░░░░░            │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
+│ [https://github.com/Nortaq-PlayNexus/reports]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ PHANTOM_VISION_LAB                    │
+│                                          │
+│ Computational research application simulating altere│
+│                                          │
+│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
+│                                          │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260928
+20260929
 
-NEW REPOSITORIES ........ 68
-CONTRIBUTIONS (YR) ...... 1012
-REPOSITORIES ............ 68
+NEW REPOSITORIES ........ 61
+CONTRIBUTIONS (YR) ...... 1048
+REPOSITORIES ............ 61
 LANGUAGES ............... 9
 TOTAL STARS ............. 10
 
 MOST ACTIVE (7 DAYS):
   01 phantomtape-radio              0d ago
   02 Nortaq-PlayNexus               0d ago
-  03 alien-image-investigation      2d ago
-  04 osmp                           5d ago
-  05 phantom_vision_lab             5d ago
+  03 dark-web-monitoring            0d ago
+  04 reports                        0d ago
+  05 phantom_vision_lab             0d ago
 
 SIGNAL WEATHER:
-  ACTIVITY       ████████░░░░  67%
+  ACTIVITY       ████████░░░░  69%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] Starminder -- no activity for 31 days
-  [!] RustVoiceBooster -- no activity for 31 days
-  [!] cookiecutter-wagtail-vix -- no activity for 46 days
+  [!] Starminder -- no activity for 32 days
+  [!] RustVoiceBooster -- no activity for 32 days
+  [!] cookiecutter-wagtail-vix -- no activity for 47 days
 
 FORECAST:
   HIGH development activity
-  10 repositories active in last 14 days
+  13 repositories active in last 14 days
 
 ```
 
@@ -182,7 +182,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20260928  ║
+║ LAST AUDIT          20260929  ║
 ╚════════════════════════════════╝
 ```
 
@@ -193,11 +193,11 @@ FORECAST:
 │  Python                        │
 │  JavaScript                    │
 │  TypeScript                    │
-│  HTML                          │
+│  Shell                         │
 │  Rust                          │
-│  #open-source                  │
-│  #investigative-journalism     │
-│  #open-data                    │
+│  #python                       │
+│  #audio                        │
+│  #javascript                   │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
@@ -212,10 +212,10 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +3 repositories modified
-  +1012 contributions (rolling year)
-  +68 new experiments this year
-  +68 total transmissions
+  +10 repositories modified
+  +1048 contributions (rolling year)
+  +61 new experiments this year
+  +61 total transmissions
 
   The machine did not sleep.
 ```
@@ -223,21 +223,21 @@ WHILE YOU WERE AWAY...
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (58)
-    ├─ counter-intel
-    ├─ hwid-sentinel
-    ├─ rust-voice-booster
-    ├─ deepventure
-    ├─ ark-erge-loader
-    └─ ... +53 more
+  PROTOTYPE (48)
+    ├─ aurora-audio-engine
+    ├─ SecureVault
+    ├─ 911-investigation
+    ├─ better_bing_image_downloader
+    ├─ forge
+    └─ ... +43 more
 
-  ACTIVE (10)
+  ACTIVE (13)
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
-    ├─ alien-image-investigation
-    ├─ osmp
+    ├─ dark-web-monitoring
+    ├─ reports
     ├─ phantom_vision_lab
-    └─ ... +5 more
+    └─ ... +8 more
 
 ```
 

@@ -5,11 +5,11 @@
 │  Python                        │
 │  JavaScript                    │
 │  TypeScript                    │
-│  HTML                          │
+│  Shell                         │
 │  Rust                          │
-│  #open-source                  │
-│  #investigative-journalism     │
-│  #open-data                    │
+│  #python                       │
+│  #audio                        │
+│  #javascript                   │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
