@@ -10,11 +10,11 @@ PROJECT LIFECYCLE
     └─ ... +43 more
 
   ACTIVE (13)
+    ├─ osmp
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
     ├─ dark-web-monitoring
     ├─ reports
-    ├─ phantom_vision_lab
     └─ ... +8 more
 
 ```

@@ -3,13 +3,13 @@
 ├────────────────────────────────┤
 │
 │  Python                        │
-│  JavaScript                    │
 │  TypeScript                    │
+│  JavaScript                    │
 │  Shell                         │
 │  Rust                          │
 │  #python                       │
 │  #audio                        │
-│  #javascript                   │
+│  #automation                   │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
