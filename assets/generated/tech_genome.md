@@ -2,8 +2,8 @@
 PHANTOMTAPE TECHNOLOGY GENOME
 
 Python         ████████████████████  31
-TypeScript     ███░░░░░░░░░░░░░░░░░  5
 JavaScript     ███░░░░░░░░░░░░░░░░░  5
+TypeScript     ███░░░░░░░░░░░░░░░░░  5
 Rust           █░░░░░░░░░░░░░░░░░░░  3
 HTML           █░░░░░░░░░░░░░░░░░░░  3
 C#             █░░░░░░░░░░░░░░░░░░░  3

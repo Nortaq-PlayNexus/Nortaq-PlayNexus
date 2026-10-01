@@ -1,6 +1,6 @@
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260930
+20261001
 
 NEW REPOSITORIES ........ 61
 CONTRIBUTIONS (YR) ...... 1048
@@ -9,20 +9,20 @@ LANGUAGES ............... 9
 TOTAL STARS ............. 10
 
 MOST ACTIVE (7 DAYS):
-  01 osmp                           0d ago
-  02 phantomtape-radio              0d ago
-  03 Nortaq-PlayNexus               0d ago
-  04 dark-web-monitoring            1d ago
-  05 reports                        1d ago
+  01 phantomtape-radio              0d ago
+  02 Nortaq-PlayNexus               0d ago
+  03 osmp                           1d ago
+  04 dark-web-monitoring            2d ago
+  05 reports                        2d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  69%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] resourcegather -- no activity for 31 days
-  [!] Starminder -- no activity for 33 days
-  [!] RustVoiceBooster -- no activity for 33 days
+  [!] resourcegather -- no activity for 32 days
+  [!] Starminder -- no activity for 34 days
+  [!] RustVoiceBooster -- no activity for 34 days
 
 FORECAST:
   HIGH development activity

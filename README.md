@@ -288,8 +288,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   61 │
 │ CONTRIBUTIONS ..... 1048    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   61 DAYS │
-│ SIGNAL HASH ....... 324368   SIGNAL ......... #######=........  46%  PHASE 00 │
+│ UPLINK AGE ........   62 DAYS │
+│ SIGNAL HASH ....... 16CEF0   SIGNAL ......... ########=.......  58%  PHASE 00 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -302,12 +302,12 @@ CONTRIBUTIONS ...... 1048
 REPOSITORIES ....... 61
 FOLLOWERS .......... 2
 COLLECTED STARS .... 10
-BROADCASTING FOR ... 61 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 62 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
+  phantomtape-radio            PUSHED 2026-10-01
+  Nortaq-PlayNexus             PUSHED 2026-10-01
   osmp                         PUSHED 2026-09-30
-  phantomtape-radio            PUSHED 2026-09-30
-  Nortaq-PlayNexus             PUSHED 2026-09-30
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -327,9 +327,9 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX -- 61 FILES</code></summary>
 
 ```text
-  osmp                             TypeScript   *0
   phantomtape-radio                JavaScript   *0
   Nortaq-PlayNexus                 TypeScript   *0
+  osmp                             TypeScript   *0
   dark-web-monitoring              Python       *0
   reports                          Shell        *0
   phantom_vision_lab               Python       *0
@@ -391,7 +391,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20260930 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261001 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -426,8 +426,8 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 PHANTOMTAPE TECHNOLOGY GENOME
 
 Python         ████████████████████  31
-TypeScript     ███░░░░░░░░░░░░░░░░░  5
 JavaScript     ███░░░░░░░░░░░░░░░░░  5
+TypeScript     ███░░░░░░░░░░░░░░░░░  5
 Rust           █░░░░░░░░░░░░░░░░░░░  3
 HTML           █░░░░░░░░░░░░░░░░░░░  3
 C#             █░░░░░░░░░░░░░░░░░░░  3
@@ -456,26 +456,10 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ PYTHON                                  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
-│                                          │
-│ Open Source Modernization Platform - an autonomous e│
-│                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 9   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -513,6 +497,22 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ OSMP                                  │
+│                                          │
+│ Open Source Modernization Platform - an autonomous e│
+│                                          │
+│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│                                          │
+│ STARS  0     FORKS  0     ISSUES 9   │
+│ STATUS █████████░  97%     │
+│ MATURITY ██░░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ DARK-WEB-MONITORING                   │
 │                                          │
 │ Dark web monitoring orchestrator — paste scanner, te│
@@ -520,7 +520,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ PYTHON                                  │
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ██░░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/dark-web-monitoring]                        │
@@ -536,7 +536,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ SHELL                                   │
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ██░░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/reports]                        │
@@ -545,7 +545,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20260930
+20261001
 
 NEW REPOSITORIES ........ 61
 CONTRIBUTIONS (YR) ...... 1048
@@ -554,20 +554,20 @@ LANGUAGES ............... 9
 TOTAL STARS ............. 10
 
 MOST ACTIVE (7 DAYS):
-  01 osmp                           0d ago
-  02 phantomtape-radio              0d ago
-  03 Nortaq-PlayNexus               0d ago
-  04 dark-web-monitoring            1d ago
-  05 reports                        1d ago
+  01 phantomtape-radio              0d ago
+  02 Nortaq-PlayNexus               0d ago
+  03 osmp                           1d ago
+  04 dark-web-monitoring            2d ago
+  05 reports                        2d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  69%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] resourcegather -- no activity for 31 days
-  [!] Starminder -- no activity for 33 days
-  [!] RustVoiceBooster -- no activity for 33 days
+  [!] resourcegather -- no activity for 32 days
+  [!] Starminder -- no activity for 34 days
+  [!] RustVoiceBooster -- no activity for 34 days
 
 FORECAST:
   HIGH development activity
@@ -587,7 +587,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20260930  ║
+║ LAST AUDIT          20261001  ║
 ╚════════════════════════════════╝
 ```
 
@@ -596,13 +596,13 @@ FORECAST:
 ├────────────────────────────────┤
 │
 │  Python                        │
-│  TypeScript                    │
 │  JavaScript                    │
+│  TypeScript                    │
 │  Shell                         │
 │  Rust                          │
 │  #python                       │
 │  #audio                        │
-│  #automation                   │
+│  #javascript                   │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
@@ -637,9 +637,9 @@ PROJECT LIFECYCLE
     └─ ... +43 more
 
   ACTIVE (13)
-    ├─ osmp
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
+    ├─ osmp
     ├─ dark-web-monitoring
     ├─ reports
     └─ ... +8 more
