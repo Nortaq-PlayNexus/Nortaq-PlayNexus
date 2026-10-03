@@ -1,21 +1,21 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (48)
+  PROTOTYPE (49)
+    ├─ orion-sentinel-ai
     ├─ playnexus-musicvidforge
     ├─ aurora-audio-engine
     ├─ SecureVault
     ├─ 911-investigation
-    ├─ better_bing_image_downloader
-    └─ ... +43 more
+    └─ ... +44 more
 
-  ACTIVE (13)
-    ├─ consciousness-indicator-battery
+  ACTIVE (12)
     ├─ phantomtape-radio
+    ├─ consciousness-indicator-battery
     ├─ Nortaq-PlayNexus
-    ├─ osmp
-    ├─ dark-web-monitoring
-    └─ ... +8 more
+    ├─ phantom_vision_lab
+    ├─ ScientificDiscoveryLab
+    └─ ... +7 more
 
   MAINTENANCE (1)
     ├─ pygeofilter

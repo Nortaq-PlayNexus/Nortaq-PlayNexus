@@ -7,26 +7,10 @@
 │ PYTHON                                  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ CONSCIOUSNESS-INDICATOR-BATTERY       │
-│                                          │
-│ A calibrated indicator battery for AI consciousness,│
-│                                          │
-│ AI                                      │
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -48,6 +32,22 @@
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ CONSCIOUSNESS-INDICATOR-BATTERY       │
+│                                          │
+│ A calibrated indicator battery for AI consciousness,│
+│                                          │
+│ AI                                      │
+│                                          │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
@@ -64,32 +64,32 @@
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
+│ ◉ PHANTOM_VISION_LAB                    │
 │                                          │
-│ Open Source Modernization Platform - an autonomous e│
+│ Computational research application simulating altere│
 │                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
 │                                          │
-│ STARS  0     FORKS  0     ISSUES 9   │
-│ STATUS █████████░  94%     │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
 │ MATURITY ██░░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ DARK-WEB-MONITORING                   │
+│ ◉ SCIENTIFICDISCOVERYLAB                │
 │                                          │
-│ Dark web monitoring orchestrator — paste scanner, te│
+│ Self-audit of an autonomous simulation laboratory: t│
 │                                          │
-│ PYTHON                                  │
+│ AI                                      │
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  91%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ██░░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/dark-web-monitoring]                        │
+│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
 ╰──────────────────────────────────────────╯
 ```
