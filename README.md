@@ -287,27 +287,27 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   62 │
-│ CONTRIBUTIONS ..... 1058    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   64 DAYS │
-│ SIGNAL HASH ....... A312F3   SIGNAL ......... ########=.......  59%  PHASE 03 │
+│ CONTRIBUTIONS ..... 1065    FOLLOWERS ..........    2 │
+│ UPLINK AGE ........   65 DAYS │
+│ SIGNAL HASH ....... 5B6953   SIGNAL ......... ##########=.....  79%  PHASE 03 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
-   ...........................................==#-###--#
+   ..........................................==#-###--#=
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 1058
+CONTRIBUTIONS ...... 1065
 REPOSITORIES ....... 62
 FOLLOWERS .......... 2
-COLLECTED STARS .... 10
-BROADCASTING FOR ... 64 DAYS (SINCE 2026-07-31 UTC)
+COLLECTED STARS .... 24
+BROADCASTING FOR ... 65 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  phantomtape-radio            PUSHED 2026-10-03
-  consciousness-indicator-battery PUSHED 2026-10-03
-  Nortaq-PlayNexus             PUSHED 2026-10-03
+  ScientificDiscoveryLab       PUSHED 2026-10-04
+  phantom_vision_lab           PUSHED 2026-10-04
+  consciousness-indicator-battery PUSHED 2026-10-04
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -327,23 +327,23 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX -- 62 FILES</code></summary>
 
 ```text
-  phantomtape-radio                JavaScript   *0
-  consciousness-indicator-battery  Python       *0
-  Nortaq-PlayNexus                 TypeScript   *0
-  phantom_vision_lab               Python       *0
-  ScientificDiscoveryLab           Python       *0
-  osmp                             TypeScript   *0
-  dark-web-monitoring              Python       *0
-  reports                          Shell        *0
-  TerrorFibercraft-Admin           Python       *0
-  ArkNexusX                        Rust         *0
+  ScientificDiscoveryLab           Python       *1
+  phantom_vision_lab               Python       *1
+  consciousness-indicator-battery  Python       *1
+  phantomtape-radio                JavaScript   *1
+  Nortaq-PlayNexus                 TypeScript   *1
+  osmp                             TypeScript   *1
+  dark-web-monitoring              Python       *1
+  reports                          Shell        *1
+  TerrorFibercraft-Admin           Python       *1
+  ArkNexusX                        Rust         *1
   EXP-0007                         Python       *1
-  alien-image-investigation        HTML         *0
+  alien-image-investigation        HTML         *1
   orion-sentinel-ai                JavaScript   *1
-  playnexus-musicvidforge          Python       *0
+  playnexus-musicvidforge          Python       *1
   aurora-audio-engine              Rust         *1
-  SecureVault                      C#           *0
-  911-investigation                -            *0
+  SecureVault                      C#           *1
+  911-investigation                -            *1
   better_bing_image_downloader     Python       *0
   swarmforge                       Python       *0
   forge                            Python       *0
@@ -392,7 +392,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261003 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261004 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -411,12 +411,13 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ║       PHANTOMTAPE SIGNAL WEATHER     ║
 ╠══════════════════════════════════════╣
 ║                                      ║
-║  ACTIVITY       ████████░░░░   70%    ║
+║  ACTIVITY       ████████░░░░   71%    ║
 ║  MOMENTUM       ████████████  100%    ║
 ║  BUILD PRESSURE ████████████  100%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
 ║  FORECAST                             ║
+  [!] HIGH DEVELOPMENT ACTIVITY
   [~] MULTIPLE SYSTEMS IN DEVELOPMENT
   [*] CHAOS INDEX ELEVATED
   [+] BUILD PRESSURE INCREASING
@@ -450,65 +451,17 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ EXP-0007                              │
+│ ◉ SCIENTIFICDISCOVERYLAB                │
 │                                          │
-│ no description                          │
-│                                          │
-│ PYTHON                                  │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  85%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ PHANTOMTAPE-RADIO                     │
-│                                          │
-│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
-│                                          │
-│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ CONSCIOUSNESS-INDICATOR-BATTERY       │
-│                                          │
-│ A calibrated indicator battery for AI consciousness,│
+│ Self-audit of an autonomous simulation laboratory: t│
 │                                          │
 │ AI                                      │
 │                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
+│ STARS  1     FORKS  0     ISSUES 0   │
 │ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
+│ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ NORTAQ-PLAYNEXUS                      │
-│                                          │
-│ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
-│                                          │
-│ AUDIO · TYPESCRIPT                      │
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/Nortaq-PlayNexus]                        │
+│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -520,9 +473,9 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │                                          │
 │ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
 │                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
-│ MATURITY ██░░░░░░░░            │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
 ╰──────────────────────────────────────────╯
@@ -530,45 +483,93 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ SCIENTIFICDISCOVERYLAB                │
+│ ◉ CONSCIOUSNESS-INDICATOR-BATTERY       │
 │                                          │
-│ Self-audit of an autonomous simulation laboratory: t│
+│ A calibrated indicator battery for AI consciousness,│
 │                                          │
 │ AI                                      │
 │                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
-│ MATURITY ██░░░░░░░░            │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
+│ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ PHANTOMTAPE-RADIO                     │
+│                                          │
+│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
+│                                          │
+│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ NORTAQ-PLAYNEXUS                      │
+│                                          │
+│ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
+│                                          │
+│ AUDIO · TYPESCRIPT                      │
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/Nortaq-PlayNexus]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ OSMP                                  │
+│                                          │
+│ Open Source Modernization Platform - an autonomous e│
+│                                          │
+│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 9   │
+│ STATUS ████████░░  88%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261003
+20261004
 
 NEW REPOSITORIES ........ 62
-CONTRIBUTIONS (YR) ...... 1058
+CONTRIBUTIONS (YR) ...... 1065
 REPOSITORIES ............ 62
 LANGUAGES ............... 9
-TOTAL STARS ............. 10
+TOTAL STARS ............. 24
 
 MOST ACTIVE (7 DAYS):
-  01 phantomtape-radio              0d ago
-  02 consciousness-indicator-battery 0d ago
-  03 Nortaq-PlayNexus               0d ago
-  04 phantom_vision_lab             0d ago
-  05 ScientificDiscoveryLab         0d ago
+  01 ScientificDiscoveryLab         0d ago
+  02 phantom_vision_lab             0d ago
+  03 consciousness-indicator-battery 0d ago
+  04 phantomtape-radio              0d ago
+  05 Nortaq-PlayNexus               0d ago
 
 SIGNAL WEATHER:
-  ACTIVITY       ████████░░░░  70%
+  ACTIVITY       ████████░░░░  71%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] resourcegather -- no activity for 34 days
-  [!] Starminder -- no activity for 36 days
-  [!] RustVoiceBooster -- no activity for 36 days
+  [!] terrorfibercraftark -- no activity for 31 days
+  [!] resourcegather -- no activity for 35 days
+  [!] Starminder -- no activity for 37 days
 
 FORECAST:
   HIGH development activity
@@ -588,7 +589,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261003  ║
+║ LAST AUDIT          20261004  ║
 ╚════════════════════════════════╝
 ```
 
@@ -602,8 +603,8 @@ FORECAST:
 │  Shell                         │
 │  Rust                          │
 │  #python                       │
+│  #computer-vision              │
 │  #audio                        │
-│  #typescript                   │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
@@ -618,8 +619,8 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +6 repositories modified
-  +1058 contributions (rolling year)
+  +5 repositories modified
+  +1065 contributions (rolling year)
   +62 new experiments this year
   +62 total transmissions
 
@@ -638,11 +639,11 @@ PROJECT LIFECYCLE
     └─ ... +44 more
 
   ACTIVE (12)
-    ├─ phantomtape-radio
-    ├─ consciousness-indicator-battery
-    ├─ Nortaq-PlayNexus
-    ├─ phantom_vision_lab
     ├─ ScientificDiscoveryLab
+    ├─ phantom_vision_lab
+    ├─ consciousness-indicator-battery
+    ├─ phantomtape-radio
+    ├─ Nortaq-PlayNexus
     └─ ... +7 more
 
   MAINTENANCE (1)

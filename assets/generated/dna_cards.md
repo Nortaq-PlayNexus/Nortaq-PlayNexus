@@ -1,64 +1,16 @@
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ EXP-0007                              │
+│ ◉ SCIENTIFICDISCOVERYLAB                │
 │                                          │
-│ no description                          │
-│                                          │
-│ PYTHON                                  │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  85%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ PHANTOMTAPE-RADIO                     │
-│                                          │
-│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
-│                                          │
-│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ CONSCIOUSNESS-INDICATOR-BATTERY       │
-│                                          │
-│ A calibrated indicator battery for AI consciousness,│
+│ Self-audit of an autonomous simulation laboratory: t│
 │                                          │
 │ AI                                      │
 │                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
+│ STARS  1     FORKS  0     ISSUES 0   │
 │ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
+│ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ NORTAQ-PLAYNEXUS                      │
-│                                          │
-│ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
-│                                          │
-│ AUDIO · TYPESCRIPT                      │
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/Nortaq-PlayNexus]                        │
+│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -70,9 +22,9 @@
 │                                          │
 │ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
 │                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
-│ MATURITY ██░░░░░░░░            │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
 ╰──────────────────────────────────────────╯
@@ -80,16 +32,64 @@
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ SCIENTIFICDISCOVERYLAB                │
+│ ◉ CONSCIOUSNESS-INDICATOR-BATTERY       │
 │                                          │
-│ Self-audit of an autonomous simulation laboratory: t│
+│ A calibrated indicator battery for AI consciousness,│
 │                                          │
 │ AI                                      │
 │                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
-│ MATURITY ██░░░░░░░░            │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
+│ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ PHANTOMTAPE-RADIO                     │
+│                                          │
+│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
+│                                          │
+│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ NORTAQ-PLAYNEXUS                      │
+│                                          │
+│ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
+│                                          │
+│ AUDIO · TYPESCRIPT                      │
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/Nortaq-PlayNexus]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ OSMP                                  │
+│                                          │
+│ Open Source Modernization Platform - an autonomous e│
+│                                          │
+│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 9   │
+│ STATUS ████████░░  88%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
 ╰──────────────────────────────────────────╯
 ```
