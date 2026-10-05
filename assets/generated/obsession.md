@@ -8,8 +8,8 @@
 │  Shell                         │
 │  Rust                          │
 │  #python                       │
-│  #computer-vision              │
 │  #audio                        │
+│  #typescript                   │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯

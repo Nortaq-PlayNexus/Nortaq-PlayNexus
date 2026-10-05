@@ -1,32 +1,16 @@
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ SCIENTIFICDISCOVERYLAB                │
+│ ◉ PHANTOMTAPE-RADIO                     │
 │                                          │
-│ Self-audit of an autonomous simulation laboratory: t│
+│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
 │                                          │
-│ AI                                      │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ PHANTOM_VISION_LAB                    │
-│                                          │
-│ Computational research application simulating altere│
-│                                          │
-│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
+│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
 │ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
+│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -48,22 +32,6 @@
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ PHANTOMTAPE-RADIO                     │
-│                                          │
-│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
-│                                          │
-│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
 │ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
@@ -80,6 +48,38 @@
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ SCIENTIFICDISCOVERYLAB                │
+│                                          │
+│ Self-audit of an autonomous simulation laboratory: t│
+│                                          │
+│ AI                                      │
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ PHANTOM_VISION_LAB                    │
+│                                          │
+│ Computational research application simulating altere│
+│                                          │
+│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ OSMP                                  │
 │                                          │
 │ Open Source Modernization Platform - an autonomous e│
@@ -87,7 +87,7 @@
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │

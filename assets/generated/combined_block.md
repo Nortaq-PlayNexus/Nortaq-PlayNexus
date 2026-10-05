@@ -45,33 +45,17 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ SCIENTIFICDISCOVERYLAB                │
+│ ◉ PHANTOMTAPE-RADIO                     │
 │                                          │
-│ Self-audit of an autonomous simulation laboratory: t│
+│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
 │                                          │
-│ AI                                      │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ PHANTOM_VISION_LAB                    │
-│                                          │
-│ Computational research application simulating altere│
-│                                          │
-│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
+│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
 │ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
+│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -93,22 +77,6 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ PHANTOMTAPE-RADIO                     │
-│                                          │
-│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
-│                                          │
-│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
 │ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
@@ -125,6 +93,38 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ SCIENTIFICDISCOVERYLAB                │
+│                                          │
+│ Self-audit of an autonomous simulation laboratory: t│
+│                                          │
+│ AI                                      │
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ PHANTOM_VISION_LAB                    │
+│                                          │
+│ Computational research application simulating altere│
+│                                          │
+│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ OSMP                                  │
 │                                          │
 │ Open Source Modernization Platform - an autonomous e│
@@ -132,7 +132,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -141,29 +141,29 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261004
+20261005
 
 NEW REPOSITORIES ........ 62
-CONTRIBUTIONS (YR) ...... 1065
+CONTRIBUTIONS (YR) ...... 1073
 REPOSITORIES ............ 62
 LANGUAGES ............... 9
 TOTAL STARS ............. 24
 
 MOST ACTIVE (7 DAYS):
-  01 ScientificDiscoveryLab         0d ago
-  02 phantom_vision_lab             0d ago
-  03 consciousness-indicator-battery 0d ago
-  04 phantomtape-radio              0d ago
-  05 Nortaq-PlayNexus               0d ago
+  01 phantomtape-radio              0d ago
+  02 consciousness-indicator-battery 0d ago
+  03 Nortaq-PlayNexus               0d ago
+  04 ScientificDiscoveryLab         1d ago
+  05 phantom_vision_lab             1d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  71%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] terrorfibercraftark -- no activity for 31 days
-  [!] resourcegather -- no activity for 35 days
-  [!] Starminder -- no activity for 37 days
+  [!] terrorfibercraftark -- no activity for 32 days
+  [!] resourcegather -- no activity for 36 days
+  [!] Starminder -- no activity for 38 days
 
 FORECAST:
   HIGH development activity
@@ -183,7 +183,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261004  ║
+║ LAST AUDIT          20261005  ║
 ╚════════════════════════════════╝
 ```
 
@@ -197,8 +197,8 @@ FORECAST:
 │  Shell                         │
 │  Rust                          │
 │  #python                       │
-│  #computer-vision              │
 │  #audio                        │
+│  #typescript                   │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
@@ -214,7 +214,7 @@ FORECAST:
 WHILE YOU WERE AWAY...
 
   +5 repositories modified
-  +1065 contributions (rolling year)
+  +1073 contributions (rolling year)
   +62 new experiments this year
   +62 total transmissions
 
@@ -233,11 +233,11 @@ PROJECT LIFECYCLE
     └─ ... +44 more
 
   ACTIVE (12)
+    ├─ phantomtape-radio
+    ├─ consciousness-indicator-battery
+    ├─ Nortaq-PlayNexus
     ├─ ScientificDiscoveryLab
     ├─ phantom_vision_lab
-    ├─ consciousness-indicator-battery
-    ├─ phantomtape-radio
-    ├─ Nortaq-PlayNexus
     └─ ... +7 more
 
   MAINTENANCE (1)

@@ -287,9 +287,9 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   62 │
-│ CONTRIBUTIONS ..... 1065    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   65 DAYS │
-│ SIGNAL HASH ....... 5B6953   SIGNAL ......... ##########=.....  79%  PHASE 03 │
+│ CONTRIBUTIONS ..... 1073    FOLLOWERS ..........    2 │
+│ UPLINK AGE ........   66 DAYS │
+│ SIGNAL HASH ....... 91031A   SIGNAL ......... ########=.......  54%  PHASE 02 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -298,16 +298,16 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 1065
+CONTRIBUTIONS ...... 1073
 REPOSITORIES ....... 62
 FOLLOWERS .......... 2
 COLLECTED STARS .... 24
-BROADCASTING FOR ... 65 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 66 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  ScientificDiscoveryLab       PUSHED 2026-10-04
-  phantom_vision_lab           PUSHED 2026-10-04
-  consciousness-indicator-battery PUSHED 2026-10-04
+  phantomtape-radio            PUSHED 2026-10-05
+  consciousness-indicator-battery PUSHED 2026-10-05
+  Nortaq-PlayNexus             PUSHED 2026-10-05
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -327,11 +327,11 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX -- 62 FILES</code></summary>
 
 ```text
+  phantomtape-radio                JavaScript   *1
+  consciousness-indicator-battery  Python       *1
+  Nortaq-PlayNexus                 TypeScript   *1
   ScientificDiscoveryLab           Python       *1
   phantom_vision_lab               Python       *1
-  consciousness-indicator-battery  Python       *1
-  phantomtape-radio                JavaScript   *1
-  Nortaq-PlayNexus                 TypeScript   *1
   osmp                             TypeScript   *1
   dark-web-monitoring              Python       *1
   reports                          Shell        *1
@@ -392,7 +392,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261004 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261005 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -451,33 +451,17 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ SCIENTIFICDISCOVERYLAB                │
+│ ◉ PHANTOMTAPE-RADIO                     │
 │                                          │
-│ Self-audit of an autonomous simulation laboratory: t│
+│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
 │                                          │
-│ AI                                      │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ PHANTOM_VISION_LAB                    │
-│                                          │
-│ Computational research application simulating altere│
-│                                          │
-│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
+│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
 │ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
+│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -499,22 +483,6 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ PHANTOMTAPE-RADIO                     │
-│                                          │
-│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
-│                                          │
-│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
 │ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
@@ -531,6 +499,38 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ SCIENTIFICDISCOVERYLAB                │
+│                                          │
+│ Self-audit of an autonomous simulation laboratory: t│
+│                                          │
+│ AI                                      │
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ PHANTOM_VISION_LAB                    │
+│                                          │
+│ Computational research application simulating altere│
+│                                          │
+│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ OSMP                                  │
 │                                          │
 │ Open Source Modernization Platform - an autonomous e│
@@ -538,7 +538,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -547,29 +547,29 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261004
+20261005
 
 NEW REPOSITORIES ........ 62
-CONTRIBUTIONS (YR) ...... 1065
+CONTRIBUTIONS (YR) ...... 1073
 REPOSITORIES ............ 62
 LANGUAGES ............... 9
 TOTAL STARS ............. 24
 
 MOST ACTIVE (7 DAYS):
-  01 ScientificDiscoveryLab         0d ago
-  02 phantom_vision_lab             0d ago
-  03 consciousness-indicator-battery 0d ago
-  04 phantomtape-radio              0d ago
-  05 Nortaq-PlayNexus               0d ago
+  01 phantomtape-radio              0d ago
+  02 consciousness-indicator-battery 0d ago
+  03 Nortaq-PlayNexus               0d ago
+  04 ScientificDiscoveryLab         1d ago
+  05 phantom_vision_lab             1d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  71%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] terrorfibercraftark -- no activity for 31 days
-  [!] resourcegather -- no activity for 35 days
-  [!] Starminder -- no activity for 37 days
+  [!] terrorfibercraftark -- no activity for 32 days
+  [!] resourcegather -- no activity for 36 days
+  [!] Starminder -- no activity for 38 days
 
 FORECAST:
   HIGH development activity
@@ -589,7 +589,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261004  ║
+║ LAST AUDIT          20261005  ║
 ╚════════════════════════════════╝
 ```
 
@@ -603,8 +603,8 @@ FORECAST:
 │  Shell                         │
 │  Rust                          │
 │  #python                       │
-│  #computer-vision              │
 │  #audio                        │
+│  #typescript                   │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
@@ -620,7 +620,7 @@ FORECAST:
 WHILE YOU WERE AWAY...
 
   +5 repositories modified
-  +1065 contributions (rolling year)
+  +1073 contributions (rolling year)
   +62 new experiments this year
   +62 total transmissions
 
@@ -639,11 +639,11 @@ PROJECT LIFECYCLE
     └─ ... +44 more
 
   ACTIVE (12)
+    ├─ phantomtape-radio
+    ├─ consciousness-indicator-battery
+    ├─ Nortaq-PlayNexus
     ├─ ScientificDiscoveryLab
     ├─ phantom_vision_lab
-    ├─ consciousness-indicator-battery
-    ├─ phantomtape-radio
-    ├─ Nortaq-PlayNexus
     └─ ... +7 more
 
   MAINTENANCE (1)
