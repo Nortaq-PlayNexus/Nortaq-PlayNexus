@@ -11,10 +11,10 @@ PROJECT LIFECYCLE
 
   ACTIVE (12)
     ├─ phantomtape-radio
-    ├─ consciousness-indicator-battery
     ├─ Nortaq-PlayNexus
     ├─ ScientificDiscoveryLab
     ├─ phantom_vision_lab
+    ├─ consciousness-indicator-battery
     └─ ... +7 more
 
   MAINTENANCE (1)

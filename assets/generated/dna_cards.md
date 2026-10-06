@@ -16,22 +16,6 @@
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ CONSCIOUSNESS-INDICATOR-BATTERY       │
-│                                          │
-│ A calibrated indicator battery for AI consciousness,│
-│                                          │
-│ AI                                      │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
 │ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
@@ -80,6 +64,22 @@
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ CONSCIOUSNESS-INDICATOR-BATTERY       │
+│                                          │
+│ A calibrated indicator battery for AI consciousness,│
+│                                          │
+│ AI                                      │
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ OSMP                                  │
 │                                          │
 │ Open Source Modernization Platform - an autonomous e│
@@ -87,7 +87,7 @@
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
