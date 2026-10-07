@@ -286,28 +286,28 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
-│ GITHUB ........... ONLINE      REPOS .............   62 │
-│ CONTRIBUTIONS ..... 1075    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   67 DAYS │
-│ SIGNAL HASH ....... 0430C7   SIGNAL ......... ##########=.....  71%  PHASE 07 │
+│ GITHUB ........... ONLINE      REPOS .............   63 │
+│ CONTRIBUTIONS ..... 1083    FOLLOWERS ..........    2 │
+│ UPLINK AGE ........   68 DAYS │
+│ SIGNAL HASH ....... F3BFF9   SIGNAL ......... ###########=....  83%  PHASE 01 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
-   ..........................................==#-###--#=
+   ..........................................==#-###--##
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 1075
-REPOSITORIES ....... 62
+CONTRIBUTIONS ...... 1083
+REPOSITORIES ....... 63
 FOLLOWERS .......... 2
 COLLECTED STARS .... 24
-BROADCASTING FOR ... 67 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 68 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  phantomtape-radio            PUSHED 2026-10-06
-  Nortaq-PlayNexus             PUSHED 2026-10-06
-  ScientificDiscoveryLab       PUSHED 2026-10-05
+  osmp                         PUSHED 2026-10-07
+  COSMOS-TEST-SUITE            PUSHED 2026-10-07
+  phantomtape-radio            PUSHED 2026-10-07
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -324,15 +324,16 @@ COFFEE ........ REQUIRED
 ```
 
 <details>
-  <summary><code>CASES:// RAW ARCHIVE INDEX -- 62 FILES</code></summary>
+  <summary><code>CASES:// RAW ARCHIVE INDEX -- 63 FILES</code></summary>
 
 ```text
+  osmp                             TypeScript   *1
+  COSMOS-TEST-SUITE                Python       *0
   phantomtape-radio                JavaScript   *1
   Nortaq-PlayNexus                 TypeScript   *1
   ScientificDiscoveryLab           Python       *1
   phantom_vision_lab               Python       *1
   consciousness-indicator-battery  Python       *1
-  osmp                             TypeScript   *1
   dark-web-monitoring              Python       *1
   reports                          Shell        *1
   TerrorFibercraft-Admin           Python       *1
@@ -392,7 +393,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261006 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261007 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -411,8 +412,8 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ║       PHANTOMTAPE SIGNAL WEATHER     ║
 ╠══════════════════════════════════════╣
 ║                                      ║
-║  ACTIVITY       ████████░░░░   71%    ║
-║  MOMENTUM       ████████████  100%    ║
+║  ACTIVITY       ████████░░░░   72%    ║
+║  MOMENTUM       ██████████░░   84%    ║
 ║  BUILD PRESSURE ████████████  100%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
@@ -427,9 +428,9 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ```
 PHANTOMTAPE TECHNOLOGY GENOME
 
-Python         ████████████████████  32
-JavaScript     ███░░░░░░░░░░░░░░░░░  5
+Python         ████████████████████  33
 TypeScript     ███░░░░░░░░░░░░░░░░░  5
+JavaScript     ███░░░░░░░░░░░░░░░░░  5
 Rust           █░░░░░░░░░░░░░░░░░░░  3
 HTML           █░░░░░░░░░░░░░░░░░░░  3
 C#             █░░░░░░░░░░░░░░░░░░░  3
@@ -438,15 +439,31 @@ Go             ░░░░░░░░░░░░░░░░░░░░  1
 
 DOMAIN GENOME
 
-AI             ████████████████████  18
-LANG           ███████████░░░░░░░░░  10
-AUDIO          ██████████░░░░░░░░░░  9
+AI             ████████████████████  19
+LANG           ██████████░░░░░░░░░░  10
+AUDIO          █████████░░░░░░░░░░░  9
 SYSTEMS        ███████░░░░░░░░░░░░░  7
 DATA           ██████░░░░░░░░░░░░░░  6
 GAMING         ████░░░░░░░░░░░░░░░░  4
 EARTH          ████░░░░░░░░░░░░░░░░  4
 OTHER          ██░░░░░░░░░░░░░░░░░░  2
 WEB            ██░░░░░░░░░░░░░░░░░░  2
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ OSMP                                  │
+│                                          │
+│ Open Source Modernization Platform - an autonomous e│
+│                                          │
+│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 9   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+╰──────────────────────────────────────────╯
 ```
 
 ```
@@ -490,7 +507,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AI                                      │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
@@ -506,7 +523,7 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
@@ -522,58 +539,42 @@ WEB            ██░░░░░░░░░░░░░░░░░░  2
 │ AI                                      │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
 ╰──────────────────────────────────────────╯
 ```
 
-```
-╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
-│                                          │
-│ Open Source Modernization Platform - an autonomous e│
-│                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  82%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
-╰──────────────────────────────────────────╯
-```
-
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261006
+20261007
 
-NEW REPOSITORIES ........ 62
-CONTRIBUTIONS (YR) ...... 1075
-REPOSITORIES ............ 62
+NEW REPOSITORIES ........ 63
+CONTRIBUTIONS (YR) ...... 1083
+REPOSITORIES ............ 63
 LANGUAGES ............... 9
 TOTAL STARS ............. 24
 
 MOST ACTIVE (7 DAYS):
-  01 phantomtape-radio              0d ago
-  02 Nortaq-PlayNexus               0d ago
-  03 ScientificDiscoveryLab         0d ago
-  04 phantom_vision_lab             0d ago
-  05 consciousness-indicator-battery 1d ago
+  01 osmp                           0d ago
+  02 COSMOS-TEST-SUITE              0d ago
+  03 phantomtape-radio              0d ago
+  04 Nortaq-PlayNexus               0d ago
+  05 ScientificDiscoveryLab         1d ago
 
 SIGNAL WEATHER:
-  ACTIVITY       ████████░░░░  71%
+  ACTIVITY       ████████░░░░  72%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] color_quant -- no activity for 31 days
-  [!] envoy-proxy-crowdsec-bouncer -- no activity for 31 days
-  [!] agency-swarm -- no activity for 31 days
+  [!] synthesis-dj -- no activity for 31 days
+  [!] heart -- no activity for 31 days
+  [!] FreeStack -- no activity for 31 days
 
 FORECAST:
   HIGH development activity
-  12 repositories active in last 14 days
+  13 repositories active in last 14 days
 
 ```
 
@@ -589,7 +590,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261006  ║
+║ LAST AUDIT          20261007  ║
 ╚════════════════════════════════╝
 ```
 
@@ -603,7 +604,7 @@ FORECAST:
 │  Shell                         │
 │  Rust                          │
 │  #python                       │
-│  #audio                        │
+│  #automation                   │
 │  #typescript                   │
 │
 │ STATUS: OBSESSED               │
@@ -619,10 +620,10 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +5 repositories modified
-  +1075 contributions (rolling year)
-  +62 new experiments this year
-  +62 total transmissions
+  +7 repositories modified
+  +1083 contributions (rolling year)
+  +63 new experiments this year
+  +63 total transmissions
 
   The machine did not sleep.
 ```
@@ -638,13 +639,13 @@ PROJECT LIFECYCLE
     ├─ 911-investigation
     └─ ... +44 more
 
-  ACTIVE (12)
+  ACTIVE (13)
+    ├─ osmp
+    ├─ COSMOS-TEST-SUITE
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
     ├─ ScientificDiscoveryLab
-    ├─ phantom_vision_lab
-    ├─ consciousness-indicator-battery
-    └─ ... +7 more
+    └─ ... +8 more
 
   MAINTENANCE (1)
     ├─ pygeofilter

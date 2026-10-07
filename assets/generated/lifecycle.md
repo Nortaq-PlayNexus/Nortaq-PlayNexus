@@ -9,13 +9,13 @@ PROJECT LIFECYCLE
     ├─ 911-investigation
     └─ ... +44 more
 
-  ACTIVE (12)
+  ACTIVE (13)
+    ├─ osmp
+    ├─ COSMOS-TEST-SUITE
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
     ├─ ScientificDiscoveryLab
-    ├─ phantom_vision_lab
-    ├─ consciousness-indicator-battery
-    └─ ... +7 more
+    └─ ... +8 more
 
   MAINTENANCE (1)
     ├─ pygeofilter

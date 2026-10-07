@@ -1,5 +1,21 @@
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ OSMP                                  │
+│                                          │
+│ Open Source Modernization Platform - an autonomous e│
+│                                          │
+│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 9   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ PHANTOMTAPE-RADIO                     │
 │                                          │
 │ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
@@ -39,7 +55,7 @@
 │ AI                                      │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
@@ -55,7 +71,7 @@
 │ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
@@ -71,25 +87,9 @@
 │ AI                                      │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
-│                                          │
-│ Open Source Modernization Platform - an autonomous e│
-│                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  82%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
 ╰──────────────────────────────────────────╯
 ```
