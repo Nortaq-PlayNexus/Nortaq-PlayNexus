@@ -10,11 +10,11 @@ PROJECT LIFECYCLE
     └─ ... +44 more
 
   ACTIVE (13)
-    ├─ osmp
-    ├─ COSMOS-TEST-SUITE
+    ├─ consciousness-indicator-battery
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
-    ├─ ScientificDiscoveryLab
+    ├─ osmp
+    ├─ COSMOS-TEST-SUITE
     └─ ... +8 more
 
   MAINTENANCE (1)

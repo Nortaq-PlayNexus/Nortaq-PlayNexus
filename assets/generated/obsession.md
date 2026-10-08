@@ -8,7 +8,7 @@
 │  Shell                         │
 │  Rust                          │
 │  #python                       │
-│  #automation                   │
+│  #audio                        │
 │  #typescript                   │
 │
 │ STATUS: OBSESSED               │
