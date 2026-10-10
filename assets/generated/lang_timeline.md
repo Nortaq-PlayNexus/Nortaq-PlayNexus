@@ -1,5 +1,5 @@
 ```
-  2026 ───── C#, Go, HTML, JavaScript, PHP, Python, Rust, Shell, TypeScript
+  2026 ───── C#, C++, Go, HTML, JavaScript, PHP, Python, Rust, Shell, TypeScript
              │
              ▼
         CURRENT STACK
