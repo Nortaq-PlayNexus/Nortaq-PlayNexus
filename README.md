@@ -189,6 +189,50 @@ Classified records from the music-engineering side of the room. SKUs are real pr
 
 ---
 
+<a name="research"></a>
+
+## // RESEARCH BAY
+
+`$ ls research/ --claim-status`
+
+Not a lab that finds things. A lab that tries to break things and publishes what survived. Most of it does not survive, and that is the finding.
+
+**Published**
+
+| REPOSITORY | WHAT IT ACTUALLY CONCLUDED |
+|---|---|
+| [ScientificDiscoveryLab](https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab) | An autonomous simulation laboratory, audited by itself. The audit found defects **in the lab's own instruments** — a shared-RNG battery applying a spurious `√2` to a statistic that was already in erfc units, and an experiment-registry integrity pin that could not fail. Preregistrations, paired re-implementations, hash-chained change logs. **No scientific discovery is claimed.** |
+| [EXP-0007](https://github.com/Nortaq-PlayNexus/EXP-0007) | Coherent Optical Vortex Propagation, R14 validation study. Archived technical report: [`10.5281/zenodo.22849652`](https://doi.org/10.5281/zenodo.22849652) · [record](https://zenodo.org/records/22849652). |
+
+**Standing claims, offered for refutation**
+
+| REPOSITORY | THE CLAIM UNDER TEST | RESULT |
+|---|---|---|
+| [COSMOS-TEST-SUITE](https://github.com/Nortaq-PlayNexus/COSMOS-TEST-SUITE) | cosmological hypotheses | Pre-registered analysis plans, adversarial review, look-elsewhere correction, full provenance. **No scientific findings claimed.** |
+| [consciousness-indicator-battery](https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery) | AI consciousness | A calibrated battery, and what still survives perturbing every discretionary choice in it. **No AI systems scored. No claim about AI consciousness.** |
+| [alien-image-investigation](https://github.com/Nortaq-PlayNexus/alien-image-investigation) | the alien-imagery question | **No verified ET image or video has ever been authenticated.** The actual finding is structural — the residual measures the intake filter, not the sky. |
+| [dmt-laser-code-analysis](https://github.com/Nortaq-PlayNexus/dmt-laser-code-analysis) | the "DMT laser code" | Not a code. Laser speckle optics, psychedelic neuroscience and pareidolia account for the reported symbols. Debunking, with full DOI citations. |
+
+**Held back, on purpose**
+
+```text
+$string-theory-questions        STATUS: RELEASE_BLOCKED  (local, not published)
+                                24 headline claims audited against the data files
+                                they cite.  2 SURVIVED.  22 did not.
+                                The script that generated the original dossiers is
+                                disarmed, not deleted — running it would overwrite
+                                the corrections with the retracted text.
+
+$ genome-anomaly-lab            STATUS: NOT PUBLISHED  (local, not published)
+                                8 competing hypotheses on the human/chimp clock.
+                                RESULT: no acceleration detected. p > 0.08 in every
+                                testable window. A null result is a reportable outcome.
+```
+
+`// a claim that cannot be checked against the data file it names is not a result. an "expected" value computed from the observed quantity is circular. a boolean flag is a label, not a finding. shipping is optional. saying so is not.`
+
+---
+
 <a name="toolbox"></a>
 
 ## // 05 :: TOOLBOX
