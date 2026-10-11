@@ -8,7 +8,7 @@
 │  C++                           │
 │  C#                            │
 │  #python                       │
-│  #audio                        │
+│  #research                     │
 │  #automation                   │
 │
 │ STATUS: OBSESSED               │

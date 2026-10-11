@@ -36,10 +36,10 @@
 │                                          │
 │ Self-audit of an autonomous simulation laboratory: t│
 │                                          │
-│ AI                                      │
+│ FALSIFICATION · PROVENANCE · PYTHON · RESEARCH│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
@@ -55,7 +55,7 @@
 │ AUTOMATION · CLOUDFLARE · CLOUDFLARE-WORKERS · DATABASE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/FreeStack]                        │
@@ -68,10 +68,10 @@
 │                                          │
 │ A calibrated indicator battery for AI consciousness,│
 │                                          │
-│ AI                                      │
+│ AI · AI-CONSCIOUSNESS · FALSIFICATION · OPEN-SCIENCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
@@ -87,7 +87,7 @@
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
