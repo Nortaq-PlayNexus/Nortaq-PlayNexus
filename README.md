@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Nortaq-PlayNexus?tab=repositories"><img src="https://img.shields.io/badge/repos-65-ffc430?style=flat-square&logo=github&labelColor=0a0e1a" alt="repos"/></a>
+  <a href="https://github.com/Nortaq-PlayNexus?tab=repositories"><img src="https://img.shields.io/badge/repos-70-ffc430?style=flat-square&logo=github&labelColor=0a0e1a" alt="repos"/></a>
   <img src="https://img.shields.io/github/followers/Nortaq-PlayNexus?style=flat-square&logo=github&labelColor=0a0e1a&color=3dd5ff" alt="followers"/>
   <img src="https://img.shields.io/github/stars/Nortaq-PlayNexus?style=flat-square&logo=github&labelColor=0a0e1a&color=ff3b3b" alt="stars"/>
   <img src="https://img.shields.io/badge/now-103.7%20FM-ff3b3b?style=flat-square&labelColor=0a0e1a" alt="now"/>
@@ -83,7 +83,7 @@ IDENT ......... PHANTOMTAPE
 ROLE .......... DJ / BUILDER / EXPERIMENTER
 CURRENT MODE .. CREATING
 INTERESTS ..... AUDIO / SOFTWARE / AUTOMATION / WEIRD PROJECTS
-LANGUAGES ..... PYTHON · JAVASCRIPT · TYPESCRIPT · RUST · C# · HTML · PHP
+LANGUAGES ..... PYTHON · JAVASCRIPT · TYPESCRIPT · RUST · C# · C++ · HTML · GO · PHP · SHELL
 TOOLS ......... WEB AUDIO · WASAPI DSP · OLLAMA · TAURI · OPENCV/YOLO · THREE.JS · GITHUB ACTIONS
 LOCATION ...... <PHANTOMTAPE_P-03 UNKNOWN: TUNED TO PLANET EARTH>
 </pre>
@@ -243,7 +243,7 @@ Only what's actually in the repos. Nothing here is aspirational.
 
 ```text
 AUDIO   : WEB AUDIO · WASAPI DSP · BEAT/KEY DETECTION · CAMELOT WHEEL · VIRTUAL AUDIO CABLE
-CODE    : PYTHON(23) · RUST(4) · JAVASCRIPT(3) · TYPESCRIPT(3) · C#(2) · HTML(1) · PHP(1)
+CODE    : PYTHON(36) · JAVASCRIPT(5) · TYPESCRIPT(5) · C#(4) · RUST(3) · HTML(3) · C++(2) · GO(1) · PHP(1) · SHELL(1)
 TOOLS   : GITHUB ACTIONS · TAURI · OLLAMA · LM STUDIO · OPENCV/YOLO · THREE.JS · ELECTRON
 SYSTEMS : WINDOWS (WASAPI/TPM) · LINUX · CROSS-PLATFORM · LOCAL-FIRST
 ```
