@@ -6,7 +6,7 @@
 │  JavaScript                    │
 │  TypeScript                    │
 │  C++                           │
-│  C#                            │
+│  HTML                          │
 │  #python                       │
 │  #research                     │
 │  #automation                   │

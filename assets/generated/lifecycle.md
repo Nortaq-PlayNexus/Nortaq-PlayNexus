@@ -1,23 +1,24 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (47)
+  PROTOTYPE (45)
     ├─ alien-image-investigation
     ├─ orion-sentinel-ai
     ├─ playnexus-musicvidforge
     ├─ aurora-audio-engine
     ├─ SecureVault
-    └─ ... +42 more
+    └─ ... +40 more
 
-  ACTIVE (22)
+  ACTIVE (23)
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
+    ├─ nasa-investigation
+    ├─ phantom_vision_lab
     ├─ ScientificDiscoveryLab
-    ├─ FreeStack
-    ├─ nexus-agent-x
-    └─ ... +17 more
+    └─ ... +18 more
 
-  MAINTENANCE (1)
+  MAINTENANCE (2)
+    ├─ python-hid-parser
     ├─ pygeofilter
 
 ```

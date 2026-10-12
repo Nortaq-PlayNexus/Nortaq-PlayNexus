@@ -51,35 +51,35 @@
 <text x="52" y="386" fill="#B8FF1E" font-size="11" font-weight="bold">@ AI (23)</text>
 <line x1="40" y1="388" x2="40" y2="410" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="410" r="3" fill="#B8FF1E"/>
-<text x="52" y="413" fill="#E8E8E8" font-size="9">ScientificDiscoveryLab</text>
+<text x="52" y="413" fill="#E8E8E8" font-size="9">phantom_vision_lab</text>
 <text x="660" y="413" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="416" x2="40" y2="438" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="438" r="3" fill="#B8FF1E"/>
-<text x="52" y="441" fill="#E8E8E8" font-size="9">nexus-agent-x</text>
+<text x="52" y="441" fill="#E8E8E8" font-size="9">ScientificDiscoveryLab</text>
 <text x="660" y="441" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="444" x2="40" y2="466" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="466" r="3" fill="#B8FF1E"/>
-<text x="52" y="469" fill="#E8E8E8" font-size="9">dmt-laser-code-analysis</text>
-<text x="660" y="469" fill="#8A8A8A" font-size="9">?</text>
+<text x="52" y="469" fill="#E8E8E8" font-size="9">nexus-agent-x</text>
+<text x="660" y="469" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="472" x2="40" y2="494" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="494" r="3" fill="#B8FF1E"/>
-<text x="52" y="497" fill="#E8E8E8" font-size="9">xbox-one-research</text>
-<text x="660" y="497" fill="#8A8A8A" font-size="9">C++</text>
+<text x="52" y="497" fill="#E8E8E8" font-size="9">dmt-laser-code-analysis</text>
+<text x="660" y="497" fill="#8A8A8A" font-size="9">?</text>
 <line x1="40" y1="500" x2="40" y2="522" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="522" r="3" fill="#B8FF1E"/>
-<text x="52" y="525" fill="#E8E8E8" font-size="9">aegis</text>
-<text x="660" y="525" fill="#8A8A8A" font-size="9">Python</text>
+<text x="52" y="525" fill="#E8E8E8" font-size="9">xbox-one-research</text>
+<text x="660" y="525" fill="#8A8A8A" font-size="9">C++</text>
 <line x1="40" y1="528" x2="40" y2="550" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="550" r="3" fill="#B8FF1E"/>
-<text x="52" y="553" fill="#E8E8E8" font-size="9">consciousness-indicator-battery</text>
+<text x="52" y="553" fill="#E8E8E8" font-size="9">aegis</text>
 <text x="660" y="553" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="556" x2="40" y2="578" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="578" r="3" fill="#B8FF1E"/>
-<text x="52" y="581" fill="#E8E8E8" font-size="9">COSMOS-TEST-SUITE</text>
+<text x="52" y="581" fill="#E8E8E8" font-size="9">consciousness-indicator-battery</text>
 <text x="660" y="581" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="584" x2="40" y2="606" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="606" r="3" fill="#B8FF1E"/>
-<text x="52" y="609" fill="#E8E8E8" font-size="9">phantom_vision_lab</text>
+<text x="52" y="609" fill="#E8E8E8" font-size="9">COSMOS-TEST-SUITE</text>
 <text x="660" y="609" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="612" x2="40" y2="634" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="634" r="3" fill="#FFC430"/>
@@ -176,13 +176,13 @@
 <circle cx="40" cy="1278" r="5" fill="#FFC430"/>
 <text x="52" y="1282" fill="#FFC430" font-size="11" font-weight="bold">* EARTH (4)</text>
 <line x1="40" y1="1284" x2="40" y2="1306" stroke="#FFC430" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1306" r="3" fill="#8A8A8A"/>
-<text x="52" y="1309" fill="#E8E8E8" font-size="9">earth-globe</text>
-<text x="660" y="1309" fill="#8A8A8A" font-size="9">Python</text>
+<circle cx="40" cy="1306" r="3" fill="#B8FF1E"/>
+<text x="52" y="1309" fill="#E8E8E8" font-size="9">nasa-investigation</text>
+<text x="660" y="1309" fill="#8A8A8A" font-size="9">HTML</text>
 <line x1="40" y1="1312" x2="40" y2="1334" stroke="#FFC430" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="1334" r="3" fill="#8A8A8A"/>
-<text x="52" y="1337" fill="#E8E8E8" font-size="9">nasa-investigation</text>
-<text x="660" y="1337" fill="#8A8A8A" font-size="9">HTML</text>
+<text x="52" y="1337" fill="#E8E8E8" font-size="9">earth-globe</text>
+<text x="660" y="1337" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1340" x2="40" y2="1362" stroke="#FFC430" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="1362" r="3" fill="#8A8A8A"/>
 <text x="52" y="1365" fill="#E8E8E8" font-size="9">meteofrance-api</text>

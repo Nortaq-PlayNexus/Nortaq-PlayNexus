@@ -331,9 +331,9 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   70 │
-│ CONTRIBUTIONS ..... 1105    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   72 DAYS │
-│ SIGNAL HASH ....... 503E41   SIGNAL ......... ########=.......  57%  PHASE 01 │
+│ CONTRIBUTIONS ..... 1097    FOLLOWERS ..........    2 │
+│ UPLINK AGE ........   73 DAYS │
+│ SIGNAL HASH ....... 1726D4   SIGNAL ......... ########=.......  58%  PHASE 04 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -342,16 +342,16 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 1105
+CONTRIBUTIONS ...... 1097
 REPOSITORIES ....... 70
 FOLLOWERS .......... 2
 COLLECTED STARS .... 24
-BROADCASTING FOR ... 72 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 73 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  phantomtape-radio            PUSHED 2026-10-11
-  Nortaq-PlayNexus             PUSHED 2026-10-11
-  ScientificDiscoveryLab       PUSHED 2026-10-09
+  phantomtape-radio            PUSHED 2026-10-12
+  Nortaq-PlayNexus             PUSHED 2026-10-12
+  nasa-investigation           PUSHED 2026-10-11
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -373,6 +373,8 @@ COFFEE ........ REQUIRED
 ```text
   phantomtape-radio                JavaScript   *1
   Nortaq-PlayNexus                 TypeScript   *1
+  nasa-investigation               HTML         *2
+  phantom_vision_lab               Python       *1
   ScientificDiscoveryLab           Python       *1
   FreeStack                        Python       *1
   nexus-agent-x                    Python       *0
@@ -387,7 +389,6 @@ COFFEE ........ REQUIRED
   consciousness-indicator-battery  Python       *1
   osmp                             TypeScript   *1
   COSMOS-TEST-SUITE                Python       *0
-  phantom_vision_lab               Python       *1
   dark-web-monitoring              Python       *1
   reports                          Shell        *1
   TerrorFibercraft-Admin           Python       *1
@@ -400,8 +401,8 @@ COFFEE ........ REQUIRED
   SecureVault                      C#           *1
   911-investigation                -            *1
   better_bing_image_downloader     Python       *0
-  swarmforge                       Python       *0
   forge                            Python       *0
+  swarmforge                       Python       *0
   archive-07                       -            *0
   ProjectPhoenix                   C#           *0
   playnexus-sovereign-meta-agent   Python       *0
@@ -419,7 +420,6 @@ COFFEE ........ REQUIRED
   synthesis-dj                     JavaScript   *0
   heart                            Python       *0
   promoforge                       Rust         *0
-  nasa-investigation               HTML         *2
   color_quant                      -            *0
   envoy-proxy-crowdsec-bouncer     Go           *0
   agency-swarm                     Python       *0
@@ -444,7 +444,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261011 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261012 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -483,8 +483,8 @@ Python         ████████████████████  36
 JavaScript     ██░░░░░░░░░░░░░░░░░░  5
 TypeScript     ██░░░░░░░░░░░░░░░░░░  5
 C#             ██░░░░░░░░░░░░░░░░░░  4
-Rust           █░░░░░░░░░░░░░░░░░░░  3
 HTML           █░░░░░░░░░░░░░░░░░░░  3
+Rust           █░░░░░░░░░░░░░░░░░░░  3
 C++            █░░░░░░░░░░░░░░░░░░░  2
 Shell          ░░░░░░░░░░░░░░░░░░░░  1
 
@@ -499,6 +499,22 @@ DATA           █████░░░░░░░░░░░░░░░  6
 EARTH          ███░░░░░░░░░░░░░░░░░  4
 OTHER          █░░░░░░░░░░░░░░░░░░░  2
 WEB            █░░░░░░░░░░░░░░░░░░░  2
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ NASA-INVESTIGATION                    │
+│                                          │
+│ Exclusive anomaly detection pipeline for NASA HiRISE│
+│                                          │
+│ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · HTML│
+│                                          │
+│ STARS  2     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY █████░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
+╰──────────────────────────────────────────╯
 ```
 
 ```
@@ -535,6 +551,22 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ PHANTOM_VISION_LAB                    │
+│                                          │
+│ Computational research application simulating altere│
+│                                          │
+│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ SCIENTIFICDISCOVERYLAB                │
 │                                          │
 │ Self-audit of an autonomous simulation laboratory: t│
@@ -542,7 +574,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ FALSIFICATION · PROVENANCE · PYTHON · RESEARCH│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
@@ -558,51 +590,19 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · CLOUDFLARE · CLOUDFLARE-WORKERS · DATABASE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/FreeStack]                        │
 ╰──────────────────────────────────────────╯
 ```
 
-```
-╭──────────────────────────────────────────╮
-│ ◉ CONSCIOUSNESS-INDICATOR-BATTERY       │
-│                                          │
-│ A calibrated indicator battery for AI consciousness,│
-│                                          │
-│ AI · AI-CONSCIOUSNESS · FALSIFICATION · OPEN-SCIENCE│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  91%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
-│                                          │
-│ Open Source Modernization Platform - an autonomous e│
-│                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  88%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
-╰──────────────────────────────────────────╯
-```
-
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261011
+20261012
 
 NEW REPOSITORIES ........ 70
-CONTRIBUTIONS (YR) ...... 1105
+CONTRIBUTIONS (YR) ...... 1097
 REPOSITORIES ............ 70
 LANGUAGES ............... 10
 TOTAL STARS ............. 24
@@ -610,22 +610,22 @@ TOTAL STARS ............. 24
 MOST ACTIVE (7 DAYS):
   01 phantomtape-radio              0d ago
   02 Nortaq-PlayNexus               0d ago
-  03 ScientificDiscoveryLab         1d ago
-  04 FreeStack                      1d ago
-  05 nexus-agent-x                  1d ago
+  03 nasa-investigation             1d ago
+  04 phantom_vision_lab             1d ago
+  05 ScientificDiscoveryLab         2d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  73%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] playnexus-sovereign-meta-agent -- no activity for 33 days
-  [!] phantom -- no activity for 33 days
-  [!] earth-globe -- no activity for 33 days
+  [!] 911-investigation -- no activity for 31 days
+  [!] better_bing_image_downloader -- no activity for 31 days
+  [!] forge -- no activity for 31 days
 
 FORECAST:
   HIGH development activity
-  22 repositories active in last 14 days
+  23 repositories active in last 14 days
 
 ```
 
@@ -641,7 +641,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261011  ║
+║ LAST AUDIT          20261012  ║
 ╚════════════════════════════════╝
 ```
 
@@ -653,7 +653,7 @@ FORECAST:
 │  JavaScript                    │
 │  TypeScript                    │
 │  C++                           │
-│  C#                            │
+│  HTML                          │
 │  #python                       │
 │  #research                     │
 │  #automation                   │
@@ -671,8 +671,8 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +14 repositories modified
-  +1105 contributions (rolling year)
+  +15 repositories modified
+  +1097 contributions (rolling year)
   +70 new experiments this year
   +70 total transmissions
 
@@ -682,23 +682,24 @@ WHILE YOU WERE AWAY...
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (47)
+  PROTOTYPE (45)
     ├─ alien-image-investigation
     ├─ orion-sentinel-ai
     ├─ playnexus-musicvidforge
     ├─ aurora-audio-engine
     ├─ SecureVault
-    └─ ... +42 more
+    └─ ... +40 more
 
-  ACTIVE (22)
+  ACTIVE (23)
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
+    ├─ nasa-investigation
+    ├─ phantom_vision_lab
     ├─ ScientificDiscoveryLab
-    ├─ FreeStack
-    ├─ nexus-agent-x
-    └─ ... +17 more
+    └─ ... +18 more
 
-  MAINTENANCE (1)
+  MAINTENANCE (2)
+    ├─ python-hid-parser
     ├─ pygeofilter
 
 ```
