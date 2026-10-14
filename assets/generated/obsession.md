@@ -9,7 +9,7 @@
 │  HTML                          │
 │  #python                       │
 │  #research                     │
-│  #automation                   │
+│  #audio                        │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯

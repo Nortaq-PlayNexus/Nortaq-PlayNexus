@@ -332,8 +332,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   70 │
 │ CONTRIBUTIONS ..... 1097    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   74 DAYS │
-│ SIGNAL HASH ....... 5AC73F   SIGNAL ......... ###########=....  87%  PHASE 07 │
+│ UPLINK AGE ........   75 DAYS │
+│ SIGNAL HASH ....... 088168   SIGNAL ......... ########=.......  56%  PHASE 00 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -346,11 +346,11 @@ CONTRIBUTIONS ...... 1097
 REPOSITORIES ....... 70
 FOLLOWERS .......... 2
 COLLECTED STARS .... 24
-BROADCASTING FOR ... 74 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 75 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  phantomtape-radio            PUSHED 2026-10-13
-  Nortaq-PlayNexus             PUSHED 2026-10-13
+  phantomtape-radio            PUSHED 2026-10-14
+  Nortaq-PlayNexus             PUSHED 2026-10-14
   nasa-investigation           PUSHED 2026-10-11
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
@@ -444,7 +444,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261013 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261014 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -510,7 +510,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · HTML│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -558,7 +558,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
@@ -574,7 +574,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ FALSIFICATION · PROVENANCE · PYTHON · RESEARCH│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
@@ -590,7 +590,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · CLOUDFLARE · CLOUDFLARE-WORKERS · DATABASE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/FreeStack]                        │
@@ -599,7 +599,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261013
+20261014
 
 NEW REPOSITORIES ........ 70
 CONTRIBUTIONS (YR) ...... 1097
@@ -612,20 +612,20 @@ MOST ACTIVE (7 DAYS):
   02 Nortaq-PlayNexus               0d ago
   03 nasa-investigation             2d ago
   04 phantom_vision_lab             2d ago
-  05 ScientificDiscoveryLab         3d ago
+  05 ScientificDiscoveryLab         4d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  73%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] 911-investigation -- no activity for 32 days
-  [!] better_bing_image_downloader -- no activity for 32 days
-  [!] forge -- no activity for 32 days
+  [!] 911-investigation -- no activity for 33 days
+  [!] better_bing_image_downloader -- no activity for 33 days
+  [!] forge -- no activity for 33 days
 
 FORECAST:
   HIGH development activity
-  22 repositories active in last 14 days
+  18 repositories active in last 14 days
 
 ```
 
@@ -641,7 +641,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261013  ║
+║ LAST AUDIT          20261014  ║
 ╚════════════════════════════════╝
 ```
 
@@ -656,7 +656,7 @@ FORECAST:
 │  HTML                          │
 │  #python                       │
 │  #research                     │
-│  #automation                   │
+│  #audio                        │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
@@ -671,7 +671,7 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +15 repositories modified
+  +4 repositories modified
   +1097 contributions (rolling year)
   +70 new experiments this year
   +70 total transmissions
@@ -682,21 +682,21 @@ WHILE YOU WERE AWAY...
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (45)
+  PROTOTYPE (49)
+    ├─ dark-web-monitoring
+    ├─ reports
+    ├─ TerrorFibercraft-Admin
+    ├─ ArkNexusX
     ├─ EXP-0007
-    ├─ alien-image-investigation
-    ├─ orion-sentinel-ai
-    ├─ playnexus-musicvidforge
-    ├─ aurora-audio-engine
-    └─ ... +40 more
+    └─ ... +44 more
 
-  ACTIVE (22)
+  ACTIVE (18)
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
     ├─ nasa-investigation
     ├─ phantom_vision_lab
     ├─ ScientificDiscoveryLab
-    └─ ... +17 more
+    └─ ... +13 more
 
   MAINTENANCE (3)
     ├─ cookiecutter-wagtail-vix
