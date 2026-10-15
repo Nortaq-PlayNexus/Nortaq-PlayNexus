@@ -12,9 +12,9 @@ PROJECT LIFECYCLE
   ACTIVE (18)
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
+    ├─ osmp
     ├─ nasa-investigation
     ├─ phantom_vision_lab
-    ├─ ScientificDiscoveryLab
     └─ ... +13 more
 
   MAINTENANCE (3)
