@@ -9,13 +9,13 @@ PROJECT LIFECYCLE
     ├─ EXP-0007
     └─ ... +44 more
 
-  ACTIVE (18)
+  ACTIVE (19)
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
+    ├─ opencode-on-render-mvaxb9pd
     ├─ osmp
     ├─ nasa-investigation
-    ├─ phantom_vision_lab
-    └─ ... +13 more
+    └─ ... +14 more
 
   MAINTENANCE (3)
     ├─ cookiecutter-wagtail-vix

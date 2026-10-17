@@ -6,7 +6,7 @@
 │  JavaScript                    │
 │  TypeScript                    │
 │  C++                           │
-│  HTML                          │
+│  Shell                         │
 │  #python                       │
 │  #research                     │
 │  #audio                        │
