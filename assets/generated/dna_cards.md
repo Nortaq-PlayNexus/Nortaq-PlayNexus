@@ -7,10 +7,26 @@
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · HTML│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  79%     │
+│ STATUS ███████░░░  76%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ SECUREVAULT                           │
+│                                          │
+│ Local-first, hardware-backed password manager for Wi│
+│                                          │
+│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 9   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -55,7 +71,7 @@
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -71,25 +87,9 @@
 │ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  79%     │
+│ STATUS ███████░░░  76%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ SCIENTIFICDISCOVERYLAB                │
-│                                          │
-│ Self-audit of an autonomous simulation laboratory: t│
-│                                          │
-│ FALSIFICATION · PROVENANCE · PYTHON · RESEARCH│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  73%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
 ╰──────────────────────────────────────────╯
 ```

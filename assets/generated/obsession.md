@@ -3,10 +3,10 @@
 ├────────────────────────────────┤
 │
 │  Python                        │
+│  C#                            │
 │  JavaScript                    │
 │  TypeScript                    │
 │  C++                           │
-│  Shell                         │
 │  #python                       │
 │  #research                     │
 │  #audio                        │
