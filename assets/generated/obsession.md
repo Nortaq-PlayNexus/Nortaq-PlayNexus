@@ -3,9 +3,9 @@
 ├────────────────────────────────┤
 │
 │  Python                        │
-│  C#                            │
 │  JavaScript                    │
 │  TypeScript                    │
+│  C#                            │
 │  C++                           │
 │  #python                       │
 │  #research                     │

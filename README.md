@@ -332,8 +332,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   71 │
 │ CONTRIBUTIONS ..... 1100    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   80 DAYS │
-│ SIGNAL HASH ....... E90F92   SIGNAL ......... #########=......  64%  PHASE 02 │
+│ UPLINK AGE ........   81 DAYS │
+│ SIGNAL HASH ....... 86B708   SIGNAL ......... ##########=.....  70%  PHASE 00 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -346,12 +346,12 @@ CONTRIBUTIONS ...... 1100
 REPOSITORIES ....... 71
 FOLLOWERS .......... 2
 COLLECTED STARS .... 24
-BROADCASTING FOR ... 80 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 81 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
+  phantomtape-radio            PUSHED 2026-10-20
+  Nortaq-PlayNexus             PUSHED 2026-10-20
   SecureVault                  PUSHED 2026-10-19
-  phantomtape-radio            PUSHED 2026-10-19
-  Nortaq-PlayNexus             PUSHED 2026-10-19
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -371,9 +371,9 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX -- 71 FILES</code></summary>
 
 ```text
-  SecureVault                      C#           *1
   phantomtape-radio                JavaScript   *1
   Nortaq-PlayNexus                 TypeScript   *1
+  SecureVault                      C#           *1
   opencode-on-render-mvaxb9pd      Shell        *0
   osmp                             TypeScript   *1
   nasa-investigation               HTML         *2
@@ -445,7 +445,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261019 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261020 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -465,7 +465,7 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ╠══════════════════════════════════════╣
 ║                                      ║
 ║  ACTIVITY       ████████░░░░   73%    ║
-║  MOMENTUM       ██████████░░   84%    ║
+║  MOMENTUM       ███████░░░░░   60%    ║
 ║  BUILD PRESSURE ████████████  100%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
@@ -511,26 +511,10 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · HTML│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  76%     │
+│ STATUS ███████░░░  73%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ SECUREVAULT                           │
-│                                          │
-│ Local-first, hardware-backed password manager for Wi│
-│                                          │
-│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -568,6 +552,22 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ SECUREVAULT                           │
+│                                          │
+│ Local-first, hardware-backed password manager for Wi│
+│                                          │
+│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 9   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ OSMP                                  │
 │                                          │
 │ Open Source Modernization Platform - an autonomous e│
@@ -575,7 +575,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -591,7 +591,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  76%     │
+│ STATUS ███████░░░  73%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
@@ -600,7 +600,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261019
+20261020
 
 NEW REPOSITORIES ........ 71
 CONTRIBUTIONS (YR) ...... 1100
@@ -609,20 +609,20 @@ LANGUAGES ............... 10
 TOTAL STARS ............. 24
 
 MOST ACTIVE (7 DAYS):
-  01 SecureVault                    0d ago
-  02 phantomtape-radio              0d ago
-  03 Nortaq-PlayNexus               0d ago
-  04 opencode-on-render-mvaxb9pd    2d ago
-  05 osmp                           4d ago
+  01 phantomtape-radio              0d ago
+  02 Nortaq-PlayNexus               0d ago
+  03 SecureVault                    1d ago
+  04 opencode-on-render-mvaxb9pd    3d ago
+  05 osmp                           5d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  73%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] orion-sentinel-ai -- no activity for 31 days
-  [!] playnexus-musicvidforge -- no activity for 32 days
-  [!] aurora-audio-engine -- no activity for 34 days
+  [!] orion-sentinel-ai -- no activity for 32 days
+  [!] playnexus-musicvidforge -- no activity for 33 days
+  [!] aurora-audio-engine -- no activity for 35 days
 
 FORECAST:
   HIGH development activity
@@ -642,7 +642,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261019  ║
+║ LAST AUDIT          20261020  ║
 ╚════════════════════════════════╝
 ```
 
@@ -651,9 +651,9 @@ FORECAST:
 ├────────────────────────────────┤
 │
 │  Python                        │
-│  C#                            │
 │  JavaScript                    │
 │  TypeScript                    │
+│  C#                            │
 │  C++                           │
 │  #python                       │
 │  #research                     │
@@ -692,9 +692,9 @@ PROJECT LIFECYCLE
     └─ ... +43 more
 
   ACTIVE (20)
-    ├─ SecureVault
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
+    ├─ SecureVault
     ├─ opencode-on-render-mvaxb9pd
     ├─ osmp
     └─ ... +15 more

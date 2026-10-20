@@ -10,9 +10,9 @@ PROJECT LIFECYCLE
     └─ ... +43 more
 
   ACTIVE (20)
-    ├─ SecureVault
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
+    ├─ SecureVault
     ├─ opencode-on-render-mvaxb9pd
     ├─ osmp
     └─ ... +15 more
