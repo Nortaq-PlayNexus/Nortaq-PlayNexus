@@ -12,9 +12,9 @@ PROJECT LIFECYCLE
   ACTIVE (20)
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
+    ├─ Personanal
     ├─ SecureVault
     ├─ opencode-on-render-mvaxb9pd
-    ├─ osmp
     └─ ... +15 more
 
   MAINTENANCE (3)

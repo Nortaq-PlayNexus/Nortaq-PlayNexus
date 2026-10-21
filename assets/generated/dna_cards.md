@@ -7,7 +7,7 @@
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · HTML│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  73%     │
+│ STATUS ███████░░░  70%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -55,7 +55,7 @@
 │ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
@@ -71,7 +71,7 @@
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  82%     │
+│ STATUS ███████░░░  79%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -87,7 +87,7 @@
 │ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  73%     │
+│ STATUS ███████░░░  70%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
