@@ -8,8 +8,8 @@
 │  C#                            │
 │  C++                           │
 │  #python                       │
-│  #research                     │
 │  #audio                        │
+│  #open-source                  │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯

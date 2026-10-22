@@ -1,16 +1,16 @@
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ NASA-INVESTIGATION                    │
+│ ◉ PLAYNEXUS-MUSICVIDFORGE               │
 │                                          │
-│ Exclusive anomaly detection pipeline for NASA HiRISE│
+│ MusicVidForge - turn any song into a beat-synced mus│
 │                                          │
-│ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · HTML│
+│ AI · AUDIO · BEAT-DETECTION · FFMPEG    │
 │                                          │
-│ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  70%     │
-│ MATURITY █████░░░░░            │
+│ STARS  1     FORKS  0     ISSUES 8   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
+│ [https://github.com/Nortaq-PlayNexus/playnexus-musicvidforge]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -48,22 +48,6 @@
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ SECUREVAULT                           │
-│                                          │
-│ Local-first, hardware-backed password manager for Wi│
-│                                          │
-│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS █████████░  94%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
 │ ◉ OSMP                                  │
 │                                          │
 │ Open Source Modernization Platform - an autonomous e│
@@ -71,7 +55,7 @@
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ███████░░░  79%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -80,16 +64,32 @@
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ PHANTOM_VISION_LAB                    │
+│ ◉ NASA-INVESTIGATION                    │
 │                                          │
-│ Computational research application simulating altere│
+│ Exclusive anomaly detection pipeline for NASA HiRISE│
 │                                          │
-│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
+│ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · HTML│
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  70%     │
+│ STARS  2     FORKS  0     ISSUES 0   │
+│ STATUS ██████░░░░  67%     │
+│ MATURITY █████░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ SECUREVAULT                           │
+│                                          │
+│ Local-first, hardware-backed password manager for Wi│
+│                                          │
+│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 9   │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
+│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
 ╰──────────────────────────────────────────╯
 ```

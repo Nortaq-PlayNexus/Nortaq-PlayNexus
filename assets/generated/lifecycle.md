@@ -2,19 +2,19 @@
 PROJECT LIFECYCLE
 
   PROTOTYPE (48)
+    ├─ COSMOS-TEST-SUITE
     ├─ dark-web-monitoring
     ├─ reports
     ├─ TerrorFibercraft-Admin
     ├─ ArkNexusX
-    ├─ EXP-0007
     └─ ... +43 more
 
   ACTIVE (20)
+    ├─ playnexus-musicvidforge
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
+    ├─ osmp
     ├─ Personanal
-    ├─ SecureVault
-    ├─ opencode-on-render-mvaxb9pd
     └─ ... +15 more
 
   MAINTENANCE (3)
