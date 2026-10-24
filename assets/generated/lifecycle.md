@@ -1,20 +1,20 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (48)
+  PROTOTYPE (49)
+    ├─ consciousness-indicator-battery
     ├─ COSMOS-TEST-SUITE
     ├─ dark-web-monitoring
     ├─ reports
     ├─ TerrorFibercraft-Admin
-    ├─ ArkNexusX
-    └─ ... +43 more
+    └─ ... +44 more
 
   ACTIVE (20)
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
+    ├─ arena-workplace
     ├─ playnexus-musicvidforge
     ├─ osmp
-    ├─ Personanal
     └─ ... +15 more
 
   MAINTENANCE (3)
