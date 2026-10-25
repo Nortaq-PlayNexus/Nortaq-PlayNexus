@@ -332,13 +332,13 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   72 │
 │ CONTRIBUTIONS ..... 1103    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   85 DAYS │
-│ SIGNAL HASH ....... ED22DA   SIGNAL ......... #######=........  44%  PHASE 02 │
+│ UPLINK AGE ........   86 DAYS │
+│ SIGNAL HASH ....... 24570B   SIGNAL ......... #########=......  69%  PHASE 03 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
-   ........................................==#-###--##=-
+   .......................................==#-###--##=-.
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
@@ -346,11 +346,11 @@ CONTRIBUTIONS ...... 1103
 REPOSITORIES ....... 72
 FOLLOWERS .......... 2
 COLLECTED STARS .... 25
-BROADCASTING FOR ... 85 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 86 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  phantomtape-radio            PUSHED 2026-10-24
-  Nortaq-PlayNexus             PUSHED 2026-10-24
+  phantomtape-radio            PUSHED 2026-10-25
+  Nortaq-PlayNexus             PUSHED 2026-10-25
   arena-workplace              PUSHED 2026-10-23
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
@@ -446,7 +446,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261024 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261025 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -466,7 +466,7 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ╠══════════════════════════════════════╣
 ║                                      ║
 ║  ACTIVITY       ████████░░░░   73%    ║
-║  MOMENTUM       ███████████░   96%    ║
+║  MOMENTUM       ██████████░░   84%    ║
 ║  BUILD PRESSURE ████████████  100%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
@@ -544,7 +544,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI · AUDIO · BEAT-DETECTION · FFMPEG    │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 8   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/playnexus-musicvidforge]                        │
@@ -560,7 +560,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -576,7 +576,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · HTML│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ██████░░░░  61%     │
+│ STATUS █████░░░░░  58%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -592,7 +592,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
@@ -601,7 +601,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261024
+20261025
 
 NEW REPOSITORIES ........ 72
 CONTRIBUTIONS (YR) ...... 1103
@@ -612,22 +612,22 @@ TOTAL STARS ............. 25
 MOST ACTIVE (7 DAYS):
   01 phantomtape-radio              0d ago
   02 Nortaq-PlayNexus               0d ago
-  03 arena-workplace                0d ago
-  04 playnexus-musicvidforge        2d ago
-  05 osmp                           2d ago
+  03 arena-workplace                1d ago
+  04 playnexus-musicvidforge        3d ago
+  05 osmp                           3d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  73%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] orion-sentinel-ai -- no activity for 36 days
-  [!] aurora-audio-engine -- no activity for 39 days
-  [!] 911-investigation -- no activity for 43 days
+  [!] orion-sentinel-ai -- no activity for 37 days
+  [!] aurora-audio-engine -- no activity for 40 days
+  [!] 911-investigation -- no activity for 44 days
 
 FORECAST:
   HIGH development activity
-  20 repositories active in last 14 days
+  10 repositories active in last 14 days
 
 ```
 
@@ -643,7 +643,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261024  ║
+║ LAST AUDIT          20261025  ║
 ╚════════════════════════════════╝
 ```
 
@@ -652,13 +652,13 @@ FORECAST:
 ├────────────────────────────────┤
 │
 │  Python                        │
-│  JavaScript                    │
 │  TypeScript                    │
+│  JavaScript                    │
 │  C#                            │
-│  C++                           │
-│  #python                       │
+│  Shell                         │
 │  #audio                        │
-│  #open-source                  │
+│  #python                       │
+│  #music                        │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
@@ -673,7 +673,7 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +6 repositories modified
+  +5 repositories modified
   +1103 contributions (rolling year)
   +72 new experiments this year
   +72 total transmissions
@@ -684,21 +684,21 @@ WHILE YOU WERE AWAY...
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (49)
-    ├─ consciousness-indicator-battery
-    ├─ COSMOS-TEST-SUITE
-    ├─ dark-web-monitoring
-    ├─ reports
-    ├─ TerrorFibercraft-Admin
-    └─ ... +44 more
+  PROTOTYPE (59)
+    ├─ ScientificDiscoveryLab
+    ├─ FreeStack
+    ├─ nexus-agent-x
+    ├─ RustVoiceBooster
+    ├─ triangle-unity
+    └─ ... +54 more
 
-  ACTIVE (20)
+  ACTIVE (10)
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
     ├─ arena-workplace
     ├─ playnexus-musicvidforge
     ├─ osmp
-    └─ ... +15 more
+    └─ ... +5 more
 
   MAINTENANCE (3)
     ├─ cookiecutter-wagtail-vix
