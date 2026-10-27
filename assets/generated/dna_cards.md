@@ -1,21 +1,5 @@
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ SECUREVAULT                           │
-│                                          │
-│ Local-first, hardware-backed password manager for Wi│
-│                                          │
-│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
 │ ◉ PHANTOMTAPE-RADIO                     │
 │                                          │
 │ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
@@ -48,6 +32,22 @@
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ SECUREVAULT                           │
+│                                          │
+│ Local-first, hardware-backed password manager for Wi│
+│                                          │
+│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 9   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ PLAYNEXUS-MUSICVIDFORGE               │
 │                                          │
 │ MusicVidForge - turn any song into a beat-synced mus│
@@ -55,7 +55,7 @@
 │ AI · AUDIO · BEAT-DETECTION · FFMPEG    │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 8   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/playnexus-musicvidforge]                        │
@@ -71,7 +71,7 @@
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -87,7 +87,7 @@
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · HTML│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS █████░░░░░  55%     │
+│ STATUS █████░░░░░  52%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │

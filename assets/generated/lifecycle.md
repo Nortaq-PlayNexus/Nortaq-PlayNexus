@@ -1,21 +1,21 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (59)
+  PROTOTYPE (61)
+    ├─ nasa-investigation
+    ├─ phantom_vision_lab
     ├─ ScientificDiscoveryLab
     ├─ FreeStack
     ├─ nexus-agent-x
-    ├─ RustVoiceBooster
-    ├─ triangle-unity
-    └─ ... +54 more
+    └─ ... +56 more
 
-  ACTIVE (11)
-    ├─ c4-advanced-file-checker
-    ├─ SecureVault
+  ACTIVE (9)
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
+    ├─ c4-advanced-file-checker
+    ├─ SecureVault
     ├─ arena-workplace
-    └─ ... +6 more
+    └─ ... +4 more
 
   MAINTENANCE (3)
     ├─ cookiecutter-wagtail-vix

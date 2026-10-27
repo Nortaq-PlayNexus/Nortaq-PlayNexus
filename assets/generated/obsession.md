@@ -3,13 +3,13 @@
 ├────────────────────────────────┤
 │
 │  Python                        │
-│  HTML                          │
 │  TypeScript                    │
-│  C#                            │
 │  JavaScript                    │
+│  HTML                          │
+│  C#                            │
 │  #audio                        │
-│  #python                       │
 │  #music                        │
+│  #typescript                   │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯

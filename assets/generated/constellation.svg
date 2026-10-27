@@ -226,7 +226,7 @@
 <circle cx="40" cy="1642" r="5" fill="#9B59B6"/>
 <text x="52" y="1646" fill="#9B59B6" font-size="11" font-weight="bold">+ DATA (6)</text>
 <line x1="40" y1="1648" x2="40" y2="1670" stroke="#9B59B6" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1670" r="3" fill="#FFC430"/>
+<circle cx="40" cy="1670" r="3" fill="#8A8A8A"/>
 <text x="52" y="1673" fill="#E8E8E8" font-size="9">alien-image-investigation</text>
 <text x="660" y="1673" fill="#8A8A8A" font-size="9">HTML</text>
 <line x1="40" y1="1676" x2="40" y2="1698" stroke="#9B59B6" stroke-width="1" opacity="0.4"/>

@@ -332,8 +332,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   73 │
 │ CONTRIBUTIONS ..... 1105    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   87 DAYS │
-│ SIGNAL HASH ....... B67FD6   SIGNAL ......... #########=......  68%  PHASE 06 │
+│ UPLINK AGE ........   88 DAYS │
+│ SIGNAL HASH ....... 89ADC1   SIGNAL ......... ########=.......  53%  PHASE 01 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -346,12 +346,12 @@ CONTRIBUTIONS ...... 1105
 REPOSITORIES ....... 73
 FOLLOWERS .......... 2
 COLLECTED STARS .... 25
-BROADCASTING FOR ... 87 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 88 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
+  phantomtape-radio            PUSHED 2026-10-27
+  Nortaq-PlayNexus             PUSHED 2026-10-27
   c4-advanced-file-checker     PUSHED 2026-10-26
-  SecureVault                  PUSHED 2026-10-26
-  phantomtape-radio            PUSHED 2026-10-26
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -371,10 +371,10 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX -- 73 FILES</code></summary>
 
 ```text
-  c4-advanced-file-checker         HTML         *0
-  SecureVault                      C#           *1
   phantomtape-radio                JavaScript   *1
   Nortaq-PlayNexus                 TypeScript   *1
+  c4-advanced-file-checker         HTML         *0
+  SecureVault                      C#           *1
   arena-workplace                  Python       *0
   playnexus-musicvidforge          Python       *1
   osmp                             TypeScript   *1
@@ -447,7 +447,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261026 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261027 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -506,22 +506,6 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ SECUREVAULT                           │
-│                                          │
-│ Local-first, hardware-backed password manager for Wi│
-│                                          │
-│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
 │ ◉ PHANTOMTAPE-RADIO                     │
 │                                          │
 │ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
@@ -554,6 +538,22 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ SECUREVAULT                           │
+│                                          │
+│ Local-first, hardware-backed password manager for Wi│
+│                                          │
+│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 9   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ PLAYNEXUS-MUSICVIDFORGE               │
 │                                          │
 │ MusicVidForge - turn any song into a beat-synced mus│
@@ -561,7 +561,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI · AUDIO · BEAT-DETECTION · FFMPEG    │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 8   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/playnexus-musicvidforge]                        │
@@ -577,7 +577,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -593,7 +593,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · HTML│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS █████░░░░░  55%     │
+│ STATUS █████░░░░░  52%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
@@ -602,7 +602,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261026
+20261027
 
 NEW REPOSITORIES ........ 73
 CONTRIBUTIONS (YR) ...... 1105
@@ -611,24 +611,24 @@ LANGUAGES ............... 10
 TOTAL STARS ............. 25
 
 MOST ACTIVE (7 DAYS):
-  01 c4-advanced-file-checker       0d ago
-  02 SecureVault                    0d ago
-  03 phantomtape-radio              0d ago
-  04 Nortaq-PlayNexus               0d ago
-  05 arena-workplace                2d ago
+  01 phantomtape-radio              0d ago
+  02 Nortaq-PlayNexus               0d ago
+  03 c4-advanced-file-checker       1d ago
+  04 SecureVault                    1d ago
+  05 arena-workplace                3d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ████████░░░░  73%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] orion-sentinel-ai -- no activity for 38 days
-  [!] aurora-audio-engine -- no activity for 41 days
-  [!] 911-investigation -- no activity for 45 days
+  [!] alien-image-investigation -- no activity for 31 days
+  [!] orion-sentinel-ai -- no activity for 39 days
+  [!] aurora-audio-engine -- no activity for 42 days
 
 FORECAST:
   HIGH development activity
-  11 repositories active in last 14 days
+  9 repositories active in last 14 days
 
 ```
 
@@ -644,7 +644,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261026  ║
+║ LAST AUDIT          20261027  ║
 ╚════════════════════════════════╝
 ```
 
@@ -653,13 +653,13 @@ FORECAST:
 ├────────────────────────────────┤
 │
 │  Python                        │
-│  HTML                          │
 │  TypeScript                    │
-│  C#                            │
 │  JavaScript                    │
+│  HTML                          │
+│  C#                            │
 │  #audio                        │
-│  #python                       │
 │  #music                        │
+│  #typescript                   │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
@@ -685,21 +685,21 @@ WHILE YOU WERE AWAY...
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (59)
+  PROTOTYPE (61)
+    ├─ nasa-investigation
+    ├─ phantom_vision_lab
     ├─ ScientificDiscoveryLab
     ├─ FreeStack
     ├─ nexus-agent-x
-    ├─ RustVoiceBooster
-    ├─ triangle-unity
-    └─ ... +54 more
+    └─ ... +56 more
 
-  ACTIVE (11)
-    ├─ c4-advanced-file-checker
-    ├─ SecureVault
+  ACTIVE (9)
     ├─ phantomtape-radio
     ├─ Nortaq-PlayNexus
+    ├─ c4-advanced-file-checker
+    ├─ SecureVault
     ├─ arena-workplace
-    └─ ... +6 more
+    └─ ... +4 more
 
   MAINTENANCE (3)
     ├─ cookiecutter-wagtail-vix
