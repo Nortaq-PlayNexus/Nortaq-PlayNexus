@@ -1,23 +1,24 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (61)
+  PROTOTYPE (60)
     ├─ nasa-investigation
     ├─ phantom_vision_lab
     ├─ ScientificDiscoveryLab
     ├─ FreeStack
     ├─ nexus-agent-x
-    └─ ... +56 more
+    └─ ... +55 more
 
   ACTIVE (9)
-    ├─ phantomtape-radio
+    ├─ osmp
     ├─ Nortaq-PlayNexus
+    ├─ phantomtape-radio
     ├─ c4-advanced-file-checker
     ├─ SecureVault
-    ├─ arena-workplace
     └─ ... +4 more
 
-  MAINTENANCE (3)
+  MAINTENANCE (4)
+    ├─ Starminder
     ├─ cookiecutter-wagtail-vix
     ├─ python-hid-parser
     ├─ pygeofilter

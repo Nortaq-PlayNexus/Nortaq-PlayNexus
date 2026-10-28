@@ -1,16 +1,16 @@
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ PHANTOMTAPE-RADIO                     │
+│ ◉ OSMP                                  │
 │                                          │
-│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
+│ Open Source Modernization Platform - an autonomous e│
 │                                          │
-│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
+│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
+│ STARS  1     FORKS  0     ISSUES 9   │
 │ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
+│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -32,6 +32,22 @@
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ PHANTOMTAPE-RADIO                     │
+│                                          │
+│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
+│                                          │
+│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ SECUREVAULT                           │
 │                                          │
 │ Local-first, hardware-backed password manager for Wi│
@@ -39,7 +55,7 @@
 │ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
@@ -55,26 +71,10 @@
 │ AI · AUDIO · BEAT-DETECTION · FFMPEG    │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 8   │
-│ STATUS ████████░░  85%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/playnexus-musicvidforge]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
-│                                          │
-│ Open Source Modernization Platform - an autonomous e│
-│                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 9   │
 │ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+│ [https://github.com/Nortaq-PlayNexus/playnexus-musicvidforge]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -87,7 +87,7 @@
 │ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · HTML│
 │                                          │
 │ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS █████░░░░░  52%     │
+│ STATUS ████░░░░░░  49%     │
 │ MATURITY █████░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │

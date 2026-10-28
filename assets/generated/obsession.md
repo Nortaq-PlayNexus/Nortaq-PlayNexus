@@ -9,7 +9,7 @@
 │  C#                            │
 │  #audio                        │
 │  #music                        │
-│  #typescript                   │
+│  #open-source                  │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
