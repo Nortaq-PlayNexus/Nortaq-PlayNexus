@@ -7,9 +7,9 @@
 │  JavaScript                    │
 │  HTML                          │
 │  C#                            │
+│  #python                       │
 │  #audio                        │
-│  #music                        │
-│  #open-source                  │
+│  #falsification                │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯

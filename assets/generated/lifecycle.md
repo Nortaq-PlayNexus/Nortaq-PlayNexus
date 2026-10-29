@@ -9,13 +9,13 @@ PROJECT LIFECYCLE
     ├─ nexus-agent-x
     └─ ... +55 more
 
-  ACTIVE (9)
-    ├─ osmp
+  ACTIVE (15)
     ├─ Nortaq-PlayNexus
-    ├─ phantomtape-radio
-    ├─ c4-advanced-file-checker
-    ├─ SecureVault
-    └─ ... +4 more
+    ├─ cosmic-discovery-engine
+    ├─ pineal-godseye
+    ├─ ce-1-continuous-existence
+    ├─ sapphire-continuity-research
+    └─ ... +10 more
 
   MAINTENANCE (4)
     ├─ Starminder
