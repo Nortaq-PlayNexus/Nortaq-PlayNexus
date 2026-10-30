@@ -15,7 +15,7 @@
 <text x="52" y="133" fill="#E8E8E8" font-size="9">phantomtape-radio</text>
 <text x="660" y="133" fill="#8A8A8A" font-size="9">JavaScript</text>
 <line x1="40" y1="136" x2="40" y2="158" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="158" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="158" r="3" fill="#FFC430"/>
 <text x="52" y="161" fill="#E8E8E8" font-size="9">playnexus-musicvidforge</text>
 <text x="660" y="161" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="164" x2="40" y2="186" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
@@ -106,7 +106,7 @@
 <text x="52" y="777" fill="#E8E8E8" font-size="9">COSMOS-TEST-SUITE</text>
 <text x="660" y="777" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="780" x2="40" y2="802" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="802" r="3" fill="#FFC430"/>
+<circle cx="40" cy="802" r="3" fill="#8A8A8A"/>
 <text x="52" y="805" fill="#E8E8E8" font-size="9">reports</text>
 <text x="660" y="805" fill="#8A8A8A" font-size="9">Shell</text>
 <line x1="40" y1="808" x2="40" y2="830" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
@@ -231,7 +231,7 @@
 <text x="52" y="1673" fill="#E8E8E8" font-size="9">the-triangle</text>
 <text x="660" y="1673" fill="#8A8A8A" font-size="9">C++</text>
 <line x1="40" y1="1676" x2="40" y2="1698" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1698" r="3" fill="#FFC430"/>
+<circle cx="40" cy="1698" r="3" fill="#8A8A8A"/>
 <text x="52" y="1701" fill="#E8E8E8" font-size="9">dark-web-monitoring</text>
 <text x="660" y="1701" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1704" x2="40" y2="1726" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
