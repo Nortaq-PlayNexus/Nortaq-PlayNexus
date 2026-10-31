@@ -70,7 +70,7 @@
 <text x="52" y="525" fill="#E8E8E8" font-size="9">amis</text>
 <text x="660" y="525" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="528" x2="40" y2="550" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="550" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="550" r="3" fill="#FFC430"/>
 <text x="52" y="553" fill="#E8E8E8" font-size="9">arena-workplace</text>
 <text x="660" y="553" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="556" x2="40" y2="578" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
