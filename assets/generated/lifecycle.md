@@ -1,21 +1,21 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (59)
+  PROTOTYPE (55)
+    ├─ opencode-on-render-mvaxb9pd
     ├─ nasa-investigation
-    ├─ phantom_vision_lab
-    ├─ ScientificDiscoveryLab
     ├─ FreeStack
     ├─ nexus-agent-x
-    └─ ... +54 more
+    ├─ RustVoiceBooster
+    └─ ... +50 more
 
-  ACTIVE (15)
+  ACTIVE (20)
+    ├─ aieval-lab
     ├─ Nortaq-PlayNexus
-    ├─ cosmic-discovery-engine
-    ├─ pineal-godseye
+    ├─ consciousness-indicator-battery
+    ├─ episodic-memory
     ├─ ce-1-continuous-existence
-    ├─ sapphire-continuity-research
-    └─ ... +10 more
+    └─ ... +15 more
 
   MAINTENANCE (5)
     ├─ resourcegather

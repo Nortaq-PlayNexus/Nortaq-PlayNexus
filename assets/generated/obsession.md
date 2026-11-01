@@ -4,12 +4,12 @@
 │
 │  Python                        │
 │  TypeScript                    │
+│  Go                            │
 │  JavaScript                    │
 │  HTML                          │
-│  C#                            │
 │  #python                       │
-│  #audio                        │
 │  #falsification                │
+│  #research                     │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯

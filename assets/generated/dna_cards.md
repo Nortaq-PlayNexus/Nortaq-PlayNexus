@@ -16,6 +16,70 @@
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ CONSCIOUSNESS-INDICATOR-BATTERY       │
+│                                          │
+│ A calibrated indicator battery for AI consciousness,│
+│                                          │
+│ AI · AI-CONSCIOUSNESS · FALSIFICATION · OPEN-SCIENCE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ PHANTOM_VISION_LAB                    │
+│                                          │
+│ Computational research application simulating altere│
+│                                          │
+│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ EXP-0007                              │
+│                                          │
+│ Coherent Optical Vortex Propagation - R14 validation│
+│                                          │
+│ COMPUTATIONAL-PHYSICS · FALSIFICATION · OPTICS · PYTHON│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ SCIENTIFICDISCOVERYLAB                │
+│                                          │
+│ Self-audit of an autonomous simulation laboratory: t│
+│                                          │
+│ FALSIFICATION · PROVENANCE · PYTHON · RESEARCH│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ OSMP                                  │
 │                                          │
 │ Open Source Modernization Platform - an autonomous e│
@@ -23,73 +87,9 @@
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS █████████░  91%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ PHANTOMTAPE-RADIO                     │
-│                                          │
-│ PHANTOMTAPE // 103.7 - pirate digital broadcast. Sel│
-│                                          │
-│ AUDIO · JAVASCRIPT · MUSIC · SELF-HOSTED│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
 │ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantomtape-radio]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ SECUREVAULT                           │
-│                                          │
-│ Local-first, hardware-backed password manager for Wi│
-│                                          │
-│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  85%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ PLAYNEXUS-MUSICVIDFORGE               │
-│                                          │
-│ MusicVidForge - turn any song into a beat-synced mus│
-│                                          │
-│ AI · AUDIO · BEAT-DETECTION · FFMPEG    │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 8   │
-│ STATUS ███████░░░  73%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/playnexus-musicvidforge]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ NASA-INVESTIGATION                    │
-│                                          │
-│ Exclusive anomaly detection pipeline for NASA HiRISE│
-│                                          │
-│ ANOMALY-DETECTION · GITHUB-PAGES · HIROSE · HTML│
-│                                          │
-│ STARS  2     FORKS  0     ISSUES 0   │
-│ STATUS ████░░░░░░  40%     │
-│ MATURITY █████░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/nasa-investigation]                        │
+│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
 ╰──────────────────────────────────────────╯
 ```
