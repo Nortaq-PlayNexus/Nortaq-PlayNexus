@@ -10,8 +10,8 @@ PROJECT LIFECYCLE
     └─ ... +50 more
 
   ACTIVE (20)
-    ├─ aieval-lab
     ├─ Nortaq-PlayNexus
+    ├─ aieval-lab
     ├─ consciousness-indicator-battery
     ├─ episodic-memory
     ├─ ce-1-continuous-existence
