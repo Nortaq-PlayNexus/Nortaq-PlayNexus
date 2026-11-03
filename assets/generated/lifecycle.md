@@ -1,13 +1,13 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (55)
+  PROTOTYPE (54)
     ├─ opencode-on-render-mvaxb9pd
     ├─ nasa-investigation
     ├─ FreeStack
     ├─ nexus-agent-x
     ├─ RustVoiceBooster
-    └─ ... +50 more
+    └─ ... +49 more
 
   ACTIVE (20)
     ├─ Nortaq-PlayNexus
@@ -17,11 +17,12 @@ PROJECT LIFECYCLE
     ├─ ce-1-continuous-existence
     └─ ... +15 more
 
-  MAINTENANCE (5)
+  MAINTENANCE (6)
+    ├─ terrorfibercraftark
     ├─ resourcegather
     ├─ Starminder
     ├─ cookiecutter-wagtail-vix
     ├─ python-hid-parser
-    ├─ pygeofilter
+    └─ ... +1 more
 
 ```
