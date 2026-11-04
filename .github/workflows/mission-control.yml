@@ -48,10 +48,18 @@ jobs:
         working-directory: mission-control
         run: npm run build
 
+      - name: Assemble combined site
+        shell: bash
+        run: |
+          rm -rf site
+          mkdir -p site
+          cp -r docs/. site/
+          cp -r mission-control/dist site/mission-control
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: mission-control/dist
+          path: site
 
   deploy:
     needs: collect-and-build

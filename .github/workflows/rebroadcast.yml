@@ -16,6 +16,10 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   rebroadcast:
     runs-on: ubuntu-latest
@@ -66,13 +70,44 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect Mission Control data
+        run: python3 mission-control/scripts/collect-data.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: mission-control/package-lock.json
+
+      - name: Install and build Mission Control
+        working-directory: mission-control
+        run: |
+          npm ci
+          npm run build
+
+      - name: Assemble combined site
+        shell: bash
+        run: |
+          rm -rf site
+          mkdir -p site
+          cp -r docs/. site/
+          cp -r mission-control/dist site/mission-control
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs
+          path: site
 
       - name: Deploy to GitHub Pages
         id: deployment

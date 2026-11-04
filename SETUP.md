@@ -8,7 +8,9 @@ This is the profile repository for **DJ PHANTOMTAPE**. It is the GitHub special 
 ```bash
 # 1. Repo is public and named exactly: Nortaq-PlayNexus  (done)
 # 2. Enable Actions on the repo (repo → Settings → Actions → Allow)
-# 3. Trigger both workflows to generate the first round of content:
+# 3. Enable Pages: repo → Settings → Pages → Source: "GitHub Actions"
+#    (without this, both deploy jobs fail with "Ensure GitHub Pages has been enabled")
+# 4. Trigger both workflows to generate the first round of content:
 gh workflow run snake.yml
 gh workflow run rebroadcast.yml
 ```

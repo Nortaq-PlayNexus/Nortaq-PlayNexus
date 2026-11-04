@@ -5,6 +5,7 @@
 Self-clearing before or immediately after first push:
 
 - [ ] Repo is `public` and literally named `Nortaq-PlayNexus` (profile repo mechanism)
+- [ ] Pages enabled: Settings → Pages → Source = "GitHub Actions" (both deploy jobs 404 without it)
 - [ ] `README.md` renders with hero, terminal, workshop, archive, snake, metrics
 - [ ] `.github/workflows/snake.yml` runs green on `workflow_dispatch` and `assets/snake-signal-dark.svg` exists, recolored acid
 - [ ] `.github/workflows/rebroadcast.yml` runs green and README block contains real numbers + SIGNAL HASH
