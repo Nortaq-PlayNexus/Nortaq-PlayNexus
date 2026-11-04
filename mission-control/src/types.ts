@@ -27,8 +27,8 @@ export interface TelemetryData {
   total_forks: number
   total_issues: number
   public_repos: number
-  followers: number
-  contributions: number
+  followers: number | null
+  contributions: number | null
   languages: Record<string, number>
   domain_counts: Record<string, number>
   activity_by_week: number[]

@@ -37,6 +37,26 @@ def api_get(path, token=None):
         return json.loads(resp.read().decode("utf-8"))
 
 
+def graphql_contributions(owner, token):
+    """Total contributions + per-week counts for the last year (same query as scripts/rebroadcast.py)."""
+    query = (
+        "query($login:String!){ user(login:$login){ contributionsCollection {"
+        " contributionCalendar { totalContributions"
+        " weeks { contributionDays { contributionCount } } } } } }"
+    )
+    payload = json.dumps({"query": query, "variables": {"login": owner}}).encode("utf-8")
+    req = urllib.request.Request("https://api.github.com/graphql", data=payload, method="POST")
+    req.add_header("Authorization", f"Bearer {token}")
+    req.add_header("Content-Type", "application/json")
+    with urllib.request.urlopen(req) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+    if data.get("errors"):
+        raise RuntimeError(data["errors"][0].get("message", "graphql error"))
+    cal = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+    weeks = [sum(d["contributionCount"] for d in w["contributionDays"]) for w in cal["weeks"]]
+    return cal["totalContributions"], weeks[-52:]
+
+
 def classify_domain(repo):
     name = repo.get("name", "").lower()
     desc = (repo.get("description") or "").lower()
@@ -80,6 +100,21 @@ def main():
         page += 1
 
     print(f"[collect] Found {len(repos)} repos")
+
+    try:
+        followers = api_get(f"/users/{OWNER}", token).get("followers")
+    except Exception as exc:
+        print(f"[collect] user fetch failed ({exc}); followers left unset", file=sys.stderr)
+        followers = None
+
+    contributions = None
+    contrib_weeks = None
+    if token:
+        try:
+            contributions, contrib_weeks = graphql_contributions(OWNER, token)
+            print(f"[collect] GraphQL contributions: {contributions}")
+        except Exception as exc:
+            print(f"[collect] graphql failed ({exc}); contribution fields left unset", file=sys.stderr)
 
     processed = []
     total_stars = 0
@@ -132,22 +167,31 @@ def main():
 
     active = sum(1 for r in processed if not r["archived"] and not r["fork"] and r["days_since_push"] < 30)
     stale = sum(1 for r in processed if not r["archived"] and not r["fork"] and r["days_since_push"] > 90)
-    avg_days = sum(r["days_since_push"] for r in processed if not r["archived"] and not r["fork"]) / max(1, active + stale)
+    live = [r for r in processed if not r["archived"] and not r["fork"]]
+    avg_days = sum(r["days_since_push"] for r in live) / max(1, len(live))
 
     sh = signal_hash(processed, total_stars)
     now = datetime.now(timezone.utc)
     phase = (now.day % 28) + 1
     frequency = f"{100 + (now.hour % 4) * 0.9 + (now.minute / 60) * 0.9:.1f}"
 
-    # Activity by week (52 weeks)
-    activity_by_week = []
-    week_ms = 7 * 24 * 60 * 60
-    now_ts = now.timestamp()
-    for i in range(52):
-        week_start = now_ts - (i + 1) * week_ms
-        week_end = now_ts - i * week_ms
-        count = sum(1 for r in processed if not r["archived"] and not r["fork"])
-        activity_by_week.append(count // 10)
+    # Activity by week (52 weeks, oldest first). Prefer the real contribution
+    # calendar when a token is available; otherwise fall back to counting each
+    # repo's last push per week (an honest proxy, clearly weaker data).
+    if contrib_weeks is not None:
+        activity_by_week = contrib_weeks[-52:]
+    else:
+        now_ts = now.timestamp()
+        week_ms = 7 * 24 * 60 * 60
+        epochs = []
+        for r in live:
+            s = r.get("pushed_at") or ""
+            if s:
+                epochs.append(datetime.fromisoformat(s.replace("Z", "+00:00")).timestamp())
+        activity_by_week = [
+            sum(1 for e in epochs if now_ts - (i + 1) * week_ms <= e < now_ts - i * week_ms)
+            for i in range(52)
+        ]
 
     telemetry = {
         "total_repos": len(processed),
@@ -155,8 +199,8 @@ def main():
         "total_forks": total_forks,
         "total_issues": total_issues,
         "public_repos": len(processed),
-        "followers": 0,
-        "contributions": 0,
+        "followers": followers,
+        "contributions": contributions,
         "languages": languages,
         "domain_counts": domain_counts,
         "activity_by_week": activity_by_week,

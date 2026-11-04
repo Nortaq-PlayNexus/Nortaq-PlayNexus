@@ -17,6 +17,24 @@ export default function SignalView({ telemetry, repos }: Props) {
     [repos]
   )
 
+  const weatherWeeks = useMemo(() => {
+    const now = Date.now()
+    const weekMs = 7 * 24 * 60 * 60 * 1000
+    const result: number[] = []
+    for (let i = 51; i >= 0; i--) {
+      const weekStart = now - (i + 1) * weekMs
+      const weekEnd = now - i * weekMs
+      const count = repos.filter(r => {
+        const p = new Date(r.pushed_at).getTime()
+        return p >= weekStart && p < weekEnd
+      }).length
+      result.push(count)
+    }
+    return result
+  }, [repos])
+
+  const weatherMax = Math.max(...weatherWeeks, 1)
+
   return (
     <div>
       <div className="header-bar">
@@ -84,30 +102,19 @@ export default function SignalView({ telemetry, repos }: Props) {
 
       <div className="section-heading">SIGNAL WEATHER</div>
       <div className="card">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-          {Array.from({ length: 52 }, (_, i) => {
-            const now = Date.now()
-            const weekAgo = now - (52 - i) * 7 * 24 * 60 * 60 * 1000
-            const weekNow = weekAgo + 7 * 24 * 60 * 60 * 1000
-            const count = repos.filter(r => {
-              const p = new Date(r.pushed_at).getTime()
-              return p >= weekAgo && p < weekNow
-            }).length
-            const maxH = 20
-            const h = Math.max(1, (count / Math.max(...repos.map(() => 1))) * maxH)
-            return (
-              <div
-                key={i}
-                style={{
-                  width: '3px',
-                  height: `${h}px`,
-                  background: 'var(--green)',
-                  opacity: count > 0 ? 0.4 + (count / 5) * 0.6 : 0.1,
-                  alignSelf: 'flex-end',
-                }}
-              />
-            )
-          })}
+        <div style={{ display: 'flex', alignItems: 'flex-end', gap: '3px', height: '80px' }}>
+          {weatherWeeks.map((count, i) => (
+            <div
+              key={i}
+              style={{
+                flex: 1,
+                height: `${Math.max(2, (count / weatherMax) * 100)}%`,
+                background: 'var(--green)',
+                opacity: count > 0 ? 0.4 + (count / weatherMax) * 0.6 : 0.1,
+              }}
+              title={`Week ${52 - i}: ${count} pushes`}
+            />
+          ))}
         </div>
       </div>
     </div>

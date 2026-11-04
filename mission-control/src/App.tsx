@@ -13,7 +13,8 @@ import SystemView from './components/SystemView'
 import SearchOverlay from './components/SearchOverlay'
 import HelpOverlay from './components/HelpOverlay'
 
-const DATA_URL = 'https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/refs/heads/main/mission-control/data/dashboard.json'
+const DATA_URL = `${import.meta.env.BASE_URL}data/dashboard.json`
+const FALLBACK_URL = 'https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/refs/heads/main/mission-control/data/dashboard.json'
 
 const KONAMI = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a']
 
@@ -29,8 +30,18 @@ function App() {
   const konamiIndex = useRef(0)
 
   useEffect(() => {
-    fetch(DATA_URL)
-      .then(r => r.json())
+    const load = async () => {
+      try {
+        const r = await fetch(DATA_URL)
+        if (!r.ok) throw new Error(`local ${r.status}`)
+        return await r.json()
+      } catch {
+        const r = await fetch(FALLBACK_URL)
+        if (!r.ok) throw new Error(`remote ${r.status}`)
+        return await r.json()
+      }
+    }
+    load()
       .then(data => {
         setRepos(data.repos || [])
         setTelemetry(data.telemetry || null)
