@@ -20,7 +20,7 @@ Self-clearing before or immediately after first push:
 
 | Cadence | Action |
 |---|---|
-| Daily (auto) | snake + rebroadcast workflows refresh the signal |
+| Daily (auto) | snake + rebroadcast workflows refresh the signal; Zenodo archive table re-syncs from the live API |
 | Weekly | quick skim: any broken image? any featured repo archived/renamed? |
 | Monthly | re-verify statuses in docs/projects.md; re-audit dependencies.md; bump action versions |
 | On new flagship repo | pin 4–6 strongest repos; update workshop table + DNA strip numbers |

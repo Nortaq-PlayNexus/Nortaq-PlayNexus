@@ -162,6 +162,7 @@ def build(user: dict, repos: list[dict], contrib: int, weeks: list[int], date_ut
         "  SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml",
         "  REBROADCAST       [nightly] -> .github/workflows/rebroadcast.yml",
         "  ASSET GENERATOR   [nightly] -> scripts/generate_assets.py",
+        "  ZENODO SYNC       [nightly] -> scripts/zenodo_sync.py",
         "",
         "// SYSTEM STATUS",
         "GITHUB ........ ONLINE",

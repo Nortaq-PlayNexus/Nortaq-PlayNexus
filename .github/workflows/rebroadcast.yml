@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/rebroadcast.py", "scripts/generate_assets.py", "scripts/crt_equalizer.py"]
+    paths: ["scripts/rebroadcast.py", "scripts/generate_assets.py", "scripts/crt_equalizer.py", "scripts/zenodo_sync.py"]
 
 permissions:
   contents: write
@@ -38,6 +38,9 @@ jobs:
         run: python3 scripts/rebroadcast.py
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sync Zenodo archive table
+        run: python3 scripts/zenodo_sync.py
 
       - name: Commit and push
         shell: bash

@@ -204,6 +204,41 @@ Not a lab that finds things. A lab that tries to break things and publishes what
 | [ScientificDiscoveryLab](https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab) | An autonomous simulation laboratory, audited by itself. The audit found defects **in the lab's own instruments** — a shared-RNG battery applying a spurious `√2` to a statistic that was already in erfc units, and an experiment-registry integrity pin that could not fail. Preregistrations, paired re-implementations, hash-chained change logs. **No scientific discovery is claimed.** |
 | [EXP-0007](https://github.com/Nortaq-PlayNexus/EXP-0007) | Coherent Optical Vortex Propagation, R14 validation study. Archived technical report: [`10.5281/zenodo.22849652`](https://doi.org/10.5281/zenodo.22849652) · [record](https://zenodo.org/records/22849652). |
 
+<!-- ZENODO:BEGIN -->
+
+### Zenodo archive — all records
+
+Full list of published Zenodo records (auto-synced from my account):
+
+| Record | Title | DOI |
+|---|---|---|
+| 23923627 | Human Genome Intelligence Engine (H-GIE) v0.8.0 | [10.5281/zenodo.23923627](https://doi.org/10.5281/zenodo.23923627) |
+| 23890935 | Genome Anomaly Lab (gal): Comparative Genomics Falsification Harness | [10.5281/zenodo.23890935](https://doi.org/10.5281/zenodo.23890935) |
+| 23795789 | Phantom Vision Lab: a computational instrument for perturbing an image-analysis pipeline and measuring how its output changes | [10.5281/zenodo.23795789](https://doi.org/10.5281/zenodo.23795789) |
+| 23790987 | Solar Anomaly 2012 — Reproducible Scientific Research Suite | [10.5281/zenodo.23790987](https://doi.org/10.5281/zenodo.23790987) |
+| 23790681 | CE-1 Continuous Existence v4: H8 replicated, H4 NOT_SUPPORTED, H5 completed | [10.5281/zenodo.23790681](https://doi.org/10.5281/zenodo.23790681) |
+| 23776474 | CE-1 Continuous Existence: Episodic Memory Instrument, Research Audit, and Experiment Redesign (v0.2.0) | [10.5281/zenodo.23776474](https://doi.org/10.5281/zenodo.23776474) |
+| 23770678 | ScientificDiscoveryLab v2.0.3: preregistered computational research laboratory | [10.5281/zenodo.23770678](https://doi.org/10.5281/zenodo.23770678) |
+| 23489660 | Episodic Memory for AI Agents: A Persistent Experience Store | [10.5281/zenodo.23489660](https://doi.org/10.5281/zenodo.23489660) |
+| 23489026 | S2-F-23 external audit: cluster-mass exponent estimators in 2D site percolation | [10.5281/zenodo.23489026](https://doi.org/10.5281/zenodo.23489026) |
+| 23229094 | Consciousness Indicator Battery: calibrated indicators for AI consciousness, and what survives perturbing them | [10.5281/zenodo.23229094](https://doi.org/10.5281/zenodo.23229094) |
+| 23204768 | COSMOS Test Suite v0.1.0: a platform for attempting to falsify cosmological hypotheses | [10.5281/zenodo.23204768](https://doi.org/10.5281/zenodo.23204768) |
+| 23132771 | ScientificDiscoveryLab investigation: Water acoustic response simulator | [10.5281/zenodo.23132771](https://doi.org/10.5281/zenodo.23132771) |
+| 23132767 | ScientificDiscoveryLab investigation: Prime gap distribution statistics | [10.5281/zenodo.23132767](https://doi.org/10.5281/zenodo.23132767) |
+| 23132763 | ScientificDiscoveryLab investigation: Feigenbaum universality in higher-order 1D maps | [10.5281/zenodo.23132763](https://doi.org/10.5281/zenodo.23132763) |
+| 23132761 | ScientificDiscoveryLab investigation: Percolation thresholds and exponents | [10.5281/zenodo.23132761](https://doi.org/10.5281/zenodo.23132761) |
+| 23132759 | ScientificDiscoveryLab investigation: Laboratory RNG statistical certification | [10.5281/zenodo.23132759](https://doi.org/10.5281/zenodo.23132759) |
+| 23132753 | ScientificDiscoveryLab investigation: Topology-measurement definition | [10.5281/zenodo.23132753](https://doi.org/10.5281/zenodo.23132753) |
+| 23132748 | ScientificDiscoveryLab investigation: Discrete optical-vortex detection bias | [10.5281/zenodo.23132748](https://doi.org/10.5281/zenodo.23132748) |
+| 23132746 | ScientificDiscoveryLab investigation: Vortex density in random wave fields | [10.5281/zenodo.23132746](https://doi.org/10.5281/zenodo.23132746) |
+| 23132744 | ScientificDiscoveryLab investigation: Speckle contrast law | [10.5281/zenodo.23132744](https://doi.org/10.5281/zenodo.23132744) |
+
+<sup>ZENODO ARCHIVE · 20 RECORDS · SYNCED 2026-11-04 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
+
+Zenodo profile: https://zenodo.org/search?q=owners:1912072
+
+<!-- ZENODO:END -->
+
 **Standing claims, offered for refutation**
 
 | REPOSITORY | THE CLAIM UNDER TEST | RESULT |
@@ -332,13 +367,13 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   80 │
 │ CONTRIBUTIONS ..... 1125    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   95 DAYS │
-│ SIGNAL HASH ....... 9A915F   SIGNAL ......... #######=........  49%  PHASE 07 │
+│ UPLINK AGE ........   96 DAYS │
+│ SIGNAL HASH ....... F9B682   SIGNAL ......... ##########=.....  76%  PHASE 02 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
-   ......................................==#-###--##=-#-
+   ......................................==#-###.-##=-#-
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
@@ -346,10 +381,10 @@ CONTRIBUTIONS ...... 1125
 REPOSITORIES ....... 80
 FOLLOWERS .......... 2
 COLLECTED STARS .... 25
-BROADCASTING FOR ... 95 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 96 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  Nortaq-PlayNexus             PUSHED 2026-11-03
+  Nortaq-PlayNexus             PUSHED 2026-11-04
   aieval-lab                   PUSHED 2026-11-01
   consciousness-indicator-battery PUSHED 2026-10-31
 
@@ -357,6 +392,7 @@ BROADCASTING FOR ... 95 DAYS (SINCE 2026-07-31 UTC)
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
   REBROADCAST       [nightly] -> .github/workflows/rebroadcast.yml
   ASSET GENERATOR   [nightly] -> scripts/generate_assets.py
+  ZENODO SYNC       [nightly] -> scripts/zenodo_sync.py
 
 // SYSTEM STATUS
 GITHUB ........ ONLINE
@@ -454,7 +490,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261103 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261104 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -536,7 +572,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI · AI-CONSCIOUSNESS · FALSIFICATION · OPEN-SCIENCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
@@ -552,7 +588,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
@@ -568,7 +604,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ COMPUTATIONAL-PHYSICS · FALSIFICATION · OPTICS · PYTHON│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -584,7 +620,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ FALSIFICATION · PROVENANCE · PYTHON · RESEARCH│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
@@ -600,7 +636,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  82%     │
+│ STATUS ███████░░░  79%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -609,7 +645,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261103
+20261104
 
 NEW REPOSITORIES ........ 80
 CONTRIBUTIONS (YR) ...... 1125
@@ -619,7 +655,7 @@ TOTAL STARS ............. 25
 
 MOST ACTIVE (7 DAYS):
   01 Nortaq-PlayNexus               0d ago
-  02 aieval-lab                     2d ago
+  02 aieval-lab                     3d ago
   03 consciousness-indicator-battery 3d ago
   04 episodic-memory                3d ago
   05 ce-1-continuous-existence      3d ago
@@ -629,9 +665,9 @@ SIGNAL WEATHER:
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] dark-web-monitoring -- no activity for 35 days
-  [!] reports -- no activity for 35 days
-  [!] TerrorFibercraft-Admin -- no activity for 35 days
+  [!] dark-web-monitoring -- no activity for 36 days
+  [!] reports -- no activity for 36 days
+  [!] TerrorFibercraft-Admin -- no activity for 36 days
 
 FORECAST:
   HIGH development activity
@@ -651,7 +687,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261103  ║
+║ LAST AUDIT          20261104  ║
 ╚════════════════════════════════╝
 ```
 
