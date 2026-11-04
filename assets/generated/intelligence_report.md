@@ -10,10 +10,10 @@ TOTAL STARS ............. 25
 
 MOST ACTIVE (7 DAYS):
   01 Nortaq-PlayNexus               0d ago
-  02 aieval-lab                     3d ago
-  03 consciousness-indicator-battery 3d ago
-  04 episodic-memory                3d ago
-  05 ce-1-continuous-existence      3d ago
+  02 osmp                           0d ago
+  03 aieval-lab                     3d ago
+  04 consciousness-indicator-battery 4d ago
+  05 episodic-memory                4d ago
 
 SIGNAL WEATHER:
   ACTIVITY       █████████░░░  75%

@@ -373,7 +373,7 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
-   ......................................==#-###.-##=-#-
+   ......................................==#-###--##=-#-
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
@@ -385,8 +385,8 @@ BROADCASTING FOR ... 96 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
   Nortaq-PlayNexus             PUSHED 2026-11-04
+  osmp                         PUSHED 2026-11-04
   aieval-lab                   PUSHED 2026-11-01
-  consciousness-indicator-battery PUSHED 2026-10-31
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -408,6 +408,7 @@ COFFEE ........ REQUIRED
 
 ```text
   Nortaq-PlayNexus                 TypeScript   *1
+  osmp                             TypeScript   *1
   aieval-lab                       Go           *0
   consciousness-indicator-battery  Python       *1
   episodic-memory                  Python       *0
@@ -420,7 +421,6 @@ COFFEE ........ REQUIRED
   pineal-godseye                   Python       *0
   sapphire-continuity-research     Python       *0
   amis                             Python       *0
-  osmp                             TypeScript   *1
   phantomtape-radio                JavaScript   *1
   c4-advanced-file-checker         HTML         *0
   SecureVault                      C#           *1
@@ -565,6 +565,22 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ OSMP                                  │
+│                                          │
+│ Open Source Modernization Platform - an autonomous e│
+│                                          │
+│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 9   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ CONSCIOUSNESS-INDICATOR-BATTERY       │
 │                                          │
 │ A calibrated indicator battery for AI consciousness,│
@@ -627,22 +643,6 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 ╰──────────────────────────────────────────╯
 ```
 
-```
-╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
-│                                          │
-│ Open Source Modernization Platform - an autonomous e│
-│                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ███████░░░  79%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
-╰──────────────────────────────────────────╯
-```
-
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
 20261104
@@ -655,10 +655,10 @@ TOTAL STARS ............. 25
 
 MOST ACTIVE (7 DAYS):
   01 Nortaq-PlayNexus               0d ago
-  02 aieval-lab                     3d ago
-  03 consciousness-indicator-battery 3d ago
-  04 episodic-memory                3d ago
-  05 ce-1-continuous-existence      3d ago
+  02 osmp                           0d ago
+  03 aieval-lab                     3d ago
+  04 consciousness-indicator-battery 4d ago
+  05 episodic-memory                4d ago
 
 SIGNAL WEATHER:
   ACTIVITY       █████████░░░  75%
@@ -717,7 +717,7 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +9 repositories modified
+  +3 repositories modified
   +1125 contributions (rolling year)
   +80 new experiments this year
   +80 total transmissions
@@ -738,10 +738,10 @@ PROJECT LIFECYCLE
 
   ACTIVE (20)
     ├─ Nortaq-PlayNexus
+    ├─ osmp
     ├─ aieval-lab
     ├─ consciousness-indicator-battery
     ├─ episodic-memory
-    ├─ ce-1-continuous-existence
     └─ ... +15 more
 
   MAINTENANCE (6)

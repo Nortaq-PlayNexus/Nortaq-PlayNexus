@@ -11,10 +11,10 @@ PROJECT LIFECYCLE
 
   ACTIVE (20)
     ├─ Nortaq-PlayNexus
+    ├─ osmp
     ├─ aieval-lab
     ├─ consciousness-indicator-battery
     ├─ episodic-memory
-    ├─ ce-1-continuous-existence
     └─ ... +15 more
 
   MAINTENANCE (6)
