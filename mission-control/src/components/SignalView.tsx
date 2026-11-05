@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { TelemetryData, RepoData } from '../types'
 import CountUp from './CountUp'
 import HeaderBar from './HeaderBar'
+import { showToast } from '../toast'
 
 interface Props {
   telemetry: TelemetryData | null
@@ -86,8 +87,19 @@ export default function SignalView({ telemetry, repos }: Props) {
               padding: '0.8rem',
               border: '1px solid var(--green-dim)',
               background: 'rgba(245, 185, 66, 0.04)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              gap: '0.6rem',
             }}>
-              {hash}
+              <span style={{ wordBreak: 'break-all' }}>{hash}</span>
+              <button
+                className="back-btn"
+                onClick={() => { navigator.clipboard?.writeText(hash).then(() => showToast('SIGNAL HASH COPIED')).catch(() => {}) }}
+                style={{ flexShrink: 0 }}
+              >
+                COPY
+              </button>
             </div>
             <div className="health-row"><span>SOURCE</span><span>PUBLIC GITHUB DATA</span></div>
             <div className="health-row"><span>SALT</span><span style={{ fontSize: '0.6rem' }}>PHANTOMTAPE::SIGNAL::V1</span></div>

@@ -114,7 +114,24 @@ function App() {
     return () => window.removeEventListener('keydown', handler)
   }, [searchOpen, helpOpen])
 
-  // ---- pointer spotlight + card tilt (global, low-cost) ----
+  // ---- hash-based routing (deep links + back/forward) ----
+  useEffect(() => {
+    const valid = new Set(['mission-control','network','projects','telemetry','technology','releases','signal','system'])
+    const fromHash = () => {
+      const h = window.location.hash.replace(/^#/, '')
+      if (valid.has(h)) setPage(h as Page)
+    }
+    fromHash()
+    window.addEventListener('hashchange', fromHash)
+    return () => window.removeEventListener('hashchange', fromHash)
+  }, [])
+
+  useEffect(() => {
+    const h = `#${page}`
+    if (window.location.hash !== h) {
+      try { history.pushState(null, '', h) } catch { /* ignore */ }
+    }
+  }, [page])
   useEffect(() => {
     const fine = window.matchMedia('(pointer: fine)').matches
     if (!fine) return
