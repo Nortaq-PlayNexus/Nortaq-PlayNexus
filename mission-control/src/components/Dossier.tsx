@@ -1,7 +1,8 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { RepoData } from '../types'
 import { LANG_COLORS, caseFile, colorFor, contactLabel, statusOf } from '../theme'
 import { showToast } from '../toast'
+import { useFocusTrap } from '../hooks'
 
 interface Props {
   repo: RepoData
@@ -12,6 +13,8 @@ interface Props {
 
 /** Full-screen case-file dossier for one repository. */
 export default function Dossier({ repo, onClose, siblings, onNavigate }: Props) {
+  const dossierRef = useRef<HTMLDivElement>(null)
+  useFocusTrap(dossierRef, true)
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose()
@@ -46,7 +49,7 @@ export default function Dossier({ repo, onClose, siblings, onNavigate }: Props) 
 
   return (
     <div className="dossier-backdrop" onClick={onClose}>
-      <div className="dossier" onClick={e => e.stopPropagation()}>
+      <div className="dossier" ref={dossierRef} onClick={e => e.stopPropagation()}>
         <div className="dossier-strip">
           TOP SECRET // NOFORN &nbsp;·&nbsp; CASE FILE {caseFile(repo.name)} &nbsp;·&nbsp; EYES ONLY
         </div>

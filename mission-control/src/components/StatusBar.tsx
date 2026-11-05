@@ -5,7 +5,7 @@ function utc(): string {
   return `${String(d.getUTCHours()).padStart(2, '0')}:${String(d.getUTCMinutes()).padStart(2, '0')}:${String(d.getUTCSeconds()).padStart(2, '0')}Z`
 }
 
-export default function StatusBar({ page, repoCount }: { page: string; repoCount: number }) {
+export default function StatusBar({ page, repoCount, phantom }: { page: string; repoCount: number; phantom?: boolean }) {
   const [clock, setClock] = useState(utc())
   const [fps, setFps] = useState(60)
 
@@ -38,6 +38,7 @@ export default function StatusBar({ page, repoCount }: { page: string; repoCount
     <div className="status-bar" aria-hidden="true">
       <span className="status-bar-item">PAGE // {page.toUpperCase().replace('-', ' ')}</span>
       <span className="status-bar-item">{repoCount.toLocaleString()} RECORDS</span>
+      {phantom && <span className="status-bar-item" style={{ color: 'var(--neon-magenta)' }}>PHANTOM</span>}
       <span className="status-bar-item">CLEARANCE OMEGA</span>
       <span className="status-bar-item">UTC {clock}</span>
       <span className="status-bar-item">FPS {fps}</span>

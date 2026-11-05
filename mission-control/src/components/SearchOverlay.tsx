@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect, useMemo } from 'react'
 import { RepoData } from '../types'
 import { colorFor } from '../theme'
+import { useFocusTrap } from '../hooks'
 
 interface NavItem { id: string; icon: string; label: string; page: string }
 const NAV: NavItem[] = [
@@ -29,6 +30,8 @@ export default function SearchOverlay({ repos, onSelectRepo, onNavigate, onClose
   const [query, setQuery] = useState('')
   const [selectedIdx, setSelectedIdx] = useState(0)
   const inputRef = useRef<HTMLInputElement>(null)
+  const boxRef = useRef<HTMLDivElement>(null)
+  useFocusTrap(boxRef, true)
 
   const results = useMemo<Result[]>(() => {
     const q = query.trim().toLowerCase()
@@ -72,7 +75,7 @@ export default function SearchOverlay({ repos, onSelectRepo, onNavigate, onClose
 
   return (
     <div className="search-overlay" onClick={onClose}>
-      <div className="search-box" onClick={e => e.stopPropagation()}>
+      <div className="search-box" ref={boxRef} onClick={e => e.stopPropagation()}>
         <div className="search-input-wrapper">
           <span className="search-prompt">{'>'}</span>
           <input

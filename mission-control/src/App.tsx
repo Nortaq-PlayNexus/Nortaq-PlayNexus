@@ -30,8 +30,13 @@ function App() {
   const [searchOpen, setSearchOpen] = useState(false)
   const [helpOpen, setHelpOpen] = useState(false)
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
+  const [showScrollTop, setShowScrollTop] = useState(false)
+  const mainRef = useRef<HTMLElement>(null)
   const [dossierRepo, setDossierRepo] = useState<RepoData | null>(null)
   const [konamiFlash, setKonamiFlash] = useState(false)
+  const [phantom, setPhantom] = useState(() => {
+    try { return sessionStorage.getItem('phantom') === '1' } catch { return false }
+  })
   const toast = useToast()
   const konamiIndex = useRef(0)
 
@@ -88,8 +93,13 @@ function App() {
         if (konamiIndex.current === KONAMI.length) {
           konamiIndex.current = 0
           setKonamiFlash(true)
-          setTimeout(() => setKonamiFlash(false), 1000)
-          showToast('PHANTOM MODE ACTIVATED // SIGNAL AMPLIFIED')
+          setTimeout(() => setKonamiFlash(false), 1400)
+          setPhantom(p => {
+            const n = !p
+            try { sessionStorage.setItem('phantom', n ? '1' : '0') } catch { /* ignore */ }
+            showToast(n ? 'PHANTOM MODE // ENGAGED' : 'PHANTOM MODE // DISENGAGED')
+            return n
+          })
         }
       } else {
         konamiIndex.current = e.key === KONAMI[0] ? 1 : 0
@@ -168,6 +178,15 @@ function App() {
     }
   }, [])
 
+  // ---- scroll-to-top visibility ----
+  useEffect(() => {
+    const el = mainRef.current
+    if (!el) return
+    const onScroll = () => setShowScrollTop(el.scrollTop > 400)
+    el.addEventListener('scroll', onScroll, { passive: true })
+    return () => el.removeEventListener('scroll', onScroll)
+  }, [])
+
   if (!booted) {
     return <BootSequence onComplete={() => setBooted(true)} />
   }
@@ -222,10 +241,10 @@ function App() {
   }
 
   return (
-    <div className={`scanlines ${mobileNavOpen ? 'mobile-nav-open' : ''}`}>
+    <div className={`scanlines ${mobileNavOpen ? 'mobile-nav-open' : ''} ${phantom ? 'phantom-mode' : ''}`}>
       <div className="app-layout">
         <Sidebar page={page} onNavigate={(p) => { setPage(p); setMobileNavOpen(false) }} />
-        <main className="main-content">
+        <main className="main-content" ref={mainRef}>
           <div key={page} className="view-stage">
             {renderPage()}
           </div>
@@ -244,7 +263,16 @@ function App() {
       {toast && <div className="toast">{toast}</div>}
       {dossierRepo && <Dossier repo={dossierRepo} onClose={() => setDossierRepo(null)} />}
       <div className="pointer-spotlight" aria-hidden="true" />
-      <StatusBar page={page} repoCount={repos.length} />
+      {showScrollTop && (
+        <button
+          className="scroll-top-btn"
+          onClick={() => mainRef.current?.scrollTo({ top: 0, behavior: 'smooth' })}
+          aria-label="Scroll to top"
+        >
+          ↑
+        </button>
+      )}
+      <StatusBar page={page} repoCount={repos.length} phantom={phantom} />
       <button className="mobile-nav-toggle" onClick={() => setMobileNavOpen(v => !v)}>☰</button>
     </div>
   )

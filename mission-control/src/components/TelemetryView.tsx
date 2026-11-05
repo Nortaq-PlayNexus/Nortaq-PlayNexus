@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { RepoData, TelemetryData } from '../types'
 import CountUp from './CountUp'
 import HeaderBar from './HeaderBar'
+import ContributionHeatmap from './ContributionHeatmap'
 
 interface Props {
   repos: RepoData[]
@@ -194,6 +195,11 @@ export default function TelemetryView({ repos, telemetry }: Props) {
           <div className="health-row"><span>FIRST RECORD</span><span>{creationTimeline[0]?.[0] ?? '—'}</span></div>
           <div className="health-row"><span>LATEST RECRUIT</span><span>{creationTimeline[creationTimeline.length - 1]?.[0] ?? '—'}</span></div>
         </div>
+      </div>
+
+      <div className="section-heading">CONTRIBUTION HEATMAP // 52 WEEKS</div>
+      <div className="card" style={{ marginBottom: '1.5rem' }}>
+        <ContributionHeatmap repos={repos} />
       </div>
 
       <div className="grid-2" style={{ marginTop: '1rem' }}>

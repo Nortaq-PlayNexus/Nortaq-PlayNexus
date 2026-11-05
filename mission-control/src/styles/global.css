@@ -2525,3 +2525,44 @@ input:focus-visible,
   transform: translateX(-50%) scale(1);
 }
 
+/* ---- phantom mode (konami toggle) ---- */
+.scanlines.phantom-mode {
+  filter: hue-rotate(18deg) saturate(1.18);
+}
+.scanlines.phantom-mode .header-bar {
+  border-bottom-color: var(--neon-magenta);
+}
+.scanlines.phantom-mode .status-bar {
+  border-top-color: var(--neon-magenta);
+}
+.scanlines.phantom-mode .nav-item.active {
+  color: var(--neon-magenta);
+  border-left-color: var(--neon-magenta);
+}
+
+/* ---- smooth scroll + scroll-to-top ---- */
+.main-content { scroll-behavior: smooth; }
+.scroll-top-btn {
+  position: fixed;
+  bottom: 3rem;
+  right: 1.2rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--neon-cyan);
+  background: rgba(10, 12, 11, 0.85);
+  color: var(--neon-cyan);
+  font-family: var(--font-display);
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 160;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 14px rgba(47, 243, 224, 0.3);
+  animation: riseIn 0.25s ease both;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.scroll-top-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 22px rgba(47, 243, 224, 0.5);
+}
+

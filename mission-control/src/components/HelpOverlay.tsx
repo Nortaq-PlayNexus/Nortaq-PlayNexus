@@ -1,8 +1,9 @@
-interface Props {
-  onClose: () => void
-}
+import { useRef } from 'react'
+import { useFocusTrap } from '../hooks'
 
-export default function HelpOverlay({ onClose }: Props) {
+export default function HelpOverlay({ onClose }: { onClose: () => void }) {
+  const boxRef = useRef<HTMLDivElement>(null)
+  useFocusTrap(boxRef, true)
   const shortcuts = [
     { key: '/', desc: 'Search dossiers' },
     { key: '1', desc: 'Command center' },
@@ -19,7 +20,7 @@ export default function HelpOverlay({ onClose }: Props) {
 
   return (
     <div className="help-overlay" onClick={onClose}>
-      <div className="help-box" onClick={e => e.stopPropagation()}>
+      <div className="help-box" ref={boxRef} onClick={e => e.stopPropagation()}>
         <div className="help-title">FIELD OPERATIONS // COMMAND REFERENCE</div>
         {shortcuts.map(s => (
           <div key={s.key} className="help-row">
