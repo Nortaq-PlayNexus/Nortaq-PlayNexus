@@ -1,0 +1,43 @@
+{
+  "file": "index.html",
+  "general": {
+    "properties": {
+      "quality": {
+        "text": "Quality",
+        "type": "combo",
+        "value": "high",
+        "options": [
+          { "label": "Low", "value": "low" },
+          { "label": "Medium", "value": "medium" },
+          { "label": "High", "value": "high" },
+          { "label": "Ultra", "value": "ultra" }
+        ]
+      },
+      "particles": {
+        "text": "Particle Density",
+        "type": "slider",
+        "value": 1.0,
+        "min": 0.25,
+        "max": 2.0,
+        "step": 0.25
+      },
+      "rotation": {
+        "text": "Auto-Rotate",
+        "type": "bool",
+        "value": true
+      },
+      "bloom": {
+        "text": "Bloom Intensity",
+        "type": "slider",
+        "value": 0.8,
+        "min": 0.0,
+        "max": 1.5,
+        "step": 0.1
+      }
+    }
+  },
+  "title": "NORTAQ // Phantom Field",
+  "type": "web",
+  "tags": ["abstract", "space", "sci-fi", "interactive", "3d"],
+  "description": "A live, interactive 3D AI-brain constellation. Drag to orbit, scroll to zoom. Data sourced from the Nortaq-PlayNexus ecosystem."
+}
