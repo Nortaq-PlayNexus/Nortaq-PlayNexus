@@ -31,6 +31,7 @@ export default function ActivityGraph({ repos }: Props) {
           <div
             key={i}
             className="bar"
+            data-tip={`Week ${52 - i}: ${count} events`}
             style={{
               height: `${Math.max(2, (count / max) * 100)}%`,
               opacity: count > 0 ? 0.4 + (count / max) * 0.6 : 0.1,

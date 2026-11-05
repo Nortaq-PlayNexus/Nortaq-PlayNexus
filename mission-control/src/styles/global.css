@@ -2474,3 +2474,54 @@ input:focus-visible,
   }
 }
 
+/* ============================================================
+   VIZ LAYER — donut draw, radial gauge, activity tooltip
+   ============================================================ */
+
+@keyframes donutDraw {
+  from { stroke-dashoffset: calc(var(--off) + var(--len)); }
+  to { stroke-dashoffset: var(--off); }
+}
+
+@keyframes gaugeDraw {
+  from { stroke-dashoffset: var(--circ); }
+  to { stroke-dashoffset: var(--off); }
+}
+
+/* radial gauge (SignalView) */
+.radial-gauge { transform: rotate(-90deg); transform-origin: center; }
+.radial-gauge .track { fill: none; stroke: rgba(255,255,255,0.06); }
+.radial-gauge .fill {
+  fill: none;
+  stroke: var(--green);
+  stroke-linecap: round;
+  animation: gaugeDraw 1.2s cubic-bezier(0.2,0.85,0.25,1) both;
+  filter: drop-shadow(0 0 6px var(--green));
+}
+
+/* activity bar tooltip */
+.activity-bar .bar { position: relative; }
+.activity-bar .bar::after {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.9);
+  background: rgba(10,12,11,0.92);
+  border: 1px solid var(--glass-edge-bright);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 2px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  z-index: 5;
+}
+.activity-bar .bar:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}
+

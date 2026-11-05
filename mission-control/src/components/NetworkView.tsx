@@ -1,8 +1,8 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, lazy, Suspense } from 'react'
 import { RepoData } from '../types'
-import Constellation3D from './Constellation3D'
 import Dossier from './Dossier'
 import HeaderBar from './HeaderBar'
+const Constellation3D = lazy(() => import('./Constellation3D'))
 import { colorFor, statusOf } from '../theme'
 
 interface Props {
@@ -60,7 +60,9 @@ export default function NetworkView({ repos }: Props) {
       </div>
 
       <div className="constellation-container" style={{ height: '520px', position: 'relative' }}>
-        <Constellation3D repos={repos} filter={filter} onSelect={setSelected} />
+        <Suspense fallback={<div style={{ height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--text-dim)', fontSize: '0.7rem', letterSpacing: '0.15em' }}>INITIALIZING CONSTELLATION...</div>}>
+          <Constellation3D repos={repos} filter={filter} onSelect={setSelected} />
+        </Suspense>
       </div>
 
       <div className="grid-2" style={{ marginTop: '1rem' }}>

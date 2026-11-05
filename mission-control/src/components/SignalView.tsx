@@ -47,8 +47,23 @@ export default function SignalView({ telemetry, repos }: Props) {
             <div style={{ fontSize: '0.6rem', color: 'var(--text-dim)', letterSpacing: '0.15em', marginBottom: '0.5rem', textTransform: 'uppercase' }}>
               SIGNAL INTEGRITY
             </div>
-            <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'var(--green)', lineHeight: 1, marginBottom: '0.3rem' }}>
-              <CountUp value={percent} />%
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '0.3rem' }}>
+              <svg className="radial-gauge" width={110} height={110} viewBox="0 0 110 110">
+                <circle className="track" cx={55} cy={55} r={46} strokeWidth={8} />
+                <circle
+                  className="fill"
+                  cx={55} cy={55} r={46}
+                  strokeWidth={8}
+                  strokeDasharray={2 * Math.PI * 46}
+                  style={{
+                    ['--circ' as any]: 2 * Math.PI * 46,
+                    ['--off' as any]: 2 * Math.PI * 46 * (1 - percent / 100),
+                  }}
+                />
+                <text x={55} y={55} textAnchor="middle" dominantBaseline="middle" fill="var(--green)" fontFamily="var(--font-display)" fontSize={22} fontWeight={800}>
+                  {percent}%
+                </text>
+              </svg>
             </div>
             <div className="tech-bar-track" style={{ height: '8px', marginBottom: '1rem' }}>
               <div className="tech-bar-fill" style={{ width: `${percent}%` }} />

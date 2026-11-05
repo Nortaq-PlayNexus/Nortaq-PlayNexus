@@ -1,10 +1,11 @@
-import { useMemo } from 'react'
+import { useMemo, lazy, Suspense } from 'react'
 import { RepoData, TelemetryData, Page } from '../types'
-import Constellation3D from './Constellation3D'
 import ActivityGraph from './ActivityGraph'
 import LiveFeed from './LiveFeed'
 import CountUp from './CountUp'
 import HeaderBar from './HeaderBar'
+import DomainDonut from './DomainDonut'
+const Constellation3D = lazy(() => import('./Constellation3D'))
 import { colorFor, contactLabel, statusOf } from '../theme'
 
 interface Props {
@@ -124,7 +125,9 @@ export default function MissionControl({ repos, telemetry, onNavigate }: Props) 
         <div>
           <div className="section-heading">NETWORK CONSTELLATION // 3D</div>
           <div className="constellation-container" style={{ height: '300px' }}>
-            <Constellation3D repos={repos} compact onSelect={() => onNavigate('network')} />
+            <Suspense fallback={<div style={{ height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--text-dim)', fontSize: '0.7rem', letterSpacing: '0.15em' }}>INITIALIZING CONSTELLATION...</div>}>
+              <Constellation3D repos={repos} compact onSelect={() => onNavigate('network')} />
+            </Suspense>
           </div>
         </div>
         <div>
@@ -222,22 +225,28 @@ export default function MissionControl({ repos, telemetry, onNavigate }: Props) 
       </div>
 
       <div className="section-heading">DOMAIN DISTRIBUTION</div>
-      <div style={{ marginBottom: '1rem' }}>
-        {Object.entries(telemetry?.domain_counts ?? {}).sort((a, b) => b[1] - a[1]).map(([domain, count]) => (
-          <div key={domain} className="tech-bar-row">
-            <span className="tech-bar-label">{domain}</span>
-            <div className="tech-bar-track">
-              <div
-                className="tech-bar-fill"
-                style={{
-                  width: `${(count / Math.max(...Object.values(telemetry?.domain_counts ?? { x: 1 }))) * 100}%`,
-                  background: colorFor(domain),
-                }}
-              />
+      <div className="grid-2" style={{ marginBottom: '1rem', alignItems: 'center' }}>
+        <DomainDonut
+          data={Object.entries(telemetry?.domain_counts ?? {}).sort((a, b) => b[1] - a[1])}
+          colorFor={colorFor}
+        />
+        <div>
+          {Object.entries(telemetry?.domain_counts ?? {}).sort((a, b) => b[1] - a[1]).map(([domain, count]) => (
+            <div key={domain} className="tech-bar-row">
+              <span className="tech-bar-label">{domain}</span>
+              <div className="tech-bar-track">
+                <div
+                  className="tech-bar-fill"
+                  style={{
+                    width: `${(count / Math.max(...Object.values(telemetry?.domain_counts ?? { x: 1 }))) * 100}%`,
+                    background: colorFor(domain),
+                  }}
+                />
+              </div>
+              <span className="tech-bar-value">{count.toLocaleString()}</span>
             </div>
-            <span className="tech-bar-value">{count.toLocaleString()}</span>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
 
       <div className="section-heading">FIELD SHORTLIST // RECENT ACTIVE</div>
