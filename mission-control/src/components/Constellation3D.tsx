@@ -190,6 +190,52 @@ const SWEEP_FRAG = /* glsl */ `
   }
 `
 
+/* ---- shader: neon uplink beams (straight lasers from the core) ---- */
+const BEAM_VERT = /* glsl */ `
+  attribute float aT;
+  attribute float aPhase;
+  attribute vec3 aColor;
+  varying float vT;
+  varying float vPhase;
+  varying vec3 vColor;
+  void main() {
+    vT = aT;
+    vPhase = aPhase;
+    vColor = aColor;
+    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+  }
+`
+
+const BEAM_FRAG = /* glsl */ `
+  uniform float uTime;
+  varying float vT;
+  varying float vPhase;
+  varying vec3 vColor;
+  void main() {
+    float g = fract(uTime * 0.45 + vPhase);
+    float pulse = smoothstep(0.22, 0.0, abs(vT - g));
+    // each beam flickers on for stretches, dark for stretches
+    float gate = smoothstep(0.35, 0.65, sin(uTime * 1.3 + vPhase * 6.2831853) * 0.5 + 0.5);
+    float alpha = (0.05 + pulse * 0.95) * gate;
+    vec3 col = mix(vColor, vec3(1.0), pulse * 0.65);
+    gl_FragColor = vec4(col * alpha * 1.7, alpha);
+  }
+`
+
+/* ---- shader: vertical scanner ring climbing through the brain ---- */
+const SCAN_FRAG = /* glsl */ `
+  uniform float uTime;
+  varying vec2 vUv;
+  void main() {
+    vec2 c = vUv - 0.5;
+    float r = length(c) * 2.0;
+    float ring = smoothstep(0.05, 0.0, abs(r - 0.62));
+    float alpha = ring * 0.5;
+    vec3 col = mix(vec3(0.18, 0.95, 0.88), vec3(1.0, 0.25, 0.85), 0.5 + 0.5 * sin(uTime * 0.6));
+    gl_FragColor = vec4(col * alpha, alpha);
+  }
+`
+
 /* ---- final grade pass: chromatic aberration + vignette + film grain ---- */
 const GRADE_VERT = /* glsl */ `
   varying vec2 vUv;
@@ -357,7 +403,8 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
     scene.background = new THREE.Color(0x0a0c0b)
 
     const camera = new THREE.PerspectiveCamera(45, w / h, 0.1, 400)
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    // motion effects were explicitly requested — run them regardless of OS setting
+    const reduced = false
     // cinematic dolly-in: open pulled far back, ease into the working framing
     const camEnd = new THREE.Vector3(0, compact ? 13 : 15, compact ? 50 : 47)
     const camStart = new THREE.Vector3(0, compact ? 30 : 28, compact ? 80 : 74)
@@ -478,6 +525,8 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
     }
     mkDust(260, 0.5, '#d9c08a', 0.4, 8, 30)
     mkDust(140, 1.1, '#8fd0cc', 0.25, 10, 32)
+    mkDust(110, 0.9, '#ff5fd8', 0.2, 9, 30)
+    mkDust(90, 0.8, '#8dff5a', 0.16, 10, 30)
     scene.add(dustGroup)
 
     // ---- distant nebula glow (depth behind the brain) ----
@@ -521,6 +570,60 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
     sweep.position.y = -10.8
     scene.add(sweep)
 
+    // ---- vertical scanner ring climbing through the neural mass ----
+    const scanMat = new THREE.ShaderMaterial({
+      uniforms: { uTime: { value: 0 } },
+      vertexShader: SWEEP_VERT,
+      fragmentShader: SCAN_FRAG,
+      transparent: true,
+      blending: THREE.AdditiveBlending,
+      depthWrite: false,
+    })
+    const scan = new THREE.Mesh(new THREE.PlaneGeometry(44, 44), scanMat)
+    scan.rotation.x = -Math.PI / 2
+    scan.position.y = -7
+    scene.add(scan)
+
+    // ---- neon uplink beams: straight lasers core → assets ----
+    const beamCount = 12
+    const beamPos = new Float32Array(beamCount * 6)
+    const beamT = new Float32Array(beamCount * 2)
+    const beamPhase = new Float32Array(beamCount * 2)
+    const beamColor = new Float32Array(beamCount * 6)
+    const neonColors = ['#2ff3e0', '#ff3fd8', '#b6ff2f', '#9d5cff'].map(c => new THREE.Color(c))
+    for (let i = 0; i < beamCount; i++) {
+      const target = layout.nodes[Math.floor(hash(`beam-${i}`) * layout.nodes.length)]
+      if (!target) continue
+      const origin = new THREE.Vector3(
+        (hash(`beam-ox-${i}`) - 0.5) * 6,
+        1 + (hash(`beam-oy-${i}`) - 0.5) * 4,
+        (hash(`beam-oz-${i}`) - 0.5) * 6,
+      )
+      const col = neonColors[i % neonColors.length]
+      const ph = hash(`beam-p-${i}`)
+      beamPos.set([origin.x, origin.y, origin.z, target.pos.x, target.pos.y, target.pos.z], i * 6)
+      beamT[i * 2] = 0
+      beamT[i * 2 + 1] = 1
+      beamPhase[i * 2] = ph
+      beamPhase[i * 2 + 1] = ph
+      beamColor.set([col.r, col.g, col.b], i * 6)
+      beamColor.set([col.r, col.g, col.b], i * 6 + 3)
+    }
+    const beamGeo = new THREE.BufferGeometry()
+    beamGeo.setAttribute('position', new THREE.BufferAttribute(beamPos, 3))
+    beamGeo.setAttribute('aT', new THREE.BufferAttribute(beamT, 1))
+    beamGeo.setAttribute('aPhase', new THREE.BufferAttribute(beamPhase, 1))
+    beamGeo.setAttribute('aColor', new THREE.BufferAttribute(beamColor, 3))
+    const beamMat = new THREE.ShaderMaterial({
+      uniforms: { uTime: { value: 0 } },
+      vertexShader: BEAM_VERT,
+      fragmentShader: BEAM_FRAG,
+      transparent: true,
+      blending: THREE.AdditiveBlending,
+      depthWrite: false,
+    })
+    scene.add(new THREE.LineSegments(beamGeo, beamMat))
+
     // ---- radar floor rings ----
     const ringMat = new THREE.LineBasicMaterial({ color: 0x383e2e, transparent: true, opacity: 0.45 })
     ;[8, 15, 22].forEach(r => {
@@ -555,8 +658,8 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
       const mem = new THREE.ShaderMaterial({
         uniforms: {
           uColor: { value: new THREE.Color(item.color) },
-          uIntensity: { value: item.active ? 1.0 : 0.4 },
-          uOpacity: { value: item.active ? 1 : 0.45 },
+          uIntensity: { value: item.active ? 1.0 : 0.55 },
+          uOpacity: { value: item.active ? 1 : 0.55 },
           uFresPow: { value: 2.0 },
         },
         vertexShader: MEMBRANE_VERT,
@@ -573,7 +676,7 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
       const coreMat = new THREE.MeshBasicMaterial({
         color: new THREE.Color(item.color).lerp(new THREE.Color(0xffffff), 0.55),
         transparent: true,
-        opacity: item.active ? 1 : 0.4,
+        opacity: item.active ? 1 : 0.55,
       })
       const core = new THREE.Mesh(coreGeo, coreMat)
       group.add(core)
@@ -584,7 +687,7 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
         blending: THREE.AdditiveBlending,
         depthWrite: false,
         transparent: true,
-        opacity: item.active ? 0.5 : 0.12,
+        opacity: item.active ? 0.5 : 0.18,
       })
       const glow = new THREE.Sprite(glowMat)
       glow.scale.setScalar(3.6)
@@ -654,9 +757,9 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
       if (synapseMat) synapseMat.uniforms.uFilter.value = fIdx
       neurons.forEach(n => {
         const match = f === 'ALL' || n.base.repo.domain === f
-        n.mem.uniforms.uOpacity.value = match ? (n.base.active ? 1 : 0.45) : 0.05
-        n.coreMat.opacity = match ? (n.base.active ? 1 : 0.4) : 0.06
-        n.glowMat.opacity = match ? (n.base.active ? 0.5 : 0.12) : 0
+        n.mem.uniforms.uOpacity.value = match ? (n.base.active ? 1 : 0.55) : 0.05
+        n.coreMat.opacity = match ? (n.base.active ? 1 : 0.55) : 0.06
+        n.glowMat.opacity = match ? (n.base.active ? 0.5 : 0.18) : 0
       })
       labels.forEach(l => {
         l.sprite.visible = f === 'ALL' || l.domain === f
@@ -674,7 +777,7 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
     })
     const composer = new EffectComposer(renderer, composerRT)
     composer.addPass(new RenderPass(scene, camera))
-    const bloom = new UnrealBloomPass(new THREE.Vector2(drawSize.x, drawSize.y), 0.75, 0.5, 0.45)
+    const bloom = new UnrealBloomPass(new THREE.Vector2(drawSize.x, drawSize.y), 0.9, 0.6, 0.4)
     composer.addPass(bloom)
     composer.addPass(new OutputPass())
 
@@ -766,6 +869,10 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
       if (synapseMat) synapseMat.uniforms.uTime.value = t
       sweepMat.uniforms.uTime.value = elapsed
       gradePass.uniforms.uTime.value = elapsed
+      beamMat.uniforms.uTime.value = elapsed
+      scanMat.uniforms.uTime.value = elapsed
+      // scanner ring climbs and dives through the brain
+      scan.position.y = -7 + (Math.sin(elapsed * 0.32) * 0.5 + 0.5) * 17
 
       neurons.forEach((n, i) => {
         // gentle breathing bob
@@ -784,7 +891,7 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
         } else if (hoverNameRef.current === n.base.repo.name) {
           n.mem.uniforms.uIntensity.value = 1.1
         } else {
-          n.mem.uniforms.uIntensity.value = 0.4
+          n.mem.uniforms.uIntensity.value = 0.55
         }
       })
 

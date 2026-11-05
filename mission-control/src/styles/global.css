@@ -36,6 +36,14 @@
   --glass-blur: 16px;
   --shadow-panel: 0 10px 40px rgba(0, 0, 0, 0.45), 0 2px 8px rgba(0, 0, 0, 0.3);
   --sheen: linear-gradient(105deg, transparent 30%, rgba(255, 255, 255, 0.14) 45%, rgba(255, 255, 255, 0.30) 50%, rgba(255, 255, 255, 0.14) 55%, transparent 70%);
+
+  /* neon accent tokens */
+  --neon-cyan: #2ff3e0;
+  --neon-magenta: #ff3fd8;
+  --neon-lime: #b6ff2f;
+  --neon-violet: #9d5cff;
+  --neon-blue: #3fa9ff;
+  --neon-pink: #ff2f6d;
 }
 
 *, *::before, *::after {
@@ -1779,4 +1787,290 @@ html, body {
 .search-result.selected {
   background: linear-gradient(90deg, rgba(245, 185, 66, 0.14), rgba(255, 255, 255, 0.03));
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.10);
+}
+
+/* Note: neon motion runs unconditionally — full effects were explicitly
+   requested, so the prefers-reduced-motion opt-out is intentionally omitted. */
+
+/* ============================================================
+   NEON LAYER — pulsing glows, laser sweeps, vivid accents
+   ============================================================ */
+
+/* ---- neon keyframes ---- */
+@keyframes neonPulse {
+  0%, 100% { box-shadow: 0 0 6px rgba(47, 243, 224, 0.35), 0 0 18px rgba(47, 243, 224, 0.15); }
+  50% { box-shadow: 0 0 14px rgba(47, 243, 224, 0.75), 0 0 34px rgba(47, 243, 224, 0.35); }
+}
+
+@keyframes neonTextPulse {
+  0%, 100% { text-shadow: 0 0 6px currentColor; }
+  50% { text-shadow: 0 0 10px currentColor, 0 0 26px currentColor; }
+}
+
+@keyframes laserLine {
+  0% { background-position: -60% 0, 0 0; }
+  100% { background-position: 160% 0, 0 0; }
+}
+
+@keyframes navGlowPulse {
+  0%, 100% { box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.10), inset 0 0 12px rgba(47, 243, 224, 0.10); }
+  50% { box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), inset 0 0 24px rgba(47, 243, 224, 0.30), 0 0 16px rgba(47, 243, 224, 0.22); }
+}
+
+@keyframes barGlowPulse {
+  0%, 100% { box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), 0 0 8px rgba(245, 185, 66, 0.30); }
+  50% { box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), 0 0 18px rgba(245, 185, 66, 0.65), 0 0 36px rgba(47, 243, 224, 0.20); }
+}
+
+@keyframes stampFlicker {
+  0%, 90%, 100% { opacity: 0.95; }
+  92% { opacity: 0.5; }
+  93% { opacity: 1; }
+  95% { opacity: 0.6; }
+  96% { opacity: 1; }
+}
+
+@keyframes stripSlide {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+@keyframes hueCycle {
+  to { filter: hue-rotate(360deg); }
+}
+
+@keyframes beadBlink {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.35); }
+}
+
+/* ---- laser sweeps in header + section headings ---- */
+.header-bar::before {
+  background:
+    linear-gradient(90deg, transparent, rgba(47, 243, 224, 0.95), transparent) no-repeat,
+    linear-gradient(90deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.06) 45%, transparent 90%);
+  background-size: 28% 100%, 100% 100%;
+  background-position: -60% 0, 0 0;
+  animation: laserLine 4.5s linear infinite;
+}
+
+.section-heading {
+  background-image:
+    linear-gradient(90deg, transparent, rgba(255, 63, 216, 0.75), transparent),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08), transparent 70%);
+  background-size: 26% 100%, 100% 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: -60% 0, 0 0;
+  animation: laserLine 5.5s linear infinite;
+}
+
+.section-heading::before {
+  color: var(--neon-magenta);
+  text-shadow: 0 0 8px var(--neon-magenta);
+  animation: neonTextPulse 2.4s ease-in-out infinite;
+}
+
+/* ---- pulsing nav ---- */
+.nav-item.active {
+  color: var(--neon-cyan);
+  border-left-color: var(--neon-cyan);
+  background: linear-gradient(90deg, rgba(47, 243, 224, 0.16), rgba(157, 92, 255, 0.07) 85%);
+  animation: navGlowPulse 2.8s ease-in-out infinite;
+}
+
+.nav-item:hover {
+  box-shadow: inset 0 0 14px rgba(47, 243, 224, 0.10);
+}
+
+/* ---- neon filter / action buttons ---- */
+.filter-btn.active {
+  border-color: var(--neon-cyan);
+  color: var(--neon-cyan);
+  background: linear-gradient(180deg, rgba(47, 243, 224, 0.24), rgba(47, 243, 224, 0.07));
+  animation: neonPulse 2s ease-in-out infinite;
+}
+
+.dossier-link {
+  color: var(--neon-cyan);
+  border-color: rgba(47, 243, 224, 0.75);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16), 0 0 10px rgba(47, 243, 224, 0.25);
+  animation: neonPulse 2.6s ease-in-out infinite;
+}
+
+.dossier-link:hover {
+  background: linear-gradient(180deg, #7dffef, var(--neon-cyan));
+  color: #05100e;
+  text-shadow: none;
+}
+
+.dossier-link.secondary {
+  color: var(--text-dim);
+  border-color: var(--glass-edge-bright);
+  animation: none;
+}
+
+/* ---- neon status chips & badges ---- */
+.status-chip.st-active,
+.card-badge.online {
+  color: var(--neon-lime);
+  border-color: rgba(182, 255, 47, 0.65);
+  background: linear-gradient(180deg, rgba(182, 255, 47, 0.18), rgba(182, 255, 47, 0.05));
+  animation: neonTextPulse 3s ease-in-out infinite;
+}
+
+.status-chip.st-monitored,
+.card-badge.warning {
+  color: #ffcf4d;
+  border-color: rgba(255, 207, 77, 0.65);
+  background: linear-gradient(180deg, rgba(255, 207, 77, 0.16), rgba(255, 207, 77, 0.04));
+  animation: neonTextPulse 3s ease-in-out infinite;
+}
+
+.status-chip.st-dormant,
+.card-badge.error {
+  color: var(--neon-pink);
+  border-color: rgba(255, 47, 109, 0.65);
+  background: linear-gradient(180deg, rgba(255, 47, 109, 0.16), rgba(255, 47, 109, 0.04));
+  animation: neonTextPulse 3s ease-in-out infinite;
+}
+
+.status-chip.st-archived {
+  color: var(--neon-blue);
+  border-color: rgba(63, 169, 255, 0.5);
+}
+
+/* ---- panel energy ---- */
+.card::before {
+  box-shadow: 0 0 12px rgba(245, 185, 66, 0.7);
+}
+
+.card:hover::before {
+  animation: neonPulse 1.8s ease-in-out infinite;
+}
+
+.card::after {
+  border-color: rgba(47, 243, 224, 0.65);
+  box-shadow: 0 0 6px rgba(47, 243, 224, 0.35);
+}
+
+.metric:hover {
+  border-color: rgba(47, 243, 224, 0.55);
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge-bright),
+    0 14px 44px rgba(0, 0, 0, 0.5),
+    0 0 26px rgba(245, 185, 66, 0.22),
+    0 0 46px rgba(47, 243, 224, 0.14);
+}
+
+.repo-card:hover {
+  border-color: rgba(255, 63, 216, 0.55);
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge-bright),
+    0 14px 44px rgba(0, 0, 0, 0.5),
+    0 0 24px rgba(255, 63, 216, 0.18);
+}
+
+/* ---- pulsing data bars ---- */
+.tech-bar-fill {
+  animation: barGlowPulse 2.8s ease-in-out infinite;
+}
+
+.timeline-bar {
+  animation: barGlowPulse 3.4s ease-in-out infinite;
+}
+
+.activity-bar .bar {
+  animation: barGlowPulse 3.8s ease-in-out infinite;
+}
+
+.timeline-col:hover .timeline-bar {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), 0 0 20px rgba(255, 63, 216, 0.6);
+}
+
+/* ---- neon dots & beads ---- */
+.status-dot {
+  animation: pulse 2s ease infinite, hueCycle 8s linear infinite;
+}
+
+.health-dot.online {
+  animation: neonTextPulse 2.6s ease-in-out infinite, beadBlink 2.2s ease-in-out infinite;
+  background: var(--neon-cyan);
+  box-shadow: 0 0 8px rgba(47, 243, 224, 0.8), inset 0 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+.health-dot.warning {
+  background: #ffcf4d;
+  box-shadow: 0 0 8px rgba(255, 207, 77, 0.7);
+}
+
+.health-dot.error {
+  background: var(--neon-pink);
+  box-shadow: 0 0 8px rgba(255, 47, 109, 0.7);
+}
+
+/* ---- stamps: neon flicker ---- */
+.brand-stamp,
+.boot-box::after,
+.help-box::after {
+  animation: stampFlicker 6s steps(1, end) infinite;
+  box-shadow: 0 0 12px rgba(224, 69, 47, 0.55);
+}
+
+.dossier-stamp.st-active {
+  box-shadow: 0 0 14px rgba(182, 255, 47, 0.45);
+  animation: neonTextPulse 2.6s ease-in-out infinite;
+}
+
+.dossier-stamp.st-monitored {
+  box-shadow: 0 0 14px rgba(255, 207, 77, 0.45);
+}
+
+.dossier-stamp.st-dormant {
+  box-shadow: 0 0 14px rgba(255, 47, 109, 0.5);
+  animation: neonTextPulse 2.6s ease-in-out infinite;
+}
+
+/* ---- dossier strip: sliding neon gradient ---- */
+.dossier-strip {
+  background: linear-gradient(90deg, #c2372b, #ff2f6d, #ff3fd8, #c2372b);
+  background-size: 200% 100%;
+  animation: stripSlide 7s linear infinite;
+}
+
+/* ---- misc neon ---- */
+.rank-badge {
+  background: linear-gradient(180deg, #ff77e4, var(--neon-magenta));
+  color: #14040f;
+  box-shadow: 0 0 12px rgba(255, 63, 216, 0.6);
+  animation: neonPulse 3s ease-in-out infinite;
+}
+
+.sidebar-brand h1 {
+  color: var(--green);
+  text-shadow: 0 0 10px rgba(245, 185, 66, 0.5), 0 0 30px rgba(245, 185, 66, 0.25);
+}
+
+.search-prompt {
+  color: var(--neon-cyan);
+  animation: neonTextPulse 1.8s ease-in-out infinite;
+}
+
+.help-key {
+  color: var(--neon-cyan);
+}
+
+.node-tip {
+  box-shadow: inset 0 1px 0 var(--glass-spec), 0 12px 36px rgba(0, 0, 0, 0.55), 0 0 22px rgba(47, 243, 224, 0.16);
+  border-left-color: var(--neon-cyan);
+}
+
+.toast {
+  border-color: rgba(47, 243, 224, 0.7);
+  color: var(--neon-cyan);
+  box-shadow: 0 0 18px rgba(47, 243, 224, 0.3), var(--shadow-panel);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(47, 243, 224, 0.9), rgba(157, 92, 255, 0.6));
+  box-shadow: 0 0 10px rgba(47, 243, 224, 0.5);
 }
