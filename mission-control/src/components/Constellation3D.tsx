@@ -860,10 +860,10 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
 
     // ---- animation ----
     let raf = 0
-    const clock = new THREE.Clock()
+    const startTime = performance.now()
     const animate = () => {
       raf = requestAnimationFrame(animate)
-      const elapsed = clock.getElapsedTime()
+      const elapsed = (performance.now() - startTime) / 1000
       const t = elapsed * speed
 
       if (synapseMat) synapseMat.uniforms.uTime.value = t
