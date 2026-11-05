@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Special+Elite&display=swap');
 
 /* ============================================================
    PHANTOMTAPE FIELD OPS — spy/intelligence theme
@@ -26,6 +26,7 @@
   --font-mono: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', monospace;
   --font-ui: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-stamp: 'Special Elite', 'Courier New', monospace;
+  --font-display: 'Orbitron', 'Space Grotesk', sans-serif;
 
   /* Glass layer tokens */
   --glass-fill: rgba(255, 255, 255, 0.045);
@@ -2074,3 +2075,202 @@ html, body {
   background: linear-gradient(180deg, rgba(47, 243, 224, 0.9), rgba(157, 92, 255, 0.6));
   box-shadow: 0 0 10px rgba(47, 243, 224, 0.5);
 }
+
+/* ============================================================
+   TYPOGRAPHY LAYER — Orbitron display, gradient titles, bigger scale
+   ============================================================ */
+
+/* ---- global scale: 14px → 16px root, everything rem-based grows ---- */
+html, body {
+  font-size: 16px;
+}
+
+/* ---- display font: Orbitron on all headline surfaces ---- */
+.boot-title,
+.sidebar-brand h1,
+.header-title,
+.section-heading,
+.card-title,
+.metric-value,
+.metric-label,
+.repo-name,
+.dossier-title,
+.dossier-strip,
+.release-version,
+.freshness-n,
+.help-title,
+.node-tip-name,
+.search-result-name,
+.case-id,
+.status-chip {
+  font-family: var(--font-display);
+}
+
+/* tighten Orbitron's natural width where tracking was wide */
+.boot-title { font-size: 2.1rem; letter-spacing: 0.18em; font-weight: 800; }
+.sidebar-brand h1 { font-size: 1.05rem; letter-spacing: 0.12em; font-weight: 800; }
+.header-title { font-size: 0.95rem; letter-spacing: 0.12em; font-weight: 600; }
+.section-heading { font-size: 0.9rem; letter-spacing: 0.1em; font-weight: 700; }
+/* text gradient must stay put — move the neon laser sweep to an overlay */
+.section-heading {
+  position: relative;
+  background-size: 100% 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  animation: none;
+}
+.section-heading::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 63, 216, 0.55), transparent) no-repeat;
+  background-size: 26% 100%;
+  background-position: -60% 0;
+  animation: laserLine 5.5s linear infinite;
+  pointer-events: none;
+}
+.card-title { font-size: 0.8rem; letter-spacing: 0.12em; font-weight: 700; }
+.metric-label { font-size: 0.7rem; letter-spacing: 0.1em; font-weight: 600; }
+.dossier-strip { font-size: 0.72rem; letter-spacing: 0.18em; font-weight: 700; }
+.help-title { font-size: 0.9rem; letter-spacing: 0.12em; font-weight: 700; }
+
+/* ---- prose font: Space Grotesk on readable body text ---- */
+.nav-item,
+.repo-desc,
+.dossier-brief,
+.help-row,
+.feed-item,
+.health-row,
+.dossier-note,
+.search-result,
+.node-tip-stats,
+.header-status {
+  font-family: var(--font-ui);
+}
+
+.nav-item { font-size: 0.84rem; font-weight: 600; letter-spacing: 0.04em; }
+.repo-desc { font-size: 0.85rem; line-height: 1.55; }
+.dossier-brief { font-size: 0.92rem; }
+.help-row { font-size: 0.88rem; }
+.feed-item { font-size: 0.82rem; }
+.health-row { font-size: 0.88rem; }
+.header-status { font-size: 0.84rem; }
+
+/* ---- size bumps for small text ---- */
+.nav-section-label { font-size: 0.64rem; }
+.sidebar-brand p { font-size: 0.7rem; }
+.sidebar-clearance { font-size: 0.64rem; }
+.brand-stamp { font-size: 0.58rem; }
+.metric-value { font-size: 2.6rem; font-weight: 800; }
+.repo-name { font-size: 1.15rem; font-weight: 700; }
+.repo-meta { font-size: 0.74rem; }
+.case-id { font-size: 0.68rem; }
+.status-chip { font-size: 0.6rem; }
+.last-contact { font-size: 0.68rem; }
+.card-badge { font-size: 0.66rem; }
+.filter-btn { font-size: 0.72rem; font-weight: 600; }
+.constellation-hint { font-size: 0.68rem; }
+.node-tip { font-size: 0.82rem; }
+.node-tip-name { font-size: 1rem; }
+.node-tip-meta { font-size: 0.72rem; }
+.node-tip-stats { font-size: 0.72rem; }
+.node-tip-cta { font-size: 0.68rem; }
+.dossier-title { font-size: 1.7rem; font-weight: 800; }
+.dossier-sub { font-size: 0.8rem; }
+.dossier-label { font-size: 0.7rem; }
+.dossier-link { font-size: 0.8rem; font-weight: 600; }
+.release-version { font-size: 1.6rem; font-weight: 800; }
+.release-repo { font-size: 0.96rem; }
+.freshness-n { font-size: 1.55rem; font-weight: 800; }
+.freshness-label { font-size: 0.68rem; }
+.rank-badge { font-size: 0.68rem; font-weight: 800; }
+.timeline-year { font-size: 0.62rem; }
+.timeline-n { font-size: 0.62rem; }
+.tech-bar-label { font-size: 0.82rem; }
+.tech-bar-value { font-size: 0.72rem; }
+.search-input { font-size: 1rem; }
+.search-result { font-size: 0.9rem; }
+.search-result-index { font-size: 0.7rem; }
+.boot-subtitle { font-size: 0.96rem; }
+.boot-log { font-size: 0.9rem; }
+.boot-enter { font-size: 0.96rem; }
+.console-line { font-size: 0.82rem; }
+.back-btn { font-size: 0.78rem; }
+.feed-time { font-size: 0.7rem; }
+
+/* ---- gradient titles: colorful, glowing ---- */
+.boot-title,
+.sidebar-brand h1,
+.section-heading,
+.metric-value,
+.repo-name,
+.dossier-title,
+.release-version,
+.help-title,
+.freshness-n,
+.dossier-strip {
+  background-image: linear-gradient(95deg, #ffd479 0%, #ff3fd8 48%, #2ff3e0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+
+.boot-title { filter: drop-shadow(0 0 14px rgba(255, 63, 216, 0.4)); }
+.sidebar-brand h1 { filter: drop-shadow(0 0 10px rgba(245, 185, 66, 0.5)); }
+.section-heading { filter: drop-shadow(0 0 8px rgba(255, 63, 216, 0.35)); }
+.repo-name { filter: drop-shadow(0 0 10px rgba(47, 243, 224, 0.35)); }
+.dossier-title { filter: drop-shadow(0 0 12px rgba(47, 243, 224, 0.4)); }
+.release-version { filter: drop-shadow(0 0 10px rgba(255, 63, 216, 0.4)); }
+.help-title { filter: drop-shadow(0 0 8px rgba(47, 243, 224, 0.4)); }
+.freshness-n { filter: drop-shadow(0 0 8px rgba(47, 243, 224, 0.4)); }
+.dossier-strip { filter: none; }
+
+/* dossier strip keeps its sliding neon background — restore fill */
+.dossier-strip {
+  background-image: linear-gradient(90deg, #c2372b, #ff2f6d, #ff3fd8, #c2372b);
+  background-size: 200% 100%;
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: #fdf6ec;
+  color: #fdf6ec;
+}
+
+/* metric values: cycle four color pairs across the grid */
+.grid-4 .metric:nth-child(4n + 1) .metric-value {
+  background-image: linear-gradient(135deg, #ffd479, #b6ff2f);
+  filter: drop-shadow(0 0 10px rgba(182, 255, 47, 0.35));
+}
+.grid-4 .metric:nth-child(4n + 2) .metric-value {
+  background-image: linear-gradient(135deg, #2ff3e0, #3fa9ff);
+  filter: drop-shadow(0 0 10px rgba(47, 243, 224, 0.4));
+}
+.grid-4 .metric:nth-child(4n + 3) .metric-value {
+  background-image: linear-gradient(135deg, #ff3fd8, #9d5cff);
+  filter: drop-shadow(0 0 10px rgba(255, 63, 216, 0.4));
+}
+.grid-4 .metric:nth-child(4n + 4) .metric-value {
+  background-image: linear-gradient(135deg, #ffcf4d, #ff8c42);
+  filter: drop-shadow(0 0 10px rgba(255, 140, 66, 0.4));
+}
+
+/* header + card titles: cool tinted text */
+.header-title {
+  background-image: linear-gradient(90deg, #7dffe9, #eef0e6 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+
+.card-title {
+  color: #7dffe9;
+  text-shadow: 0 0 10px rgba(47, 243, 224, 0.35);
+}
+
+/* roomier panels for the bigger type */
+.card { padding: 1.4rem; }
+.metric { padding: 1.15rem 1rem; }
+.repo-card { padding: 1.15rem; }
