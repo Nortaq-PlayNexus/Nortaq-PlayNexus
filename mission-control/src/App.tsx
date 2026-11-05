@@ -14,6 +14,11 @@ import SearchOverlay from './components/SearchOverlay'
 import HelpOverlay from './components/HelpOverlay'
 import Dossier from './components/Dossier'
 import StatusBar from './components/StatusBar'
+import PhosphorTrail from './components/PhosphorTrail'
+import EntropyField from './components/EntropyField'
+import CovertOverlay from './components/CovertOverlay'
+import OpsLog from './components/OpsLog'
+import { logAction, getOpsLog, clearOpsLog, exportOpsLog } from './opslog'
 import { useToast, showToast } from './toast'
 
 const DATA_URL = `${import.meta.env.BASE_URL}data/dashboard.json`
@@ -31,6 +36,7 @@ function App() {
   const [helpOpen, setHelpOpen] = useState(false)
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
   const [showScrollTop, setShowScrollTop] = useState(false)
+  const [opsLogEntries, setOpsLogEntries] = useState(() => getOpsLog())
   const mainRef = useRef<HTMLElement>(null)
   const [dossierRepo, setDossierRepo] = useState<RepoData | null>(null)
   const [konamiFlash, setKonamiFlash] = useState(false)
@@ -178,7 +184,11 @@ function App() {
     }
   }, [])
 
-  // ---- scroll-to-top visibility ----
+  // ---- ops log: record page navigations ----
+  useEffect(() => {
+    logAction('NAVIGATE', page)
+    setOpsLogEntries(getOpsLog())
+  }, [page])
   useEffect(() => {
     const el = mainRef.current
     if (!el) return
@@ -242,12 +252,19 @@ function App() {
 
   return (
     <div className={`scanlines ${mobileNavOpen ? 'mobile-nav-open' : ''} ${phantom ? 'phantom-mode' : ''}`}>
+      <div style={{ position: 'fixed', inset: 0, zIndex: 0, pointerEvents: 'none' }}>
+        <EntropyField threatIndex={0.3} opacity={0.06} />
+      </div>
       <div className="app-layout">
         <Sidebar page={page} onNavigate={(p) => { setPage(p); setMobileNavOpen(false) }} />
         <main className="main-content" ref={mainRef}>
           <div key={page} className="view-stage">
             {renderPage()}
           </div>
+          <OpsLog
+            entries={opsLogEntries}
+            onExport={() => { exportOpsLog(); showToast('OPS LOG EXPORTED') }}
+          />
         </main>
       </div>
       {searchOpen && (
@@ -263,6 +280,8 @@ function App() {
       {toast && <div className="toast">{toast}</div>}
       {dossierRepo && <Dossier repo={dossierRepo} onClose={() => setDossierRepo(null)} />}
       <div className="pointer-spotlight" aria-hidden="true" />
+      <PhosphorTrail />
+      <CovertOverlay />
       {showScrollTop && (
         <button
           className="scroll-top-btn"

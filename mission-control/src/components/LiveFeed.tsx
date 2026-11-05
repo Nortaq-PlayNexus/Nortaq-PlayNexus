@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { RepoData } from '../types'
+import TypewriterText from './TypewriterText'
 
 interface Props {
   repos: RepoData[]
@@ -48,7 +49,7 @@ export default function LiveFeed({ repos, limit = 10 }: Props) {
         <div key={i} className="feed-item">
           <span className="feed-time">{item.time}</span>
           <span className="feed-repo">{item.repo}</span>
-          <span className="feed-action">{item.action}</span>
+          <span className="feed-action"><TypewriterText text={item.action} speed={20} /></span>
         </div>
       ))}
     </div>

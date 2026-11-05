@@ -3,6 +3,7 @@ import { RepoData } from '../types'
 import { LANG_COLORS, caseFile, colorFor, contactLabel, statusOf } from '../theme'
 import { showToast } from '../toast'
 import { useFocusTrap } from '../hooks'
+import Redacted from './Redacted'
 
 interface Props {
   repo: RepoData
@@ -65,7 +66,7 @@ export default function Dossier({ repo, onClose, siblings, onNavigate }: Props) 
         <div className="dossier-body">
           <div className="dossier-col">
             <div className="dossier-label">OPERATIONS BRIEF</div>
-            <p className="dossier-brief">{repo.description || 'No description on file.'}</p>
+            <p className="dossier-brief"><Redacted text={repo.description || 'No description on file.'} revealOn="hover" /></p>
 
             <div className="dossier-label">TAGGED TOPICS</div>
             <div className="dossier-chips">
