@@ -107,7 +107,7 @@ export default function NetworkView({ repos }: Props) {
         </div>
       </div>
 
-      {selected && <Dossier repo={selected} onClose={() => setSelected(null)} />}
+      {selected && <Dossier repo={selected} onClose={() => setSelected(null)} siblings={active.filter(r => filter === 'ALL' || r.domain === filter)} onNavigate={setSelected} />}
     </div>
   )
 }

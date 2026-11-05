@@ -1,21 +1,31 @@
 import { useEffect } from 'react'
 import { RepoData } from '../types'
 import { LANG_COLORS, caseFile, colorFor, contactLabel, statusOf } from '../theme'
+import { showToast } from '../toast'
 
 interface Props {
   repo: RepoData
   onClose: () => void
+  siblings?: RepoData[]
+  onNavigate?: (repo: RepoData) => void
 }
 
 /** Full-screen case-file dossier for one repository. */
-export default function Dossier({ repo, onClose }: Props) {
+export default function Dossier({ repo, onClose, siblings, onNavigate }: Props) {
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose()
+      else if (e.key === 'ArrowLeft' && onNavigate && siblings) {
+        const i = siblings.findIndex(r => r.name === repo.name)
+        if (i > 0) onNavigate(siblings[i - 1])
+      } else if (e.key === 'ArrowRight' && onNavigate && siblings) {
+        const i = siblings.findIndex(r => r.name === repo.name)
+        if (i >= 0 && i < siblings.length - 1) onNavigate(siblings[i + 1])
+      }
     }
     window.addEventListener('keydown', handler)
     return () => window.removeEventListener('keydown', handler)
-  }, [onClose])
+  }, [onClose, onNavigate, siblings, repo.name])
 
   const status = statusOf(repo)
   const created = new Date(repo.created_at)
@@ -90,6 +100,30 @@ export default function Dossier({ repo, onClose }: Props) {
         </div>
 
         <div className="dossier-foot">
+          {siblings && onNavigate && (
+            <>
+              <button
+                className="back-btn"
+                onClick={() => {
+                  const i = siblings.findIndex(r => r.name === repo.name)
+                  if (i > 0) onNavigate(siblings[i - 1])
+                }}
+                disabled={siblings.findIndex(r => r.name === repo.name) <= 0}
+              >
+                ← PREV
+              </button>
+              <button
+                className="back-btn"
+                onClick={() => {
+                  const i = siblings.findIndex(r => r.name === repo.name)
+                  if (i >= 0 && i < siblings.length - 1) onNavigate(siblings[i + 1])
+                }}
+                disabled={siblings.findIndex(r => r.name === repo.name) >= siblings.length - 1}
+              >
+                NEXT →
+              </button>
+            </>
+          )}
           <a href={repo.html_url} target="_blank" rel="noopener noreferrer" className="dossier-link">
             OPEN SOURCE FILE →
           </a>
@@ -98,6 +132,14 @@ export default function Dossier({ repo, onClose }: Props) {
               FIELD SITE →
             </a>
           )}
+          <button
+            className="back-btn"
+            onClick={() => {
+              navigator.clipboard?.writeText(caseFile(repo.name)).then(() => showToast('CASE ID COPIED')).catch(() => {})
+            }}
+          >
+            COPY ID
+          </button>
           <button className="back-btn" style={{ marginLeft: 'auto' }} onClick={onClose}>CLOSE FILE (ESC)</button>
         </div>
 

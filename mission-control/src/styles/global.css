@@ -1047,15 +1047,33 @@ html, body {
 .konami-flash {
   position: fixed;
   inset: 0;
-  background: rgba(245, 185, 66, 0.1);
+  background: radial-gradient(ellipse at center, rgba(245, 185, 66, 0.22) 0%, rgba(255, 63, 216, 0.12) 40%, transparent 70%);
   z-index: 9998;
   pointer-events: none;
-  animation: flashFade 1s ease forwards;
+  animation: flashFade 1.4s ease forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.konami-flash::after {
+  content: 'PHANTOM MODE // SIGNAL AMPLIFIED';
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  letter-spacing: 0.3em;
+  color: var(--green);
+  text-shadow: 0 0 20px var(--green), 0 0 40px rgba(245, 185, 66, 0.6);
+  animation: flashText 1.4s ease forwards;
+}
 @keyframes flashFade {
   0% { opacity: 1; }
+  70% { opacity: 1; }
   100% { opacity: 0; }
+}
+@keyframes flashText {
+  0% { opacity: 0; transform: scale(0.85); filter: blur(8px); }
+  25% { opacity: 1; transform: scale(1); filter: blur(0); }
+  75% { opacity: 1; }
+  100% { opacity: 0; transform: scale(1.05); }
 }
 
 /* Toast */
@@ -2433,5 +2451,26 @@ input:focus-visible,
 @media (max-width: 768px) {
   .status-bar { left: 0; }
   .main-content { padding-bottom: 2.5rem; }
+}
+
+/* ---- mobile drawer ---- */
+@media (max-width: 768px) {
+  .scanlines.mobile-nav-open .sidebar {
+    display: flex;
+    position: fixed;
+    top: 0; left: 0; bottom: 0;
+    width: 82%; max-width: 280px;
+    z-index: 300;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+    animation: viewIn 0.25s ease both;
+  }
+  .scanlines.mobile-nav-open::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(6, 8, 7, 0.65);
+    backdrop-filter: blur(4px);
+    z-index: 299;
+  }
 }
 

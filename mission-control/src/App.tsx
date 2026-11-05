@@ -12,6 +12,7 @@ import SignalView from './components/SignalView'
 import SystemView from './components/SystemView'
 import SearchOverlay from './components/SearchOverlay'
 import HelpOverlay from './components/HelpOverlay'
+import Dossier from './components/Dossier'
 import StatusBar from './components/StatusBar'
 import { useToast, showToast } from './toast'
 
@@ -25,8 +26,11 @@ function App() {
   const [page, setPage] = useState<Page>('mission-control')
   const [repos, setRepos] = useState<RepoData[]>([])
   const [telemetry, setTelemetry] = useState<TelemetryData | null>(null)
+  const [status, setStatus] = useState<'loading' | 'ok' | 'error'>('loading')
   const [searchOpen, setSearchOpen] = useState(false)
   const [helpOpen, setHelpOpen] = useState(false)
+  const [mobileNavOpen, setMobileNavOpen] = useState(false)
+  const [dossierRepo, setDossierRepo] = useState<RepoData | null>(null)
   const [konamiFlash, setKonamiFlash] = useState(false)
   const toast = useToast()
   const konamiIndex = useRef(0)
@@ -47,10 +51,12 @@ function App() {
       .then(data => {
         setRepos(data.repos || [])
         setTelemetry(data.telemetry || null)
+        setStatus('ok')
       })
       .catch(() => {
         setRepos([])
         setTelemetry(null)
+        setStatus('error')
       })
   }, [])
 
@@ -106,7 +112,7 @@ function App() {
 
     window.addEventListener('keydown', handler)
     return () => window.removeEventListener('keydown', handler)
-  }, [searchOpen, helpOpen, showToast])
+  }, [searchOpen, helpOpen])
 
   // ---- pointer spotlight + card tilt (global, low-cost) ----
   useEffect(() => {
@@ -149,6 +155,32 @@ function App() {
     return <BootSequence onComplete={() => setBooted(true)} />
   }
 
+  if (status === 'loading') {
+    return (
+      <div className="boot-screen">
+        <div className="boot-box">
+          <div className="boot-title">NORTAQ</div>
+          <div className="boot-subtitle">ESTABLISHING UPLINK...</div>
+          <div className="boot-progress-container">
+            <div className="boot-progress-bar" style={{ width: '40%' }} />
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  if (status === 'error') {
+    return (
+      <div className="boot-screen">
+        <div className="boot-box">
+          <div className="boot-title">NORTAQ</div>
+          <div className="boot-subtitle" style={{ color: 'var(--red)' }}>SIGNAL LOST // NO DATA</div>
+          <button className="boot-enter" onClick={() => window.location.reload()}>RETRY UPLINK</button>
+        </div>
+      </div>
+    )
+  }
+
   const renderPage = () => {
     switch (page) {
       case 'mission-control':
@@ -173,9 +205,9 @@ function App() {
   }
 
   return (
-    <div className="scanlines">
+    <div className={`scanlines ${mobileNavOpen ? 'mobile-nav-open' : ''}`}>
       <div className="app-layout">
-        <Sidebar page={page} onNavigate={setPage} />
+        <Sidebar page={page} onNavigate={(p) => { setPage(p); setMobileNavOpen(false) }} />
         <main className="main-content">
           <div key={page} className="view-stage">
             {renderPage()}
@@ -185,19 +217,18 @@ function App() {
       {searchOpen && (
         <SearchOverlay
           repos={repos}
-          onSelect={(repo) => {
-            setSearchOpen(false)
-            setPage('projects')
-          }}
+          onSelectRepo={(repo) => { setDossierRepo(repo) }}
+          onNavigate={(p) => setPage(p as Page)}
           onClose={() => setSearchOpen(false)}
         />
       )}
       {helpOpen && <HelpOverlay onClose={() => setHelpOpen(false)} />}
       {konamiFlash && <div className="konami-flash" />}
       {toast && <div className="toast">{toast}</div>}
+      {dossierRepo && <Dossier repo={dossierRepo} onClose={() => setDossierRepo(null)} />}
       <div className="pointer-spotlight" aria-hidden="true" />
       <StatusBar page={page} repoCount={repos.length} />
-      <button className="mobile-nav-toggle" onClick={() => setHelpOpen(true)}>?</button>
+      <button className="mobile-nav-toggle" onClick={() => setMobileNavOpen(v => !v)}>☰</button>
     </div>
   )
 }

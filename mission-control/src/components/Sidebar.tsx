@@ -30,8 +30,11 @@ export default function Sidebar({ page, onNavigate }: Props) {
         {NAV_ITEMS.slice(0, 4).map(item => (
           <div
             key={item.id}
+            role="button"
+            tabIndex={0}
             className={`nav-item ${page === item.id ? 'active' : ''}`}
             onClick={() => onNavigate(item.id)}
+            onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onNavigate(item.id) } }}
           >
             <span>{item.icon}</span>
             <span>{item.label}</span>
@@ -45,8 +48,11 @@ export default function Sidebar({ page, onNavigate }: Props) {
         {NAV_ITEMS.slice(4).map(item => (
           <div
             key={item.id}
+            role="button"
+            tabIndex={0}
             className={`nav-item ${page === item.id ? 'active' : ''}`}
             onClick={() => onNavigate(item.id)}
+            onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onNavigate(item.id) } }}
           >
             <span>{item.icon}</span>
             <span>{item.label}</span>

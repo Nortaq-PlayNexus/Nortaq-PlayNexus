@@ -93,7 +93,7 @@ export default function ProjectsView({ repos }: Props) {
         })}
       </div>
 
-      {selected && <Dossier repo={selected} onClose={() => setSelected(null)} />}
+      {selected && <Dossier repo={selected} onClose={() => setSelected(null)} siblings={sorted} onNavigate={setSelected} />}
     </div>
   )
 }
