@@ -5,6 +5,7 @@ import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js'
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js'
 import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js'
+import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js'
 import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js'
 import { RepoData } from '../types'
 import { caseFile, colorFor, statusOf } from '../theme'
@@ -44,32 +45,34 @@ function hash(s: string): number {
 
 function makeGlowTexture(): THREE.CanvasTexture {
   const c = document.createElement('canvas')
-  c.width = c.height = 128
+  c.width = c.height = 256
   const ctx = c.getContext('2d')!
-  const g = ctx.createRadialGradient(64, 64, 0, 64, 64, 64)
-  g.addColorStop(0, 'rgba(255,255,255,0.95)')
-  g.addColorStop(0.35, 'rgba(255,255,255,0.35)')
+  const g = ctx.createRadialGradient(128, 128, 0, 128, 128, 128)
+  g.addColorStop(0, 'rgba(255,255,255,1)')
+  g.addColorStop(0.22, 'rgba(255,255,255,0.55)')
+  g.addColorStop(0.55, 'rgba(255,255,255,0.14)')
   g.addColorStop(1, 'rgba(255,255,255,0)')
   ctx.fillStyle = g
-  ctx.fillRect(0, 0, 128, 128)
+  ctx.fillRect(0, 0, 256, 256)
   return new THREE.CanvasTexture(c)
 }
 
 function makeLabel(text: string, color: string): THREE.Sprite {
   const c = document.createElement('canvas')
-  c.width = 512
-  c.height = 128
+  c.width = 1024
+  c.height = 256
   const ctx = c.getContext('2d')!
-  ctx.font = '600 52px "JetBrains Mono", monospace'
+  ctx.font = '700 96px "JetBrains Mono", monospace'
   ctx.textAlign = 'center'
   ctx.textBaseline = 'middle'
   // dim the label color so bloom doesn't wash it into an unreadable blob
   const dim = new THREE.Color(color).multiplyScalar(0.42).getStyle()
   ctx.shadowColor = dim
-  ctx.shadowBlur = 6
+  ctx.shadowBlur = 10
   ctx.fillStyle = dim
-  ctx.fillText(text, 256, 64)
+  ctx.fillText(text, 512, 128)
   const tex = new THREE.CanvasTexture(c)
+  tex.anisotropy = 8
   const mat = new THREE.SpriteMaterial({ map: tex, transparent: true, opacity: 0.7, depthWrite: false })
   const sprite = new THREE.Sprite(mat)
   sprite.scale.set(7.5, 1.9, 1)
@@ -98,8 +101,11 @@ const MEMBRANE_FRAG = /* glsl */ `
   void main() {
     float ndv = clamp(abs(dot(normalize(vNormal), normalize(vViewDir))), 0.0, 1.0);
     float fres = pow(1.0 - ndv, uFresPow);
-    float a = (0.10 + fres * 0.9) * uOpacity;
-    vec3 col = uColor * (0.55 + fres * 1.7) * uIntensity;
+    // hot nucleus glint facing the camera — the bright core look of AI-brain renders
+    float nucleus = pow(ndv, 12.0);
+    float a = (0.10 + fres * 0.9 + nucleus * 0.45) * uOpacity;
+    vec3 col = uColor * (0.55 + fres * 1.7) * uIntensity
+      + vec3(1.0, 0.97, 0.9) * nucleus * 0.95 * uIntensity;
     gl_FragColor = vec4(col, a);
   }
 `
@@ -146,12 +152,80 @@ const SYNAPSE_FRAG = /* glsl */ `
     float t1 = fract(vUv.x * 2.0 - uTime * 0.16 + vPhase);
     float t2 = fract(vUv.x * 1.0 + uTime * 0.11 + vPhase * 2.3);
     float head = comet(t1) + comet(t2) * 0.7;
+    // soft afterglow trailing each pulse head
+    float halo = comet(t1 + 0.07) * 0.5 + comet(t2 + 0.07) * 0.3;
     float ends = smoothstep(0.0, 0.04, vUv.x) * smoothstep(1.0, 0.96, vUv.x);
-    vec3 base = vColor * 0.30;
-    vec3 hot = mix(vColor, vec3(1.0, 0.96, 0.82), 0.7);
-    vec3 col = base + hot * head * 1.5;
-    float alpha = (0.13 + head * 0.85) * ends * vis;
+    vec3 base = vColor * 0.34;
+    vec3 hot = mix(vColor, vec3(1.0, 0.97, 0.86), 0.75);
+    vec3 col = base + hot * (head * 2.0 + halo * 0.7);
+    float alpha = (0.15 + head * 1.0 + halo * 0.3) * ends * vis;
     gl_FragColor = vec4(col, alpha);
+  }
+`
+
+/* ---- shader: radar sweep on the floor plane ---- */
+const SWEEP_VERT = /* glsl */ `
+  varying vec2 vUv;
+  void main() {
+    vUv = uv;
+    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+  }
+`
+
+const SWEEP_FRAG = /* glsl */ `
+  uniform float uTime;
+  varying vec2 vUv;
+  void main() {
+    vec2 c = vUv - 0.5;
+    float r = length(c) * 2.0;
+    if (r > 1.0) discard;
+    float ang = atan(c.y, c.x);
+    float t = fract(uTime * 0.11 - ang / 6.2831853);
+    // tight trail: only the wedge edge glows, no flat haze across the disc
+    float trail = pow(1.0 - t, 14.0);
+    float ring = smoothstep(0.1, 0.18, r) * (1.0 - smoothstep(0.78, 1.0, r));
+    float alpha = trail * ring * 0.5;
+    vec3 col = mix(vec3(0.96, 0.73, 0.26), vec3(0.37, 0.78, 0.77), trail * 0.45);
+    gl_FragColor = vec4(col * alpha, alpha);
+  }
+`
+
+/* ---- final grade pass: chromatic aberration + vignette + film grain ---- */
+const GRADE_VERT = /* glsl */ `
+  varying vec2 vUv;
+  void main() {
+    vUv = uv;
+    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+  }
+`
+
+const GRADE_FRAG = /* glsl */ `
+  uniform sampler2D tDiffuse;
+  uniform float uTime;
+  uniform vec2 uRes;
+  varying vec2 vUv;
+  float hash21(vec2 p) {
+    p = fract(p * vec2(123.34, 456.21));
+    p += dot(p, p + 45.32);
+    return fract(p.x * p.y);
+  }
+  void main() {
+    vec2 uv = vUv;
+    vec2 dir = uv - 0.5;
+    float d2 = dot(dir, dir);
+    // chromatic aberration, strongest at frame edges
+    float ab = 0.006 * d2;
+    vec3 col;
+    col.r = texture2D(tDiffuse, uv + dir * ab).r;
+    col.g = texture2D(tDiffuse, uv).g;
+    col.b = texture2D(tDiffuse, uv - dir * ab).b;
+    // vignette
+    float vig = smoothstep(1.05, 0.3, length(dir) * 1.35);
+    col *= mix(0.66, 1.04, vig);
+    // fine film grain
+    float grain = hash21(uv * uRes + fract(uTime) * 137.0);
+    col += (grain - 0.5) * 0.04;
+    gl_FragColor = vec4(col, 1.0);
   }
 `
 
@@ -283,18 +357,23 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
     scene.background = new THREE.Color(0x0a0c0b)
 
     const camera = new THREE.PerspectiveCamera(45, w / h, 0.1, 400)
-    camera.position.set(0, compact ? 13 : 15, compact ? 50 : 47)
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    // cinematic dolly-in: open pulled far back, ease into the working framing
+    const camEnd = new THREE.Vector3(0, compact ? 13 : 15, compact ? 50 : 47)
+    const camStart = new THREE.Vector3(0, compact ? 30 : 28, compact ? 80 : 74)
+    camera.position.copy(reduced ? camEnd : camStart)
 
     const controls = new OrbitControls(camera, renderer.domElement)
+    controls.target.set(0, 2.2, 0)
     controls.enableDamping = true
     controls.dampingFactor = 0.07
     controls.enablePan = false
     controls.minDistance = 14
     controls.maxDistance = 90
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    controls.autoRotate = !reduced
+    controls.autoRotate = false // spins up when the intro finishes
     controls.autoRotateSpeed = compact ? 0.3 : 0.45
     const speed = reduced ? 0.3 : 1
+    let introDone = reduced
 
     // ---- central brain core ----
     const coreInner = new THREE.Mesh(
@@ -401,6 +480,47 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
     mkDust(140, 1.1, '#8fd0cc', 0.25, 10, 32)
     scene.add(dustGroup)
 
+    // ---- distant nebula glow (depth behind the brain) ----
+    const nebulaColors: [number, number][] = [
+      [0xf5b942, 0.06],
+      [0x5ec8c5, 0.05],
+      [0xa58bd4, 0.045],
+      [0xff8c42, 0.04],
+    ]
+    nebulaColors.forEach(([col, op], i) => {
+      for (let k = 0; k < 3; k++) {
+        const mat = new THREE.SpriteMaterial({
+          map: glowTex,
+          color: col,
+          blending: THREE.AdditiveBlending,
+          depthWrite: false,
+          transparent: true,
+          opacity: op,
+          rotation: hash(`neb-rot-${i}-${k}`) * Math.PI,
+        })
+        const s = new THREE.Sprite(mat)
+        const a = ((i * 3 + k) / 12) * Math.PI * 2 + hash(`neb-a-${i}-${k}`) * 2
+        const r = 95 + hash(`neb-r-${i}-${k}`) * 55
+        s.position.set(Math.cos(a) * r, (hash(`neb-y-${i}-${k}`) - 0.5) * 90, Math.sin(a) * r)
+        s.scale.setScalar(55 + hash(`neb-s-${i}-${k}`) * 70)
+        scene.add(s)
+      }
+    })
+
+    // ---- radar sweep across the floor ----
+    const sweepMat = new THREE.ShaderMaterial({
+      uniforms: { uTime: { value: 0 } },
+      vertexShader: SWEEP_VERT,
+      fragmentShader: SWEEP_FRAG,
+      transparent: true,
+      blending: THREE.AdditiveBlending,
+      depthWrite: false,
+    })
+    const sweep = new THREE.Mesh(new THREE.PlaneGeometry(54, 54), sweepMat)
+    sweep.rotation.x = -Math.PI / 2
+    sweep.position.y = -10.8
+    scene.add(sweep)
+
     // ---- radar floor rings ----
     const ringMat = new THREE.LineBasicMaterial({ color: 0x383e2e, transparent: true, opacity: 0.45 })
     ;[8, 15, 22].forEach(r => {
@@ -413,8 +533,8 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
     })
 
     // ---- neurons ----
-    const sphereGeo = new THREE.SphereGeometry(1, 24, 18)
-    const coreGeo = new THREE.SphereGeometry(0.4, 16, 12)
+    const sphereGeo = new THREE.SphereGeometry(1, 48, 32)
+    const coreGeo = new THREE.SphereGeometry(0.4, 32, 24)
 
     interface Neuron {
       group: THREE.Group
@@ -488,7 +608,7 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
         .add(outward.multiplyScalar(dist * 0.16 + 0.8))
       ctrl.y += dist * 0.1 + 0.6
       const curve = new THREE.QuadraticBezierCurve3(na.pos.clone(), ctrl, nb.pos.clone())
-      const geo = new THREE.TubeGeometry(curve, 30, 0.05, 5, false)
+      const geo = new THREE.TubeGeometry(curve, 44, 0.055, 8, false)
       const count = geo.getAttribute('position').count
       geo.setAttribute('aPhase', new THREE.BufferAttribute(new Float32Array(count).fill(hash(`${a}:${b}`)), 1))
       geo.setAttribute('aDomA', new THREE.BufferAttribute(new Float32Array(count).fill(na.domainIdx), 1))
@@ -546,11 +666,30 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
     sceneApi.current = { nodeMeshes, applyFilter }
 
     // ---- bloom post-processing (the AI-brain glow) ----
-    const composer = new EffectComposer(renderer)
+    // HDR + 4x MSAA render target for clean edges, bloom fed at device resolution
+    const drawSize = renderer.getDrawingBufferSize(new THREE.Vector2())
+    const composerRT = new THREE.WebGLRenderTarget(drawSize.x, drawSize.y, {
+      type: THREE.HalfFloatType,
+      samples: 4,
+    })
+    const composer = new EffectComposer(renderer, composerRT)
     composer.addPass(new RenderPass(scene, camera))
-    const bloom = new UnrealBloomPass(new THREE.Vector2(w, h), 0.75, 0.5, 0.45)
+    const bloom = new UnrealBloomPass(new THREE.Vector2(drawSize.x, drawSize.y), 0.75, 0.5, 0.45)
     composer.addPass(bloom)
     composer.addPass(new OutputPass())
+
+    // ---- final grade: chromatic aberration + vignette + film grain ----
+    const gradePass = new ShaderPass({
+      uniforms: {
+        tDiffuse: { value: null },
+        uTime: { value: 0 },
+        uRes: { value: new THREE.Vector2(w, h) },
+      },
+      vertexShader: GRADE_VERT,
+      fragmentShader: GRADE_FRAG,
+    })
+    gradePass.uniforms.uRes.value.set(w * renderer.getPixelRatio(), h * renderer.getPixelRatio())
+    composer.addPass(gradePass)
 
     // ---- raycasting ----
     const raycaster = new THREE.Raycaster()
@@ -611,6 +750,7 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
       camera.updateProjectionMatrix()
       renderer.setSize(nw, nh)
       composer.setSize(nw, nh)
+      gradePass.uniforms.uRes.value.set(nw * renderer.getPixelRatio(), nh * renderer.getPixelRatio())
     }
     const ro = new ResizeObserver(resize)
     ro.observe(container)
@@ -620,9 +760,12 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
     const clock = new THREE.Clock()
     const animate = () => {
       raf = requestAnimationFrame(animate)
-      const t = clock.getElapsedTime() * speed
+      const elapsed = clock.getElapsedTime()
+      const t = elapsed * speed
 
       if (synapseMat) synapseMat.uniforms.uTime.value = t
+      sweepMat.uniforms.uTime.value = elapsed
+      gradePass.uniforms.uTime.value = elapsed
 
       neurons.forEach((n, i) => {
         // gentle breathing bob
@@ -655,6 +798,17 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
 
       aura.rotation.y = t * 0.01
       if (!reduced) dustGroup.rotation.y = t * 0.02
+
+      // cinematic dolly-in, then hand off to orbit + auto-rotate
+      if (!introDone) {
+        const k = Math.min(1, elapsed / 2.0)
+        const ease = 1 - Math.pow(1 - k, 3)
+        camera.position.lerpVectors(camStart, camEnd, ease)
+        if (k >= 1) {
+          introDone = true
+          controls.autoRotate = true
+        }
+      }
 
       controls.update()
       composer.render()
