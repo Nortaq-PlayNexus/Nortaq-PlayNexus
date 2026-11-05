@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react'
 
 const STAGES = [
-  { label: 'GITHUB CONNECTION', delay: 200 },
-  { label: 'REPOSITORY INDEX', delay: 400 },
+  { label: 'SECURE UPLINK', delay: 200 },
+  { label: 'CASE FILE INDEX', delay: 400 },
   { label: 'TELEMETRY STREAM', delay: 300 },
-  { label: 'PROJECT GRAPH', delay: 350 },
-  { label: 'SIGNAL VERIFICATION', delay: 250 },
-  { label: 'CONSTELLATION MAP', delay: 300 },
-  { label: 'ARCHIVE DECRYPT', delay: 200 },
+  { label: 'ASSET GRAPH', delay: 350 },
+  { label: 'CIPHER VERIFY', delay: 250 },
+  { label: 'CONSTELLATION 3D', delay: 300 },
+  { label: 'DOSSIER DECRYPT', delay: 200 },
 ]
 
 interface Props {
@@ -46,7 +46,7 @@ export default function BootSequence({ onComplete }: Props) {
     <div className={`boot-screen ${fading ? 'fading' : ''}`}>
       <div className="boot-box">
         <div className="boot-title">NORTAQ</div>
-        <div className="boot-subtitle">MISSION CONTROL</div>
+        <div className="boot-subtitle">FIELD OPERATIONS // CLEARANCE OMEGA</div>
 
         <div className="boot-progress-container">
           <div className="boot-progress-bar" style={{ width: `${progress}%` }} />
@@ -69,16 +69,16 @@ export default function BootSequence({ onComplete }: Props) {
           </div>
           <div>
             {done ? (
-              <span className="ok">ACCESS GRANTED</span>
+              <span className="ok">CLEARANCE VERIFIED // ACCESS GRANTED</span>
             ) : (
-              <span style={{ color: 'var(--amber)' }}>SYSTEM LOADING...</span>
+              <span style={{ color: 'var(--amber)' }}>VERIFYING IDENTITIES...</span>
             )}
           </div>
         </div>
 
         {done && (
           <button className="boot-enter" onClick={handleEnter}>
-            {'>'} ENTER NETWORK {'<'}
+            {'>'} ENTER THE FIELD {'<'}
           </button>
         )}
       </div>

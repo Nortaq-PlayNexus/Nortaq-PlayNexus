@@ -58,7 +58,7 @@ export default function SearchOverlay({ repos, onSelect, onClose }: Props) {
             value={query}
             onChange={e => setQuery(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder="search repositories, languages, domains..."
+            placeholder="search dossiers, agents, sectors..."
           />
         </div>
         <div className="search-results">
@@ -75,7 +75,7 @@ export default function SearchOverlay({ repos, onSelect, onClose }: Props) {
           ))}
           {results.length === 0 && (
             <div style={{ padding: '1rem', fontSize: '0.7rem', color: 'var(--text-dim)' }}>
-              NO RESULTS FOUND
+              NO MATCHING DOSSIERS
             </div>
           )}
         </div>

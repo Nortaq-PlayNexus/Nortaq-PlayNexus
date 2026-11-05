@@ -15,8 +15,8 @@ export default function ReleasesView({ repos }: Props) {
   return (
     <div>
       <div className="header-bar">
-        <span className="header-title">RELEASES // DISCOGRAPHY</span>
-        <span className="header-status">{sorted.length} RELEASES</span>
+        <span className="header-title">DISPATCHES // TRANSMISSION LOG</span>
+        <span className="header-status">{sorted.length} DISPATCHES</span>
       </div>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>

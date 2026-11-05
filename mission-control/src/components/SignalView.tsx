@@ -38,7 +38,7 @@ export default function SignalView({ telemetry, repos }: Props) {
   return (
     <div>
       <div className="header-bar">
-        <span className="header-title">SIGNAL // VERIFICATION</span>
+        <span className="header-title">CIPHER // SIGNAL VERIFICATION</span>
         <span className="header-status">
           <span className="status-dot" />
           LOCKED
@@ -74,7 +74,7 @@ export default function SignalView({ telemetry, repos }: Props) {
               marginBottom: '1rem',
               padding: '0.8rem',
               border: '1px solid var(--green-dim)',
-              background: 'rgba(184, 255, 30, 0.03)',
+              background: 'rgba(245, 185, 66, 0.04)',
             }}>
               {hash}
             </div>

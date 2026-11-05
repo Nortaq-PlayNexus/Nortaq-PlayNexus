@@ -46,7 +46,7 @@ export default function TechnologyView({ repos }: Props) {
   return (
     <div>
       <div className="header-bar">
-        <span className="header-title">TECHNOLOGY // MATRIX</span>
+        <span className="header-title">TECH MATRIX // ARSENAL</span>
         <span className="header-status">{languages.length} LANGUAGES</span>
       </div>
 
