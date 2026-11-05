@@ -143,7 +143,9 @@ function App() {
       <div className="app-layout">
         <Sidebar page={page} onNavigate={setPage} />
         <main className="main-content">
-          {renderPage()}
+          <div key={page} className="view-stage">
+            {renderPage()}
+          </div>
         </main>
       </div>
       {searchOpen && (

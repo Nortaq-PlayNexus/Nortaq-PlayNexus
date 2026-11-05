@@ -3,6 +3,7 @@ import { RepoData, TelemetryData, Page } from '../types'
 import Constellation3D from './Constellation3D'
 import ActivityGraph from './ActivityGraph'
 import LiveFeed from './LiveFeed'
+import CountUp from './CountUp'
 import { colorFor, contactLabel, statusOf } from '../theme'
 
 interface Props {
@@ -83,34 +84,34 @@ export default function MissionControl({ repos, telemetry, onNavigate }: Props) 
 
       <div className="grid-4" style={{ marginBottom: '1rem' }}>
         <div className="metric" onClick={() => onNavigate('projects')} style={{ cursor: 'pointer' }}>
-          <div className="metric-value">{repos.length}</div>
+          <div className="metric-value"><CountUp value={repos.length} /></div>
           <div className="metric-label">RECORDS</div>
         </div>
         <div className="metric" onClick={() => onNavigate('network')} style={{ cursor: 'pointer' }}>
-          <div className="metric-value">{activeRepos.length}</div>
+          <div className="metric-value"><CountUp value={activeRepos.length} /></div>
           <div className="metric-label">ACTIVE ASSETS</div>
         </div>
         <div className="metric" onClick={() => onNavigate('telemetry')} style={{ cursor: 'pointer' }}>
-          <div className="metric-value">{totalStars}</div>
+          <div className="metric-value"><CountUp value={totalStars} /></div>
           <div className="metric-label">STARS EARNED</div>
         </div>
         <div className="metric" onClick={() => onNavigate('signal')} style={{ cursor: 'pointer' }}>
-          <div className="metric-value">{telemetry?.signal_percent ?? 0}%</div>
+          <div className="metric-value"><CountUp value={telemetry?.signal_percent ?? 0} />%</div>
           <div className="metric-label">SIGNAL</div>
         </div>
       </div>
 
       <div className="grid-4" style={{ marginBottom: '1rem' }}>
         <div className="metric" onClick={() => onNavigate('telemetry')} style={{ cursor: 'pointer' }}>
-          <div className="metric-value" style={{ fontSize: '1.3rem' }}>{telemetry?.contributions ?? '—'}</div>
+          <div className="metric-value" style={{ fontSize: '1.3rem' }}>{telemetry?.contributions != null ? <CountUp value={telemetry.contributions} /> : '—'}</div>
           <div className="metric-label">CONTRIBUTIONS / YR</div>
         </div>
         <div className="metric" onClick={() => onNavigate('telemetry')} style={{ cursor: 'pointer' }}>
-          <div className="metric-value" style={{ fontSize: '1.3rem' }}>{telemetry?.total_issues ?? '—'}</div>
+          <div className="metric-value" style={{ fontSize: '1.3rem' }}>{telemetry?.total_issues != null ? <CountUp value={telemetry.total_issues} /> : '—'}</div>
           <div className="metric-label">OPEN CASES</div>
         </div>
         <div className="metric" onClick={() => onNavigate('telemetry')} style={{ cursor: 'pointer' }}>
-          <div className="metric-value" style={{ fontSize: '1.3rem' }}>{telemetry?.followers ?? '—'}</div>
+          <div className="metric-value" style={{ fontSize: '1.3rem' }}>{telemetry?.followers != null ? <CountUp value={telemetry.followers} /> : '—'}</div>
           <div className="metric-label">ALLIES</div>
         </div>
         <div className="metric" onClick={() => onNavigate('telemetry')} style={{ cursor: 'pointer' }}>
@@ -169,7 +170,7 @@ export default function MissionControl({ repos, telemetry, onNavigate }: Props) 
                 <span className="rank-badge">#{i + 1}</span>
                 {r.name}
               </span>
-              <span style={{ color: 'var(--green)', fontSize: '0.7rem' }}>{r.stargazers_count}★</span>
+              <span style={{ color: 'var(--green)', fontSize: '0.7rem' }}>{r.stargazers_count.toLocaleString()}★</span>
             </div>
           ))}
         </div>
@@ -190,7 +191,7 @@ export default function MissionControl({ repos, telemetry, onNavigate }: Props) 
               <div className="tech-bar-track">
                 <div className="tech-bar-fill" style={{ width: `${(r.open_issues_count / issueLoad[0].open_issues_count) * 100}%`, background: 'var(--amber)' }} />
               </div>
-              <span className="tech-bar-value">{r.open_issues_count}</span>
+              <span className="tech-bar-value">{r.open_issues_count.toLocaleString()}</span>
             </div>
           ))}
         </div>
@@ -219,7 +220,7 @@ export default function MissionControl({ repos, telemetry, onNavigate }: Props) 
         {freshness.map(f => (
           <div key={f.label} className="freshness-cell">
             <span className={`health-dot ${f.cls}`} />
-            <span className="freshness-n">{f.count}</span>
+            <span className="freshness-n"><CountUp value={f.count} /></span>
             <span className="freshness-label">{f.label}</span>
           </div>
         ))}
@@ -239,7 +240,7 @@ export default function MissionControl({ repos, telemetry, onNavigate }: Props) 
                 }}
               />
             </div>
-            <span className="tech-bar-value">{count}</span>
+            <span className="tech-bar-value">{count.toLocaleString()}</span>
           </div>
         ))}
       </div>

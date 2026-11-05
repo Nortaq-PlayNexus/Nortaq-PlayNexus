@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { TelemetryData, RepoData } from '../types'
+import CountUp from './CountUp'
 
 interface Props {
   telemetry: TelemetryData | null
@@ -52,7 +53,7 @@ export default function SignalView({ telemetry, repos }: Props) {
               SIGNAL INTEGRITY
             </div>
             <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'var(--green)', lineHeight: 1, marginBottom: '0.3rem' }}>
-              {percent}%
+              <CountUp value={percent} />%
             </div>
             <div className="tech-bar-track" style={{ height: '8px', marginBottom: '1rem' }}>
               <div className="tech-bar-fill" style={{ width: `${percent}%` }} />

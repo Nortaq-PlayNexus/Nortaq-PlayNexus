@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { RepoData, TelemetryData } from '../types'
+import CountUp from './CountUp'
 
 interface Props {
   repos: RepoData[]
@@ -75,45 +76,45 @@ export default function TelemetryView({ repos, telemetry }: Props) {
 
       <div className="grid-4" style={{ marginBottom: '1.5rem' }}>
         <div className="metric">
-          <div className="metric-value">{repos.length}</div>
+          <div className="metric-value"><CountUp value={repos.length} /></div>
           <div className="metric-label">REPOSITORIES</div>
         </div>
         <div className="metric">
-          <div className="metric-value">{totalStars}</div>
+          <div className="metric-value"><CountUp value={totalStars} /></div>
           <div className="metric-label">TOTAL STARS</div>
         </div>
         <div className="metric">
-          <div className="metric-value">{totalForks}</div>
+          <div className="metric-value"><CountUp value={totalForks} /></div>
           <div className="metric-label">TOTAL FORKS</div>
         </div>
         <div className="metric">
-          <div className="metric-value">{totalIssues}</div>
+          <div className="metric-value"><CountUp value={totalIssues} /></div>
           <div className="metric-label">OPEN ISSUES</div>
         </div>
       </div>
 
       <div className="grid-4" style={{ marginBottom: '1.5rem' }}>
         <div className="metric">
-          <div className="metric-value">{activeRepos}</div>
+          <div className="metric-value"><CountUp value={activeRepos} /></div>
           <div className="metric-label">ACTIVE PROJECTS</div>
         </div>
         <div className="metric">
-          <div className="metric-value">{staleRepos}</div>
+          <div className="metric-value"><CountUp value={staleRepos} /></div>
           <div className="metric-label">STALE (&gt;90d)</div>
         </div>
         <div className="metric">
-          <div className="metric-value">{topLangs.length}</div>
+          <div className="metric-value"><CountUp value={topLangs.length} /></div>
           <div className="metric-label">LANGUAGES</div>
         </div>
         <div className="metric">
-          <div className="metric-value">{telemetry?.contributions ?? '—'}</div>
+          <div className="metric-value">{telemetry?.contributions != null ? <CountUp value={telemetry.contributions} /> : '—'}</div>
           <div className="metric-label">CONTRIBUTIONS</div>
         </div>
       </div>
 
       <div className="grid-4" style={{ marginBottom: '1.5rem' }}>
         <div className="metric">
-          <div className="metric-value" style={{ fontSize: '1.3rem' }}>{telemetry?.followers ?? '—'}</div>
+          <div className="metric-value" style={{ fontSize: '1.3rem' }}>{telemetry?.followers != null ? <CountUp value={telemetry.followers} /> : '—'}</div>
           <div className="metric-label">FOLLOWERS</div>
         </div>
         <div className="metric">
@@ -121,11 +122,11 @@ export default function TelemetryView({ repos, telemetry }: Props) {
           <div className="metric-label">AVG SINCE CONTACT</div>
         </div>
         <div className="metric">
-          <div className="metric-value" style={{ fontSize: '1.3rem' }}>{(repoSize / 1024).toFixed(0)}</div>
+          <div className="metric-value" style={{ fontSize: '1.3rem' }}><CountUp value={Math.round(repoSize / 1024)} /></div>
           <div className="metric-label">ARCHIVE SIZE (MB)</div>
         </div>
         <div className="metric">
-          <div className="metric-value" style={{ fontSize: '1.3rem' }}>{creationTimeline.length}</div>
+          <div className="metric-value" style={{ fontSize: '1.3rem' }}><CountUp value={creationTimeline.length} /></div>
           <div className="metric-label">RECRUITING MONTHS</div>
         </div>
       </div>
