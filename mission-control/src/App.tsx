@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef, lazy, Suspense } from 'react'
-import { RepoData, TelemetryData, Page } from './types'
+import { RepoData, TelemetryData, Page, ProfileData, OrganizationData, StarredRepoData, GistData, ZenodoRecord } from './types'
 import BootSequence from './components/BootSequence'
 import Sidebar from './components/Sidebar'
 import SearchOverlay from './components/SearchOverlay'
@@ -10,6 +10,7 @@ import PhosphorTrail from './components/PhosphorTrail'
 import EntropyField from './components/EntropyField'
 import CovertOverlay from './components/CovertOverlay'
 import OpsLog from './components/OpsLog'
+import ZenodoView from './components/ZenodoView'
 import { logAction, getOpsLog, exportOpsLog } from './opslog'
 import { useToast, showToast } from './toast'
 
@@ -33,6 +34,11 @@ function App() {
   const [page, setPage] = useState<Page>('mission-control')
   const [repos, setRepos] = useState<RepoData[]>([])
   const [telemetry, setTelemetry] = useState<TelemetryData | null>(null)
+  const [profile, setProfile] = useState<ProfileData | null>(null)
+  const [organizations, setOrganizations] = useState<OrganizationData[]>([])
+  const [starred, setStarred] = useState<StarredRepoData[]>([])
+  const [gists, setGists] = useState<GistData[]>([])
+  const [zenodoRecords, setZenodoRecords] = useState<ZenodoRecord[]>([])
   const [status, setStatus] = useState<'loading' | 'ok' | 'error'>('loading')
   const [searchOpen, setSearchOpen] = useState(false)
   const [helpOpen, setHelpOpen] = useState(false)
@@ -64,6 +70,11 @@ function App() {
       .then(data => {
         setRepos(data.repos || [])
         setTelemetry(data.telemetry || null)
+        setProfile(data.profile || null)
+        setOrganizations(data.organizations || [])
+        setStarred(data.starred || [])
+        setGists(data.gists || [])
+        setZenodoRecords(data.zenodo_records || [])
         setStatus('ok')
       })
       .catch(() => {
@@ -122,6 +133,7 @@ function App() {
         '6': 'releases',
         '7': 'signal',
         '8': 'system',
+        '9': 'zenodo',
       }
       if (keyMap[e.key]) {
         setPage(keyMap[e.key])
@@ -257,7 +269,9 @@ function App() {
       case 'signal':
         return <SignalView telemetry={telemetry} repos={repos} />
       case 'system':
-        return <SystemView repos={repos} />
+        return <SystemView repos={repos} profile={profile} />
+      case 'zenodo':
+        return <ZenodoView records={zenodoRecords} />
       default:
         return <MissionControl repos={repos} telemetry={telemetry} onNavigate={setPage} />
     }

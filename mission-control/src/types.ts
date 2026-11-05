@@ -41,6 +41,69 @@ export interface TelemetryData {
   frequency: string
 }
 
+export interface ProfileData {
+  login: string
+  name: string | null
+  bio: string | null
+  company: string | null
+  location: string | null
+  blog: string | null
+  twitter: string | null
+  avatar_url: string | null
+  followers: number
+  following: number
+  public_repos: number
+  public_gists: number
+  created_at: string
+  updated_at: string
+  html_url: string
+}
+
+export interface OrganizationData {
+  login: string
+  description: string | null
+  avatar_url: string | null
+  url: string
+}
+
+export interface StarredRepoData {
+  name: string
+  full_name: string
+  description: string | null
+  html_url: string
+  language: string | null
+  stargazers_count: number
+  owner: string
+}
+
+export interface GistData {
+  id: string
+  description: string | null
+  html_url: string
+  created_at: string
+  updated_at: string
+  files: string[]
+  public: boolean
+}
+
+export interface ZenodoRecord {
+  id: number
+  title: string
+  description: string
+  type: string
+  subtype: string
+  creators: string[]
+  keywords: string[]
+  publication_date: string
+  license: string
+  doi: string
+  files: { key: string; size: number; checksum: string }[]
+  downloads: number
+  views: number
+  html_url: string
+  doi_url: string
+}
+
 export interface ConstellationNode {
   id: string
   name: string
@@ -63,4 +126,4 @@ export interface NetworkData {
   domains: string[]
 }
 
-export type Page = 'mission-control' | 'network' | 'projects' | 'telemetry' | 'technology' | 'archive' | 'releases' | 'signal' | 'system'
+export type Page = 'mission-control' | 'network' | 'projects' | 'telemetry' | 'technology' | 'archive' | 'releases' | 'signal' | 'system' | 'zenodo'

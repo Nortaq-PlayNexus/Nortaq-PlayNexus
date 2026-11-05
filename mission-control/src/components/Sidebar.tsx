@@ -9,6 +9,7 @@ const NAV_ITEMS: { id: Page; icon: string; label: string; key: string }[] = [
   { id: 'releases', icon: '◫', label: 'DISPATCHES', key: '6' },
   { id: 'signal', icon: '◎', label: 'CIPHER', key: '7' },
   { id: 'system', icon: '⚙', label: 'SAFEHOUSE', key: '8' },
+  { id: 'zenodo', icon: '§', label: 'RESEARCH ARCHIVE', key: '9' },
 ]
 
 interface Props {

@@ -1,12 +1,13 @@
 import { useMemo } from 'react'
-import { RepoData } from '../types'
+import { RepoData, ProfileData } from '../types'
 import HeaderBar from './HeaderBar'
 
 interface Props {
   repos: RepoData[]
+  profile?: ProfileData | null
 }
 
-export default function SystemView({ repos }: Props) {
+export default function SystemView({ repos, profile }: Props) {
   const totalRepos = repos.length
   const activeRepos = useMemo(() => repos.filter(r => !r.archived && !r.fork && r.days_since_push < 30).length, [repos])
   const now = new Date().toISOString()
@@ -29,6 +30,38 @@ export default function SystemView({ repos }: Props) {
   return (
     <div>
       <HeaderBar title="SAFEHOUSE // SYSTEM HEALTH" status={<><span className="status-dot" /> ALL SYSTEMS NOMINAL</>} />
+
+      {profile && (
+        <div className="card" style={{ marginBottom: '1.5rem', display: 'flex', gap: '1rem', alignItems: 'center' }}>
+          {profile.avatar_url && (
+            <img src={profile.avatar_url} alt={profile.login} style={{ width: '64px', height: '64px', borderRadius: '50%', border: '2px solid var(--neon-cyan)', boxShadow: '0 0 16px rgba(47,243,224,0.4)' }} />
+          )}
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <div className="repo-name" style={{ fontSize: '1.1rem' }}>{profile.name || profile.login}</div>
+            <div style={{ fontSize: '0.7rem', color: 'var(--text-dim)', marginBottom: '0.4rem' }}>{profile.bio || 'No bio on file.'}</div>
+            <div className="repo-meta" style={{ flexWrap: 'wrap' }}>
+              {profile.company && <span>{profile.company}</span>}
+              {profile.location && <span>{profile.location}</span>}
+              {profile.blog && <a href={profile.blog} target="_blank" rel="noopener" style={{ color: 'var(--neon-cyan)' }}>SITE</a>}
+              {profile.twitter && <span>@{profile.twitter}</span>}
+            </div>
+          </div>
+          <div style={{ display: 'flex', gap: '1rem', flexShrink: 0 }}>
+            <div style={{ textAlign: 'center' }}>
+              <div className="metric-value" style={{ fontSize: '1.4rem' }}>{profile.followers.toLocaleString()}</div>
+              <div className="metric-label">FOLLOWERS</div>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <div className="metric-value" style={{ fontSize: '1.4rem' }}>{profile.following.toLocaleString()}</div>
+              <div className="metric-label">FOLLOWING</div>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <div className="metric-value" style={{ fontSize: '1.4rem' }}>{profile.public_repos.toLocaleString()}</div>
+              <div className="metric-label">REPOS</div>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="grid-2" style={{ marginBottom: '1.5rem' }}>
         <div className="card">

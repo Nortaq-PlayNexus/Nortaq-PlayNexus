@@ -14,6 +14,7 @@ export default function HelpOverlay({ onClose }: { onClose: () => void }) {
     { key: '6', desc: 'Dispatches' },
     { key: '7', desc: 'Cipher' },
     { key: '8', desc: 'Safehouse' },
+    { key: '9', desc: 'Research archive (Zenodo)' },
     { key: '?', desc: 'This briefing' },
     { key: 'ESC', desc: 'Close file' },
   ]

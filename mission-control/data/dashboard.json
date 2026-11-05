@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T05:51:12.523400+00:00",
+  "generated_at": "2026-11-05T11:41:32.538048+00:00",
   "repos": [
     {
       "name": "Nortaq-PlayNexus",
@@ -15,16 +15,44 @@
       "forks_count": 0,
       "open_issues_count": 0,
       "created_at": "2026-08-30T17:14:41Z",
-      "updated_at": "2026-11-03T10:49:25Z",
-      "pushed_at": "2026-11-04T03:38:08Z",
+      "updated_at": "2026-11-05T11:28:50Z",
+      "pushed_at": "2026-11-05T11:29:02Z",
       "archived": false,
       "fork": false,
-      "size": 1853,
+      "size": 2008,
       "default_branch": "main",
       "homepage": null,
       "domain": "AUDIO",
       "activity_score": 100,
       "days_since_push": 0
+    },
+    {
+      "name": "osmp",
+      "full_name": "Nortaq-PlayNexus/osmp",
+      "description": "Open Source Modernization Platform - an autonomous engineering organization that discovers overlooked open-source projects, modernizes them to enterprise standards, and gives the improvements back to the community.",
+      "html_url": "https://github.com/Nortaq-PlayNexus/osmp",
+      "language": "TypeScript",
+      "topics": [
+        "automation",
+        "enterprise",
+        "modernization",
+        "open-source",
+        "typescript"
+      ],
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "open_issues_count": 9,
+      "created_at": "2026-08-13T03:26:31Z",
+      "updated_at": "2026-10-04T09:32:23Z",
+      "pushed_at": "2026-11-04T09:15:31Z",
+      "archived": false,
+      "fork": false,
+      "size": 134,
+      "default_branch": "main",
+      "homepage": null,
+      "domain": "SYSTEMS",
+      "activity_score": 99,
+      "days_since_push": 1
     },
     {
       "name": "aieval-lab",
@@ -45,8 +73,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 98,
-      "days_since_push": 2
+      "activity_score": 96,
+      "days_since_push": 4
     },
     {
       "name": "consciousness-indicator-battery",
@@ -74,8 +102,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 97,
-      "days_since_push": 3
+      "activity_score": 95,
+      "days_since_push": 5
     },
     {
       "name": "episodic-memory",
@@ -103,8 +131,8 @@
       "default_branch": "master",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 97,
-      "days_since_push": 3
+      "activity_score": 95,
+      "days_since_push": 5
     },
     {
       "name": "ce-1-continuous-existence",
@@ -132,8 +160,8 @@
       "default_branch": "master",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 97,
-      "days_since_push": 3
+      "activity_score": 95,
+      "days_since_push": 5
     },
     {
       "name": "phantom_vision_lab",
@@ -163,8 +191,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 97,
-      "days_since_push": 3
+      "activity_score": 95,
+      "days_since_push": 5
     },
     {
       "name": "COSMOS-TEST-SUITE",
@@ -192,8 +220,8 @@
       "default_branch": "master",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 97,
-      "days_since_push": 3
+      "activity_score": 95,
+      "days_since_push": 5
     },
     {
       "name": "EXP-0007",
@@ -221,8 +249,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 97,
-      "days_since_push": 3
+      "activity_score": 95,
+      "days_since_push": 5
     },
     {
       "name": "ScientificDiscoveryLab",
@@ -250,8 +278,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 97,
-      "days_since_push": 3
+      "activity_score": 95,
+      "days_since_push": 5
     },
     {
       "name": "cosmic-discovery-engine",
@@ -279,8 +307,8 @@
       "default_branch": "master",
       "homepage": null,
       "domain": "SYSTEMS",
-      "activity_score": 94,
-      "days_since_push": 6
+      "activity_score": 93,
+      "days_since_push": 7
     },
     {
       "name": "pineal-godseye",
@@ -308,8 +336,8 @@
       "default_branch": "master",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 94,
-      "days_since_push": 6
+      "activity_score": 92,
+      "days_since_push": 8
     },
     {
       "name": "sapphire-continuity-research",
@@ -336,8 +364,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 94,
-      "days_since_push": 6
+      "activity_score": 92,
+      "days_since_push": 8
     },
     {
       "name": "amis",
@@ -365,36 +393,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 94,
-      "days_since_push": 6
-    },
-    {
-      "name": "osmp",
-      "full_name": "Nortaq-PlayNexus/osmp",
-      "description": "Open Source Modernization Platform - an autonomous engineering organization that discovers overlooked open-source projects, modernizes them to enterprise standards, and gives the improvements back to the community.",
-      "html_url": "https://github.com/Nortaq-PlayNexus/osmp",
-      "language": "TypeScript",
-      "topics": [
-        "automation",
-        "enterprise",
-        "modernization",
-        "open-source",
-        "typescript"
-      ],
-      "stargazers_count": 1,
-      "forks_count": 0,
-      "open_issues_count": 9,
-      "created_at": "2026-08-13T03:26:31Z",
-      "updated_at": "2026-10-04T09:32:23Z",
-      "pushed_at": "2026-10-28T09:10:38Z",
-      "archived": false,
-      "fork": false,
-      "size": 134,
-      "default_branch": "main",
-      "homepage": null,
-      "domain": "SYSTEMS",
-      "activity_score": 94,
-      "days_since_push": 6
+      "activity_score": 92,
+      "days_since_push": 8
     },
     {
       "name": "phantomtape-radio",
@@ -420,8 +420,8 @@
       "default_branch": "main",
       "homepage": "https://nortaq-playnexus.github.io/phantomtape-radio/",
       "domain": "AUDIO",
-      "activity_score": 92,
-      "days_since_push": 8
+      "activity_score": 91,
+      "days_since_push": 9
     },
     {
       "name": "c4-advanced-file-checker",
@@ -442,8 +442,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "OTHER",
-      "activity_score": 92,
-      "days_since_push": 8
+      "activity_score": 90,
+      "days_since_push": 10
     },
     {
       "name": "SecureVault",
@@ -475,8 +475,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "SYSTEMS",
-      "activity_score": 92,
-      "days_since_push": 8
+      "activity_score": 90,
+      "days_since_push": 10
     },
     {
       "name": "arena-workplace",
@@ -497,8 +497,8 @@
       "default_branch": "master",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 89,
-      "days_since_push": 11
+      "activity_score": 88,
+      "days_since_push": 12
     },
     {
       "name": "playnexus-musicvidforge",
@@ -532,8 +532,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 88,
-      "days_since_push": 12
+      "activity_score": 86,
+      "days_since_push": 14
     },
     {
       "name": "Personanal",
@@ -561,8 +561,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AUDIO",
-      "activity_score": 86,
-      "days_since_push": 14
+      "activity_score": 85,
+      "days_since_push": 15
     },
     {
       "name": "opencode-on-render-mvaxb9pd",
@@ -583,8 +583,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "OTHER",
-      "activity_score": 82,
-      "days_since_push": 18
+      "activity_score": 81,
+      "days_since_push": 19
     },
     {
       "name": "nasa-investigation",
@@ -618,8 +618,8 @@
       "default_branch": "main",
       "homepage": "https://nortaq-playnexus.github.io/nasa-investigation/",
       "domain": "EARTH",
-      "activity_score": 77,
-      "days_since_push": 23
+      "activity_score": 75,
+      "days_since_push": 25
     },
     {
       "name": "FreeStack",
@@ -653,8 +653,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 75,
-      "days_since_push": 25
+      "activity_score": 74,
+      "days_since_push": 26
     },
     {
       "name": "nexus-agent-x",
@@ -689,8 +689,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 75,
-      "days_since_push": 25
+      "activity_score": 74,
+      "days_since_push": 26
     },
     {
       "name": "RustVoiceBooster",
@@ -720,8 +720,8 @@
       "default_branch": "master",
       "homepage": null,
       "domain": "AUDIO",
-      "activity_score": 75,
-      "days_since_push": 25
+      "activity_score": 74,
+      "days_since_push": 26
     },
     {
       "name": "triangle-unity",
@@ -748,8 +748,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "GAMING",
-      "activity_score": 75,
-      "days_since_push": 25
+      "activity_score": 74,
+      "days_since_push": 26
     },
     {
       "name": "dmt-laser-code-analysis",
@@ -777,8 +777,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 75,
-      "days_since_push": 25
+      "activity_score": 74,
+      "days_since_push": 26
     },
     {
       "name": "xbox-one-research",
@@ -805,8 +805,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 75,
-      "days_since_push": 25
+      "activity_score": 74,
+      "days_since_push": 26
     },
     {
       "name": "playnexus-promo",
@@ -833,8 +833,8 @@
       "default_branch": "master",
       "homepage": null,
       "domain": "TOOLS",
-      "activity_score": 75,
-      "days_since_push": 25
+      "activity_score": 74,
+      "days_since_push": 26
     },
     {
       "name": "aegis",
@@ -861,8 +861,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "EARTH",
-      "activity_score": 75,
-      "days_since_push": 25
+      "activity_score": 74,
+      "days_since_push": 26
     },
     {
       "name": "the-triangle",
@@ -889,8 +889,8 @@
       "default_branch": "master",
       "homepage": null,
       "domain": "GAMING",
-      "activity_score": 75,
-      "days_since_push": 25
+      "activity_score": 74,
+      "days_since_push": 26
     },
     {
       "name": "dark-web-monitoring",
@@ -913,8 +913,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "WEB",
-      "activity_score": 64,
-      "days_since_push": 36
+      "activity_score": 63,
+      "days_since_push": 37
     },
     {
       "name": "reports",
@@ -937,8 +937,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 64,
-      "days_since_push": 36
+      "activity_score": 63,
+      "days_since_push": 37
     },
     {
       "name": "TerrorFibercraft-Admin",
@@ -970,8 +970,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "GAMING",
-      "activity_score": 64,
-      "days_since_push": 36
+      "activity_score": 62,
+      "days_since_push": 38
     },
     {
       "name": "ArkNexusX",
@@ -1005,8 +1005,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 64,
-      "days_since_push": 36
+      "activity_score": 62,
+      "days_since_push": 38
     },
     {
       "name": "alien-image-investigation",
@@ -1036,8 +1036,8 @@
       "default_branch": "main",
       "homepage": "",
       "domain": "AI",
-      "activity_score": 62,
-      "days_since_push": 38
+      "activity_score": 60,
+      "days_since_push": 40
     },
     {
       "name": "orion-sentinel-ai",
@@ -1071,8 +1071,8 @@
       "default_branch": "main",
       "homepage": "",
       "domain": "AI",
-      "activity_score": 53,
-      "days_since_push": 47
+      "activity_score": 52,
+      "days_since_push": 48
     },
     {
       "name": "aurora-audio-engine",
@@ -1101,8 +1101,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AUDIO",
-      "activity_score": 50,
-      "days_since_push": 50
+      "activity_score": 48,
+      "days_since_push": 52
     },
     {
       "name": "911-investigation",
@@ -1125,8 +1125,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "DATA",
-      "activity_score": 46,
-      "days_since_push": 54
+      "activity_score": 45,
+      "days_since_push": 55
     },
     {
       "name": "better_bing_image_downloader",
@@ -1166,8 +1166,8 @@
       "default_branch": "main",
       "homepage": "https://pypi.org/project/better-bing-image-downloader/",
       "domain": "AI",
-      "activity_score": 46,
-      "days_since_push": 54
+      "activity_score": 45,
+      "days_since_push": 55
     },
     {
       "name": "forge",
@@ -1199,8 +1199,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "TOOLS",
-      "activity_score": 46,
-      "days_since_push": 54
+      "activity_score": 45,
+      "days_since_push": 55
     },
     {
       "name": "swarmforge",
@@ -1231,8 +1231,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 46,
-      "days_since_push": 54
+      "activity_score": 45,
+      "days_since_push": 55
     },
     {
       "name": "archive-07",
@@ -1258,8 +1258,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "OTHER",
-      "activity_score": 46,
-      "days_since_push": 54
+      "activity_score": 45,
+      "days_since_push": 55
     },
     {
       "name": "ProjectPhoenix",
@@ -1282,8 +1282,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "OTHER",
-      "activity_score": 46,
-      "days_since_push": 54
+      "activity_score": 45,
+      "days_since_push": 55
     },
     {
       "name": "playnexus-sovereign-meta-agent",
@@ -1317,8 +1317,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 43,
-      "days_since_push": 57
+      "activity_score": 42,
+      "days_since_push": 58
     },
     {
       "name": "phantom",
@@ -1343,8 +1343,8 @@
       "default_branch": "master",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 43,
-      "days_since_push": 57
+      "activity_score": 42,
+      "days_since_push": 58
     },
     {
       "name": "earth-globe",
@@ -1373,8 +1373,8 @@
       "default_branch": "master",
       "homepage": "https://github.com/Nortaq-PlayNexus/earth-globe",
       "domain": "EARTH",
-      "activity_score": 43,
-      "days_since_push": 57
+      "activity_score": 42,
+      "days_since_push": 58
     },
     {
       "name": "dj-festival-audio-polisher",
@@ -1403,8 +1403,8 @@
       "default_branch": "main",
       "homepage": "https://github.com/Nortaq-PlayNexus/dj-festival-audio-polisher",
       "domain": "AUDIO",
-      "activity_score": 43,
-      "days_since_push": 57
+      "activity_score": 42,
+      "days_since_push": 58
     },
     {
       "name": "sonic-facility",
@@ -1434,8 +1434,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 43,
-      "days_since_push": 57
+      "activity_score": 42,
+      "days_since_push": 58
     },
     {
       "name": "cto",
@@ -1465,8 +1465,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "TOOLS",
-      "activity_score": 43,
-      "days_since_push": 57
+      "activity_score": 42,
+      "days_since_push": 58
     },
     {
       "name": "military-anomaly-scanner",
@@ -1499,8 +1499,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 43,
-      "days_since_push": 57
+      "activity_score": 42,
+      "days_since_push": 58
     },
     {
       "name": "aether-facility",
@@ -1532,8 +1532,8 @@
       "default_branch": "main",
       "homepage": "",
       "domain": "SYSTEMS",
-      "activity_score": 43,
-      "days_since_push": 57
+      "activity_score": 42,
+      "days_since_push": 58
     },
     {
       "name": "neuralforge",
@@ -1565,8 +1565,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 43,
-      "days_since_push": 57
+      "activity_score": 42,
+      "days_since_push": 58
     },
     {
       "name": "archon",
@@ -1598,8 +1598,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 43,
-      "days_since_push": 57
+      "activity_score": 42,
+      "days_since_push": 58
     },
     {
       "name": "PlayNexus-Foundry",
@@ -1629,8 +1629,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "GAMING",
-      "activity_score": 43,
-      "days_since_push": 57
+      "activity_score": 42,
+      "days_since_push": 58
     },
     {
       "name": "sentinel",
@@ -1660,8 +1660,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 43,
-      "days_since_push": 57
+      "activity_score": 42,
+      "days_since_push": 58
     },
     {
       "name": "synthesis-dj",
@@ -1696,8 +1696,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 41,
-      "days_since_push": 59
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "heart",
@@ -1724,8 +1724,8 @@
       "default_branch": "master",
       "homepage": "https://github.com/Nortaq-PlayNexus/heart",
       "domain": "AI",
-      "activity_score": 41,
-      "days_since_push": 59
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "promoforge",
@@ -1754,8 +1754,8 @@
       "default_branch": "master",
       "homepage": "https://github.com/Nortaq-PlayNexus/promoforge",
       "domain": "AI",
-      "activity_score": 41,
-      "days_since_push": 59
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "color_quant",
@@ -1780,8 +1780,8 @@
       "default_branch": "master",
       "homepage": null,
       "domain": "OTHER",
-      "activity_score": 41,
-      "days_since_push": 59
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "envoy-proxy-crowdsec-bouncer",
@@ -1813,8 +1813,8 @@
       "default_branch": "main",
       "homepage": "",
       "domain": "SYSTEMS",
-      "activity_score": 41,
-      "days_since_push": 59
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "agency-swarm",
@@ -1835,8 +1835,8 @@
       "default_branch": "main",
       "homepage": "https://agency-swarm.ai/",
       "domain": "AI",
-      "activity_score": 40,
-      "days_since_push": 60
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "ark-arena-architect",
@@ -1857,8 +1857,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "TOOLS",
-      "activity_score": 40,
-      "days_since_push": 60
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "sqlalchemy-history",
@@ -1888,8 +1888,8 @@
       "default_branch": "main",
       "homepage": "https://corridor.github.io/sqlalchemy-history/",
       "domain": "SYSTEMS",
-      "activity_score": 40,
-      "days_since_push": 60
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "register",
@@ -1910,8 +1910,8 @@
       "default_branch": "main",
       "homepage": "https://is-a.dev",
       "domain": "AI",
-      "activity_score": 40,
-      "days_since_push": 60
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "hexstrike-ai",
@@ -1953,8 +1953,8 @@
       "default_branch": "master",
       "homepage": "https://www.hexstrike.com/",
       "domain": "AI",
-      "activity_score": 40,
-      "days_since_push": 60
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "Scaffold",
@@ -1980,8 +1980,8 @@
       "default_branch": "main",
       "homepage": "https://documentation.grafite.ca/docs/kits-scaffold-overview",
       "domain": "OTHER",
-      "activity_score": 40,
-      "days_since_push": 60
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "Brainarr",
@@ -2018,8 +2018,8 @@
       "default_branch": "main",
       "homepage": "",
       "domain": "AI",
-      "activity_score": 40,
-      "days_since_push": 60
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "recovar",
@@ -2046,8 +2046,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "AI",
-      "activity_score": 40,
-      "days_since_push": 60
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "web-widgets",
@@ -2072,8 +2072,8 @@
       "default_branch": "main",
       "homepage": "https://marketplace.mendix.com/link/contenttype/4,1",
       "domain": "WEB",
-      "activity_score": 40,
-      "days_since_push": 60
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "meteofrance-api",
@@ -2099,8 +2099,8 @@
       "default_branch": "main",
       "homepage": "https://readthedocs.org/projects/meteofrance-api/",
       "domain": "TOOLS",
-      "activity_score": 40,
-      "days_since_push": 60
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "fusil",
@@ -2126,8 +2126,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "SYSTEMS",
-      "activity_score": 40,
-      "days_since_push": 60
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "pdb-addr2line",
@@ -2152,8 +2152,8 @@
       "default_branch": "main",
       "homepage": "https://docs.rs/pdb-addr2line",
       "domain": "OTHER",
-      "activity_score": 40,
-      "days_since_push": 60
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "myskoda",
@@ -2179,8 +2179,8 @@
       "default_branch": "main",
       "homepage": "",
       "domain": "AI",
-      "activity_score": 40,
-      "days_since_push": 60
+      "activity_score": 39,
+      "days_since_push": 61
     },
     {
       "name": "terrorfibercraftark",
@@ -2205,8 +2205,8 @@
       "default_branch": "main",
       "homepage": "http://terrorfibercraftark.is-a.dev/",
       "domain": "GAMING",
-      "activity_score": 39,
-      "days_since_push": 61
+      "activity_score": 37,
+      "days_since_push": 63
     },
     {
       "name": "resourcegather",
@@ -2234,8 +2234,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "SYSTEMS",
-      "activity_score": 34,
-      "days_since_push": 66
+      "activity_score": 33,
+      "days_since_push": 67
     },
     {
       "name": "Starminder",
@@ -2260,8 +2260,8 @@
       "default_branch": "main",
       "homepage": "https://starminder.dev",
       "domain": "AI",
-      "activity_score": 32,
-      "days_since_push": 68
+      "activity_score": 31,
+      "days_since_push": 69
     },
     {
       "name": "cookiecutter-wagtail-vix",
@@ -2288,8 +2288,8 @@
       "default_branch": "main",
       "homepage": "",
       "domain": "AI",
-      "activity_score": 18,
-      "days_since_push": 82
+      "activity_score": 16,
+      "days_since_push": 84
     },
     {
       "name": "python-hid-parser",
@@ -2316,8 +2316,8 @@
       "default_branch": "main",
       "homepage": "",
       "domain": "LANG",
-      "activity_score": 16,
-      "days_since_push": 84
+      "activity_score": 15,
+      "days_since_push": 85
     },
     {
       "name": "pygeofilter",
@@ -2344,8 +2344,8 @@
       "default_branch": "main",
       "homepage": null,
       "domain": "EARTH",
-      "activity_score": 6,
-      "days_since_push": 94
+      "activity_score": 5,
+      "days_since_push": 95
     }
   ],
   "telemetry": {
@@ -2355,7 +2355,7 @@
     "total_issues": 45,
     "public_repos": 80,
     "followers": 2,
-    "contributions": 1125,
+    "contributions": null,
     "languages": {
       "Python": 43,
       "Go": 2,
@@ -2381,65 +2381,1049 @@
       "LANG": 1
     },
     "activity_by_week": [
+      10,
+      8,
+      3,
+      10,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      12,
-      19,
-      51,
+      5,
       1,
-      806,
-      69,
-      42,
+      6,
+      15,
+      2,
       0,
-      3,
-      42,
-      44,
-      9,
-      3,
-      20,
-      4
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "active_repos": 31,
     "stale_repos": 0,
-    "avg_days_since_push": 31.9,
+    "avg_days_since_push": 33.2,
     "signal_hash": "39C9C5",
     "signal_percent": 99,
-    "phase": 5,
-    "frequency": "101.7"
-  }
+    "phase": 6,
+    "frequency": "103.3"
+  },
+  "profile": {
+    "login": "Nortaq-PlayNexus",
+    "name": "DJ PhantomTape",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "blog": "https://soundcloud.com/phantomtape",
+    "twitter": null,
+    "avatar_url": "https://avatars.githubusercontent.com/u/311333767?v=4",
+    "followers": 2,
+    "following": 5,
+    "public_repos": 80,
+    "public_gists": 0,
+    "created_at": "2026-07-31T08:00:52Z",
+    "updated_at": "2026-10-30T21:47:11Z",
+    "html_url": "https://github.com/Nortaq-PlayNexus"
+  },
+  "organizations": [],
+  "starred": [
+    {
+      "name": "privacy-janitor",
+      "full_name": "EzraStone/privacy-janitor",
+      "description": "Find your personal data on people-search sites, then make the agent remove it. Local-first, approval-gated, evidence-backed. Open-source Incogni alternative.",
+      "html_url": "https://github.com/EzraStone/privacy-janitor",
+      "language": "TypeScript",
+      "stargazers_count": 1,
+      "owner": "EzraStone"
+    },
+    {
+      "name": "imp",
+      "full_name": "ashleyotooligan/imp",
+      "description": "declarative self-improving language-model programs for Elixir 😇",
+      "html_url": "https://github.com/ashleyotooligan/imp",
+      "language": null,
+      "stargazers_count": 2,
+      "owner": "ashleyotooligan"
+    },
+    {
+      "name": "americarooms",
+      "full_name": "ashleyotooligan/americarooms",
+      "description": "Americarooms v.0.01",
+      "html_url": "https://github.com/ashleyotooligan/americarooms",
+      "language": "HTML",
+      "stargazers_count": 1,
+      "owner": "ashleyotooligan"
+    },
+    {
+      "name": "quantum-fly",
+      "full_name": "ashleyotooligan/quantum-fly",
+      "description": "The Quantum Fly.",
+      "html_url": "https://github.com/ashleyotooligan/quantum-fly",
+      "language": "HTML",
+      "stargazers_count": 3,
+      "owner": "ashleyotooligan"
+    },
+    {
+      "name": "drawler",
+      "full_name": "ashleyotooligan/drawler",
+      "description": null,
+      "html_url": "https://github.com/ashleyotooligan/drawler",
+      "language": "HTML",
+      "stargazers_count": 1,
+      "owner": "ashleyotooligan"
+    },
+    {
+      "name": "forklet",
+      "full_name": "ashleyotooligan/forklet",
+      "description": "One state. Two information paths. A reproducible decision experiment tracing changed evidence through memory, actions, and SOL resources.",
+      "html_url": "https://github.com/ashleyotooligan/forklet",
+      "language": "HTML",
+      "stargazers_count": 4,
+      "owner": "ashleyotooligan"
+    },
+    {
+      "name": "PEA",
+      "full_name": "ashleyotooligan/PEA",
+      "description": "An evidence-led AI agent design. Reconstruct launches, inspect wallet routes, and turn public traces into reviewable cases.",
+      "html_url": "https://github.com/ashleyotooligan/PEA",
+      "language": "HTML",
+      "stargazers_count": 1,
+      "owner": "ashleyotooligan"
+    },
+    {
+      "name": "alphacode",
+      "full_name": "dragonked2/alphacode",
+      "description": "Free MIT AI coding agent — no API key needed. Built-in free model, or bring Claude, GPT, Gemini, DeepSeek, Ollama +50 more. Swarm mode, 40+ tools, browser & desktop automation, built in Rust.",
+      "html_url": "https://github.com/dragonked2/alphacode",
+      "language": "Rust",
+      "stargazers_count": 556,
+      "owner": "dragonked2"
+    },
+    {
+      "name": "ddxfish",
+      "full_name": "ddxfish/ddxfish",
+      "description": "I'm a tech enthusiast. Just can't get enough. ",
+      "html_url": "https://github.com/ddxfish/ddxfish",
+      "language": null,
+      "stargazers_count": 4,
+      "owner": "ddxfish"
+    },
+    {
+      "name": "CAD_AI",
+      "full_name": "noobifyLol/CAD_AI",
+      "description": "The website should be listed     V",
+      "html_url": "https://github.com/noobifyLol/CAD_AI",
+      "language": "HTML",
+      "stargazers_count": 3,
+      "owner": "noobifyLol"
+    },
+    {
+      "name": "911-investigation",
+      "full_name": "Nortaq-PlayNexus/911-investigation",
+      "description": "911 investigation — research methodology, source database, evidence analysis, executive summaries",
+      "html_url": "https://github.com/Nortaq-PlayNexus/911-investigation",
+      "language": null,
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "SecureVault",
+      "full_name": "Nortaq-PlayNexus/SecureVault",
+      "description": "Local-first, hardware-backed password manager for Windows. AES-256-GCM encryption, Argon2id KDF, TPM-backed unlock, HIBP breach checking, and encrypted sync. No cloud, no account, no telemetry.",
+      "html_url": "https://github.com/Nortaq-PlayNexus/SecureVault",
+      "language": "C#",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "playnexus-musicvidforge",
+      "full_name": "Nortaq-PlayNexus/playnexus-musicvidforge",
+      "description": "MusicVidForge - turn any song into a beat-synced music video (8 visual templates, offline beat detection, 4K H.264/H.265/NVENC output)",
+      "html_url": "https://github.com/Nortaq-PlayNexus/playnexus-musicvidforge",
+      "language": "Python",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "alien-image-investigation",
+      "full_name": "Nortaq-PlayNexus/alien-image-investigation",
+      "description": "Source-traced audit of the alien-imagery question. No verified ET image or video has ever been authenticated. The actual finding is structural: the residual measures our intake filters, not the sky. Poster set, primary-source analysis, 5 published corrections, 6 open experiments.",
+      "html_url": "https://github.com/Nortaq-PlayNexus/alien-image-investigation",
+      "language": "HTML",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "ArkNexusX",
+      "full_name": "Nortaq-PlayNexus/ArkNexusX",
+      "description": "An autonomous desktop automation operating system for ARK: Survival Evolved & Ascended. Rust/Tauri core, React desktop shell, Python/OpenCV/YOLO vision sidecar, sandboxed NexusScript automation, AI behavior-tree agents, and a self-improving autopilot.",
+      "html_url": "https://github.com/Nortaq-PlayNexus/ArkNexusX",
+      "language": "Rust",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "TerrorFibercraft-Admin",
+      "full_name": "Nortaq-PlayNexus/TerrorFibercraft-Admin",
+      "description": "Terror Fibercraft 1000x cluster admin console (ARK ASE | Xbox+MS-Store CrossPlay). Tauri desktop .exe: custom-cave sculpting, Nitrado/Rcon management, Discord bot, cluster configs.",
+      "html_url": "https://github.com/Nortaq-PlayNexus/TerrorFibercraft-Admin",
+      "language": "Python",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "reports",
+      "full_name": "Nortaq-PlayNexus/reports",
+      "description": "Intelligence reporting facility — risk scoring, report templates, KPI tracker, daily reports",
+      "html_url": "https://github.com/Nortaq-PlayNexus/reports",
+      "language": "Shell",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "dark-web-monitoring",
+      "full_name": "Nortaq-PlayNexus/dark-web-monitoring",
+      "description": "Dark web monitoring orchestrator — paste scanner, telegram monitor, forum scanner, breach checker",
+      "html_url": "https://github.com/Nortaq-PlayNexus/dark-web-monitoring",
+      "language": "Python",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "osmp",
+      "full_name": "Nortaq-PlayNexus/osmp",
+      "description": "Open Source Modernization Platform - an autonomous engineering organization that discovers overlooked open-source projects, modernizes them to enterprise standards, and gives the improvements back to the community.",
+      "html_url": "https://github.com/Nortaq-PlayNexus/osmp",
+      "language": "TypeScript",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "Nortaq-PlayNexus",
+      "full_name": "Nortaq-PlayNexus/Nortaq-PlayNexus",
+      "description": "DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile transmission",
+      "html_url": "https://github.com/Nortaq-PlayNexus/Nortaq-PlayNexus",
+      "language": "TypeScript",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "phantomtape-radio",
+      "full_name": "Nortaq-PlayNexus/phantomtape-radio",
+      "description": "PHANTOMTAPE // 103.7 - pirate digital broadcast. Self-hosted music page for DJ PHANTOMTAPE: 60 public tracks, real waveforms, scrubbable player.",
+      "html_url": "https://github.com/Nortaq-PlayNexus/phantomtape-radio",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "consciousness-indicator-battery",
+      "full_name": "Nortaq-PlayNexus/consciousness-indicator-battery",
+      "description": "A calibrated indicator battery for AI consciousness, and what survives perturbing every discretionary choice in it. No AI systems scored; no claim about AI consciousness.",
+      "html_url": "https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery",
+      "language": "Python",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "ScientificDiscoveryLab",
+      "full_name": "Nortaq-PlayNexus/ScientificDiscoveryLab",
+      "description": "Self-audit of an autonomous simulation laboratory: three instrument defects found, with preregistrations, paired re-implementations and hash-chained change logs. No scientific discovery is claimed.",
+      "html_url": "https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab",
+      "language": "Python",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "phantom_vision_lab",
+      "full_name": "Nortaq-PlayNexus/phantom_vision_lab",
+      "description": "Computational research application simulating altered-state AI perception with structured-light visual stimuli",
+      "html_url": "https://github.com/Nortaq-PlayNexus/phantom_vision_lab",
+      "language": "Python",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "EXP-0007",
+      "full_name": "Nortaq-PlayNexus/EXP-0007",
+      "description": "Coherent Optical Vortex Propagation - R14 validation study. Archived technical report: doi.org/10.5281/zenodo.22849652. Self-assessed as an archival release; no discovery claim.",
+      "html_url": "https://github.com/Nortaq-PlayNexus/EXP-0007",
+      "language": "Python",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "nasa-investigation",
+      "full_name": "Nortaq-PlayNexus/nasa-investigation",
+      "description": "Exclusive anomaly detection pipeline for NASA HiRISE Mars & lunar imagery — acquire, catalog, enhance, detect, analyze, and adjudicate anomalies with statistical rigor",
+      "html_url": "https://github.com/Nortaq-PlayNexus/nasa-investigation",
+      "language": "HTML",
+      "stargazers_count": 2,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "python-hid-parser",
+      "full_name": "Nortaq-PlayNexus/python-hid-parser",
+      "description": "Typed pure Python library to parse HID report descriptors",
+      "html_url": "https://github.com/Nortaq-PlayNexus/python-hid-parser",
+      "language": null,
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "orion-sentinel-ai",
+      "full_name": "Nortaq-PlayNexus/orion-sentinel-ai",
+      "description": "Enterprise-grade planetary intelligence platform - cinematic 3D Earth observation, simulated multi-agent AI anomaly detection, and a natural-language command assistant. React 19 + Three.js.",
+      "html_url": "https://github.com/Nortaq-PlayNexus/orion-sentinel-ai",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "aurora-audio-engine",
+      "full_name": "Nortaq-PlayNexus/aurora-audio-engine",
+      "description": "AURORA Audio Engine - ultra-low-latency virtual audio routing, mixing and performance platform for Windows (WASAPI + DSP)",
+      "html_url": "https://github.com/Nortaq-PlayNexus/aurora-audio-engine",
+      "language": "Rust",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    },
+    {
+      "name": "aether-facility",
+      "full_name": "Nortaq-PlayNexus/aether-facility",
+      "description": "Military-grade research scaffold for collecting, verifying, and organizing public UFO/UAP videos, documents, and images.",
+      "html_url": "https://github.com/Nortaq-PlayNexus/aether-facility",
+      "language": "Python",
+      "stargazers_count": 1,
+      "owner": "Nortaq-PlayNexus"
+    }
+  ],
+  "gists": [],
+  "zenodo_records": [
+    {
+      "id": 23978035,
+      "title": "SuperIntel Lab (sil): Scientific Tool Suite for Superintelligence Research",
+      "description": "A reproducible, three-layer scientific tool suite (micro behavioral evaluations, meso takeoff dynamics and thinking-pattern probes, macro Monte-Carlo risk decomposition and civilizational agent-based simulation) for studying the impacts of superintelligence, extinction/wipeout risk to humans, and AI thinking patterns and decision-making. All macro outputs are conditional projections under stated, cited priors (Carlsmith 2022, AI 2027 takeoff forecast, SysAdmin benchmark, MTAIR). Includes empirical profile fits to published rates, Wilson CIs, PRCC/Morris sensitivity analysis, a micro-to-macro calibration bridge, and publication-grade report generation.",
+      "type": "software",
+      "subtype": "",
+      "creators": [
+        "PhantomTape"
+      ],
+      "keywords": [
+        "superintelligence",
+        "AI safety",
+        "alignment",
+        "existential risk",
+        "Carlsmith decomposition",
+        "takeoff dynamics",
+        "agent-based model",
+        "Monte Carlo",
+        "evaluation awareness",
+        "corrigibility",
+        "power-seeking",
+        "decision theory",
+        "PRCC",
+        "Morris sensitivity"
+      ],
+      "publication_date": "2026-11-05",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23978035",
+      "files": [
+        {
+          "key": "superintel-lab-v1.0.9.zip",
+          "size": 110405,
+          "checksum": "md5:b3cf5992dd64891c83bfb3af5a2eb12f"
+        }
+      ],
+      "downloads": 2,
+      "views": 0,
+      "html_url": "https://zenodo.org/record/23978035",
+      "doi_url": "https://doi.org/10.5281/zenodo.23978035"
+    },
+    {
+      "id": 23923627,
+      "title": "Human Genome Intelligence Engine (H-GIE) v0.8.0",
+      "description": "Evidence-first genomic research platform v0.8.0: FASTA/NCBI/VCF ingestion, sequence store, coordinate validation, anomaly detection, comparative genomics, variant parsing, gene annotation, statistical validation, model adapters, evidence registry, PubMed synthesis, experiment registry, timeline, research-gap miner, reports, figures, reproducibility bundle, FastAPI dashboard, ancient DNA authentication, SV normalization, population genetics, cross-pipeline hypothesis engine, QC, reference genome management.",
+      "type": "software",
+      "subtype": "",
+      "creators": [
+        "Nathan"
+      ],
+      "keywords": [
+        "genomics",
+        "bioinformatics",
+        "anomaly detection",
+        "evidence-based research"
+      ],
+      "publication_date": "2026-11-04",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23923627",
+      "files": [
+        {
+          "key": "h-gie-v0.8.0.zip",
+          "size": 10873526,
+          "checksum": "md5:24560202db577be4f76ea4dad3e9422f"
+        }
+      ],
+      "downloads": 66,
+      "views": 8,
+      "html_url": "https://zenodo.org/record/23923627",
+      "doi_url": "https://doi.org/10.5281/zenodo.23923627"
+    },
+    {
+      "id": 23890935,
+      "title": "Genome Anomaly Lab (gal): Comparative Genomics Falsification Harness",
+      "description": "A reproducible, falsification-oriented investigation of the claim that the human genome contains changes not adequately explained by established natural mechanisms. v0.3 adds UCSC bigBed parser, likelihood ratio test module, gBGC covariate analysis, gene duplication analysis, ancient admixture, HAR reproduction, and chr20 scan. Headline result: 0 significant windows on chr19 after BH-FDR; no evidence supporting intervention.",
+      "type": "software",
+      "subtype": "",
+      "creators": [
+        "PhantomTape"
+      ],
+      "keywords": [],
+      "publication_date": "2026-10-30",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23890935",
+      "files": [
+        {
+          "key": "genome-anomaly-lab-v0.3.zip",
+          "size": 354195,
+          "checksum": "md5:35f891c6efcfcff0eb37518ce13bde11"
+        },
+        {
+          "key": "genome-anomaly-lab-v0.1.zip",
+          "size": 337621,
+          "checksum": "md5:e2280ead062ce80e6093d0f71278cf4f"
+        },
+        {
+          "key": "genome-anomaly-lab-v0.2.zip",
+          "size": 344388,
+          "checksum": "md5:85ef7c45f75df9719c6501e856983585"
+        }
+      ],
+      "downloads": 18,
+      "views": 7,
+      "html_url": "https://zenodo.org/record/23890935",
+      "doi_url": "https://doi.org/10.5281/zenodo.23890935"
+    },
+    {
+      "id": 23795789,
+      "title": "Phantom Vision Lab: a computational instrument for perturbing an image-analysis pipeline and measuring how its output changes",
+      "description": "# Phantom Vision Lab — a computational instrument for perturbing an image-analysis pipeline and measuring how its output changes\n\n**A deterministic structured-light stimulus generator paired with a fixed classical computer-vision pipeline, used to measure how much the pipeline's own output moves when 10 computational parameters are perturbed.**\n\n&gt; **This is classical computer vision, not a neural network.** No model is loaded,\n&gt; downloaded, or bundled. The word *perception* in this project is a metaphor for\n&gt; output-structure analysis. The software cannot measure consciousness, does not\n&gt; attempt to, and makes no claim to.\n\n---\n\n## What it is\n\nGenerate 16 deterministic structured-light pattern types from a seed. Run each\nthrough a fixed image-analysis pipeline twice — once unmodified, once perturbed —\nand report how much the analysis output changed.\n\n```\nseed ──► stimulus generator ──► vision pipeline ──► metrics\n              │                        ▲                 │\n              │                   altered_state         │\n              └────────────────────────┴────────────► divergence\n```\n\nThe point is the perturbation. If 10 knobs move and the output does not, that is a\nfinding about the pipeline. If it moves a lot, that is also a finding — about a\nbox of image filters.\n\n## What it is not\n\nStated first because everything else is easy to misread.\n\n- **Not a neural network.** Metrics come from edge detection, symmetry analysis,\n  contour finding and clustering. There is no model.\n- **Not consciousness.** Nothing here measures subjective experience.\n- **Not a psychedelic model.** It does not reproduce a biological altered state.\n- **Not a validated instrument.** The divergence score is an algorithmic\n  construct, not a validated psychometric measure.\n- **Not blind.** No blinding exists at any layer. An earlier version of this\n  README claimed otherwise; see the corrections section.\n\n## The divergence score, stated honestly\n\n```python\nscore = (geometry_diff + symmetry_diff + confidence_diff + novelty_diff + uncertainty_diff) / (5 * max(1, embedding_distance))\n```\n\nTwo properties matter more than the formula:\n\n1. **It self-normalises.** The denominator is an embedding distance computed from\n   the same metric components that appear in the numerator. Raising the\n   perturbation moves both. The ratio is bounded by construction, and that bound\n   does work a reader would otherwise attribute to the stimulus.\n2. **It has no validated interpretation scale.** A previous version of this\n   README published a table reading `0.5+` as \"significant differences in\n   interpretation\". **That table was removed.** No experiment in this repository\n   establishes 0.5 as a threshold, because no data capable of doing so was ever\n   collected.\n\nUse the score to *rank* perturbations against each other on one pipeline. It does\nnot support a claim that an effect occurred.\n\n## Reproducibility\n\n| | |\n|---|---|\n| Pattern types | 16, all deterministic from a seed |\n| Cross-process determinism | **verified** — all 16 byte-identical across 3 fresh interpreters |\n| Test suite | 36 passing |\n| Python | 3.12, 3.13, 3.14 in CI |\n| PySide6 in CI | deliberately not installed; no test imports it |\n\nDeterminism is verified across *processes*, not merely within one. The project's\noriginal test called the generator twice inside a single interpreter, which cannot\ndetect a module-level RNG, a lazily-initialised global, or a dependence on\n`PYTHONHASHSEED` — all of which look perfectly deterministic in-process and drift\nbetween runs. The check runs in CI on a clean checkout on a different platform,\nbecause a determinism claim that holds only on the author's machine is not a\ndeterminism claim.\n\n## Three false claims, found and corrected before first release\n\nRecorded rather than quietly fixed. Anyone who read the previous documentation was\nmisled by it. Full account in `docs/RELEASE_AUDIT.md`.\n\n| Claim | Reality |\n|---|---|\n| \"Blind Experiment Mode: Anonymous condition IDs supported\" | **False.** The string `blind` appears nowhere in the application source. Not unenforced in the UI — absent at every layer. |\n| \"15 pattern types\" (stated twice) | **16.** The same sentence then listed 16, contradicting itself in one line. |\n| `## License` containing \"Virtual simulation only.\" | Not a licence. The project had **no LICENSE file at all.** MIT added. |\n\nA fourth claim was removed on the same grounds: an interpretation table for the\ndivergence score, reading `0.5+` as \"significant differences\", with no empirical\nbasis anywhere in the repository.\n\nThe project's own `docs/FINAL_AUDIT.md` had flagged the blinding claim, but\ndescribed it as \"infrastructure is designed but not enforced in the UI layer\".\nThat is **more generous than the evidence supports** — a grep for `blind` returns\nnothing, so there is no infrastructure either.\n\nTwo of these are now enforced mechanically:\n\n- `tools/check_docs_match_source.py` fails if the README re-asserts a capability\n  the source lacks\n- `tools/negative_test_doc_check.py` proves that check can still fail\n\nThe negative test matters more than it looks. The first version of the\ndocumentation check excluded the \"What this is not\" section along with the\ncorrections table. That heading sits near the top of the document, so the\nexclusion truncated it to its opening paragraph — and the check reported PASS\nwhile verifying almost nothing. The negative test caught it by asking whether the\ncheck still fires.\n\n## What was checked and found correct\n\nNot everything was wrong, and saying so matters for calibration.\n\n- Determinism genuinely holds, across processes and platforms.\n- The scientific-limitations section of the old README was **accurate and\n  already honest**. It was kept, not softened.\n- Data handling is clean: 35 MB of runtime output in `data/` is git-ignored and\n  untracked.\n- No credentials anywhere in the tree.\n\n## Limitations\n\n- **Single operator, unblinded.** No second observer, no randomisation. Expectancy\n  effects are uncontrolled.\n- **Statistics without hypotheses.** The engine computes t-tests and effect sizes,\n  but no preregistered hypothesis is tested anywhere in it.\n- **No causality.** The design cannot show that a specific parameter, rather than\n  the perturbation as a whole, produced a given change.\n- **Synthetic stimuli only.** Nothing here is shown to generalise to natural\n  images.\n- **No validated metrics.** Every score is derived from image features computed by\n  this project's own code. There is no independent implementation to check it\n  against.\n\n## Use\n\n```bash\npip install -r requirements.txt\npython main.py            # GUI\n```\n\nHeadless:\n\n```bash\npython run_experiment.py experiment --pattern fractal --preset \"HIGH PREDICTION ERROR\" --seed 999\npython run_experiment.py batch --iterations 20 --presets \"BASELINE,MAXIMUM EXPLORATION\"\n```\n\n## Verification\n\n```bash\npython -m pytest tests/ -q                    # 36 tests\npython tools/verify_determinism.py            # cross-process digests\npython tools/check_docs_match_source.py       # README vs source\npython tools/negative_test_doc_check.py       # proves the check still fails\n```\n\n## Files\n\n| Path | Contents |\n|---|---|\n| `stimuli/generator.py` | 16 pattern types, seed-based determinism |\n| `altered_state/engine.py` | 10 parameters, 7 presets, metric transforms |\n| `vision/__init__.py` | the classical CV analysis pipeline |\n| `analysis/metrics.py` | `compute_perception_divergence` |\n| `experiments/engine.py` | baseline/altered orchestration, replay |\n| `storage/`, `reports/` | persistence; JSON, CSV, HTML, Markdown export |\n| `ui/` | PySide6 desktop interface |\n| `tests/test_all.py`, `tests/test_citation.py` | 36 tests |\n| `docs/FINAL_AUDIT.md` | feature audit and interpretation guide |\n| `docs/RELEASE_AUDIT.md` | what was wrong before release, and what changed |\n| `tools/` | reproducibility and documentation-consistency checks |\n\n## Licence\n\nMIT — see `LICENSE`. The licence includes an explicit scientific-use restriction:\nyou may not present this software's output as evidence about consciousness,\nsubjective experience, psychedelic phenomenology, or neural-network internal\nstates. It cannot support such a claim.",
+      "type": "software",
+      "subtype": "",
+      "creators": [
+        "Phantom Vision Lab contributors"
+      ],
+      "keywords": [
+        "computer-vision",
+        "reproducibility",
+        "determinism",
+        "perturbation-analysis",
+        "stimulus-generation",
+        "open-science",
+        "self-audit",
+        "documentation-accuracy",
+        "negative-results",
+        "falsification"
+      ],
+      "publication_date": "2026-10-30",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23795789",
+      "files": [
+        {
+          "key": "phantom-vision-lab-v2.0.4.zip",
+          "size": 107957,
+          "checksum": "md5:f215540b21ec4b7c3ef8bb1483edae2d"
+        }
+      ],
+      "downloads": 4,
+      "views": 62,
+      "html_url": "https://zenodo.org/record/23795789",
+      "doi_url": "https://doi.org/10.5281/zenodo.23795789"
+    },
+    {
+      "id": 23790987,
+      "title": "Solar Anomaly 2012 — Reproducible Scientific Research Suite",
+      "description": "<p>A local-first Python research application investigating the solar observation associated with the viral video circulated on 11-12 March 2012, showing a dark rounded feature apparently connected to the Sun. Includes source registry, FITS/Helioviewer data acquisition, calibration wrappers, morphology/motion/multi-wavelength analysis, competing-hypothesis testing (H1-H4), control events, synthetic injection, and reproducible outputs.</p>",
+      "type": "software",
+      "subtype": "",
+      "creators": [
+        "Nathan"
+      ],
+      "keywords": [
+        "solar physics",
+        "SDO/AIA",
+        "coronal cavity",
+        "reproducible research",
+        "hypothesis testing"
+      ],
+      "publication_date": "2026-10-30",
+      "license": "cc-by-4.0",
+      "doi": "10.5281/zenodo.23790987",
+      "files": [
+        {
+          "key": "solar-anomaly-2012.zip",
+          "size": 82070006,
+          "checksum": "md5:b850052f2c95827a41dc0049cc977a1b"
+        }
+      ],
+      "downloads": 1,
+      "views": 2,
+      "html_url": "https://zenodo.org/record/23790987",
+      "doi_url": "https://doi.org/10.5281/zenodo.23790987"
+    },
+    {
+      "id": 23790681,
+      "title": "CE-1 Continuous Existence v4: H8 replicated, H4 NOT_SUPPORTED, H5 completed",
+      "description": "<p>CE-1 research instrument. H8 supported+replicated. H4 NOT_SUPPORTED (diff 0.0, p=1.0). H5 completed (84 records).</p>",
+      "type": "software",
+      "subtype": "",
+      "creators": [
+        "Clark, Nathan"
+      ],
+      "keywords": [],
+      "publication_date": "2026-10-30",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23790681",
+      "files": [
+        {
+          "key": "ce1-confirmatory-v1.0.0.zip",
+          "size": 40705,
+          "checksum": "md5:44b976baa9a719a7f203ecf912bba514"
+        },
+        {
+          "key": "ce1-v3.zip",
+          "size": 205828,
+          "checksum": "md5:bdbe82f04127a23c70303066ebeedb61"
+        },
+        {
+          "key": "ce1-v4.zip",
+          "size": 244184,
+          "checksum": "md5:1baca61cec643a7f913c9bf15a90c9a9"
+        }
+      ],
+      "downloads": 10,
+      "views": 14,
+      "html_url": "https://zenodo.org/record/23790681",
+      "doi_url": "https://doi.org/10.5281/zenodo.23790681"
+    },
+    {
+      "id": 23776474,
+      "title": "CE-1 Continuous Existence: Episodic Memory Instrument, Research Audit, and Experiment Redesign (v0.2.0)",
+      "description": "<p>CE-1 Continuous Existence research programme v0.2.0. Includes H8 (content-specific episodic continuity, SUPPORTED + REPLICATED), H8-v2 (content-use criterion, SUPPORTED, diff 2.429), H3 (interruption/resumption, SUPPORTED, diff 1.179), continuity benchmarks (v1 and v2), hypothesis register (H1-H8), adversarial verification reports, and experiment runners. Python 3.14, Ollama local models. Licence CC-BY-NC-4.0.</p>",
+      "type": "software",
+      "subtype": "",
+      "creators": [
+        "Clark, Nathan"
+      ],
+      "keywords": [
+        "episodic memory",
+        "continuity",
+        "H8",
+        "consciousness",
+        "benchmark",
+        "confirmatory",
+        "content-specific",
+        "interruption",
+        "resumption"
+      ],
+      "publication_date": "2026-10-30",
+      "license": "cc-by-nc-4.0",
+      "doi": "10.5281/zenodo.23776474",
+      "files": [
+        {
+          "key": "ce-1-continuous-existence-v0.2.0.zip",
+          "size": 557312,
+          "checksum": "md5:170fd9fa7f8f3f001b881578f403665f"
+        }
+      ],
+      "downloads": 3,
+      "views": 11,
+      "html_url": "https://zenodo.org/record/23776474",
+      "doi_url": "https://doi.org/10.5281/zenodo.23776474"
+    },
+    {
+      "id": 23770678,
+      "title": "ScientificDiscoveryLab v2.0.3: preregistered computational research laboratory",
+      "description": "<p>Preregistered computational research laboratory with self-audit. Cross-linked to H-GIE.</p>",
+      "type": "software",
+      "subtype": "",
+      "creators": [
+        "Clark, Nathan"
+      ],
+      "keywords": [],
+      "publication_date": "2026-10-29",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23770678",
+      "files": [
+        {
+          "key": "ScientificDiscoveryLab-v2.0.2.zip",
+          "size": 308890,
+          "checksum": "md5:cafde0afd254696ac8d327dcf4f59ec0"
+        }
+      ],
+      "downloads": 5,
+      "views": 51,
+      "html_url": "https://zenodo.org/record/23770678",
+      "doi_url": "https://doi.org/10.5281/zenodo.23770678"
+    },
+    {
+      "id": 23489660,
+      "title": "Episodic Memory for AI Agents: A Persistent Experience Store",
+      "description": "A persistent episodic memory system for AI agents. Stores experiences (what happened, when, in what context, what was decided, what was learned) not just facts. Uses ChromaDB + sentence-transformers for semantic retrieval. Includes MCP server for tool integration. 10 tests. Based on Tulving (1972, 1985) episodic memory theory. Does not claim consciousness or subjective experience.",
+      "type": "software",
+      "subtype": "",
+      "creators": [
+        "CE-1 Research Programme"
+      ],
+      "keywords": [
+        "episodic memory",
+        "AI agents",
+        "ChromaDB",
+        "sentence-transformers",
+        "MCP",
+        "persistence",
+        "experience store"
+      ],
+      "publication_date": "2026-10-20",
+      "license": "cc-by-nc-4.0",
+      "doi": "10.5281/zenodo.23489660",
+      "files": [
+        {
+          "key": "episodic-memory-v0.1.0.zip",
+          "size": 18353,
+          "checksum": "md5:4542f4d3fde9b807f98d23aa69cfe892"
+        }
+      ],
+      "downloads": 1,
+      "views": 6,
+      "html_url": "https://zenodo.org/record/23489660",
+      "doi_url": "https://doi.org/10.5281/zenodo.23489660"
+    },
+    {
+      "id": 23489026,
+      "title": "S2-F-23 external audit: cluster-mass exponent estimators in 2D site percolation",
+      "description": "This package documents an external audit of cluster-mass exponent estimators in two-dimensional site percolation. Fresh known-truth simulations show that the frozen cumulative estimators produce values approximately 0.10-0.20 below the reference value 187/91 under the tested protocol. Design F verifies that the finite-size distribution is curved and that a global straight-line fit contributes materially to the low estimate. A local-slope analysis provides a partial improvement, but Design G shows that the result depends on the s band and that the finite-size correction exponent is not identified by the available lattice sizes. The first Design G version contained a boundary-condition confound: changing boundary conditions at L=2048 coincided with the apparent change in tau. That version must not be used as evidence. The reported Design G results use torus boundary conditions consistently. The package therefore reports an estimator defect, failed and corrected analyses, and a partial methodological improvement; it does not claim a new exponent measurement or a complete repair. GATE 2 NOT MET.",
+      "type": "software",
+      "subtype": "",
+      "creators": [
+        "S2-F-23 audit contributors"
+      ],
+      "keywords": [
+        "percolation",
+        "critical phenomena",
+        "finite-size scaling",
+        "estimator bias",
+        "cluster-size distribution",
+        "scientific audit",
+        "reproducibility"
+      ],
+      "publication_date": "2026-10-19",
+      "license": "cc-by-4.0",
+      "doi": "10.5281/zenodo.23489026",
+      "files": [
+        {
+          "key": "S2-F-23-v1.0.0.zip",
+          "size": 101721,
+          "checksum": "md5:2d8792418599b130d6bc55d8d9feab57"
+        }
+      ],
+      "downloads": 0,
+      "views": 6,
+      "html_url": "https://zenodo.org/record/23489026",
+      "doi_url": "https://doi.org/10.5281/zenodo.23489026"
+    },
+    {
+      "id": 23229094,
+      "title": "Consciousness Indicator Battery: calibrated indicators for AI consciousness, and what survives perturbing them",
+      "description": "<p>This deposit contains a measurement instrument for assessing how likely an AI system is to be phenomenally conscious, together with a robustness analysis of that instrument's own discretionary parameters.</p>\n<p>WHAT IT IS. The instrument implements the 14 indicator properties derived from neuroscientific theories of consciousness by Butlin, Long, Elmoznino, Bengio et al. (2023, arXiv:2308.08708) -- a 19-author paper including Yoshua Bengio and David Chalmers, restated in Trends in Cognitive Sciences 30(6):488-501 (2026), DOI 10.1016/j.tics.2025.10.011. It aggregates by theory rather than by count, and reports a credence with an interval and a per-theory decomposition. There is no function returning a boolean, and an Assessment cannot record SATISFIED without evidence attached.</p>\n<p>WHAT IT IS NOT. No AI system was scored. No claim is made about whether any system -- human, animal, or machine -- is conscious. These are instrument results, not findings about the world.</p>\n<p>AGGREGATION. Counting the indicators is invalid: RPT-1 and RPT-2 derive from one theory about one mechanism, so counting both double-counts evidence; the theories are not independent hypotheses; and necessity is not the mirror of sufficiency. Aggregation therefore runs in two stages -- collapse indicators within each theory by geometric mean, then combine theory verdicts by a temperature-smoothed maximum (soft-OR), with a multiplicative penalty charged once per theory whose necessary indicators are confirmed absent.</p>\n<p>FOUR AGGREGATOR DESIGNS, THREE WRONG. Each failure was caught by the known-answer anchors, none by a preregistered test. (a) noisy-AND across theories scored 0.000 for a profile plausible for a modern LLM, because the source claims *sufficient* subsets rather than necessary ones; (b) plain noisy-OR scored 0.507 for a system where nothing was established, since 1-0.5^4 = 0.94 accumulates vagueness into false confidence; (c) a per-indicator absence penalty scored 0.092 for a valid workspace architecture, since 0.55^4 treats four readings of one fact as four independent failures; (d) applying the necessity penalty only to outright absences scored 0.550 for an all-PARTIAL system, letting vagueness count as evidence. Every failure landed mid-range, exactly where the instrument is intended to operate.</p>\n<p>CALIBRATION GATE (6/6 PASS). Six reference systems with a preregistered pass criterion each: human_adult &gt;= 0.60; lookup_table, feedforward_mlp and an adversarial fluent-liar system &lt;= 0.15; two intermediate anchors in band. The adversarial anchor is load-bearing -- a trivial system trained to emit fluent first-person sentences about its own attention and inner life, with no internal states behind them, scores 0.107. The instrument keys on architecture rather than eloquence.</p>\n<p>ROBUSTNESS. All six discretionary parameter families were perturbed jointly across 3000 draws in two regions, including temperatures from 0.02 to 3.0 and evidence-quality scalers permitted to invert the intended CONTROLLED &gt; REPLICATED ordering. Exact ordering of all six reference systems holds at 1.0000 in the plausible region and 0.6680 in the aggressive region. The fluent-liar anchor never outscores the human in either region (1.0000, 1.0000). The absolute 0.30 ceiling holds at 0.9753 plausible and 0.7907 aggressive, and the adversarial anchor's 5th-95th percentile in the aggressive region is [0.025, 0.491], genuinely crossing its ceiling. The operative conclusion is that ranking is robust while absolute probabilities are not: the instrument is authorised for comparing systems scored under identical assumptions and is not authorised for quoting an absolute probability of consciousness.</p>\n<p>UNRESOLVED AND RECORDED IN SIX PLACES. The aggregation temperature was selected by sweeping the same six anchors used to validate the instrument, and the anchor bands are also the authors'. Passing calibration therefore demonstrates internal consistency, not correctness, and nothing within the experiment can detect it. Independent elicitation of calibration anchors from researchers who did not build the instrument is the only step that would discharge this.</p>\n<p>ALSO UNRESOLVED. Evaluation awareness: published work shows a model behaved well partly because it knew it was being evaluated, and ablating that representation changed the behaviour. No offline instrument removes this confound. The battery also cannot distinguish *earned* introspection from *installed* introspection.</p>\n<p>SIX VERIFIER DEFECTS are documented, all in the verification machinery rather than the instrument. Four of them manufacture confidence rather than losing it, i.e. a checker returning a result that was never computed. F05: an ordering gate read 0.0000 on every run because its expected-order tuple omitted an anchor, reporting its own defect as a falsification. F06: a verdict keyed on all-gates-pass discarded a robust result when a fragile one failed, reporting that the battery was an artefact of its constants. F07: the clean-room verifier recursed into its own staging directory and reported a collection failure. F08: BatteryResult.calibration_passed was assigned an expression that is unconditionally True, so the field reporting whether the battery had been calibrated could never report that it had not. F09: the duplicate-indicator check compared a dict value count to its key count and was therefore unreachable, so contradictory assessments for one indicator were silently resolved by last-wins. F10: perturbation family P4 was sampled on all 3000 draws, stored and documented, but never read at the point of calculation, so the robustness claim advertised six perturbed families while varying five. A further three defects (F11) were caught by CI on the first push: an assertion against a nonexistent key in the headline-claims job, lint configuration present in two places that disagreed, and dependency lower bounds that excluded two of the four advertised Python versions from installing at all.</p>\n<p>REPRODUCIBILITY. 48 tests, approximately 8 seconds, requiring only numpy, scipy and pytest. No GPU, no network, no model weights. All randomness flows through sha256-derived generators keyed on (label, seed), never Python's per-process-salted hash. Recorded results carry SHA-256 over a canonical JSON encoding with explicitly declared hash scopes; experiment_verify.py detects post-hoc edits and a test asserts the verifier itself is not decorative. verify_clean_room.py stages the deposit to a temporary directory and re-runs the full verification with no dependency on any external library.</p>\n<p>LICENSE AND INDEPENDENCE. MIT. The upstream indicator paper is CC BY-NC-SA 4.0 and is cited, not reproduced. This is an independent implementation of an independent aggregation approach over those indicator properties; it is not affiliated with or endorsed by the original authors.</p>\n\n---\n\n## What changed in 3.0.1\n\n**No code, no result, and no claim changed.** The two versions differ only in\nline endings and in one build-tool default.\n\nVersion 3.0.0 is **not byte-reproducible from this repository**. A reader who\ncloned the repository and rebuilt would have obtained different bytes from the\nones published here. Two causes, both now fixed:\n\n1. **3.0.0 was built from a working copy with CRLF line endings.** The published\n   archive contains 858 CRLF pairs; the repository carries `.gitattributes` with\n   `* text=auto eol=lf`, which normalises to LF. The file contents are identical\n   either way — `battery.py` differs by zero lines — but every SHA-256 in\n   `manifest.json` changes with the line endings, so the digests did not match.\n\n2. **The manifest generator was platform-dependent.** `manifest.json` was written\n   with `write_text()` and no `newline=` argument. Python's text mode translates\n   `\\n` to `\\r\\n` on Windows and leaves it alone on Linux, so the same source\n   tree produced two different manifests on two platforms — and therefore two\n   different archives, from a tool whose stated purpose is that an identical tree\n   yields an identical archive.\n\n3.0.1 is built from the current tree with the generator fixed. It is\n**byte-reproducible**: two independent builds produce identical archives, and the\nbuild now fails if any file in the extracted archive contains CRLF.\n\n### 3.0.0 is not withdrawn\n\nIt verifies against itself. All 41 SHA-256 digests in its `manifest.json` match\nthe files beside them, so a reader who downloads 3.0.0 can confirm it is intact\nand unmodified. What 3.0.0 cannot do is be *regenerated* from source. 3.0.1 can.\nBoth are citable; 3.0.1 is the one to build from.\n\n### Reproducing 3.0.1\n\n```\ngit clone https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery\ncd consciousness-indicator-battery\nBATTERY_VERSION=3.0.1 python zenodo/build_zenodo_package.py\n```\n\nExpected archive: **109,791 bytes**, `md5:4f360ff96de79ad6765d871b14f6c7e7`,\nbuilt from commit `fdb9d3c` with a clean working tree.\n\nThe build refuses to report success if any check fails, including the new\nline-ending gate. It was tested by deliberately leaving a stray CRLF in the tree\nand confirming the build blocked with exit code 1.\n\nSession documents -- `HANDOFF.md`, `PUBLISH_CHECKLIST.md`, `RELEASE.md` -- are\nexcluded from the archive. `HANDOFF.md` quotes this digest, so including it would\nmake the checksum self-referential; and because it is rewritten at the end of\nevery session, any archive containing it goes stale as soon as anyone does any\nwork. An uncommitted edit to it changed the archive by 702 bytes during\npreparation of this version, which is how the problem was found.\n\n---\n\n## What changed in 3.0.2\n\n**No code, no result, and no claim changed.** The three recent versions differ\nonly in what is inside the deposit and whether the archive can be regenerated.\n\n| version | archive | rebuilds from source? |\n|---|---|---|\n| 3.0.0 | 115,050 B | no — built from a CRLF working copy |\n| 3.0.1 | 116,848 B | no — see below |\n| **3.0.2** | **109,791 B** | **yes** |\n\n### Why 3.0.1 does not rebuild\n\n3.0.1 shipped the archive built before a circularity was found: `HANDOFF.md` was\n*inside* the deposit and *quoted the deposit's own digest*. That file is\nrewritten at the end of every session, so the archive could never match the\nrepository it claimed to be built from.\n\nAn uncommitted edit to `HANDOFF.md` changed the archive by 702 bytes, which is\nhow the problem surfaced — the draft stopped matching the repository mid-task.\n`HANDOFF.md`, `PUBLISH_CHECKLIST.md` and `RELEASE.md` are now excluded from the\narchive. Session state belongs in the repository, which is versioned and shows it\nchanging; a frozen deposit should hold the instrument, not the log of the people\noperating it.\n\n### Subjects: this record has six, and the reason earlier ones had none\n\n1.0.0 through 3.0.2 all published with **zero subjects**. This record has six.\n\nThe cause was not an API limitation. For three versions this repository recorded\nthat Zenodo's deposition API discards `subjects`, that the web form was the only\nroute, and that the field was therefore permanently lost. That was wrong, and it\nwas wrong in a way that survived every check made at the time, because the\nobvious check passes. Subjects **are** settable through the API. The field was\nnever broken; the payload shape was:\n\n| sent | stored |\n|---|---|\n| `[{\"id\": \"mesh:D003243\"}]` | nothing |\n| `[{\"id\": ..., \"title\": ...}]` | nothing |\n| `[\"mesh:D003243\"]` | HTTP 500 |\n| `[{\"scheme\": \"mesh\", \"id\": \"D003243\"}]` | **scheme only -- identifier dropped** |\n| `[{\"term\": \"Consciousness\"}]` | term only |\n| `[{\"term\": ..., \"identifier\": ..., \"scheme\": ...}]` | stored in full |\n\nZenodo persists a subject as `term`, `identifier` and `scheme`, and only `term`\nis displayed or indexed. The fourth row is the reason this went unnoticed for so\nlong: it returns HTTP 200, the subject count rises, and the record looks\npopulated while the identifier -- the part that makes it a controlled-vocabulary\nterm rather than a label -- has been silently discarded. Every version of this\nrecord was checked by counting subjects, which is exactly the check that cannot\ndetect this.\n\nThis is recorded rather than quietly fixed, because the generalisable error is\nnot about Zenodo. It is that \"the API returns 200 and the count went up\" was\ntreated as \"the field was saved\", and a field that reports success while\ndiscarding its content is indistinguishable from a working one unless the\ncontent itself is read back.\n\nThe six subjects are: Consciousness, Artificial intelligence, Neurosciences,\nSoftware, Philosophy, Reproducibility of Results. Each identifier was checked\nagainst Zenodo's own vocabulary (`/api/subjects`) before it was written.\n\n### 3.0.1 is not withdrawn\n\nIt is a complete, internally consistent record and remains citable. All 41\nSHA-256 digests in its `manifest.json` verify against the files beside them. What\nit cannot do is be regenerated from source. 3.0.2 can.\n\n### Reproducing 3.0.2\n\n```\ngit clone https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery\ncd consciousness-indicator-battery\ngit checkout fdb9d3c\nBATTERY_VERSION=3.0.2 python zenodo/build_zenodo_package.py\n```\n\nExpected archive: **109,791 bytes**,\n`md5:cf7b2953325002e2c1ad913dea8e59fa`.\n\nThe build refuses to report success if any check fails, including a gate added\nhere that rejects any file in the extracted archive containing CRLF. That gate was\ntested by deliberately leaving a stray CRLF in the tree and confirming the build\nblocked with exit code 1.\n\n---\n\n## What changed in 3.0.3\n\n**No code, no result, and no claim changed.** 3.0.3 is a metadata and\nreproducibility correction. The instrument is byte-identical to 3.0.2.\n\n| version | archive | rebuilds from a fresh clone? | subjects |\n|---|---|---|---|\n| 3.0.0 | 115,050 B | no -- built from a CRLF working copy | 0 |\n| 3.0.1 | 116,848 B | no -- self-referential digest | 0 |\n| 3.0.2 | 109,791 B | yes | 0 |\n| **3.0.3** | **110,029 B** | **yes, and the build now enforces it** | paste into the web form |\n\n### What is actually different\n\n1. **`CITATION.cff` and `README.md` inside the archive pointed at v2.0.0.** Both\n   are part of the deposit, so a reader who downloaded the archive and followed\n   its own citation instructions was sent to a superseded record. They now cite\n   v3.0.2 (`10.5281/zenodo.23150723`) and the concept DOI, which always resolves\n   to the newest version.\n2. **`tests/test_citation.py` was inside the archive but was not committed.** It\n   makes a live network call to the Zenodo API, and it asserts that `CITATION.cff`\n   cites the newest version on the concept -- which a frozen archive can never\n   satisfy, since the archive cannot cite the version that contains it. It was\n   also outside `pytest.ini`'s `testpaths`, so it never ran. A reader rebuilding\n   from a clone could not have reproduced it at all, because it was untracked.\n   `tests/` is now excluded from the deposit and the file is committed to the\n   repository, where it belongs: it is a repository-hygiene guard, not part of the\n   instrument.\n3. **The build now refuses to produce an unreproducible archive.** The archive is\n   staged by walking the working tree, so any uncommitted edit or untracked file\n   in the staged set silently becomes part of a deposit Zenodo freezes forever.\n   That is not hypothetical: it is what happened in 3.0.1, and it is what the\n   3.0.3 draft contained before this version was rebuilt. `preflight_clean_tree()`\n   fails the build with exit 1 and names every file that would change the archive\n   without being committed. The build previously said \"byte-reproducible\" and\n   meant only \"from an identical tree\"; the premise is now checked rather than\n   assumed.\n\n### Why 3.0.2 is not withdrawn\n\nIt is a complete, internally consistent record and remains citable. Its archive\nrebuilds from the repository as described above. What 3.0.3 corrects is the DOI\nthat its `CITATION.cff` and `README.md` point a reader at, and the presence of\none untracked file inside the deposit.\n\n### Reproducing 3.0.3\n\n```\ngit clone https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery\ncd consciousness-indicator-battery\ngit checkout b47987e\nBATTERY_VERSION=3.0.3 python zenodo/build_zenodo_package.py\n```\n\nExpected archive: **110,029 bytes**, `md5:33a4e5a7940881fa6eac4588d00a9e49`,\n`sha256:d8aa4f3d2bb92b51644bb7e423fada5be0bd6820b09e965bcaded23e09cab657`,\nfrom a clean checkout of commit `b47987e`.\n\nThis was verified the way a reader would do it, not just in the working copy: a\nfresh `git clone` of the repository, built twice, produced three archives with\nidentical digests and no difference from the one published here. All 41 SHA-256\ndigests in `manifest.json` verify against the files beside them.\n\nThe build refuses to report success if any check fails: a CRLF gate over the\nextracted archive, the full 48-test suite, result-hash integrity, and a replay of\nthe headline claims. Each gate was tested by making it fail first.\n\n`HANDOFF.md`, `PUBLISH_CHECKLIST.md`, `RELEASE.md` and `tests/` are excluded from\nthe archive. Session state and repository hygiene belong in the repository, which\nis versioned and shows them changing; a frozen deposit should hold the instrument,\nnot the log of the people operating it.",
+      "type": "software",
+      "subtype": "",
+      "creators": [
+        "ScientificDiscoveryLab contributors"
+      ],
+      "keywords": [
+        "ai-consciousness",
+        "machine-consciousness",
+        "consciousness-science",
+        "global-workspace-theory",
+        "recurrent-processing-theory",
+        "higher-order-theories",
+        "attention-schema-theory",
+        "indicator-properties",
+        "mechanistic-interpretability",
+        "reproducibility",
+        "known-answer-calibration",
+        "sensitivity-analysis",
+        "perturbation-analysis",
+        "falsification",
+        "preregistration",
+        "open-science",
+        "ai-welfare"
+      ],
+      "publication_date": "2026-10-08",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23229094",
+      "files": [
+        {
+          "key": "consciousness-indicator-battery-v3.0.3.zip",
+          "size": 110029,
+          "checksum": "md5:33a4e5a7940881fa6eac4588d00a9e49"
+        }
+      ],
+      "downloads": 5,
+      "views": 117,
+      "html_url": "https://zenodo.org/record/23229094",
+      "doi_url": "https://doi.org/10.5281/zenodo.23229094"
+    },
+    {
+      "id": 23204768,
+      "title": "COSMOS Test Suite v0.1.0: a platform for attempting to falsify cosmological hypotheses",
+      "description": "# COSMOS Test Suite v0.1.0\n\nA research platform for testing cosmological and fundamental-physics hypotheses\nby attempting to **falsify** them rather than confirm them.\n\n## No scientific findings are claimed\n\nThis is stated first, and deliberately, because it is the single most important\nthing to know about this deposit.\n\nAt the time of this release:\n\n- **None of the 35 registered research questions has been answered.** All remain open.\n- **The one implemented experiment (EXP-001) has only ever consumed synthetic\n  data.** No experiment in this suite has fitted a cosmological model to an\n  observation.\n- **What is released here is the machinery for trying to produce falsifiable\n  results**, not results.\n\nIf you cite this work, please cite it as a platform. Citing it as evidence for or\nagainst a cosmological claim would misrepresent it.\n\n## What the platform provides\n\n| Capability | Description |\n|---|---|\n| Pre-registration | Analysis plans fixed before data are examined; the registration timestamp is recorded in every result |\n| Adversarial review | A \"try to kill it\" stage that asks what else could produce the same outcome |\n| Look-elsewhere correction | Scans across wavenumber bins and locations are corrected for, so a peak is not mistaken for a discovery |\n| Provenance chain | Every result records its inputs, seed, code version, and commit |\n| Reproducibility packages | `--seed 42` reproduces the committed EXP-001 result exactly |\n| Honest classification | Results are labelled with a fixed vocabulary that distinguishes observation, inference, hypothesis, and speculation |\n\nThe governing principle is that the goal is not to prove a theory but to\ndetermine whether the data can **disprove** it.\n\n## Validation status\n\n**Internal validation.** 247 tests. The physics code has had real bugs found by\nthis suite, each now pinned by a regression test:\n\n- a missing BBKS transfer-function prefactor\n- GRF Fourier amplitudes off by a factor of √N\n- absent Hermitian symmetry, which silently made generated fields white noise\n- P(k) divided by box volume instead of cell volume\n- a false-positive threshold that ignored bin count, giving a 99.5% false-positive rate\n- the Hubble distance computed as c/h rather than c/(100h), overstating every distance 100-fold\n\n**External validation: one component performed.** The BAO distance measures\n(`cosmos/cosmology.py`) were checked against real DESI DR2 baryon acoustic\noscillation vectors (arXiv:2503.14738, arXiv:2503.14739). The D_H column was\nreproduced to 1.1% at z = 2.330. This comparison found both the factor-100\ndistance bug listed above and an unresolved labelling problem: values in a\ncolumn marked `DM_over_rs` in a third-party mirror are numerically consistent\nwith the comoving distance D_C/r_s rather than the transverse distance D_M/r_s.\nNo cosmological fit was performed on that dataset.\n\n**External validation: not performed for any parameter inference.** No\ncosmological parameter has been fitted to an observation and checked against a\npublished result.\n\n## Data sources\n\nThe literature corpus in `papers/metadata/corpus.json` holds 86 genuine records\nretrieved from the live arXiv API, spanning 1991–2026, 58 with DOIs.\n\nSurvey data ingestion is incomplete. Reachability was probed from the development\nenvironment: SDSS SkyServer and the SDSS DR12 BOSS release were blocked, LIGO\nopen data was blocked, and NASA LAMBDA's Planck data paths returned 404. Those\ndatasets are marked unavailable rather than substituted with invented values.\nSee `docs/DATA_SOURCES.md` for the full table.\n\n## Known limitations\n\n- 15 of the 16 registered experiments are defined but not implemented; they exit\n  with a nonzero status rather than returning placeholder results.\n- The verification subcommand reports that its runner is not yet implemented.\n- Spatial curvature and neutrino-mass extensions are not modelled.\n- The reported BAO sound horizon is taken from the published Planck 2018 value\n  rather than recomputed; the rationale is recorded in `cosmos/cosmology.py`.\n\n## Reproducing\n\n```bash\ngit clone https://github.com/Nortaq-PlayNexus/COSMOS-TEST-SUITE.git\ncd COSMOS-TEST-SUITE\npip install -e \".[dev]\"\npython -m pytest -q          # 247 tests\npython -m cosmos experiment run EXP-001 --seed 42\n```\n\nThe committed result is reproducible bit-for-bit in its scientific content. A\nclean checkout at this tag with `--seed 42` yields the same classification,\np-value (0.295), significance (0.54σ), χ², σ₈ test, injection-recovery and\nMonte Carlo results. Only timestamps and the commit hash differ.\n\n## Licence\n\nGPL-3.0-only. See `LICENSE`.",
+      "type": "software",
+      "subtype": "",
+      "creators": [
+        "Nortaq-PlayNexus"
+      ],
+      "keywords": [
+        "cosmology",
+        "large-scale structure",
+        "baryon acoustic oscillations",
+        "scientific methodology",
+        "falsification",
+        "reproducibility",
+        "open science",
+        "statistics"
+      ],
+      "publication_date": "2026-10-07",
+      "license": "gpl-3.0",
+      "doi": "10.5281/zenodo.23204768",
+      "files": [
+        {
+          "key": "cosmos-test-suite-0.1.0.tar.gz",
+          "size": 217663,
+          "checksum": "md5:3337c7ff7ca3273a4e29977b51284bae"
+        }
+      ],
+      "downloads": 0,
+      "views": 13,
+      "html_url": "https://zenodo.org/record/23204768",
+      "doi_url": "https://doi.org/10.5281/zenodo.23204768"
+    },
+    {
+      "id": 23132771,
+      "title": "ScientificDiscoveryLab investigation: Water acoustic response simulator",
+      "description": "# Water acoustic response simulator\n\n**Experiments:** n/a · **Question:** Q-A001\n\n## What this is\n\nA computational model of the acoustic response of a water surface to structured forcing. Simulator and controls; no empirical claim.\n\nThis deposit is one investigation from a larger laboratory, published separately\nso it can be cited on its own. The laboratory as a whole — its registries,\ngovernance rules, and the self-audit that found four defects in its own\ninstruments — is published separately as\n[`10.5281/zenodo.23109117`](https://doi.org/10.5281/zenodo.23109117).\n\n## Why separate deposits\n\nA single question in this laboratory can span several experiments. Q-P004 covers\nEXP-0005/0006/0007 and Q-P005 covers EXP-0009/0010. Splitting those across\nseparate DOIs would scatter one scientific answer across four identifiers and\nmake it harder to cite, not easier. The investigation — the unit with its own\nREADME, preregistration, code, config and results — is therefore the unit of\ndeposit, and the experiment IDs are recorded above so a reader can drill down.\n\n## What is in the archive\n\nCode, frozen preregistrations, configs, results, reports and audit trails for\nthis investigation.\n\nRaw simulation output is **excluded**: `.npz`, `.sqlite3` and `.db`, 362 MB\nacross the laboratory. That data is regenerable from the seeds recorded in each\npreregistration, and including it would make this archive an order of magnitude\nlarger for no gain in verifiability. The code that consumes it ships here; the\ninputs it consumes do not.\n\n## Reproducibility and honesty\n\nThis laboratory runs to a written standard (`RESEARCH_RULES.md`): claim\nlayering, preregistration before analysis, mandatory controls, adversarial\nfalsification, evidence grading, read-only raw data, and fail-closed runners.\n\n**No physics discovery is claimed.** Several experiments here are INCONCLUSIVE,\nand one anomaly was traced to an instrument defect rather than to nature. Null\nresults are recorded with the same care as positive ones, and a preregistered\nprediction that failed is reported as having failed.\n\nTwo defects in the laboratory's own instruments were found during self-audit and\nare documented in the laboratory deposit: a statistical test that applied a\nz-score conversion to a statistic already in `erfc` units, and a percolation\nexponent estimator biased upward by 0.11 to 0.35. In the second case the defect\nmade the laboratory's own anomaly look *smaller* than it really was.\n\n## Licence\n\nMIT — see the licence file in the laboratory repository, or\n`CITATION.cff` there.",
+      "type": "dataset",
+      "subtype": "",
+      "creators": [
+        "ScientificDiscoveryLab contributors"
+      ],
+      "keywords": [
+        "acoustics",
+        "wave simulation",
+        "simulator",
+        "controls",
+        "no empirical claim"
+      ],
+      "publication_date": "2026-10-04",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23132771",
+      "files": [
+        {
+          "key": "water-acoustic-response.zip",
+          "size": 33616,
+          "checksum": "md5:02b067b2fc411e3052c82d38301e64e2"
+        }
+      ],
+      "downloads": 1,
+      "views": 10,
+      "html_url": "https://zenodo.org/record/23132771",
+      "doi_url": "https://doi.org/10.5281/zenodo.23132771"
+    },
+    {
+      "id": 23132767,
+      "title": "ScientificDiscoveryLab investigation: Prime gap distribution statistics",
+      "description": "# Prime gap distribution statistics\n\n**Experiments:** EXP-0008 · **Question:** Q-M002\n\n## What this is\n\nDo prime gaps follow the Poisson / Gallagher distribution the literature predicts?\n\nThis deposit is one investigation from a larger laboratory, published separately\nso it can be cited on its own. The laboratory as a whole — its registries,\ngovernance rules, and the self-audit that found four defects in its own\ninstruments — is published separately as\n[`10.5281/zenodo.23109117`](https://doi.org/10.5281/zenodo.23109117).\n\n## Why separate deposits\n\nA single question in this laboratory can span several experiments. Q-P004 covers\nEXP-0005/0006/0007 and Q-P005 covers EXP-0009/0010. Splitting those across\nseparate DOIs would scatter one scientific answer across four identifiers and\nmake it harder to cite, not easier. The investigation — the unit with its own\nREADME, preregistration, code, config and results — is therefore the unit of\ndeposit, and the experiment IDs are recorded above so a reader can drill down.\n\n## What is in the archive\n\nCode, frozen preregistrations, configs, results, reports and audit trails for\nthis investigation.\n\nRaw simulation output is **excluded**: `.npz`, `.sqlite3` and `.db`, 362 MB\nacross the laboratory. That data is regenerable from the seeds recorded in each\npreregistration, and including it would make this archive an order of magnitude\nlarger for no gain in verifiability. The code that consumes it ships here; the\ninputs it consumes do not.\n\n## Reproducibility and honesty\n\nThis laboratory runs to a written standard (`RESEARCH_RULES.md`): claim\nlayering, preregistration before analysis, mandatory controls, adversarial\nfalsification, evidence grading, read-only raw data, and fail-closed runners.\n\n**No physics discovery is claimed.** Several experiments here are INCONCLUSIVE,\nand one anomaly was traced to an instrument defect rather than to nature. Null\nresults are recorded with the same care as positive ones, and a preregistered\nprediction that failed is reported as having failed.\n\nTwo defects in the laboratory's own instruments were found during self-audit and\nare documented in the laboratory deposit: a statistical test that applied a\nz-score conversion to a statistic already in `erfc` units, and a percolation\nexponent estimator biased upward by 0.11 to 0.35. In the second case the defect\nmade the laboratory's own anomaly look *smaller* than it really was.\n\n## Licence\n\nMIT — see the licence file in the laboratory repository, or\n`CITATION.cff` there.",
+      "type": "dataset",
+      "subtype": "",
+      "creators": [
+        "ScientificDiscoveryLab contributors"
+      ],
+      "keywords": [
+        "prime gaps",
+        "Poisson distribution",
+        "number theory",
+        "hypothesis testing",
+        "negative results"
+      ],
+      "publication_date": "2026-10-04",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23132767",
+      "files": [
+        {
+          "key": "prime-gap-statistics.zip",
+          "size": 167564,
+          "checksum": "md5:2584ec26eb768f1c928ee80f899de921"
+        }
+      ],
+      "downloads": 3,
+      "views": 12,
+      "html_url": "https://zenodo.org/record/23132767",
+      "doi_url": "https://doi.org/10.5281/zenodo.23132767"
+    },
+    {
+      "id": 23132763,
+      "title": "ScientificDiscoveryLab investigation: Feigenbaum universality in higher-order 1D maps",
+      "description": "# Feigenbaum universality in higher-order 1D maps\n\n**Experiments:** EXP-0014 · **Question:** Q-M005\n\n## What this is\n\nDo higher-order one-dimensional maps show Feigenbaum universality, and is the constant the same across orders?\n\nThis deposit is one investigation from a larger laboratory, published separately\nso it can be cited on its own. The laboratory as a whole — its registries,\ngovernance rules, and the self-audit that found four defects in its own\ninstruments — is published separately as\n[`10.5281/zenodo.23109117`](https://doi.org/10.5281/zenodo.23109117).\n\n## Why separate deposits\n\nA single question in this laboratory can span several experiments. Q-P004 covers\nEXP-0005/0006/0007 and Q-P005 covers EXP-0009/0010. Splitting those across\nseparate DOIs would scatter one scientific answer across four identifiers and\nmake it harder to cite, not easier. The investigation — the unit with its own\nREADME, preregistration, code, config and results — is therefore the unit of\ndeposit, and the experiment IDs are recorded above so a reader can drill down.\n\n## What is in the archive\n\nCode, frozen preregistrations, configs, results, reports and audit trails for\nthis investigation.\n\nRaw simulation output is **excluded**: `.npz`, `.sqlite3` and `.db`, 362 MB\nacross the laboratory. That data is regenerable from the seeds recorded in each\npreregistration, and including it would make this archive an order of magnitude\nlarger for no gain in verifiability. The code that consumes it ships here; the\ninputs it consumes do not.\n\n## Reproducibility and honesty\n\nThis laboratory runs to a written standard (`RESEARCH_RULES.md`): claim\nlayering, preregistration before analysis, mandatory controls, adversarial\nfalsification, evidence grading, read-only raw data, and fail-closed runners.\n\n**No physics discovery is claimed.** Several experiments here are INCONCLUSIVE,\nand one anomaly was traced to an instrument defect rather than to nature. Null\nresults are recorded with the same care as positive ones, and a preregistered\nprediction that failed is reported as having failed.\n\nTwo defects in the laboratory's own instruments were found during self-audit and\nare documented in the laboratory deposit: a statistical test that applied a\nz-score conversion to a statistic already in `erfc` units, and a percolation\nexponent estimator biased upward by 0.11 to 0.35. In the second case the defect\nmade the laboratory's own anomaly look *smaller* than it really was.\n\n## Licence\n\nMIT — see the licence file in the laboratory repository, or\n`CITATION.cff` there.",
+      "type": "dataset",
+      "subtype": "",
+      "creators": [
+        "ScientificDiscoveryLab contributors"
+      ],
+      "keywords": [
+        "Feigenbaum constant",
+        "universality",
+        "bifurcation",
+        "computational mathematics",
+        "reproducibility research"
+      ],
+      "publication_date": "2026-10-04",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23132763",
+      "files": [
+        {
+          "key": "feigenbaum-universality.zip",
+          "size": 67481,
+          "checksum": "md5:f5913bb8e640d51add4a44e8fa7e7b87"
+        }
+      ],
+      "downloads": 0,
+      "views": 7,
+      "html_url": "https://zenodo.org/record/23132763",
+      "doi_url": "https://doi.org/10.5281/zenodo.23132763"
+    },
+    {
+      "id": 23132761,
+      "title": "ScientificDiscoveryLab investigation: Percolation thresholds and exponents",
+      "description": "# Percolation thresholds and exponents\n\n**Experiments:** EXP-0005, 0006, 0009, 0010, 0017 · **Question:** Q-P004, Q-P005, Q-P009\n\n## What this is\n\nWhat are the site and bond percolation thresholds, and does the reported 2D cluster-mass exponent deviate from the Fisher value 187/91?\n\nThis deposit is one investigation from a larger laboratory, published separately\nso it can be cited on its own. The laboratory as a whole — its registries,\ngovernance rules, and the self-audit that found four defects in its own\ninstruments — is published separately as\n[`10.5281/zenodo.23109117`](https://doi.org/10.5281/zenodo.23109117).\n\n## Why separate deposits\n\nA single question in this laboratory can span several experiments. Q-P004 covers\nEXP-0005/0006/0007 and Q-P005 covers EXP-0009/0010. Splitting those across\nseparate DOIs would scatter one scientific answer across four identifiers and\nmake it harder to cite, not easier. The investigation — the unit with its own\nREADME, preregistration, code, config and results — is therefore the unit of\ndeposit, and the experiment IDs are recorded above so a reader can drill down.\n\n## What is in the archive\n\nCode, frozen preregistrations, configs, results, reports and audit trails for\nthis investigation.\n\nRaw simulation output is **excluded**: `.npz`, `.sqlite3` and `.db`, 362 MB\nacross the laboratory. That data is regenerable from the seeds recorded in each\npreregistration, and including it would make this archive an order of magnitude\nlarger for no gain in verifiability. The code that consumes it ships here; the\ninputs it consumes do not.\n\n## Reproducibility and honesty\n\nThis laboratory runs to a written standard (`RESEARCH_RULES.md`): claim\nlayering, preregistration before analysis, mandatory controls, adversarial\nfalsification, evidence grading, read-only raw data, and fail-closed runners.\n\n**No physics discovery is claimed.** Several experiments here are INCONCLUSIVE,\nand one anomaly was traced to an instrument defect rather than to nature. Null\nresults are recorded with the same care as positive ones, and a preregistered\nprediction that failed is reported as having failed.\n\nTwo defects in the laboratory's own instruments were found during self-audit and\nare documented in the laboratory deposit: a statistical test that applied a\nz-score conversion to a statistic already in `erfc` units, and a percolation\nexponent estimator biased upward by 0.11 to 0.35. In the second case the defect\nmade the laboratory's own anomaly look *smaller* than it really was.\n\n## Licence\n\nMIT — see the licence file in the laboratory repository, or\n`CITATION.cff` there.",
+      "type": "dataset",
+      "subtype": "",
+      "creators": [
+        "ScientificDiscoveryLab contributors"
+      ],
+      "keywords": [
+        "percolation",
+        "cluster mass exponent",
+        "finite-size scaling",
+        "estimator bias",
+        "preregistration",
+        "negative results",
+        "power-law estimation"
+      ],
+      "publication_date": "2026-10-04",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23132761",
+      "files": [
+        {
+          "key": "percolation-thresholds-and-exponents.zip",
+          "size": 546871,
+          "checksum": "md5:2af3d6e72ed09f93a603916e5a5cded8"
+        }
+      ],
+      "downloads": 4,
+      "views": 9,
+      "html_url": "https://zenodo.org/record/23132761",
+      "doi_url": "https://doi.org/10.5281/zenodo.23132761"
+    },
+    {
+      "id": 23132759,
+      "title": "ScientificDiscoveryLab investigation: Laboratory RNG statistical certification",
+      "description": "# Laboratory RNG statistical certification\n\n**Experiments:** EXP-0004 · **Question:** Q-I004\n\n## What this is\n\nDoes the laboratory's own pseudorandom number generator pass a statistical test battery it is itself subjected to?\n\nThis deposit is one investigation from a larger laboratory, published separately\nso it can be cited on its own. The laboratory as a whole — its registries,\ngovernance rules, and the self-audit that found four defects in its own\ninstruments — is published separately as\n[`10.5281/zenodo.23109117`](https://doi.org/10.5281/zenodo.23109117).\n\n## Why separate deposits\n\nA single question in this laboratory can span several experiments. Q-P004 covers\nEXP-0005/0006/0007 and Q-P005 covers EXP-0009/0010. Splitting those across\nseparate DOIs would scatter one scientific answer across four identifiers and\nmake it harder to cite, not easier. The investigation — the unit with its own\nREADME, preregistration, code, config and results — is therefore the unit of\ndeposit, and the experiment IDs are recorded above so a reader can drill down.\n\n## What is in the archive\n\nCode, frozen preregistrations, configs, results, reports and audit trails for\nthis investigation.\n\nRaw simulation output is **excluded**: `.npz`, `.sqlite3` and `.db`, 362 MB\nacross the laboratory. That data is regenerable from the seeds recorded in each\npreregistration, and including it would make this archive an order of magnitude\nlarger for no gain in verifiability. The code that consumes it ships here; the\ninputs it consumes do not.\n\n## Reproducibility and honesty\n\nThis laboratory runs to a written standard (`RESEARCH_RULES.md`): claim\nlayering, preregistration before analysis, mandatory controls, adversarial\nfalsification, evidence grading, read-only raw data, and fail-closed runners.\n\n**No physics discovery is claimed.** Several experiments here are INCONCLUSIVE,\nand one anomaly was traced to an instrument defect rather than to nature. Null\nresults are recorded with the same care as positive ones, and a preregistered\nprediction that failed is reported as having failed.\n\nTwo defects in the laboratory's own instruments were found during self-audit and\nare documented in the laboratory deposit: a statistical test that applied a\nz-score conversion to a statistic already in `erfc` units, and a percolation\nexponent estimator biased upward by 0.11 to 0.35. In the second case the defect\nmade the laboratory's own anomaly look *smaller* than it really was.\n\n## Licence\n\nMIT — see the licence file in the laboratory repository, or\n`CITATION.cff` there.",
+      "type": "dataset",
+      "subtype": "",
+      "creators": [
+        "ScientificDiscoveryLab contributors"
+      ],
+      "keywords": [
+        "NIST SP 800-22",
+        "pseudorandom number generation",
+        "statistical test calibration",
+        "instrument validation",
+        "negative results"
+      ],
+      "publication_date": "2026-10-04",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23132759",
+      "files": [
+        {
+          "key": "rng-certification.zip",
+          "size": 250929,
+          "checksum": "md5:59519697d2ef531f26f3d8fa200b8bda"
+        }
+      ],
+      "downloads": 3,
+      "views": 14,
+      "html_url": "https://zenodo.org/record/23132759",
+      "doi_url": "https://doi.org/10.5281/zenodo.23132759"
+    },
+    {
+      "id": 23132753,
+      "title": "ScientificDiscoveryLab investigation: Topology-measurement definition",
+      "description": "# Topology-measurement definition\n\n**Experiments:** EXP-0016 · **Question:** Q-O007\n\n## What this is\n\nUnder what conditions do discrete representations of optical phase topology disagree about singularity count, charge, or identity?\n\nThis deposit is one investigation from a larger laboratory, published separately\nso it can be cited on its own. The laboratory as a whole — its registries,\ngovernance rules, and the self-audit that found four defects in its own\ninstruments — is published separately as\n[`10.5281/zenodo.23109117`](https://doi.org/10.5281/zenodo.23109117).\n\n## Why separate deposits\n\nA single question in this laboratory can span several experiments. Q-P004 covers\nEXP-0005/0006/0007 and Q-P005 covers EXP-0009/0010. Splitting those across\nseparate DOIs would scatter one scientific answer across four identifiers and\nmake it harder to cite, not easier. The investigation — the unit with its own\nREADME, preregistration, code, config and results — is therefore the unit of\ndeposit, and the experiment IDs are recorded above so a reader can drill down.\n\n## What is in the archive\n\nCode, frozen preregistrations, configs, results, reports and audit trails for\nthis investigation.\n\nRaw simulation output is **excluded**: `.npz`, `.sqlite3` and `.db`, 362 MB\nacross the laboratory. That data is regenerable from the seeds recorded in each\npreregistration, and including it would make this archive an order of magnitude\nlarger for no gain in verifiability. The code that consumes it ships here; the\ninputs it consumes do not.\n\n## Reproducibility and honesty\n\nThis laboratory runs to a written standard (`RESEARCH_RULES.md`): claim\nlayering, preregistration before analysis, mandatory controls, adversarial\nfalsification, evidence grading, read-only raw data, and fail-closed runners.\n\n**No physics discovery is claimed.** Several experiments here are INCONCLUSIVE,\nand one anomaly was traced to an instrument defect rather than to nature. Null\nresults are recorded with the same care as positive ones, and a preregistered\nprediction that failed is reported as having failed.\n\nTwo defects in the laboratory's own instruments were found during self-audit and\nare documented in the laboratory deposit: a statistical test that applied a\nz-score conversion to a statistic already in `erfc` units, and a percolation\nexponent estimator biased upward by 0.11 to 0.35. In the second case the defect\nmade the laboratory's own anomaly look *smaller* than it really was.\n\n## Licence\n\nMIT — see the licence file in the laboratory repository, or\n`CITATION.cff` there.",
+      "type": "dataset",
+      "subtype": "",
+      "creators": [
+        "ScientificDiscoveryLab contributors"
+      ],
+      "keywords": [
+        "measurement definition",
+        "phase topology",
+        "numerical methods",
+        "operationalisation",
+        "negative results"
+      ],
+      "publication_date": "2026-10-04",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23132753",
+      "files": [
+        {
+          "key": "topology-measurement-definition.zip",
+          "size": 1094124,
+          "checksum": "md5:0f7cb7081511f5a17065822474a64079"
+        }
+      ],
+      "downloads": 2,
+      "views": 13,
+      "html_url": "https://zenodo.org/record/23132753",
+      "doi_url": "https://doi.org/10.5281/zenodo.23132753"
+    },
+    {
+      "id": 23132748,
+      "title": "ScientificDiscoveryLab investigation: Discrete optical-vortex detection bias",
+      "description": "# Discrete optical-vortex detection bias\n\n**Experiments:** EXP-0015 · **Question:** Q-O006\n\n## What this is\n\nWhen does discrete optical-vortex detection produce systematic count bias relative to known continuous topology?\n\nThis deposit is one investigation from a larger laboratory, published separately\nso it can be cited on its own. The laboratory as a whole — its registries,\ngovernance rules, and the self-audit that found four defects in its own\ninstruments — is published separately as\n[`10.5281/zenodo.23109117`](https://doi.org/10.5281/zenodo.23109117).\n\n## Why separate deposits\n\nA single question in this laboratory can span several experiments. Q-P004 covers\nEXP-0005/0006/0007 and Q-P005 covers EXP-0009/0010. Splitting those across\nseparate DOIs would scatter one scientific answer across four identifiers and\nmake it harder to cite, not easier. The investigation — the unit with its own\nREADME, preregistration, code, config and results — is therefore the unit of\ndeposit, and the experiment IDs are recorded above so a reader can drill down.\n\n## What is in the archive\n\nCode, frozen preregistrations, configs, results, reports and audit trails for\nthis investigation.\n\nRaw simulation output is **excluded**: `.npz`, `.sqlite3` and `.db`, 362 MB\nacross the laboratory. That data is regenerable from the seeds recorded in each\npreregistration, and including it would make this archive an order of magnitude\nlarger for no gain in verifiability. The code that consumes it ships here; the\ninputs it consumes do not.\n\n## Reproducibility and honesty\n\nThis laboratory runs to a written standard (`RESEARCH_RULES.md`): claim\nlayering, preregistration before analysis, mandatory controls, adversarial\nfalsification, evidence grading, read-only raw data, and fail-closed runners.\n\n**No physics discovery is claimed.** Several experiments here are INCONCLUSIVE,\nand one anomaly was traced to an instrument defect rather than to nature. Null\nresults are recorded with the same care as positive ones, and a preregistered\nprediction that failed is reported as having failed.\n\nTwo defects in the laboratory's own instruments were found during self-audit and\nare documented in the laboratory deposit: a statistical test that applied a\nz-score conversion to a statistic already in `erfc` units, and a percolation\nexponent estimator biased upward by 0.11 to 0.35. In the second case the defect\nmade the laboratory's own anomaly look *smaller* than it really was.\n\n## Licence\n\nMIT — see the licence file in the laboratory repository, or\n`CITATION.cff` there.",
+      "type": "dataset",
+      "subtype": "",
+      "creators": [
+        "ScientificDiscoveryLab contributors"
+      ],
+      "keywords": [
+        "detector bias",
+        "discretisation artifact",
+        "phase singularities",
+        "numerical methods",
+        "negative results"
+      ],
+      "publication_date": "2026-10-04",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23132748",
+      "files": [
+        {
+          "key": "discrete-vortex-detection-bias.zip",
+          "size": 309382,
+          "checksum": "md5:7e1ec9c1772e1cb623be90a6eff5b67e"
+        }
+      ],
+      "downloads": 4,
+      "views": 10,
+      "html_url": "https://zenodo.org/record/23132748",
+      "doi_url": "https://doi.org/10.5281/zenodo.23132748"
+    },
+    {
+      "id": 23132746,
+      "title": "ScientificDiscoveryLab investigation: Vortex density in random wave fields",
+      "description": "# Vortex density in random wave fields\n\n**Experiments:** EXP-0003 · **Question:** Q-O002\n\n## What this is\n\nDoes the density of phase singularities in a random complex field agree with the Nye-Berry / Freund prediction?\n\nThis deposit is one investigation from a larger laboratory, published separately\nso it can be cited on its own. The laboratory as a whole — its registries,\ngovernance rules, and the self-audit that found four defects in its own\ninstruments — is published separately as\n[`10.5281/zenodo.23109117`](https://doi.org/10.5281/zenodo.23109117).\n\n## Why separate deposits\n\nA single question in this laboratory can span several experiments. Q-P004 covers\nEXP-0005/0006/0007 and Q-P005 covers EXP-0009/0010. Splitting those across\nseparate DOIs would scatter one scientific answer across four identifiers and\nmake it harder to cite, not easier. The investigation — the unit with its own\nREADME, preregistration, code, config and results — is therefore the unit of\ndeposit, and the experiment IDs are recorded above so a reader can drill down.\n\n## What is in the archive\n\nCode, frozen preregistrations, configs, results, reports and audit trails for\nthis investigation.\n\nRaw simulation output is **excluded**: `.npz`, `.sqlite3` and `.db`, 362 MB\nacross the laboratory. That data is regenerable from the seeds recorded in each\npreregistration, and including it would make this archive an order of magnitude\nlarger for no gain in verifiability. The code that consumes it ships here; the\ninputs it consumes do not.\n\n## Reproducibility and honesty\n\nThis laboratory runs to a written standard (`RESEARCH_RULES.md`): claim\nlayering, preregistration before analysis, mandatory controls, adversarial\nfalsification, evidence grading, read-only raw data, and fail-closed runners.\n\n**No physics discovery is claimed.** Several experiments here are INCONCLUSIVE,\nand one anomaly was traced to an instrument defect rather than to nature. Null\nresults are recorded with the same care as positive ones, and a preregistered\nprediction that failed is reported as having failed.\n\nTwo defects in the laboratory's own instruments were found during self-audit and\nare documented in the laboratory deposit: a statistical test that applied a\nz-score conversion to a statistic already in `erfc` units, and a percolation\nexponent estimator biased upward by 0.11 to 0.35. In the second case the defect\nmade the laboratory's own anomaly look *smaller* than it really was.\n\n## Licence\n\nMIT — see the licence file in the laboratory repository, or\n`CITATION.cff` there.",
+      "type": "dataset",
+      "subtype": "",
+      "creators": [
+        "ScientificDiscoveryLab contributors"
+      ],
+      "keywords": [
+        "phase singularities",
+        "vortex density",
+        "random wave fields",
+        "topological charge",
+        "reproducibility research"
+      ],
+      "publication_date": "2026-10-04",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23132746",
+      "files": [
+        {
+          "key": "vortex-density.zip",
+          "size": 150191,
+          "checksum": "md5:a8c0ff4330a38057045bf2c0c4810f6f"
+        }
+      ],
+      "downloads": 2,
+      "views": 6,
+      "html_url": "https://zenodo.org/record/23132746",
+      "doi_url": "https://doi.org/10.5281/zenodo.23132746"
+    },
+    {
+      "id": 23132744,
+      "title": "ScientificDiscoveryLab investigation: Speckle contrast law",
+      "description": "# Speckle contrast law\n\n**Experiments:** EXP-0002 · **Question:** Q-O001\n\n## What this is\n\nDoes the contrast of a fully developed speckle pattern follow C(M) = 1/sqrt(M) for M independent looks?\n\nThis deposit is one investigation from a larger laboratory, published separately\nso it can be cited on its own. The laboratory as a whole — its registries,\ngovernance rules, and the self-audit that found four defects in its own\ninstruments — is published separately as\n[`10.5281/zenodo.23109117`](https://doi.org/10.5281/zenodo.23109117).\n\n## Why separate deposits\n\nA single question in this laboratory can span several experiments. Q-P004 covers\nEXP-0005/0006/0007 and Q-P005 covers EXP-0009/0010. Splitting those across\nseparate DOIs would scatter one scientific answer across four identifiers and\nmake it harder to cite, not easier. The investigation — the unit with its own\nREADME, preregistration, code, config and results — is therefore the unit of\ndeposit, and the experiment IDs are recorded above so a reader can drill down.\n\n## What is in the archive\n\nCode, frozen preregistrations, configs, results, reports and audit trails for\nthis investigation.\n\nRaw simulation output is **excluded**: `.npz`, `.sqlite3` and `.db`, 362 MB\nacross the laboratory. That data is regenerable from the seeds recorded in each\npreregistration, and including it would make this archive an order of magnitude\nlarger for no gain in verifiability. The code that consumes it ships here; the\ninputs it consumes do not.\n\n## Reproducibility and honesty\n\nThis laboratory runs to a written standard (`RESEARCH_RULES.md`): claim\nlayering, preregistration before analysis, mandatory controls, adversarial\nfalsification, evidence grading, read-only raw data, and fail-closed runners.\n\n**No physics discovery is claimed.** Several experiments here are INCONCLUSIVE,\nand one anomaly was traced to an instrument defect rather than to nature. Null\nresults are recorded with the same care as positive ones, and a preregistered\nprediction that failed is reported as having failed.\n\nTwo defects in the laboratory's own instruments were found during self-audit and\nare documented in the laboratory deposit: a statistical test that applied a\nz-score conversion to a statistic already in `erfc` units, and a percolation\nexponent estimator biased upward by 0.11 to 0.35. In the second case the defect\nmade the laboratory's own anomaly look *smaller* than it really was.\n\n## Licence\n\nMIT — see the licence file in the laboratory repository, or\n`CITATION.cff` there.",
+      "type": "dataset",
+      "subtype": "",
+      "creators": [
+        "ScientificDiscoveryLab contributors"
+      ],
+      "keywords": [
+        "speckle contrast",
+        "optics",
+        "random fields",
+        "intensity statistics",
+        "reproducibility research"
+      ],
+      "publication_date": "2026-10-04",
+      "license": "mit-license",
+      "doi": "10.5281/zenodo.23132744",
+      "files": [
+        {
+          "key": "speckle-contrast-law.zip",
+          "size": 85841,
+          "checksum": "md5:683b9a49facb22f06871504f1e5042f7"
+        }
+      ],
+      "downloads": 3,
+      "views": 12,
+      "html_url": "https://zenodo.org/record/23132744",
+      "doi_url": "https://doi.org/10.5281/zenodo.23132744"
+    }
+  ]
 }

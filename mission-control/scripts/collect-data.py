@@ -78,6 +78,49 @@ def days_since(date_str):
     return (now - dt).days
 
 
+def fetch_zenodo(owner_id):
+    """Fetch Zenodo records for an owner. Returns list of record dicts."""
+    records = []
+    page = 1
+    while True:
+        qs = urllib.parse.urlencode({"q": f"owners:{owner_id}", "size": 25, "page": page, "sort": "newest"})
+        req = urllib.request.Request(f"https://zenodo.org/api/records/?{qs}", headers={"User-Agent": "nortaq-mission-control"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                data = json.loads(r.read().decode("utf-8"))
+        except Exception as exc:
+            print(f"[zenodo] fetch failed ({exc}); skipping", file=sys.stderr)
+            break
+        hits = data.get("hits", {}).get("hits", [])
+        if not hits:
+            break
+        for h in hits:
+            md = h.get("metadata", {})
+            stats = h.get("stats", {})
+            records.append({
+                "id": h.get("id"),
+                "title": md.get("title", ""),
+                "description": md.get("description", ""),
+                "type": md.get("resource_type", {}).get("type", ""),
+                "subtype": md.get("resource_type", {}).get("subtype", ""),
+                "creators": [c.get("name", "") for c in md.get("creators", [])],
+                "keywords": md.get("keywords", []),
+                "publication_date": md.get("publication_date", ""),
+                "license": md.get("license", {}).get("id", "") if isinstance(md.get("license"), dict) else str(md.get("license", "")),
+                "doi": md.get("doi", f"10.5281/zenodo.{h.get('id')}"),
+                "files": [{"key": f.get("key", ""), "size": f.get("size", 0), "checksum": f.get("checksum", "")} for f in h.get("files", [])],
+                "downloads": stats.get("downloads", 0),
+                "views": stats.get("views", 0),
+                "html_url": h.get("links", {}).get("html", f"https://zenodo.org/record/{h.get('id')}"),
+                "doi_url": h.get("links", {}).get("doi", f"https://doi.org/10.5281/zenodo.{h.get('id')}"),
+            })
+        total = data.get("hits", {}).get("total", 0)
+        if len(records) >= total:
+            break
+        page += 1
+    return records
+
+
 def signal_hash(repos, stars_total):
     canonical = f"repos={len(repos)}:stars={stars_total}:owner={OWNER}"
     preimage = f"{SALT}:{canonical}"
@@ -100,6 +143,90 @@ def main():
         page += 1
 
     print(f"[collect] Found {len(repos)} repos")
+
+    # Profile
+    profile = {}
+    try:
+        u = api_get(f"/users/{OWNER}", token)
+        profile = {
+            "login": u.get("login", OWNER),
+            "name": u.get("name"),
+            "bio": u.get("bio"),
+            "company": u.get("company"),
+            "location": u.get("location"),
+            "blog": u.get("blog"),
+            "twitter": u.get("twitter_username"),
+            "avatar_url": u.get("avatar_url"),
+            "followers": u.get("followers", 0),
+            "following": u.get("following", 0),
+            "public_repos": u.get("public_repos", 0),
+            "public_gists": u.get("public_gists", 0),
+            "created_at": u.get("created_at", ""),
+            "updated_at": u.get("updated_at", ""),
+            "html_url": u.get("html_url", ""),
+        }
+        print(f"[collect] Profile: {profile.get('name') or OWNER}")
+    except Exception as exc:
+        print(f"[collect] profile fetch failed ({exc}); profile left empty", file=sys.stderr)
+
+    # Organizations
+    orgs = []
+    try:
+        org_data = api_get(f"/users/{OWNER}/orgs", token)
+        for o in org_data:
+            orgs.append({
+                "login": o.get("login", ""),
+                "description": o.get("description"),
+                "avatar_url": o.get("avatar_url"),
+                "url": o.get("html_url", f"https://github.com/{o.get('login')}"),
+            })
+        print(f"[collect] Orgs: {len(orgs)}")
+    except Exception as exc:
+        print(f"[collect] orgs fetch failed ({exc}); orgs left empty", file=sys.stderr)
+
+    # Starred repos (first page)
+    starred = []
+    try:
+        star_data = api_get(f"/users/{OWNER}/starred?per_page=30", token)
+        for s in star_data:
+            starred.append({
+                "name": s.get("name", ""),
+                "full_name": s.get("full_name", ""),
+                "description": s.get("description"),
+                "html_url": s.get("html_url", ""),
+                "language": s.get("language"),
+                "stargazers_count": s.get("stargazers_count", 0),
+                "owner": s.get("owner", {}).get("login", ""),
+            })
+        print(f"[collect] Starred: {len(starred)}")
+    except Exception as exc:
+        print(f"[collect] starred fetch failed ({exc}); starred left empty", file=sys.stderr)
+
+    # Gists
+    gists = []
+    try:
+        gist_data = api_get(f"/users/{OWNER}/gists?per_page=30", token)
+        for g in gist_data:
+            gists.append({
+                "id": g.get("id", ""),
+                "description": g.get("description"),
+                "html_url": g.get("html_url", ""),
+                "created_at": g.get("created_at", ""),
+                "updated_at": g.get("updated_at", ""),
+                "files": list(g.get("files", {}).keys()),
+                "public": g.get("public", True),
+            })
+        print(f"[collect] Gists: {len(gists)}")
+    except Exception as exc:
+        print(f"[collect] gists fetch failed ({exc}); gists left empty", file=sys.stderr)
+
+    # Zenodo records
+    zenodo_records = []
+    try:
+        zenodo_records = fetch_zenodo("1912072")
+        print(f"[collect] Zenodo: {len(zenodo_records)} records")
+    except Exception as exc:
+        print(f"[zenodo] fetch failed ({exc}); zenodo left empty", file=sys.stderr)
 
     try:
         followers = api_get(f"/users/{OWNER}", token).get("followers")
@@ -217,6 +344,11 @@ def main():
         "generated_at": now.isoformat(),
         "repos": processed,
         "telemetry": telemetry,
+        "profile": profile,
+        "organizations": orgs,
+        "starred": starred,
+        "gists": gists,
+        "zenodo_records": zenodo_records,
     }
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
