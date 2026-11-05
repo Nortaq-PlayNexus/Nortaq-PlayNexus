@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { RepoData } from '../types'
+import HeaderBar from './HeaderBar'
 
 interface Props {
   repos: RepoData[]
@@ -45,10 +46,7 @@ export default function TechnologyView({ repos }: Props) {
 
   return (
     <div>
-      <div className="header-bar">
-        <span className="header-title">TECH MATRIX // ARSENAL</span>
-        <span className="header-status">{languages.length} LANGUAGES</span>
-      </div>
+      <HeaderBar title="TECH MATRIX // ARSENAL" status={<>{languages.length} LANGUAGES</>} />
 
       <div className="grid-3">
         <div className="card">

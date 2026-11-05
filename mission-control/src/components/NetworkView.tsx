@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { RepoData } from '../types'
 import Constellation3D from './Constellation3D'
 import Dossier from './Dossier'
+import HeaderBar from './HeaderBar'
 import { colorFor, statusOf } from '../theme'
 
 interface Props {
@@ -40,13 +41,7 @@ export default function NetworkView({ repos }: Props) {
 
   return (
     <div>
-      <div className="header-bar">
-        <span className="header-title">NETWORK // CONSTELLATION</span>
-        <span className="header-status">
-          <span className="status-dot" />
-          {filteredCount} SIGNALS · {filteredLive} LIVE
-        </span>
-      </div>
+      <HeaderBar title="NETWORK // CONSTELLATION" status={<><span className="status-dot" /> {filteredCount} SIGNALS · {filteredLive} LIVE</>} />
 
       <div className="constellation-filters" style={{ position: 'relative', top: 0, right: 0, marginBottom: '0.8rem', display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
         <button className={`filter-btn ${filter === 'ALL' ? 'active' : ''}`} onClick={() => setFilter('ALL')}>

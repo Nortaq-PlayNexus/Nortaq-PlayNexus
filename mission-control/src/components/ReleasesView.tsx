@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { RepoData } from '../types'
+import HeaderBar from './HeaderBar'
 
 interface Props {
   repos: RepoData[]
@@ -14,10 +15,7 @@ export default function ReleasesView({ repos }: Props) {
 
   return (
     <div>
-      <div className="header-bar">
-        <span className="header-title">DISPATCHES // TRANSMISSION LOG</span>
-        <span className="header-status">{sorted.length} DISPATCHES</span>
-      </div>
+      <HeaderBar title="DISPATCHES // TRANSMISSION LOG" status={<>{sorted.length} DISPATCHES</>} />
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
         {sorted.map((repo, i) => {

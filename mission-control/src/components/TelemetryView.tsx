@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { RepoData, TelemetryData } from '../types'
 import CountUp from './CountUp'
+import HeaderBar from './HeaderBar'
 
 interface Props {
   repos: RepoData[]
@@ -66,13 +67,7 @@ export default function TelemetryView({ repos, telemetry }: Props) {
 
   return (
     <div>
-      <div className="header-bar">
-        <span className="header-title">TELEMETRY // FIELD DASHBOARD</span>
-        <span className="header-status">
-          <span className="status-dot" />
-          LIVE DATA
-        </span>
-      </div>
+      <HeaderBar title="TELEMETRY // FIELD DASHBOARD" status={<><span className="status-dot" /> LIVE DATA</>} />
 
       <div className="grid-4" style={{ marginBottom: '1.5rem' }}>
         <div className="metric">

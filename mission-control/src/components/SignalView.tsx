@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { TelemetryData, RepoData } from '../types'
 import CountUp from './CountUp'
+import HeaderBar from './HeaderBar'
 
 interface Props {
   telemetry: TelemetryData | null
@@ -38,13 +39,7 @@ export default function SignalView({ telemetry, repos }: Props) {
 
   return (
     <div>
-      <div className="header-bar">
-        <span className="header-title">CIPHER // SIGNAL VERIFICATION</span>
-        <span className="header-status">
-          <span className="status-dot" />
-          LOCKED
-        </span>
-      </div>
+      <HeaderBar title="CIPHER // SIGNAL VERIFICATION" status={<><span className="status-dot" /> LOCKED</>} />
 
       <div className="signal-panel" style={{ marginBottom: '1.5rem' }}>
         <div className="grid-2" style={{ gap: '2rem' }}>

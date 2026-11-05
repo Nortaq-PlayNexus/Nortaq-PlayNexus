@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import { RepoData } from '../types'
 import Dossier from './Dossier'
+import HeaderBar from './HeaderBar'
 import { LANG_COLORS, colorFor, contactLabel, statusOf } from '../theme'
 
 type SortKey = 'name' | 'updated' | 'stars' | 'activity'
@@ -31,10 +32,7 @@ export default function ProjectsView({ repos }: Props) {
 
   return (
     <div>
-      <div className="header-bar">
-        <span className="header-title">CASE FILES // ARCHIVE</span>
-        <span className="header-status">{sorted.length} FILES</span>
-      </div>
+      <HeaderBar title="CASE FILES // ARCHIVE" status={<>{sorted.length} FILES</>} />
 
       <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', alignItems: 'center', flexWrap: 'wrap' }}>
         <span style={{ fontSize: '0.6rem', color: 'var(--text-dim)', letterSpacing: '0.1em' }}>SORT:</span>

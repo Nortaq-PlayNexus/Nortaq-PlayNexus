@@ -4,6 +4,7 @@ import Constellation3D from './Constellation3D'
 import ActivityGraph from './ActivityGraph'
 import LiveFeed from './LiveFeed'
 import CountUp from './CountUp'
+import HeaderBar from './HeaderBar'
 import { colorFor, contactLabel, statusOf } from '../theme'
 
 interface Props {
@@ -74,13 +75,7 @@ export default function MissionControl({ repos, telemetry, onNavigate }: Props) 
 
   return (
     <div>
-      <div className="header-bar">
-        <span className="header-title">NORTAQ // COMMAND CENTER</span>
-        <span className="header-status">
-          <span className="status-dot" />
-          SIGNAL CONNECTED · {telemetry?.signal_hash ?? '——————'}
-        </span>
-      </div>
+      <HeaderBar title="NORTAQ // COMMAND CENTER" status={<><span className="status-dot" /> SIGNAL CONNECTED · {telemetry?.signal_hash ?? '——————'}</>} />
 
       <div className="grid-4" style={{ marginBottom: '1rem' }}>
         <div className="metric" onClick={() => onNavigate('projects')} style={{ cursor: 'pointer' }}>

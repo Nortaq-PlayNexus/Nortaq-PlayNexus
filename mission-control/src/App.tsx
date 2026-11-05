@@ -12,6 +12,8 @@ import SignalView from './components/SignalView'
 import SystemView from './components/SystemView'
 import SearchOverlay from './components/SearchOverlay'
 import HelpOverlay from './components/HelpOverlay'
+import StatusBar from './components/StatusBar'
+import { useToast, showToast } from './toast'
 
 const DATA_URL = `${import.meta.env.BASE_URL}data/dashboard.json`
 const FALLBACK_URL = 'https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/refs/heads/main/mission-control/data/dashboard.json'
@@ -26,7 +28,7 @@ function App() {
   const [searchOpen, setSearchOpen] = useState(false)
   const [helpOpen, setHelpOpen] = useState(false)
   const [konamiFlash, setKonamiFlash] = useState(false)
-  const [toast, setToast] = useState<string | null>(null)
+  const toast = useToast()
   const konamiIndex = useRef(0)
 
   useEffect(() => {
@@ -50,11 +52,6 @@ function App() {
         setRepos([])
         setTelemetry(null)
       })
-  }, [])
-
-  const showToast = useCallback((msg: string) => {
-    setToast(msg)
-    setTimeout(() => setToast(null), 3000)
   }, [])
 
   useEffect(() => {
@@ -111,6 +108,43 @@ function App() {
     return () => window.removeEventListener('keydown', handler)
   }, [searchOpen, helpOpen, showToast])
 
+  // ---- pointer spotlight + card tilt (global, low-cost) ----
+  useEffect(() => {
+    const fine = window.matchMedia('(pointer: fine)').matches
+    if (!fine) return
+    const root = document.documentElement
+    let currentTilt: HTMLElement | null = null
+    const onMove = (e: MouseEvent) => {
+      root.style.setProperty('--mx', `${e.clientX}px`)
+      root.style.setProperty('--my', `${e.clientY}px`)
+      const el = (e.target as HTMLElement | null)?.closest?.('.metric, .repo-card, .release-card, .freshness-cell') as HTMLElement | null
+      if (el && el !== currentTilt) {
+        if (currentTilt) { currentTilt.style.removeProperty('--rx'); currentTilt.style.removeProperty('--ry') }
+        currentTilt = el
+      }
+      if (el) {
+        const r = el.getBoundingClientRect()
+        const px = (e.clientX - r.left) / r.width - 0.5
+        const py = (e.clientY - r.top) / r.height - 0.5
+        el.style.setProperty('--rx', `${(-py * 7).toFixed(2)}deg`)
+        el.style.setProperty('--ry', `${(px * 7).toFixed(2)}deg`)
+      } else if (currentTilt) {
+        currentTilt.style.removeProperty('--rx')
+        currentTilt.style.removeProperty('--ry')
+        currentTilt = null
+      }
+    }
+    const onLeave = () => {
+      if (currentTilt) { currentTilt.style.removeProperty('--rx'); currentTilt.style.removeProperty('--ry'); currentTilt = null }
+    }
+    window.addEventListener('mousemove', onMove)
+    window.addEventListener('mouseleave', onLeave)
+    return () => {
+      window.removeEventListener('mousemove', onMove)
+      window.removeEventListener('mouseleave', onLeave)
+    }
+  }, [])
+
   if (!booted) {
     return <BootSequence onComplete={() => setBooted(true)} />
   }
@@ -161,6 +195,8 @@ function App() {
       {helpOpen && <HelpOverlay onClose={() => setHelpOpen(false)} />}
       {konamiFlash && <div className="konami-flash" />}
       {toast && <div className="toast">{toast}</div>}
+      <div className="pointer-spotlight" aria-hidden="true" />
+      <StatusBar page={page} repoCount={repos.length} />
       <button className="mobile-nav-toggle" onClick={() => setHelpOpen(true)}>?</button>
     </div>
   )

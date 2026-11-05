@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { RepoData } from '../types'
+import HeaderBar from './HeaderBar'
 
 interface Props {
   repos: RepoData[]
@@ -27,13 +28,7 @@ export default function SystemView({ repos }: Props) {
 
   return (
     <div>
-      <div className="header-bar">
-        <span className="header-title">SAFEHOUSE // SYSTEM HEALTH</span>
-        <span className="header-status">
-          <span className="status-dot" />
-          ALL SYSTEMS NOMINAL
-        </span>
-      </div>
+      <HeaderBar title="SAFEHOUSE // SYSTEM HEALTH" status={<><span className="status-dot" /> ALL SYSTEMS NOMINAL</>} />
 
       <div className="grid-2" style={{ marginBottom: '1.5rem' }}>
         <div className="card">

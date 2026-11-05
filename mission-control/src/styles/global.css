@@ -1540,24 +1540,6 @@ html, body {
   opacity: 1;
 }
 
-/* ---- panel hover lift + amber edge glow ---- */
-.metric,
-.repo-card,
-.release-card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-}
-
-.metric:hover,
-.repo-card:hover,
-.release-card:hover {
-  border-color: rgba(245, 185, 66, 0.45);
-  transform: translateY(-3px);
-  box-shadow:
-    inset 0 1px 0 var(--glass-edge-bright),
-    0 14px 44px rgba(0, 0, 0, 0.5),
-    0 0 22px rgba(245, 185, 66, 0.12);
-}
-
 /* .card keeps its left accent bar + corner tick, gains lift glow */
 .card:hover {
   border-color: rgba(245, 185, 66, 0.35);
@@ -2374,5 +2356,82 @@ html, body {
     rgba(47, 243, 224, 0.05), transparent 55%);
   mix-blend-mode: screen;
   transition: opacity 0.3s ease;
+}
+
+/* ============================================================
+   HUD LAYER — header clock, status bar, tilt, focus rings
+   ============================================================ */
+
+/* ---- tilt base (driven by global mousemove handler) ---- */
+.metric,
+.repo-card,
+.release-card,
+.freshness-cell {
+  transform: perspective(700px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(var(--ty, 0px)) scale(var(--sc, 1));
+  transition: transform 0.16s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.metric:hover, .repo-card:hover, .release-card:hover, .freshness-cell:hover {
+  --ty: -4px;
+}
+.metric:active, .repo-card:active, .release-card:active, .freshness-cell:active {
+  --ty: -1px;
+  --sc: 0.985;
+}
+
+/* ---- header clock ---- */
+.header-clock {
+  margin-left: 0.7rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--neon-cyan);
+  letter-spacing: 0.08em;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid rgba(47, 243, 224, 0.35);
+  background: rgba(47, 243, 224, 0.06);
+  text-shadow: 0 0 8px rgba(47, 243, 224, 0.5);
+}
+
+/* ---- bottom status bar ---- */
+.status-bar {
+  position: fixed;
+  bottom: 0;
+  left: 210px;
+  right: 0;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0 1rem;
+  background: linear-gradient(180deg, rgba(10, 12, 11, 0.75), rgba(10, 12, 11, 0.95));
+  border-top: 1px solid rgba(47, 243, 224, 0.22);
+  backdrop-filter: blur(8px) saturate(120%);
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+  z-index: 150;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  color: var(--text-dim);
+  pointer-events: none;
+}
+.status-bar-item { display: inline-flex; align-items: center; gap: 0.3rem; }
+.status-bar-item:nth-child(1) { color: var(--neon-cyan); }
+.status-bar-item:nth-child(5) { color: var(--neon-magenta); }
+.main-content { padding-bottom: 3rem; }
+
+/* ---- focus rings ---- */
+button:focus-visible,
+.nav-item:focus-visible,
+input:focus-visible,
+.filter-btn:focus-visible {
+  outline: 2px solid var(--neon-cyan);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(47, 243, 224, 0.18);
+}
+.search-input:focus { outline: none; }
+
+/* ---- mobile drawer ---- */
+@media (max-width: 768px) {
+  .status-bar { left: 0; }
+  .main-content { padding-bottom: 2.5rem; }
 }
 
