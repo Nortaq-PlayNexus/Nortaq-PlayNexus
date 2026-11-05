@@ -18,11 +18,15 @@ export default function ScrambleText({ text, duration = 420 }: { text: string; d
   const prevRef = useRef(text)
 
   useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setOut(text)
+      prevRef.current = text
+      return
+    }
     const target = text
     if (target === prevRef.current) return
     prevRef.current = target
     const start = performance.now()
-    const len = Math.max(target.length, out.length)
     const tick = (now: number) => {
       const t = Math.min(1, (now - start) / duration)
       const revealed = Math.floor(t * target.length)
@@ -32,11 +36,16 @@ export default function ScrambleText({ text, duration = 420 }: { text: string; d
     }
     rafRef.current = requestAnimationFrame(tick)
     return () => { if (rafRef.current) cancelAnimationFrame(rafRef.current) }
-  }, [text, duration, out.length])
+  }, [text, duration])
 
   // initial mount: scramble once
   useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setOut(text)
+      return
+    }
     const target = text
+    prevRef.current = target
     const start = performance.now()
     const tick = (now: number) => {
       const t = Math.min(1, (now - start) / duration)

@@ -404,7 +404,7 @@ export default function Constellation3D({ repos, filter = 'ALL', compact = false
 
     const camera = new THREE.PerspectiveCamera(45, w / h, 0.1, 400)
     // motion effects were explicitly requested — run them regardless of OS setting
-    const reduced = false
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     // cinematic dolly-in: open pulled far back, ease into the working framing
     const camEnd = new THREE.Vector3(0, compact ? 13 : 15, compact ? 50 : 47)
     const camStart = new THREE.Vector3(0, compact ? 30 : 28, compact ? 80 : 74)

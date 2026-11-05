@@ -2566,3 +2566,16 @@ input:focus-visible,
   box-shadow: 0 0 22px rgba(47, 243, 224, 0.5);
 }
 
+/* ---- reduced motion: respect OS preference (re-enabled per a11y audit) ---- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .view-stage { animation: none !important; }
+  .pointer-spotlight { display: none; }
+  .phosphor-trail-canvas { display: none; }
+}
+

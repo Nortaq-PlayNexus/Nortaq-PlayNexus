@@ -1,15 +1,7 @@
-import { useState, useEffect, useCallback, useRef } from 'react'
+import { useState, useEffect, useCallback, useRef, lazy, Suspense } from 'react'
 import { RepoData, TelemetryData, Page } from './types'
 import BootSequence from './components/BootSequence'
 import Sidebar from './components/Sidebar'
-import MissionControl from './components/MissionControl'
-import NetworkView from './components/NetworkView'
-import ProjectsView from './components/ProjectsView'
-import TelemetryView from './components/TelemetryView'
-import TechnologyView from './components/TechnologyView'
-import ReleasesView from './components/ReleasesView'
-import SignalView from './components/SignalView'
-import SystemView from './components/SystemView'
 import SearchOverlay from './components/SearchOverlay'
 import HelpOverlay from './components/HelpOverlay'
 import Dossier from './components/Dossier'
@@ -18,8 +10,18 @@ import PhosphorTrail from './components/PhosphorTrail'
 import EntropyField from './components/EntropyField'
 import CovertOverlay from './components/CovertOverlay'
 import OpsLog from './components/OpsLog'
-import { logAction, getOpsLog, clearOpsLog, exportOpsLog } from './opslog'
+import { logAction, getOpsLog, exportOpsLog } from './opslog'
 import { useToast, showToast } from './toast'
+
+// Lazy-loaded views (code-split)
+const MissionControl = lazy(() => import('./components/MissionControl'))
+const NetworkView = lazy(() => import('./components/NetworkView'))
+const ProjectsView = lazy(() => import('./components/ProjectsView'))
+const TelemetryView = lazy(() => import('./components/TelemetryView'))
+const TechnologyView = lazy(() => import('./components/TechnologyView'))
+const ReleasesView = lazy(() => import('./components/ReleasesView'))
+const SignalView = lazy(() => import('./components/SignalView'))
+const SystemView = lazy(() => import('./components/SystemView'))
 
 const DATA_URL = `${import.meta.env.BASE_URL}data/dashboard.json`
 const FALLBACK_URL = 'https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/refs/heads/main/mission-control/data/dashboard.json'
@@ -153,7 +155,13 @@ function App() {
     if (!fine) return
     const root = document.documentElement
     let currentTilt: HTMLElement | null = null
-    const onMove = (e: MouseEvent) => {
+    let rafId = 0
+    let pending: MouseEvent | null = null
+    const apply = () => {
+      rafId = 0
+      const e = pending
+      pending = null
+      if (!e) return
       root.style.setProperty('--mx', `${e.clientX}px`)
       root.style.setProperty('--my', `${e.clientY}px`)
       const el = (e.target as HTMLElement | null)?.closest?.('.metric, .repo-card, .release-card, .freshness-cell') as HTMLElement | null
@@ -173,14 +181,19 @@ function App() {
         currentTilt = null
       }
     }
+    const onMove = (e: MouseEvent) => {
+      pending = e
+      if (!rafId) rafId = requestAnimationFrame(apply)
+    }
     const onLeave = () => {
       if (currentTilt) { currentTilt.style.removeProperty('--rx'); currentTilt.style.removeProperty('--ry'); currentTilt = null }
     }
-    window.addEventListener('mousemove', onMove)
+    window.addEventListener('mousemove', onMove, { passive: true })
     window.addEventListener('mouseleave', onLeave)
     return () => {
       window.removeEventListener('mousemove', onMove)
       window.removeEventListener('mouseleave', onLeave)
+      if (rafId) cancelAnimationFrame(rafId)
     }
   }, [])
 
@@ -259,7 +272,9 @@ function App() {
         <Sidebar page={page} onNavigate={(p) => { setPage(p); setMobileNavOpen(false) }} />
         <main className="main-content" ref={mainRef}>
           <div key={page} className="view-stage">
-            {renderPage()}
+            <Suspense fallback={<div style={{ padding: '2rem', color: 'var(--text-dim)', fontSize: '0.7rem', letterSpacing: '0.15em' }}>LOADING VIEW...</div>}>
+              {renderPage()}
+            </Suspense>
           </div>
           <OpsLog
             entries={opsLogEntries}
