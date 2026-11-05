@@ -212,6 +212,7 @@ Full list of published Zenodo records (auto-synced from my account):
 
 | Record | Title | DOI |
 |---|---|---|
+| 23976710 | SuperIntel Lab (sil): Scientific Tool Suite for Superintelligence Research | [10.5281/zenodo.23976710](https://doi.org/10.5281/zenodo.23976710) |
 | 23923627 | Human Genome Intelligence Engine (H-GIE) v0.8.0 | [10.5281/zenodo.23923627](https://doi.org/10.5281/zenodo.23923627) |
 | 23890935 | Genome Anomaly Lab (gal): Comparative Genomics Falsification Harness | [10.5281/zenodo.23890935](https://doi.org/10.5281/zenodo.23890935) |
 | 23795789 | Phantom Vision Lab: a computational instrument for perturbing an image-analysis pipeline and measuring how its output changes | [10.5281/zenodo.23795789](https://doi.org/10.5281/zenodo.23795789) |
@@ -233,7 +234,7 @@ Full list of published Zenodo records (auto-synced from my account):
 | 23132746 | ScientificDiscoveryLab investigation: Vortex density in random wave fields | [10.5281/zenodo.23132746](https://doi.org/10.5281/zenodo.23132746) |
 | 23132744 | ScientificDiscoveryLab investigation: Speckle contrast law | [10.5281/zenodo.23132744](https://doi.org/10.5281/zenodo.23132744) |
 
-<sup>ZENODO ARCHIVE · 20 RECORDS · SYNCED 2026-11-04 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
+<sup>ZENODO ARCHIVE · 21 RECORDS · SYNCED 2026-11-05 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
 
 Zenodo profile: https://zenodo.org/search?q=owners:1912072
 
@@ -366,25 +367,25 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   80 │
-│ CONTRIBUTIONS ..... 1129    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   96 DAYS │
-│ SIGNAL HASH ....... 8DE876   SIGNAL ......... ##########=.....  76%  PHASE 06 │
+│ CONTRIBUTIONS ..... 1143    FOLLOWERS ..........    2 │
+│ UPLINK AGE ........   97 DAYS │
+│ SIGNAL HASH ....... 894CF2   SIGNAL ......... ##########=.....  70%  PHASE 02 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
-   ......................................==#-###--##=-#=
+   ......................................==#-###--##=-##
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 1129
+CONTRIBUTIONS ...... 1143
 REPOSITORIES ....... 80
 FOLLOWERS .......... 2
 COLLECTED STARS .... 25
-BROADCASTING FOR ... 96 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 97 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  Nortaq-PlayNexus             PUSHED 2026-11-04
+  Nortaq-PlayNexus             PUSHED 2026-11-05
   osmp                         PUSHED 2026-11-04
   aieval-lab                   PUSHED 2026-11-01
 
@@ -407,7 +408,7 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX -- 80 FILES</code></summary>
 
 ```text
-  Nortaq-PlayNexus                 Python       *1
+  Nortaq-PlayNexus                 TypeScript   *1
   osmp                             TypeScript   *1
   aieval-lab                       Go           *0
   consciousness-indicator-battery  Python       *1
@@ -490,7 +491,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261104 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261105 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -509,7 +510,7 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ║       PHANTOMTAPE SIGNAL WEATHER     ║
 ╠══════════════════════════════════════╣
 ║                                      ║
-║  ACTIVITY       █████████░░░   75%    ║
+║  ACTIVITY       █████████░░░   76%    ║
 ║  MOMENTUM       ████████████  100%    ║
 ║  BUILD PRESSURE ████████████  100%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
@@ -525,9 +526,9 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ```
 PHANTOMTAPE TECHNOLOGY GENOME
 
-Python         ████████████████████  44
+Python         ████████████████████  43
+TypeScript     ██░░░░░░░░░░░░░░░░░░  5
 JavaScript     ██░░░░░░░░░░░░░░░░░░  5
-TypeScript     █░░░░░░░░░░░░░░░░░░░  4
 HTML           █░░░░░░░░░░░░░░░░░░░  4
 C#             █░░░░░░░░░░░░░░░░░░░  4
 Rust           █░░░░░░░░░░░░░░░░░░░  3
@@ -572,7 +573,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -588,7 +589,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI · AI-CONSCIOUSNESS · FALSIFICATION · OPEN-SCIENCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
@@ -604,7 +605,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
@@ -620,7 +621,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ COMPUTATIONAL-PHYSICS · FALSIFICATION · OPTICS · PYTHON│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -636,7 +637,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ FALSIFICATION · PROVENANCE · PYTHON · RESEARCH│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  88%     │
+│ STATUS ████████░░  85%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
@@ -645,33 +646,33 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261104
+20261105
 
 NEW REPOSITORIES ........ 80
-CONTRIBUTIONS (YR) ...... 1129
+CONTRIBUTIONS (YR) ...... 1143
 REPOSITORIES ............ 80
 LANGUAGES ............... 10
 TOTAL STARS ............. 25
 
 MOST ACTIVE (7 DAYS):
   01 Nortaq-PlayNexus               0d ago
-  02 osmp                           0d ago
-  03 aieval-lab                     3d ago
-  04 consciousness-indicator-battery 4d ago
-  05 episodic-memory                4d ago
+  02 osmp                           1d ago
+  03 aieval-lab                     4d ago
+  04 consciousness-indicator-battery 5d ago
+  05 episodic-memory                5d ago
 
 SIGNAL WEATHER:
-  ACTIVITY       █████████░░░  75%
+  ACTIVITY       █████████░░░  76%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] dark-web-monitoring -- no activity for 36 days
-  [!] reports -- no activity for 36 days
+  [!] dark-web-monitoring -- no activity for 37 days
+  [!] reports -- no activity for 37 days
   [!] TerrorFibercraft-Admin -- no activity for 37 days
 
 FORECAST:
   HIGH development activity
-  20 repositories active in last 14 days
+  19 repositories active in last 14 days
 
 ```
 
@@ -687,7 +688,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261104  ║
+║ LAST AUDIT          20261105  ║
 ╚════════════════════════════════╝
 ```
 
@@ -717,8 +718,8 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +3 repositories modified
-  +1129 contributions (rolling year)
+  +2 repositories modified
+  +1143 contributions (rolling year)
   +80 new experiments this year
   +80 total transmissions
 
@@ -728,29 +729,29 @@ WHILE YOU WERE AWAY...
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (54)
+  PROTOTYPE (37)
+    ├─ Personanal
     ├─ opencode-on-render-mvaxb9pd
     ├─ nasa-investigation
     ├─ FreeStack
     ├─ nexus-agent-x
-    ├─ RustVoiceBooster
-    └─ ... +49 more
+    └─ ... +32 more
 
-  ACTIVE (20)
+  ACTIVE (19)
     ├─ Nortaq-PlayNexus
     ├─ osmp
     ├─ aieval-lab
     ├─ consciousness-indicator-battery
     ├─ episodic-memory
-    └─ ... +15 more
+    └─ ... +14 more
 
-  MAINTENANCE (6)
-    ├─ terrorfibercraftark
-    ├─ resourcegather
-    ├─ Starminder
-    ├─ cookiecutter-wagtail-vix
-    ├─ python-hid-parser
-    └─ ... +1 more
+  MAINTENANCE (24)
+    ├─ synthesis-dj
+    ├─ heart
+    ├─ promoforge
+    ├─ color_quant
+    ├─ envoy-proxy-crowdsec-bouncer
+    └─ ... +19 more
 
 ```
 
