@@ -1,21 +1,21 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (37)
+  PROTOTYPE (38)
+    ├─ playnexus-musicvidforge
     ├─ Personanal
     ├─ opencode-on-render-mvaxb9pd
     ├─ nasa-investigation
     ├─ FreeStack
-    ├─ nexus-agent-x
-    └─ ... +32 more
+    └─ ... +33 more
 
-  ACTIVE (19)
+  ACTIVE (18)
     ├─ Nortaq-PlayNexus
     ├─ osmp
     ├─ aieval-lab
     ├─ consciousness-indicator-battery
     ├─ episodic-memory
-    └─ ... +14 more
+    └─ ... +13 more
 
   MAINTENANCE (24)
     ├─ synthesis-dj
