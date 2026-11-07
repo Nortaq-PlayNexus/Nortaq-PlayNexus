@@ -3,6 +3,7 @@ import { RepoData } from '../types'
 import { LANG_COLORS, caseFile, colorFor, contactLabel, statusOf } from '../theme'
 import { showToast } from '../toast'
 import { useFocusTrap } from '../hooks'
+import { copyToClipboard } from '../utils/clipboard'
 import Redacted from './Redacted'
 
 interface Props {
@@ -138,8 +139,9 @@ export default function Dossier({ repo, onClose, siblings, onNavigate }: Props) 
           )}
           <button
             className="back-btn"
-            onClick={() => {
-              navigator.clipboard?.writeText(caseFile(repo.name)).then(() => showToast('CASE ID COPIED')).catch(() => {})
+            onClick={async () => {
+              const ok = await copyToClipboard(caseFile(repo.name))
+              showToast(ok ? 'CASE ID COPIED' : 'COPY FAILED', 3000, ok ? 'info' : 'error')
             }}
           >
             COPY ID

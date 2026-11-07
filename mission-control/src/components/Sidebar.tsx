@@ -19,7 +19,7 @@ interface Props {
 
 export default function Sidebar({ page, onNavigate }: Props) {
   return (
-    <aside className="sidebar">
+    <nav className="sidebar" aria-label="Primary navigation">
       <div className="sidebar-brand">
         <div className="brand-stamp">CLASSIFIED</div>
         <h1>NORTAQ</h1>
@@ -34,6 +34,7 @@ export default function Sidebar({ page, onNavigate }: Props) {
             role="button"
             tabIndex={0}
             className={`nav-item ${page === item.id ? 'active' : ''}`}
+            aria-current={page === item.id ? 'page' : undefined}
             onClick={() => onNavigate(item.id)}
             onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onNavigate(item.id) } }}
           >
@@ -52,6 +53,7 @@ export default function Sidebar({ page, onNavigate }: Props) {
             role="button"
             tabIndex={0}
             className={`nav-item ${page === item.id ? 'active' : ''}`}
+            aria-current={page === item.id ? 'page' : undefined}
             onClick={() => onNavigate(item.id)}
             onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onNavigate(item.id) } }}
           >
@@ -73,6 +75,6 @@ export default function Sidebar({ page, onNavigate }: Props) {
           / search &nbsp; ? briefing
         </div>
       </div>
-    </aside>
+    </nav>
   )
 }

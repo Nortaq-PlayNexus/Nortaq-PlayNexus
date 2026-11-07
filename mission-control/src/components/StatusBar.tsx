@@ -5,9 +5,13 @@ function utc(): string {
   return `${String(d.getUTCHours()).padStart(2, '0')}:${String(d.getUTCMinutes()).padStart(2, '0')}:${String(d.getUTCSeconds()).padStart(2, '0')}Z`
 }
 
-export default function StatusBar({ page, repoCount, phantom }: { page: string; repoCount: number; phantom?: boolean }) {
+import { useInterval } from '../hooks/useInterval'
+
+export default function StatusBar({ page, repoCount, phantom, lastUpdatedAt, isRefreshing, onRefresh }: { page: string; repoCount: number; phantom?: boolean; lastUpdatedAt?: number | null; isRefreshing?: boolean; onRefresh?: () => void }) {
   const [clock, setClock] = useState(utc())
   const [fps, setFps] = useState(60)
+  const [, setTick] = useState(0)
+  useInterval(() => setTick(t => t + 1), 30000)
 
   useEffect(() => {
     const id = setInterval(() => setClock(utc()), 1000)
@@ -34,11 +38,16 @@ export default function StatusBar({ page, repoCount, phantom }: { page: string; 
     return () => { running = false; cancelAnimationFrame(raf) }
   }, [])
 
+  const syncLabel = lastUpdatedAt ? `LAST SYNC · ${Math.max(0, Math.round((Date.now() - lastUpdatedAt) / 60000))}M AGO` : 'LAST SYNC · —'
   return (
     <div className="status-bar" aria-hidden="true">
       <span className="status-bar-item">PAGE // {page.toUpperCase().replace('-', ' ')}</span>
       <span className="status-bar-item">{repoCount.toLocaleString()} RECORDS</span>
       {phantom && <span className="status-bar-item" style={{ color: 'var(--neon-magenta)' }}>PHANTOM</span>}
+      <span className="status-bar-item">{syncLabel}</span>
+      <button className="status-bar-item" onClick={onRefresh} disabled={!!isRefreshing} aria-label="Sync now" style={{ background: 'none', border: 'none', color: 'inherit', cursor: 'pointer', font: 'inherit' }}>
+        {isRefreshing ? 'SYNCING...' : 'SYNC NOW'}
+      </button>
       <span className="status-bar-item">CLEARANCE OMEGA</span>
       <span className="status-bar-item">UTC {clock}</span>
       <span className="status-bar-item">FPS {fps}</span>

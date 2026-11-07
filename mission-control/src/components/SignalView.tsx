@@ -3,6 +3,7 @@ import { TelemetryData, RepoData } from '../types'
 import CountUp from './CountUp'
 import HeaderBar from './HeaderBar'
 import { showToast } from '../toast'
+import { copyToClipboard } from '../utils/clipboard'
 
 interface Props {
   telemetry: TelemetryData | null
@@ -95,7 +96,10 @@ export default function SignalView({ telemetry, repos }: Props) {
               <span style={{ wordBreak: 'break-all' }}>{hash}</span>
               <button
                 className="back-btn"
-                onClick={() => { navigator.clipboard?.writeText(hash).then(() => showToast('SIGNAL HASH COPIED')).catch(() => {}) }}
+                onClick={async () => {
+                  const ok = await copyToClipboard(hash)
+                  showToast(ok ? 'SIGNAL HASH COPIED' : 'COPY FAILED', 3000, ok ? 'info' : 'error')
+                }}
                 style={{ flexShrink: 0 }}
               >
                 COPY

@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, useMemo } from 'react'
+import { useState, useRef, useEffect, useMemo, useDeferredValue } from 'react'
 import { RepoData } from '../types'
 import { colorFor } from '../theme'
 import { useFocusTrap } from '../hooks'
@@ -28,13 +28,14 @@ type Result =
 
 export default function SearchOverlay({ repos, onSelectRepo, onNavigate, onClose }: Props) {
   const [query, setQuery] = useState('')
+  const deferredQuery = useDeferredValue(query)
   const [selectedIdx, setSelectedIdx] = useState(0)
   const inputRef = useRef<HTMLInputElement>(null)
   const boxRef = useRef<HTMLDivElement>(null)
   useFocusTrap(boxRef, true)
 
   const results = useMemo<Result[]>(() => {
-    const q = query.trim().toLowerCase()
+    const q = deferredQuery.trim().toLowerCase()
     const live = repos.filter(r => !r.archived && !r.fork)
     const out: Result[] = []
 
@@ -56,10 +57,10 @@ export default function SearchOverlay({ repos, onSelectRepo, onNavigate, onClose
     repoList.slice(0, 12).forEach(r => out.push({ kind: 'repo', repo: r }))
 
     return out
-  }, [repos, query])
+  }, [repos, deferredQuery])
 
   useEffect(() => { inputRef.current?.focus() }, [])
-  useEffect(() => { setSelectedIdx(0) }, [query])
+  useEffect(() => { setSelectedIdx(0) }, [deferredQuery])
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Escape') onClose()

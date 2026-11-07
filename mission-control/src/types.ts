@@ -127,3 +127,14 @@ export interface NetworkData {
 }
 
 export type Page = 'mission-control' | 'network' | 'projects' | 'telemetry' | 'technology' | 'archive' | 'releases' | 'signal' | 'system' | 'zenodo'
+
+export type LoadStatus = 'idle' | 'loading' | 'success' | 'error' | 'stale'
+
+export type DashboardErrorCode = 'network' | 'timeout' | 'http' | 'parse' | 'schema' | 'aborted'
+
+export interface DashboardError {
+  code: DashboardErrorCode
+  message: string
+  retryable: boolean
+  status?: number
+}

@@ -1,6 +1,10 @@
 import { useState, useEffect, useCallback, useRef, lazy, Suspense } from 'react'
-import { RepoData, TelemetryData, Page, ProfileData, OrganizationData, StarredRepoData, GistData, ZenodoRecord } from './types'
+import { RepoData, TelemetryData, Page, ProfileData, OrganizationData, StarredRepoData, GistData, ZenodoRecord, LoadStatus } from './types'
+import { useDashboard } from './data/useDashboard'
+import { parseHash } from './routing/urlState'
+import { DashboardError } from './data/schema'
 import BootSequence from './components/BootSequence'
+import ErrorBoundary from './components/ErrorBoundary'
 import Sidebar from './components/Sidebar'
 import SearchOverlay from './components/SearchOverlay'
 import HelpOverlay from './components/HelpOverlay'
@@ -9,10 +13,11 @@ import StatusBar from './components/StatusBar'
 import PhosphorTrail from './components/PhosphorTrail'
 import EntropyField from './components/EntropyField'
 import CovertOverlay from './components/CovertOverlay'
+import OfflineBanner from './components/OfflineBanner'
 import OpsLog from './components/OpsLog'
 import ZenodoView from './components/ZenodoView'
-import { logAction, getOpsLog, exportOpsLog } from './opslog'
-import { useToast, showToast } from './toast'
+import { logAction, getOpsLog, exportOpsLog, logError } from './opslog'
+import { useToast, showToast, dismissToast } from './toast'
 
 // Lazy-loaded views (code-split)
 const MissionControl = lazy(() => import('./components/MissionControl'))
@@ -24,14 +29,12 @@ const ReleasesView = lazy(() => import('./components/ReleasesView'))
 const SignalView = lazy(() => import('./components/SignalView'))
 const SystemView = lazy(() => import('./components/SystemView'))
 
-const DATA_URL = `${import.meta.env.BASE_URL}data/dashboard.json`
-const FALLBACK_URL = 'https://raw.githubusercontent.com/Nortaq-PlayNexus/Nortaq-PlayNexus/refs/heads/main/mission-control/data/dashboard.json'
-
 const KONAMI = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a']
 
 function App() {
   const [booted, setBooted] = useState(false)
   const [page, setPage] = useState<Page>('mission-control')
+  const dash = useDashboard()
   const [repos, setRepos] = useState<RepoData[]>([])
   const [telemetry, setTelemetry] = useState<TelemetryData | null>(null)
   const [profile, setProfile] = useState<ProfileData | null>(null)
@@ -39,53 +42,38 @@ function App() {
   const [starred, setStarred] = useState<StarredRepoData[]>([])
   const [gists, setGists] = useState<GistData[]>([])
   const [zenodoRecords, setZenodoRecords] = useState<ZenodoRecord[]>([])
-  const [status, setStatus] = useState<'loading' | 'ok' | 'error'>('loading')
+  const status: 'loading' | 'ok' | 'error' = dash.status === 'loading' || dash.status === 'idle' ? 'loading' : dash.status === 'error' ? 'error' : 'ok'
   const [searchOpen, setSearchOpen] = useState(false)
   const [helpOpen, setHelpOpen] = useState(false)
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
   const [showScrollTop, setShowScrollTop] = useState(false)
   const [opsLogEntries, setOpsLogEntries] = useState(() => getOpsLog())
   const mainRef = useRef<HTMLElement>(null)
+  const lastFocusRef = useRef<HTMLElement | null>(null)
   const [dossierRepo, setDossierRepo] = useState<RepoData | null>(null)
   const [konamiFlash, setKonamiFlash] = useState(false)
   const [phantom, setPhantom] = useState(() => {
     try { return sessionStorage.getItem('phantom') === '1' } catch { return false }
   })
-  const toast = useToast()
+  const toasts = useToast()
   const konamiIndex = useRef(0)
 
   useEffect(() => {
-    const load = async () => {
-      try {
-        const r = await fetch(DATA_URL)
-        if (!r.ok) throw new Error(`local ${r.status}`)
-        return await r.json()
-      } catch {
-        const r = await fetch(FALLBACK_URL)
-        if (!r.ok) throw new Error(`remote ${r.status}`)
-        return await r.json()
-      }
-    }
-    load()
-      .then(data => {
-        setRepos(data.repos || [])
-        setTelemetry(data.telemetry || null)
-        setProfile(data.profile || null)
-        setOrganizations(data.organizations || [])
-        setStarred(data.starred || [])
-        setGists(data.gists || [])
-        setZenodoRecords(data.zenodo_records || [])
-        setStatus('ok')
-      })
-      .catch(() => {
-        setRepos([])
-        setTelemetry(null)
-        setStatus('error')
-      })
-  }, [])
+    const d = dash.data
+    if (!d) return
+    setRepos(d.repos)
+    setTelemetry(d.telemetry)
+    setProfile(d.profile)
+    setOrganizations(d.organizations)
+    setStarred(d.starred)
+    setGists(d.gists)
+    setZenodoRecords(d.zenodoRecords)
+  }, [dash.data])
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null
+      const isTyping = !!target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.tagName === 'SELECT' || target.isContentEditable)
       if (searchOpen || helpOpen) {
         if (e.key === 'Escape') {
           setSearchOpen(false)
@@ -93,15 +81,18 @@ function App() {
         }
         return
       }
+      if (isTyping && e.key !== 'Escape') return
 
       if (e.key === '/') {
         e.preventDefault()
+        lastFocusRef.current = document.activeElement as HTMLElement | null
         setSearchOpen(true)
         return
       }
 
       if (e.key === '?') {
         e.preventDefault()
+        lastFocusRef.current = document.activeElement as HTMLElement | null
         setHelpOpen(true)
         return
       }
@@ -146,10 +137,9 @@ function App() {
 
   // ---- hash-based routing (deep links + back/forward) ----
   useEffect(() => {
-    const valid = new Set(['mission-control','network','projects','telemetry','technology','releases','signal','system'])
     const fromHash = () => {
-      const h = window.location.hash.replace(/^#/, '')
-      if (valid.has(h)) setPage(h as Page)
+      const st = parseHash(window.location.hash)
+      setPage(st.page)
     }
     fromHash()
     window.addEventListener('hashchange', fromHash)
@@ -164,7 +154,8 @@ function App() {
   }, [page])
   useEffect(() => {
     const fine = window.matchMedia('(pointer: fine)').matches
-    if (!fine) return
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    if (!fine || reduced) return
     const root = document.documentElement
     let currentTilt: HTMLElement | null = null
     let rafId = 0
@@ -214,6 +205,27 @@ function App() {
     logAction('NAVIGATE', page)
     setOpsLogEntries(getOpsLog())
   }, [page])
+
+  // ---- global error listeners ----
+  useEffect(() => {
+    const onError = (e: ErrorEvent) => logError(e.error ?? e.message, 'window.error')
+    const onRejection = (e: PromiseRejectionEvent) => logError(e.reason, 'unhandledrejection')
+    window.addEventListener('error', onError)
+    window.addEventListener('unhandledrejection', onRejection)
+    return () => {
+      window.removeEventListener('error', onError)
+      window.removeEventListener('unhandledrejection', onRejection)
+    }
+  }, [])
+
+  // ---- data load timing ----
+  useEffect(() => {
+    const status = dash.status
+    if (status === 'success' || status === 'error') {
+      logAction(status === 'success' ? 'DATA_LOAD_OK' : 'DATA_LOAD_FAIL', dash.error?.message, status === 'success' ? 'info' : 'error')
+      setOpsLogEntries(getOpsLog())
+    }
+  }, [dash.status])
   useEffect(() => {
     const el = mainRef.current
     if (!el) return
@@ -246,7 +258,8 @@ function App() {
         <div className="boot-box">
           <div className="boot-title">NORTAQ</div>
           <div className="boot-subtitle" style={{ color: 'var(--red)' }}>SIGNAL LOST // NO DATA</div>
-          <button className="boot-enter" onClick={() => window.location.reload()}>RETRY UPLINK</button>
+          {dash.error && <div style={{ color: 'var(--text-dim)', fontSize: '0.7rem', marginBottom: '0.5rem' }}>{dash.error.code}: {dash.error.message}</div>}
+          <button className="boot-enter" onClick={() => void dash.refresh()}>RETRY UPLINK</button>
         </div>
       </div>
     )
@@ -279,16 +292,20 @@ function App() {
 
   return (
     <div className={`scanlines ${mobileNavOpen ? 'mobile-nav-open' : ''} ${phantom ? 'phantom-mode' : ''}`}>
+      <OfflineBanner />
       <div style={{ position: 'fixed', inset: 0, zIndex: 0, pointerEvents: 'none' }}>
         <EntropyField threatIndex={0.3} opacity={0.06} />
       </div>
+      <a href="#main-content" className="skip-link" style={{ position: 'absolute', left: '-9999px' }}>Skip to main content</a>
       <div className="app-layout">
         <Sidebar page={page} onNavigate={(p) => { setPage(p); setMobileNavOpen(false) }} />
-        <main className="main-content" ref={mainRef}>
+        <main id="main-content" className="main-content" ref={mainRef} tabIndex={-1}>
           <div key={page} className="view-stage">
-            <Suspense fallback={<div style={{ padding: '2rem', color: 'var(--text-dim)', fontSize: '0.7rem', letterSpacing: '0.15em' }}>LOADING VIEW...</div>}>
-              {renderPage()}
-            </Suspense>
+            <ErrorBoundary>
+              <Suspense fallback={<div style={{ padding: '2rem', color: 'var(--text-dim)', fontSize: '0.7rem', letterSpacing: '0.15em' }}>LOADING VIEW...</div>}>
+                {renderPage()}
+              </Suspense>
+            </ErrorBoundary>
           </div>
           <OpsLog
             entries={opsLogEntries}
@@ -299,15 +316,22 @@ function App() {
       {searchOpen && (
         <SearchOverlay
           repos={repos}
-          onSelectRepo={(repo) => { setDossierRepo(repo) }}
+          onSelectRepo={(repo) => { lastFocusRef.current = document.activeElement as HTMLElement | null; setDossierRepo(repo) }}
           onNavigate={(p) => setPage(p as Page)}
-          onClose={() => setSearchOpen(false)}
+          onClose={() => { setSearchOpen(false); lastFocusRef.current?.focus?.() }}
         />
       )}
-      {helpOpen && <HelpOverlay onClose={() => setHelpOpen(false)} />}
+      {helpOpen && <HelpOverlay onClose={() => { setHelpOpen(false); lastFocusRef.current?.focus?.() }} />}
       {konamiFlash && <div className="konami-flash" />}
-      {toast && <div className="toast">{toast}</div>}
-      {dossierRepo && <Dossier repo={dossierRepo} onClose={() => setDossierRepo(null)} />}
+      <div className="toast-region" aria-live="polite" aria-atomic="true" style={{ position: 'fixed', bottom: '1rem', right: '1rem', zIndex: 9999, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+        {toasts.map(t => (
+          <div key={t.id} className={`toast toast-${t.type}`} role={t.type === 'error' ? 'alert' : 'status'}>
+            {t.msg}
+            <button onClick={() => dismissToast(t.id)} aria-label="Dismiss" style={{ marginLeft: '0.5rem', background: 'none', border: 'none', color: 'inherit', cursor: 'pointer' }}>×</button>
+          </div>
+        ))}
+      </div>
+      {dossierRepo && <Dossier repo={dossierRepo} onClose={() => { setDossierRepo(null); lastFocusRef.current?.focus?.() }} />}
       <div className="pointer-spotlight" aria-hidden="true" />
       <PhosphorTrail />
       <CovertOverlay />
@@ -320,7 +344,7 @@ function App() {
           ↑
         </button>
       )}
-      <StatusBar page={page} repoCount={repos.length} phantom={phantom} />
+      <StatusBar page={page} repoCount={repos.length} phantom={phantom} lastUpdatedAt={dash.lastUpdatedAt} isRefreshing={dash.isRefreshing} onRefresh={() => void dash.refresh()} />
       <button className="mobile-nav-toggle" onClick={() => setMobileNavOpen(v => !v)}>☰</button>
     </div>
   )
