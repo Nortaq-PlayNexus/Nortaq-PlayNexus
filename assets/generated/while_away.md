@@ -2,7 +2,7 @@
 WHILE YOU WERE AWAY...
 
   +2 repositories modified
-  +1147 contributions (rolling year)
+  +1140 contributions (rolling year)
   +80 new experiments this year
   +80 total transmissions
 

@@ -212,6 +212,7 @@ Full list of published Zenodo records (auto-synced from my account):
 
 | Record | Title | DOI |
 |---|---|---|
+| 24021970 | ENCYCLOSOUNDIA: An Encyclopedia of Sound: From the Earliest Vibrations to the Sounds of the Universe | [10.5281/zenodo.24021970](https://doi.org/10.5281/zenodo.24021970) |
 | 23990924 | SuperIntel Lab (sil): Scientific Tool Suite for Superintelligence Research | [10.5281/zenodo.23990924](https://doi.org/10.5281/zenodo.23990924) |
 | 23923627 | Human Genome Intelligence Engine (H-GIE) v0.8.0 | [10.5281/zenodo.23923627](https://doi.org/10.5281/zenodo.23923627) |
 | 23890935 | Genome Anomaly Lab (gal): Comparative Genomics Falsification Harness | [10.5281/zenodo.23890935](https://doi.org/10.5281/zenodo.23890935) |
@@ -234,7 +235,7 @@ Full list of published Zenodo records (auto-synced from my account):
 | 23132746 | ScientificDiscoveryLab investigation: Vortex density in random wave fields | [10.5281/zenodo.23132746](https://doi.org/10.5281/zenodo.23132746) |
 | 23132744 | ScientificDiscoveryLab investigation: Speckle contrast law | [10.5281/zenodo.23132744](https://doi.org/10.5281/zenodo.23132744) |
 
-<sup>ZENODO ARCHIVE · 21 RECORDS · SYNCED 2026-11-06 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
+<sup>ZENODO ARCHIVE · 22 RECORDS · SYNCED 2026-11-07 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
 
 Zenodo profile: https://zenodo.org/search?q=owners:1912072
 
@@ -367,9 +368,9 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   80 │
-│ CONTRIBUTIONS ..... 1147    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........   98 DAYS │
-│ SIGNAL HASH ....... 9DB68D   SIGNAL ......... ##########=.....  75%  PHASE 05 │
+│ CONTRIBUTIONS ..... 1140    FOLLOWERS ..........    2 │
+│ UPLINK AGE ........   99 DAYS │
+│ SIGNAL HASH ....... AB901E   SIGNAL ......... #######=........  40%  PHASE 06 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -378,14 +379,14 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 1147
+CONTRIBUTIONS ...... 1140
 REPOSITORIES ....... 80
 FOLLOWERS .......... 2
 COLLECTED STARS .... 25
-BROADCASTING FOR ... 98 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 99 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  Nortaq-PlayNexus             PUSHED 2026-11-06
+  Nortaq-PlayNexus             PUSHED 2026-11-07
   osmp                         PUSHED 2026-11-04
   aieval-lab                   PUSHED 2026-11-01
 
@@ -491,7 +492,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261106 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261107 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -573,7 +574,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -589,7 +590,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI · AI-CONSCIOUSNESS · FALSIFICATION · OPEN-SCIENCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  82%     │
+│ STATUS ███████░░░  79%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
@@ -605,7 +606,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  82%     │
+│ STATUS ███████░░░  79%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
@@ -621,7 +622,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ COMPUTATIONAL-PHYSICS · FALSIFICATION · OPTICS · PYTHON│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  82%     │
+│ STATUS ███████░░░  79%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -637,7 +638,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ FALSIFICATION · PROVENANCE · PYTHON · RESEARCH│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ████████░░  82%     │
+│ STATUS ███████░░░  79%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
@@ -646,29 +647,29 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261106
+20261107
 
 NEW REPOSITORIES ........ 80
-CONTRIBUTIONS (YR) ...... 1147
+CONTRIBUTIONS (YR) ...... 1140
 REPOSITORIES ............ 80
 LANGUAGES ............... 10
 TOTAL STARS ............. 25
 
 MOST ACTIVE (7 DAYS):
   01 Nortaq-PlayNexus               0d ago
-  02 osmp                           2d ago
-  03 aieval-lab                     5d ago
+  02 osmp                           3d ago
+  03 aieval-lab                     6d ago
   04 consciousness-indicator-battery 6d ago
-  05 episodic-memory                6d ago
+  05 episodic-memory                7d ago
 
 SIGNAL WEATHER:
   ACTIVITY       █████████░░░  76%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] dark-web-monitoring -- no activity for 38 days
-  [!] reports -- no activity for 38 days
-  [!] TerrorFibercraft-Admin -- no activity for 38 days
+  [!] dark-web-monitoring -- no activity for 39 days
+  [!] reports -- no activity for 39 days
+  [!] TerrorFibercraft-Admin -- no activity for 39 days
 
 FORECAST:
   HIGH development activity
@@ -688,7 +689,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261106  ║
+║ LAST AUDIT          20261107  ║
 ╚════════════════════════════════╝
 ```
 
@@ -719,7 +720,7 @@ FORECAST:
 WHILE YOU WERE AWAY...
 
   +2 repositories modified
-  +1147 contributions (rolling year)
+  +1140 contributions (rolling year)
   +80 new experiments this year
   +80 total transmissions
 
