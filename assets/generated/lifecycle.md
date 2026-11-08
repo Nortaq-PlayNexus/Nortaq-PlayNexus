@@ -1,28 +1,28 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (38)
+  PROTOTYPE (27)
+    ├─ arena-workplace
     ├─ playnexus-musicvidforge
     ├─ Personanal
     ├─ opencode-on-render-mvaxb9pd
     ├─ nasa-investigation
-    ├─ FreeStack
-    └─ ... +33 more
+    └─ ... +22 more
 
-  ACTIVE (18)
+  ACTIVE (17)
     ├─ Nortaq-PlayNexus
     ├─ osmp
     ├─ aieval-lab
     ├─ consciousness-indicator-battery
     ├─ episodic-memory
-    └─ ... +13 more
+    └─ ... +12 more
 
-  MAINTENANCE (24)
-    ├─ synthesis-dj
-    ├─ heart
-    ├─ promoforge
-    ├─ color_quant
-    ├─ envoy-proxy-crowdsec-bouncer
-    └─ ... +19 more
+  MAINTENANCE (36)
+    ├─ playnexus-sovereign-meta-agent
+    ├─ phantom
+    ├─ earth-globe
+    ├─ dj-festival-audio-polisher
+    ├─ sonic-facility
+    └─ ... +31 more
 
 ```

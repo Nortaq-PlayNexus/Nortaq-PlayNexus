@@ -23,7 +23,7 @@
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
@@ -39,7 +39,7 @@
 │ AI · AI-CONSCIOUSNESS · FALSIFICATION · OPEN-SCIENCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  79%     │
+│ STATUS ███████░░░  76%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
@@ -55,7 +55,7 @@
 │ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  79%     │
+│ STATUS ███████░░░  76%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
@@ -71,7 +71,7 @@
 │ COMPUTATIONAL-PHYSICS · FALSIFICATION · OPTICS · PYTHON│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  79%     │
+│ STATUS ███████░░░  76%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
@@ -87,7 +87,7 @@
 │ FALSIFICATION · PROVENANCE · PYTHON · RESEARCH│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  79%     │
+│ STATUS ███████░░░  76%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
