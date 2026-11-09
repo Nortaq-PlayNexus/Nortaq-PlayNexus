@@ -23,7 +23,7 @@
 <text x="52" y="189" fill="#E8E8E8" font-size="9">Personanal</text>
 <text x="660" y="189" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="192" x2="40" y2="214" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="214" r="3" fill="#FFC430"/>
+<circle cx="40" cy="214" r="3" fill="#8A8A8A"/>
 <text x="52" y="217" fill="#E8E8E8" font-size="9">RustVoiceBooster</text>
 <text x="660" y="217" fill="#8A8A8A" font-size="9">JavaScript</text>
 <line x1="40" y1="220" x2="40" y2="242" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
@@ -50,7 +50,7 @@
 <circle cx="40" cy="382" r="5" fill="#B8FF1E"/>
 <text x="52" y="386" fill="#B8FF1E" font-size="11" font-weight="bold">@ AI (30)</text>
 <line x1="40" y1="388" x2="40" y2="410" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="410" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="410" r="3" fill="#FFC430"/>
 <text x="52" y="413" fill="#E8E8E8" font-size="9">aieval-lab</text>
 <text x="660" y="413" fill="#8A8A8A" font-size="9">Go</text>
 <line x1="40" y1="416" x2="40" y2="438" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
@@ -98,19 +98,19 @@
 <text x="52" y="721" fill="#E8E8E8" font-size="9">arena-workplace</text>
 <text x="660" y="721" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="724" x2="40" y2="746" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="746" r="3" fill="#FFC430"/>
+<circle cx="40" cy="746" r="3" fill="#8A8A8A"/>
 <text x="52" y="749" fill="#E8E8E8" font-size="9">nexus-agent-x</text>
 <text x="660" y="749" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="752" x2="40" y2="774" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="774" r="3" fill="#FFC430"/>
+<circle cx="40" cy="774" r="3" fill="#8A8A8A"/>
 <text x="52" y="777" fill="#E8E8E8" font-size="9">dmt-laser-code-analysis</text>
 <text x="660" y="777" fill="#8A8A8A" font-size="9">?</text>
 <line x1="40" y1="780" x2="40" y2="802" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="802" r="3" fill="#FFC430"/>
+<circle cx="40" cy="802" r="3" fill="#8A8A8A"/>
 <text x="52" y="805" fill="#E8E8E8" font-size="9">xbox-one-research</text>
 <text x="660" y="805" fill="#8A8A8A" font-size="9">C++</text>
 <line x1="40" y1="808" x2="40" y2="830" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="830" r="3" fill="#FFC430"/>
+<circle cx="40" cy="830" r="3" fill="#8A8A8A"/>
 <text x="52" y="833" fill="#E8E8E8" font-size="9">aegis</text>
 <text x="660" y="833" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="836" x2="40" y2="858" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
@@ -177,7 +177,7 @@
 <text x="52" y="1281" fill="#E8E8E8" font-size="9">SecureVault</text>
 <text x="660" y="1281" fill="#8A8A8A" font-size="9">C#</text>
 <line x1="40" y1="1284" x2="40" y2="1306" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1306" r="3" fill="#FFC430"/>
+<circle cx="40" cy="1306" r="3" fill="#8A8A8A"/>
 <text x="52" y="1309" fill="#E8E8E8" font-size="9">FreeStack</text>
 <text x="660" y="1309" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1312" x2="40" y2="1334" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
@@ -227,11 +227,11 @@
 <text x="52" y="1645" fill="#E8E8E8" font-size="9">cosmic-discovery-engine</text>
 <text x="660" y="1645" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1648" x2="40" y2="1670" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1670" r="3" fill="#FFC430"/>
+<circle cx="40" cy="1670" r="3" fill="#8A8A8A"/>
 <text x="52" y="1673" fill="#E8E8E8" font-size="9">triangle-unity</text>
 <text x="660" y="1673" fill="#8A8A8A" font-size="9">C#</text>
 <line x1="40" y1="1676" x2="40" y2="1698" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1698" r="3" fill="#FFC430"/>
+<circle cx="40" cy="1698" r="3" fill="#8A8A8A"/>
 <text x="52" y="1701" fill="#E8E8E8" font-size="9">the-triangle</text>
 <text x="660" y="1701" fill="#8A8A8A" font-size="9">C++</text>
 <line x1="40" y1="1704" x2="40" y2="1726" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
@@ -296,7 +296,7 @@
 <text x="52" y="2149" fill="#E8E8E8" font-size="9">osmp</text>
 <text x="660" y="2149" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="2152" x2="40" y2="2174" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="2174" r="3" fill="#FFC430"/>
+<circle cx="40" cy="2174" r="3" fill="#8A8A8A"/>
 <text x="52" y="2177" fill="#E8E8E8" font-size="9">playnexus-promo</text>
 <text x="660" y="2177" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="2180" x2="40" y2="2202" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
