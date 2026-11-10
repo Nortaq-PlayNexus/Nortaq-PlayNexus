@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Nortaq-PlayNexus?tab=repositories"><img src="https://img.shields.io/github/repos/Nortaq-PlayNexus?style=flat-square&logo=github&label=repos&labelColor=0a0e1a&color=ffc430" alt="repos"/></a>
+  <a href="https://github.com/Nortaq-PlayNexus?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FNortaq-PlayNexus&query=%24.public_repos&label=repos&color=ffc430&style=flat-square&logo=github&labelColor=0a0e1a" alt="repos"/></a>
   <img src="https://img.shields.io/github/followers/Nortaq-PlayNexus?style=flat-square&logo=github&labelColor=0a0e1a&color=3dd5ff" alt="followers"/>
   <img src="https://img.shields.io/github/stars/Nortaq-PlayNexus?style=flat-square&logo=github&labelColor=0a0e1a&color=ff3b3b" alt="stars"/>
   <img src="https://img.shields.io/badge/now-103.7%20FM-ff3b3b?style=flat-square&labelColor=0a0e1a" alt="now"/>
