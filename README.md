@@ -30,6 +30,8 @@
 
 ---
 
+> Browse the [public repository directory](docs/PUBLIC_REPOSITORIES.md) for a searchable-by-name index of the public projects and selected documented entry points. Private projects are intentionally excluded.
+
 ## PHANTOMTAPE OS v7.4
 
 ```
