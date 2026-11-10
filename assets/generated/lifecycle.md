@@ -1,28 +1,28 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (27)
+  PROTOTYPE (26)
+    ├─ c4-advanced-file-checker
     ├─ arena-workplace
     ├─ playnexus-musicvidforge
     ├─ Personanal
     ├─ opencode-on-render-mvaxb9pd
-    ├─ nasa-investigation
-    └─ ... +22 more
+    └─ ... +21 more
 
-  ACTIVE (17)
+  ACTIVE (34)
+    ├─ ark-arena-architect
+    ├─ ark-mechanics-research-system
+    ├─ omeil
+    ├─ omeil-counterfactual-research-workbench
     ├─ Nortaq-PlayNexus
-    ├─ osmp
-    ├─ aieval-lab
-    ├─ consciousness-indicator-battery
-    ├─ episodic-memory
-    └─ ... +12 more
+    └─ ... +29 more
 
-  MAINTENANCE (36)
-    ├─ playnexus-sovereign-meta-agent
+  MAINTENANCE (30)
     ├─ phantom
     ├─ earth-globe
     ├─ dj-festival-audio-polisher
     ├─ sonic-facility
-    └─ ... +31 more
+    ├─ cto
+    └─ ... +25 more
 
 ```

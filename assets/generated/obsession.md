@@ -4,12 +4,12 @@
 │
 │  Python                        │
 │  TypeScript                    │
-│  Go                            │
 │  JavaScript                    │
-│  HTML                          │
+│  Rust                          │
+│  C#                            │
 │  #python                       │
-│  #falsification                │
 │  #research                     │
+│  #falsification                │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯

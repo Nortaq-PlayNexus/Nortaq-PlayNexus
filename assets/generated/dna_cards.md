@@ -6,7 +6,7 @@
 │                                          │
 │ AUDIO · TYPESCRIPT                      │
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
+│ STARS  1     FORKS  0     ISSUES 1   │
 │ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
@@ -16,80 +16,80 @@
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
+│ ◉ TERRORFIBERCRAFT-ADMIN                │
 │                                          │
-│ Open Source Modernization Platform - an autonomous e│
+│ Terror Fibercraft 1000x cluster admin console (ARK A│
 │                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│ ADMIN · ARK · ASE · CLUSTER             │
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  85%     │
+│ STARS  1     FORKS  0     ISSUES 1   │
+│ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+│ [https://github.com/Nortaq-PlayNexus/TerrorFibercraft-Admin]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ CONSCIOUSNESS-INDICATOR-BATTERY       │
+│ ◉ ARKNEXUSX                             │
 │                                          │
-│ A calibrated indicator battery for AI consciousness,│
+│ An autonomous desktop automation operating system fo│
 │                                          │
-│ AI · AI-CONSCIOUSNESS · FALSIFICATION · OPEN-SCIENCE│
+│ AI-AGENTS · ARK-SURVIVAL · AUTOMATION · COMPUTER-VISION│
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  73%     │
+│ STARS  1     FORKS  0     ISSUES 1   │
+│ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
+│ [https://github.com/Nortaq-PlayNexus/ArkNexusX]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ PHANTOM_VISION_LAB                    │
+│ ◉ SECUREVAULT                           │
 │                                          │
-│ Computational research application simulating altere│
+│ Local-first, hardware-backed password manager for Wi│
 │                                          │
-│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
+│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  73%     │
+│ STARS  1     FORKS  0     ISSUES 10  │
+│ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
+│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ EXP-0007                              │
+│ ◉ SYNTHESIS-DJ                          │
 │                                          │
-│ Coherent Optical Vortex Propagation - R14 validation│
+│ SYNTHESIS AI DJ Command System - a military-grade au│
 │                                          │
-│ COMPUTATIONAL-PHYSICS · FALSIFICATION · OPTICS · PYTHON│
+│ AI · AUDIO · BEAT-DETECTION · CAMELOT   │
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  73%     │
+│ STARS  1     FORKS  0     ISSUES 1   │
+│ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
+│ [https://github.com/Nortaq-PlayNexus/synthesis-dj]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ SCIENTIFICDISCOVERYLAB                │
+│ ◉ COSMOS-TEST-SUITE                     │
 │                                          │
-│ Self-audit of an autonomous simulation laboratory: t│
+│ A research platform for trying to DISPROVE cosmologi│
 │                                          │
-│ FALSIFICATION · PROVENANCE · PYTHON · RESEARCH│
+│ COSMOLOGY · FALSIFICATION · OPEN-SCIENCE · PREREGISTRATION│
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  73%     │
+│ STARS  1     FORKS  0     ISSUES 1   │
+│ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
+│ [https://github.com/Nortaq-PlayNexus/COSMOS-TEST-SUITE]                        │
 ╰──────────────────────────────────────────╯
 ```

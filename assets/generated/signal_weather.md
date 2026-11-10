@@ -3,13 +3,14 @@
 ║       PHANTOMTAPE SIGNAL WEATHER     ║
 ╠══════════════════════════════════════╣
 ║                                      ║
-║  ACTIVITY       █████████░░░   76%    ║
-║  MOMENTUM       ██░░░░░░░░░░   24%    ║
-║  BUILD PRESSURE ██████████░░   91%    ║
+║  ACTIVITY       █████████░░░   83%    ║
+║  MOMENTUM       ████████████  100%    ║
+║  BUILD PRESSURE ████████████  100%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
 ║  FORECAST                             ║
   [!] HIGH DEVELOPMENT ACTIVITY
+  [~] MULTIPLE SYSTEMS IN DEVELOPMENT
   [*] CHAOS INDEX ELEVATED
   [+] BUILD PRESSURE INCREASING
 ╚══════════════════════════════════════╝

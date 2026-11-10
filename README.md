@@ -235,7 +235,7 @@ Full list of published Zenodo records (auto-synced from my account):
 | 23132746 | ScientificDiscoveryLab investigation: Vortex density in random wave fields | [10.5281/zenodo.23132746](https://doi.org/10.5281/zenodo.23132746) |
 | 23132744 | ScientificDiscoveryLab investigation: Speckle contrast law | [10.5281/zenodo.23132744](https://doi.org/10.5281/zenodo.23132744) |
 
-<sup>ZENODO ARCHIVE · 22 RECORDS · SYNCED 2026-11-09 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
+<sup>ZENODO ARCHIVE · 22 RECORDS · SYNCED 2026-11-10 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
 
 Zenodo profile: https://zenodo.org/search?q=owners:1912072
 
@@ -367,28 +367,28 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
-│ GITHUB ........... ONLINE      REPOS .............   80 │
-│ CONTRIBUTIONS ..... 1140    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........  101 DAYS │
-│ SIGNAL HASH ....... BDEAF0   SIGNAL ......... ###########=....  88%  PHASE 00 │
+│ GITHUB ........... ONLINE      REPOS .............   90 │
+│ CONTRIBUTIONS ..... 1257    FOLLOWERS ..........    2 │
+│ UPLINK AGE ........  102 DAYS │
+│ SIGNAL HASH ....... 9CEE10   SIGNAL ......... ########=.......  50%  PHASE 00 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
-   .....................................==#-###--##=-##.
+   .....................................==#-###--##==###
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 1140
-REPOSITORIES ....... 80
+CONTRIBUTIONS ...... 1257
+REPOSITORIES ....... 90
 FOLLOWERS .......... 2
-COLLECTED STARS .... 25
-BROADCASTING FOR ... 101 DAYS (SINCE 2026-07-31 UTC)
+COLLECTED STARS .... 36
+BROADCASTING FOR ... 102 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  Nortaq-PlayNexus             PUSHED 2026-11-09
-  osmp                         PUSHED 2026-11-04
-  aieval-lab                   PUSHED 2026-11-01
+  ark-arena-architect          PUSHED 2026-11-10
+  ark-mechanics-research-system PUSHED 2026-11-10
+  omeil                        PUSHED 2026-11-10
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -406,26 +406,44 @@ COFFEE ........ REQUIRED
 ```
 
 <details>
-  <summary><code>CASES:// RAW ARCHIVE INDEX -- 80 FILES</code></summary>
+  <summary><code>CASES:// RAW ARCHIVE INDEX -- 90 FILES</code></summary>
 
 ```text
+  ark-arena-architect              TypeScript   *0
+  ark-mechanics-research-system    TypeScript   *0
+  omeil                            TypeScript   *0
+  omeil-counterfactual-research-workbench TypeScript   *0
   Nortaq-PlayNexus                 TypeScript   *1
-  osmp                             TypeScript   *1
-  aieval-lab                       Go           *0
-  consciousness-indicator-battery  Python       *1
-  episodic-memory                  Python       *0
-  ce-1-continuous-existence        Python       *0
-  phantom_vision_lab               Python       *1
-  COSMOS-TEST-SUITE                Python       *0
+  resourcegather                   Python       *0
+  TerrorFibercraft-Admin           Python       *1
+  playnexus-sovereign-meta-agent   Python       *0
+  ArkNexusX                        Rust         *1
+  archon                           Python       *0
+  military-anomaly-scanner         Python       *0
+  SecureVault                      C#           *1
+  synthesis-dj                     JavaScript   *1
+  COSMOS-TEST-SUITE                Python       *1
   EXP-0007                         Python       *1
   ScientificDiscoveryLab           Python       *1
+  signal-arena                     TypeScript   *1
+  ScientificTimeMachine            Python       *1
+  paradigm-zero                    Python       *1
+  epistemic-engine                 Python       *1
+  causality-engine                 Python       *1
+  omniverse-scientific-discovery-engine TypeScript   *1
+  procedural-world-generation-studio TypeScript   *1
+  osmp                             TypeScript   *1
+  aieval-lab                       Go           *1
+  consciousness-indicator-battery  Python       *1
+  episodic-memory                  Python       *1
+  ce-1-continuous-existence        Python       *1
+  phantom_vision_lab               Python       *1
   cosmic-discovery-engine          Python       *0
   pineal-godseye                   Python       *0
   sapphire-continuity-research     Python       *0
   amis                             Python       *0
   phantomtape-radio                JavaScript   *1
   c4-advanced-file-checker         HTML         *0
-  SecureVault                      C#           *1
   arena-workplace                  Python       *0
   playnexus-musicvidforge          Python       *1
   Personanal                       Python       *0
@@ -442,36 +460,29 @@ COFFEE ........ REQUIRED
   the-triangle                     C++          *0
   dark-web-monitoring              Python       *1
   reports                          Shell        *1
-  TerrorFibercraft-Admin           Python       *1
-  ArkNexusX                        Rust         *1
   alien-image-investigation        HTML         *1
   orion-sentinel-ai                JavaScript   *1
   aurora-audio-engine              Rust         *1
   911-investigation                -            *1
   better_bing_image_downloader     Python       *0
-  swarmforge                       Python       *0
   forge                            Python       *0
+  swarmforge                       Python       *0
   archive-07                       -            *0
   ProjectPhoenix                   C#           *0
-  playnexus-sovereign-meta-agent   Python       *0
   phantom                          Python       *0
   earth-globe                      Python       *0
   dj-festival-audio-polisher       Python       *0
   sonic-facility                   Python       *1
   cto                              Python       *0
-  military-anomaly-scanner         Python       *0
   aether-facility                  Python       *1
   neuralforge                      Python       *0
-  archon                           Python       *0
   PlayNexus-Foundry                TypeScript   *0
   sentinel                         Python       *0
-  synthesis-dj                     JavaScript   *1
   heart                            Python       *0
   promoforge                       Rust         *0
   color_quant                      -            *0
   envoy-proxy-crowdsec-bouncer     Go           *0
   agency-swarm                     Python       *0
-  ark-arena-architect              TypeScript   *0
   sqlalchemy-history               Python       *0
   register                         JavaScript   *0
   hexstrike-ai                     Python       *0
@@ -484,7 +495,6 @@ COFFEE ........ REQUIRED
   pdb-addr2line                    -            *0
   myskoda                          Python       *0
   terrorfibercraftark              HTML         *0
-  resourcegather                   Python       *0
   Starminder                       Python       *0
   cookiecutter-wagtail-vix         -            *0
   python-hid-parser                -            *1
@@ -492,7 +502,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261109 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261110 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -511,13 +521,14 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ║       PHANTOMTAPE SIGNAL WEATHER     ║
 ╠══════════════════════════════════════╣
 ║                                      ║
-║  ACTIVITY       █████████░░░   76%    ║
-║  MOMENTUM       ██░░░░░░░░░░   24%    ║
-║  BUILD PRESSURE ██████████░░   91%    ║
+║  ACTIVITY       █████████░░░   83%    ║
+║  MOMENTUM       ████████████  100%    ║
+║  BUILD PRESSURE ████████████  100%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
 ║  FORECAST                             ║
   [!] HIGH DEVELOPMENT ACTIVITY
+  [~] MULTIPLE SYSTEMS IN DEVELOPMENT
   [*] CHAOS INDEX ELEVATED
   [+] BUILD PRESSURE INCREASING
 ╚══════════════════════════════════════╝
@@ -526,24 +537,24 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ```
 PHANTOMTAPE TECHNOLOGY GENOME
 
-Python         ████████████████████  43
-TypeScript     ██░░░░░░░░░░░░░░░░░░  5
+Python         ████████████████████  47
+TypeScript     ████░░░░░░░░░░░░░░░░  11
 JavaScript     ██░░░░░░░░░░░░░░░░░░  5
-HTML           █░░░░░░░░░░░░░░░░░░░  4
 C#             █░░░░░░░░░░░░░░░░░░░  4
+HTML           █░░░░░░░░░░░░░░░░░░░  4
 Rust           █░░░░░░░░░░░░░░░░░░░  3
 Go             ░░░░░░░░░░░░░░░░░░░░  2
 Shell          ░░░░░░░░░░░░░░░░░░░░  2
 
 DOMAIN GENOME
 
-AI             ████████████████████  30
-AUDIO          ██████░░░░░░░░░░░░░░  10
-LANG           ██████░░░░░░░░░░░░░░  10
-GAMING         ████░░░░░░░░░░░░░░░░  7
+AI             ████████████████████  35
+LANG           ██████░░░░░░░░░░░░░░  11
+AUDIO          █████░░░░░░░░░░░░░░░  10
+GAMING         ████░░░░░░░░░░░░░░░░  8
+DATA           ████░░░░░░░░░░░░░░░░  7
 SYSTEMS        ████░░░░░░░░░░░░░░░░  7
-DATA           ████░░░░░░░░░░░░░░░░  6
-OTHER          ██░░░░░░░░░░░░░░░░░░  4
+OTHER          ███░░░░░░░░░░░░░░░░░  6
 EARTH          ██░░░░░░░░░░░░░░░░░░  4
 WEB            █░░░░░░░░░░░░░░░░░░░  2
 ```
@@ -556,7 +567,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │                                          │
 │ AUDIO · TYPESCRIPT                      │
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
+│ STARS  1     FORKS  0     ISSUES 1   │
 │ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
@@ -566,110 +577,113 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
+│ ◉ TERRORFIBERCRAFT-ADMIN                │
 │                                          │
-│ Open Source Modernization Platform - an autonomous e│
+│ Terror Fibercraft 1000x cluster admin console (ARK A│
 │                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│ ADMIN · ARK · ASE · CLUSTER             │
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 9   │
-│ STATUS ████████░░  85%     │
+│ STARS  1     FORKS  0     ISSUES 1   │
+│ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+│ [https://github.com/Nortaq-PlayNexus/TerrorFibercraft-Admin]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ CONSCIOUSNESS-INDICATOR-BATTERY       │
+│ ◉ ARKNEXUSX                             │
 │                                          │
-│ A calibrated indicator battery for AI consciousness,│
+│ An autonomous desktop automation operating system fo│
 │                                          │
-│ AI · AI-CONSCIOUSNESS · FALSIFICATION · OPEN-SCIENCE│
+│ AI-AGENTS · ARK-SURVIVAL · AUTOMATION · COMPUTER-VISION│
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  73%     │
+│ STARS  1     FORKS  0     ISSUES 1   │
+│ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/consciousness-indicator-battery]                        │
+│ [https://github.com/Nortaq-PlayNexus/ArkNexusX]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ PHANTOM_VISION_LAB                    │
+│ ◉ SECUREVAULT                           │
 │                                          │
-│ Computational research application simulating altere│
+│ Local-first, hardware-backed password manager for Wi│
 │                                          │
-│ AI-PERCEPTION · ALTERED-STATE · COMPUTATIONAL-RESEARCH · COMPUTER-VISION│
+│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  73%     │
+│ STARS  1     FORKS  0     ISSUES 10  │
+│ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/phantom_vision_lab]                        │
+│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ EXP-0007                              │
+│ ◉ SYNTHESIS-DJ                          │
 │                                          │
-│ Coherent Optical Vortex Propagation - R14 validation│
+│ SYNTHESIS AI DJ Command System - a military-grade au│
 │                                          │
-│ COMPUTATIONAL-PHYSICS · FALSIFICATION · OPTICS · PYTHON│
+│ AI · AUDIO · BEAT-DETECTION · CAMELOT   │
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  73%     │
+│ STARS  1     FORKS  0     ISSUES 1   │
+│ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/EXP-0007]                        │
+│ [https://github.com/Nortaq-PlayNexus/synthesis-dj]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ SCIENTIFICDISCOVERYLAB                │
+│ ◉ COSMOS-TEST-SUITE                     │
 │                                          │
-│ Self-audit of an autonomous simulation laboratory: t│
+│ A research platform for trying to DISPROVE cosmologi│
 │                                          │
-│ FALSIFICATION · PROVENANCE · PYTHON · RESEARCH│
+│ COSMOLOGY · FALSIFICATION · OPEN-SCIENCE · PREREGISTRATION│
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS ███████░░░  73%     │
+│ STARS  1     FORKS  0     ISSUES 1   │
+│ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/ScientificDiscoveryLab]                        │
+│ [https://github.com/Nortaq-PlayNexus/COSMOS-TEST-SUITE]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261109
+20261110
 
-NEW REPOSITORIES ........ 80
-CONTRIBUTIONS (YR) ...... 1140
-REPOSITORIES ............ 80
+NEW REPOSITORIES ........ 90
+CONTRIBUTIONS (YR) ...... 1257
+REPOSITORIES ............ 90
 LANGUAGES ............... 10
-TOTAL STARS ............. 25
+TOTAL STARS ............. 36
 
 MOST ACTIVE (7 DAYS):
-  01 Nortaq-PlayNexus               0d ago
-  02 osmp                           5d ago
+  01 ark-arena-architect            0d ago
+  02 ark-mechanics-research-system  0d ago
+  03 omeil                          0d ago
+  04 omeil-counterfactual-research-workbench 0d ago
+  05 Nortaq-PlayNexus               0d ago
 
 SIGNAL WEATHER:
-  ACTIVITY       █████████░░░  76%
+  ACTIVITY       █████████░░░  83%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] dark-web-monitoring -- no activity for 41 days
-  [!] reports -- no activity for 41 days
-  [!] TerrorFibercraft-Admin -- no activity for 42 days
+  [!] FreeStack -- no activity for 31 days
+  [!] nexus-agent-x -- no activity for 31 days
+  [!] RustVoiceBooster -- no activity for 31 days
 
 FORECAST:
   HIGH development activity
-  17 repositories active in last 14 days
+  34 repositories active in last 14 days
 
 ```
 
@@ -685,7 +699,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261109  ║
+║ LAST AUDIT          20261110  ║
 ╚════════════════════════════════╝
 ```
 
@@ -695,12 +709,12 @@ FORECAST:
 │
 │  Python                        │
 │  TypeScript                    │
-│  Go                            │
 │  JavaScript                    │
-│  HTML                          │
+│  Rust                          │
+│  C#                            │
 │  #python                       │
-│  #falsification                │
 │  #research                     │
+│  #falsification                │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
@@ -715,10 +729,10 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +1 repositories modified
-  +1140 contributions (rolling year)
-  +80 new experiments this year
-  +80 total transmissions
+  +23 repositories modified
+  +1257 contributions (rolling year)
+  +90 new experiments this year
+  +90 total transmissions
 
   The machine did not sleep.
 ```
@@ -726,29 +740,29 @@ WHILE YOU WERE AWAY...
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (27)
+  PROTOTYPE (26)
+    ├─ c4-advanced-file-checker
     ├─ arena-workplace
     ├─ playnexus-musicvidforge
     ├─ Personanal
     ├─ opencode-on-render-mvaxb9pd
-    ├─ nasa-investigation
-    └─ ... +22 more
+    └─ ... +21 more
 
-  ACTIVE (17)
+  ACTIVE (34)
+    ├─ ark-arena-architect
+    ├─ ark-mechanics-research-system
+    ├─ omeil
+    ├─ omeil-counterfactual-research-workbench
     ├─ Nortaq-PlayNexus
-    ├─ osmp
-    ├─ aieval-lab
-    ├─ consciousness-indicator-battery
-    ├─ episodic-memory
-    └─ ... +12 more
+    └─ ... +29 more
 
-  MAINTENANCE (36)
-    ├─ playnexus-sovereign-meta-agent
+  MAINTENANCE (30)
     ├─ phantom
     ├─ earth-globe
     ├─ dj-festival-audio-polisher
     ├─ sonic-facility
-    └─ ... +31 more
+    ├─ cto
+    └─ ... +25 more
 
 ```
 
