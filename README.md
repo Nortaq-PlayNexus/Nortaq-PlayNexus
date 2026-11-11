@@ -235,7 +235,7 @@ Full list of published Zenodo records (auto-synced from my account):
 | 23132746 | ScientificDiscoveryLab investigation: Vortex density in random wave fields | [10.5281/zenodo.23132746](https://doi.org/10.5281/zenodo.23132746) |
 | 23132744 | ScientificDiscoveryLab investigation: Speckle contrast law | [10.5281/zenodo.23132744](https://doi.org/10.5281/zenodo.23132744) |
 
-<sup>ZENODO ARCHIVE · 22 RECORDS · SYNCED 2026-11-10 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
+<sup>ZENODO ARCHIVE · 22 RECORDS · SYNCED 2026-11-11 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
 
 Zenodo profile: https://zenodo.org/search?q=owners:1912072
 
@@ -369,8 +369,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   90 │
 │ CONTRIBUTIONS ..... 1257    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........  102 DAYS │
-│ SIGNAL HASH ....... 9CEE10   SIGNAL ......... ########=.......  50%  PHASE 00 │
+│ UPLINK AGE ........  103 DAYS │
+│ SIGNAL HASH ....... 85117B   SIGNAL ......... ########=.......  53%  PHASE 03 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -383,12 +383,12 @@ CONTRIBUTIONS ...... 1257
 REPOSITORIES ....... 90
 FOLLOWERS .......... 2
 COLLECTED STARS .... 36
-BROADCASTING FOR ... 102 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 103 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
+  Nortaq-PlayNexus             PUSHED 2026-11-11
   ark-arena-architect          PUSHED 2026-11-10
   ark-mechanics-research-system PUSHED 2026-11-10
-  omeil                        PUSHED 2026-11-10
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -409,11 +409,11 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX -- 90 FILES</code></summary>
 
 ```text
+  Nortaq-PlayNexus                 TypeScript   *1
   ark-arena-architect              TypeScript   *0
   ark-mechanics-research-system    TypeScript   *0
   omeil                            TypeScript   *0
   omeil-counterfactual-research-workbench TypeScript   *0
-  Nortaq-PlayNexus                 TypeScript   *1
   resourcegather                   Python       *0
   TerrorFibercraft-Admin           Python       *1
   playnexus-sovereign-meta-agent   Python       *0
@@ -502,7 +502,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261110 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261111 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -584,7 +584,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ ADMIN · ARK · ASE · CLUSTER             │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/TerrorFibercraft-Admin]                        │
@@ -600,7 +600,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-AGENTS · ARK-SURVIVAL · AUTOMATION · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ArkNexusX]                        │
@@ -616,7 +616,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
@@ -632,7 +632,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI · AUDIO · BEAT-DETECTION · CAMELOT   │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/synthesis-dj]                        │
@@ -648,7 +648,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ COSMOLOGY · FALSIFICATION · OPEN-SCIENCE · PREREGISTRATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/COSMOS-TEST-SUITE]                        │
@@ -657,7 +657,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261110
+20261111
 
 NEW REPOSITORIES ........ 90
 CONTRIBUTIONS (YR) ...... 1257
@@ -666,24 +666,24 @@ LANGUAGES ............... 10
 TOTAL STARS ............. 36
 
 MOST ACTIVE (7 DAYS):
-  01 ark-arena-architect            0d ago
-  02 ark-mechanics-research-system  0d ago
-  03 omeil                          0d ago
-  04 omeil-counterfactual-research-workbench 0d ago
-  05 Nortaq-PlayNexus               0d ago
+  01 Nortaq-PlayNexus               0d ago
+  02 ark-arena-architect            1d ago
+  03 ark-mechanics-research-system  1d ago
+  04 omeil                          1d ago
+  05 omeil-counterfactual-research-workbench 1d ago
 
 SIGNAL WEATHER:
   ACTIVITY       █████████░░░  83%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] FreeStack -- no activity for 31 days
-  [!] nexus-agent-x -- no activity for 31 days
-  [!] RustVoiceBooster -- no activity for 31 days
+  [!] nasa-investigation -- no activity for 31 days
+  [!] FreeStack -- no activity for 32 days
+  [!] nexus-agent-x -- no activity for 32 days
 
 FORECAST:
   HIGH development activity
-  34 repositories active in last 14 days
+  33 repositories active in last 14 days
 
 ```
 
@@ -699,7 +699,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261110  ║
+║ LAST AUDIT          20261111  ║
 ╚════════════════════════════════╝
 ```
 
@@ -709,9 +709,9 @@ FORECAST:
 │
 │  Python                        │
 │  TypeScript                    │
-│  JavaScript                    │
 │  Rust                          │
 │  C#                            │
+│  JavaScript                    │
 │  #python                       │
 │  #research                     │
 │  #falsification                │
@@ -740,29 +740,29 @@ WHILE YOU WERE AWAY...
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (26)
+  PROTOTYPE (21)
+    ├─ phantomtape-radio
     ├─ c4-advanced-file-checker
     ├─ arena-workplace
     ├─ playnexus-musicvidforge
     ├─ Personanal
-    ├─ opencode-on-render-mvaxb9pd
-    └─ ... +21 more
+    └─ ... +16 more
 
-  ACTIVE (34)
+  ACTIVE (33)
+    ├─ Nortaq-PlayNexus
     ├─ ark-arena-architect
     ├─ ark-mechanics-research-system
     ├─ omeil
     ├─ omeil-counterfactual-research-workbench
-    ├─ Nortaq-PlayNexus
-    └─ ... +29 more
+    └─ ... +28 more
 
-  MAINTENANCE (30)
-    ├─ phantom
-    ├─ earth-globe
-    ├─ dj-festival-audio-polisher
-    ├─ sonic-facility
-    ├─ cto
-    └─ ... +25 more
+  MAINTENANCE (36)
+    ├─ 911-investigation
+    ├─ better_bing_image_downloader
+    ├─ forge
+    ├─ swarmforge
+    ├─ archive-07
+    └─ ... +31 more
 
 ```
 

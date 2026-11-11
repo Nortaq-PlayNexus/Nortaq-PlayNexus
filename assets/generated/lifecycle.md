@@ -1,28 +1,28 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (26)
+  PROTOTYPE (21)
+    ├─ phantomtape-radio
     ├─ c4-advanced-file-checker
     ├─ arena-workplace
     ├─ playnexus-musicvidforge
     ├─ Personanal
-    ├─ opencode-on-render-mvaxb9pd
-    └─ ... +21 more
+    └─ ... +16 more
 
-  ACTIVE (34)
+  ACTIVE (33)
+    ├─ Nortaq-PlayNexus
     ├─ ark-arena-architect
     ├─ ark-mechanics-research-system
     ├─ omeil
     ├─ omeil-counterfactual-research-workbench
-    ├─ Nortaq-PlayNexus
-    └─ ... +29 more
+    └─ ... +28 more
 
-  MAINTENANCE (30)
-    ├─ phantom
-    ├─ earth-globe
-    ├─ dj-festival-audio-polisher
-    ├─ sonic-facility
-    ├─ cto
-    └─ ... +25 more
+  MAINTENANCE (36)
+    ├─ 911-investigation
+    ├─ better_bing_image_downloader
+    ├─ forge
+    ├─ swarmforge
+    ├─ archive-07
+    └─ ... +31 more
 
 ```
