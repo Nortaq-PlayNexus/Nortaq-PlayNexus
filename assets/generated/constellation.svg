@@ -324,7 +324,7 @@
 <text x="52" y="2345" fill="#E8E8E8" font-size="9">omniverse-scientific-discovery-engine</text>
 <text x="660" y="2345" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="2348" x2="40" y2="2370" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="2370" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="2370" r="3" fill="#FFC430"/>
 <text x="52" y="2373" fill="#E8E8E8" font-size="9">osmp</text>
 <text x="660" y="2373" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="2376" x2="40" y2="2398" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>

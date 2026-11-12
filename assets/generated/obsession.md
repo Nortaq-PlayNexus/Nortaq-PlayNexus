@@ -9,7 +9,7 @@
 │  JavaScript                    │
 │  #python                       │
 │  #research                     │
-│  #falsification                │
+│  #typescript                   │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
