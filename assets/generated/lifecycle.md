@@ -1,21 +1,21 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (24)
+  PROTOTYPE (25)
+    ├─ cosmic-discovery-engine
     ├─ pineal-godseye
     ├─ sapphire-continuity-research
     ├─ amis
     ├─ phantomtape-radio
-    ├─ c4-advanced-file-checker
-    └─ ... +19 more
+    └─ ... +20 more
 
-  ACTIVE (30)
+  ACTIVE (29)
     ├─ Nortaq-PlayNexus
     ├─ ark-arena-architect
     ├─ ark-mechanics-research-system
     ├─ omeil
     ├─ omeil-counterfactual-research-workbench
-    └─ ... +25 more
+    └─ ... +24 more
 
   MAINTENANCE (36)
     ├─ 911-investigation
