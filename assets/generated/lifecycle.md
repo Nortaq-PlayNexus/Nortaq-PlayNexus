@@ -1,13 +1,13 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (25)
+  PROTOTYPE (24)
     ├─ cosmic-discovery-engine
     ├─ pineal-godseye
     ├─ sapphire-continuity-research
     ├─ amis
     ├─ phantomtape-radio
-    └─ ... +20 more
+    └─ ... +19 more
 
   ACTIVE (29)
     ├─ Nortaq-PlayNexus
@@ -17,12 +17,12 @@ PROJECT LIFECYCLE
     ├─ omeil-counterfactual-research-workbench
     └─ ... +24 more
 
-  MAINTENANCE (36)
+  MAINTENANCE (37)
+    ├─ aurora-audio-engine
     ├─ 911-investigation
     ├─ better_bing_image_downloader
     ├─ forge
     ├─ swarmforge
-    ├─ archive-07
-    └─ ... +31 more
+    └─ ... +32 more
 
 ```
