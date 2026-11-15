@@ -1,21 +1,21 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (24)
+  PROTOTYPE (28)
+    ├─ consciousness-indicator-battery
+    ├─ episodic-memory
+    ├─ ce-1-continuous-existence
+    ├─ phantom_vision_lab
     ├─ cosmic-discovery-engine
-    ├─ pineal-godseye
-    ├─ sapphire-continuity-research
-    ├─ amis
-    ├─ phantomtape-radio
-    └─ ... +19 more
+    └─ ... +23 more
 
-  ACTIVE (29)
+  ACTIVE (25)
     ├─ Nortaq-PlayNexus
     ├─ ark-arena-architect
     ├─ ark-mechanics-research-system
     ├─ omeil
     ├─ omeil-counterfactual-research-workbench
-    └─ ... +24 more
+    └─ ... +20 more
 
   MAINTENANCE (37)
     ├─ aurora-audio-engine
