@@ -379,7 +379,7 @@
 <text x="52" y="2737" fill="#E8E8E8" font-size="9">c4-advanced-file-checker</text>
 <text x="660" y="2737" fill="#8A8A8A" font-size="9">HTML</text>
 <line x1="40" y1="2740" x2="40" y2="2762" stroke="#8A8A8A" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="2762" r="3" fill="#FFC430"/>
+<circle cx="40" cy="2762" r="3" fill="#8A8A8A"/>
 <text x="52" y="2765" fill="#E8E8E8" font-size="9">opencode-on-render-mvaxb9pd</text>
 <text x="660" y="2765" fill="#8A8A8A" font-size="9">Shell</text>
 <line x1="40" y1="2768" x2="40" y2="2790" stroke="#8A8A8A" stroke-width="1" opacity="0.4"/>

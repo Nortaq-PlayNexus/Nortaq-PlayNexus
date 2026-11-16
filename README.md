@@ -235,7 +235,7 @@ Full list of published Zenodo records (auto-synced from my account):
 | 23132746 | ScientificDiscoveryLab investigation: Vortex density in random wave fields | [10.5281/zenodo.23132746](https://doi.org/10.5281/zenodo.23132746) |
 | 23132744 | ScientificDiscoveryLab investigation: Speckle contrast law | [10.5281/zenodo.23132744](https://doi.org/10.5281/zenodo.23132744) |
 
-<sup>ZENODO ARCHIVE · 22 RECORDS · SYNCED 2026-11-15 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
+<sup>ZENODO ARCHIVE · 22 RECORDS · SYNCED 2026-11-16 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
 
 Zenodo profile: https://zenodo.org/search?q=owners:1912072
 
@@ -369,8 +369,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   90 │
 │ CONTRIBUTIONS ..... 1258    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........  107 DAYS │
-│ SIGNAL HASH ....... 435083   SIGNAL ......... #########=......  63%  PHASE 03 │
+│ UPLINK AGE ........  108 DAYS │
+│ SIGNAL HASH ....... 07BB35   SIGNAL ......... #########=......  67%  PHASE 05 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -383,10 +383,10 @@ CONTRIBUTIONS ...... 1258
 REPOSITORIES ....... 90
 FOLLOWERS .......... 2
 COLLECTED STARS .... 36
-BROADCASTING FOR ... 107 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 108 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  Nortaq-PlayNexus             PUSHED 2026-11-15
+  Nortaq-PlayNexus             PUSHED 2026-11-16
   ark-arena-architect          PUSHED 2026-11-10
   ark-mechanics-research-system PUSHED 2026-11-10
 
@@ -502,7 +502,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261115 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261116 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -584,7 +584,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ ADMIN · ARK · ASE · CLUSTER             │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/TerrorFibercraft-Admin]                        │
@@ -600,7 +600,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-AGENTS · ARK-SURVIVAL · AUTOMATION · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ArkNexusX]                        │
@@ -616,7 +616,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
@@ -632,7 +632,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI · AUDIO · BEAT-DETECTION · CAMELOT   │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/synthesis-dj]                        │
@@ -648,7 +648,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ COSMOLOGY · FALSIFICATION · OPEN-SCIENCE · PREREGISTRATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ████████░░  85%     │
+│ STATUS ████████░░  82%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/COSMOS-TEST-SUITE]                        │
@@ -657,7 +657,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261115
+20261116
 
 NEW REPOSITORIES ........ 90
 CONTRIBUTIONS (YR) ...... 1258
@@ -667,23 +667,23 @@ TOTAL STARS ............. 36
 
 MOST ACTIVE (7 DAYS):
   01 Nortaq-PlayNexus               0d ago
-  02 ark-arena-architect            4d ago
-  03 ark-mechanics-research-system  5d ago
-  04 omeil                          5d ago
-  05 omeil-counterfactual-research-workbench 5d ago
+  02 ark-arena-architect            6d ago
+  03 ark-mechanics-research-system  6d ago
+  04 omeil                          6d ago
+  05 omeil-counterfactual-research-workbench 6d ago
 
 SIGNAL WEATHER:
   ACTIVITY       █████████░░░  83%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] nasa-investigation -- no activity for 35 days
-  [!] FreeStack -- no activity for 36 days
-  [!] nexus-agent-x -- no activity for 36 days
+  [!] nasa-investigation -- no activity for 36 days
+  [!] FreeStack -- no activity for 37 days
+  [!] nexus-agent-x -- no activity for 37 days
 
 FORECAST:
   HIGH development activity
-  25 repositories active in last 14 days
+  24 repositories active in last 14 days
 
 ```
 
@@ -699,7 +699,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261115  ║
+║ LAST AUDIT          20261116  ║
 ╚════════════════════════════════╝
 ```
 
@@ -740,21 +740,21 @@ WHILE YOU WERE AWAY...
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (28)
+  PROTOTYPE (29)
+    ├─ aieval-lab
     ├─ consciousness-indicator-battery
     ├─ episodic-memory
     ├─ ce-1-continuous-existence
     ├─ phantom_vision_lab
-    ├─ cosmic-discovery-engine
-    └─ ... +23 more
+    └─ ... +24 more
 
-  ACTIVE (25)
+  ACTIVE (24)
     ├─ Nortaq-PlayNexus
     ├─ ark-arena-architect
     ├─ ark-mechanics-research-system
     ├─ omeil
     ├─ omeil-counterfactual-research-workbench
-    └─ ... +20 more
+    └─ ... +19 more
 
   MAINTENANCE (37)
     ├─ aurora-audio-engine
