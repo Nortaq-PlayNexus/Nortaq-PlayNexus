@@ -4,13 +4,12 @@
 ╠══════════════════════════════════════╣
 ║                                      ║
 ║  ACTIVITY       █████████░░░   83%    ║
-║  MOMENTUM       ████████████  100%    ║
+║  MOMENTUM       ██░░░░░░░░░░   24%    ║
 ║  BUILD PRESSURE ████████████  100%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
 ║  FORECAST                             ║
   [!] HIGH DEVELOPMENT ACTIVITY
-  [~] MULTIPLE SYSTEMS IN DEVELOPMENT
   [*] CHAOS INDEX ELEVATED
   [+] BUILD PRESSURE INCREASING
 ╚══════════════════════════════════════╝

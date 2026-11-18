@@ -11,7 +11,7 @@
 <text x="52" y="105" fill="#E8E8E8" font-size="9">Nortaq-PlayNexus</text>
 <text x="660" y="105" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="108" x2="40" y2="130" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="130" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="130" r="3" fill="#FFC430"/>
 <text x="52" y="133" fill="#E8E8E8" font-size="9">synthesis-dj</text>
 <text x="660" y="133" fill="#8A8A8A" font-size="9">JavaScript</text>
 <line x1="40" y1="136" x2="40" y2="158" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
@@ -50,31 +50,31 @@
 <circle cx="40" cy="382" r="5" fill="#B8FF1E"/>
 <text x="52" y="386" fill="#B8FF1E" font-size="11" font-weight="bold">@ AI (35)</text>
 <line x1="40" y1="388" x2="40" y2="410" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="410" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="410" r="3" fill="#FFC430"/>
 <text x="52" y="413" fill="#E8E8E8" font-size="9">omeil</text>
 <text x="660" y="413" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="416" x2="40" y2="438" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="438" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="438" r="3" fill="#FFC430"/>
 <text x="52" y="441" fill="#E8E8E8" font-size="9">playnexus-sovereign-meta-agent</text>
 <text x="660" y="441" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="444" x2="40" y2="466" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="466" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="466" r="3" fill="#FFC430"/>
 <text x="52" y="469" fill="#E8E8E8" font-size="9">ArkNexusX</text>
 <text x="660" y="469" fill="#8A8A8A" font-size="9">Rust</text>
 <line x1="40" y1="472" x2="40" y2="494" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="494" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="494" r="3" fill="#FFC430"/>
 <text x="52" y="497" fill="#E8E8E8" font-size="9">military-anomaly-scanner</text>
 <text x="660" y="497" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="500" x2="40" y2="522" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="522" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="522" r="3" fill="#FFC430"/>
 <text x="52" y="525" fill="#E8E8E8" font-size="9">COSMOS-TEST-SUITE</text>
 <text x="660" y="525" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="528" x2="40" y2="550" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="550" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="550" r="3" fill="#FFC430"/>
 <text x="52" y="553" fill="#E8E8E8" font-size="9">EXP-0007</text>
 <text x="660" y="553" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="556" x2="40" y2="578" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="578" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="578" r="3" fill="#FFC430"/>
 <text x="52" y="581" fill="#E8E8E8" font-size="9">ScientificDiscoveryLab</text>
 <text x="660" y="581" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="584" x2="40" y2="606" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
@@ -193,11 +193,11 @@
 <circle cx="40" cy="1390" r="5" fill="#00E5FF"/>
 <text x="52" y="1394" fill="#00E5FF" font-size="11" font-weight="bold"># SYSTEMS (7)</text>
 <line x1="40" y1="1396" x2="40" y2="1418" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1418" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1418" r="3" fill="#FFC430"/>
 <text x="52" y="1421" fill="#E8E8E8" font-size="9">archon</text>
 <text x="660" y="1421" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1424" x2="40" y2="1446" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1446" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1446" r="3" fill="#FFC430"/>
 <text x="52" y="1449" fill="#E8E8E8" font-size="9">SecureVault</text>
 <text x="660" y="1449" fill="#8A8A8A" font-size="9">C#</text>
 <line x1="40" y1="1452" x2="40" y2="1474" stroke="#00E5FF" stroke-width="1" opacity="0.4"/>
@@ -243,15 +243,15 @@
 <circle cx="40" cy="1754" r="5" fill="#FF4D00"/>
 <text x="52" y="1758" fill="#FF4D00" font-size="11" font-weight="bold">x GAMING (8)</text>
 <line x1="40" y1="1760" x2="40" y2="1782" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1782" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1782" r="3" fill="#FFC430"/>
 <text x="52" y="1785" fill="#E8E8E8" font-size="9">ark-arena-architect</text>
 <text x="660" y="1785" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="1788" x2="40" y2="1810" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1810" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1810" r="3" fill="#FFC430"/>
 <text x="52" y="1813" fill="#E8E8E8" font-size="9">ark-mechanics-research-system</text>
 <text x="660" y="1813" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="1816" x2="40" y2="1838" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1838" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="1838" r="3" fill="#FFC430"/>
 <text x="52" y="1841" fill="#E8E8E8" font-size="9">TerrorFibercraft-Admin</text>
 <text x="660" y="1841" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1844" x2="40" y2="1866" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
@@ -278,11 +278,11 @@
 <circle cx="40" cy="2006" r="5" fill="#9B59B6"/>
 <text x="52" y="2010" fill="#9B59B6" font-size="11" font-weight="bold">+ DATA (9)</text>
 <line x1="40" y1="2012" x2="40" y2="2034" stroke="#9B59B6" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="2034" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="2034" r="3" fill="#FFC430"/>
 <text x="52" y="2037" fill="#E8E8E8" font-size="9">omeil-counterfactual-research-workbench</text>
 <text x="660" y="2037" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="2040" x2="40" y2="2062" stroke="#9B59B6" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="2062" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="2062" r="3" fill="#FFC430"/>
 <text x="52" y="2065" fill="#E8E8E8" font-size="9">resourcegather</text>
 <text x="660" y="2065" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="2068" x2="40" y2="2090" stroke="#9B59B6" stroke-width="1" opacity="0.4"/>
@@ -328,12 +328,12 @@
 <circle cx="40" cy="2370" r="5" fill="#E8E8E8"/>
 <text x="52" y="2374" fill="#E8E8E8" font-size="11" font-weight="bold">^ LANG (11)</text>
 <line x1="40" y1="2376" x2="40" y2="2398" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="2398" r="3" fill="#FFC430"/>
-<text x="52" y="2401" fill="#E8E8E8" font-size="9">omniverse-scientific-discovery-engine</text>
+<circle cx="40" cy="2398" r="3" fill="#B8FF1E"/>
+<text x="52" y="2401" fill="#E8E8E8" font-size="9">osmp</text>
 <text x="660" y="2401" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="2404" x2="40" y2="2426" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="2426" r="3" fill="#FFC430"/>
-<text x="52" y="2429" fill="#E8E8E8" font-size="9">osmp</text>
+<text x="52" y="2429" fill="#E8E8E8" font-size="9">omniverse-scientific-discovery-engine</text>
 <text x="660" y="2429" fill="#8A8A8A" font-size="9">TypeScript</text>
 <line x1="40" y1="2432" x2="40" y2="2454" stroke="#E8E8E8" stroke-width="1" opacity="0.4"/>
 <circle cx="40" cy="2454" r="3" fill="#8A8A8A"/>
