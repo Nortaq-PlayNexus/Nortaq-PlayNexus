@@ -235,7 +235,7 @@ Full list of published Zenodo records (auto-synced from my account):
 | 23132746 | ScientificDiscoveryLab investigation: Vortex density in random wave fields | [10.5281/zenodo.23132746](https://doi.org/10.5281/zenodo.23132746) |
 | 23132744 | ScientificDiscoveryLab investigation: Speckle contrast law | [10.5281/zenodo.23132744](https://doi.org/10.5281/zenodo.23132744) |
 
-<sup>ZENODO ARCHIVE · 22 RECORDS · SYNCED 2026-11-18 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
+<sup>ZENODO ARCHIVE · 22 RECORDS · SYNCED 2026-11-19 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
 
 Zenodo profile: https://zenodo.org/search?q=owners:1912072
 
@@ -369,8 +369,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............   90 │
 │ CONTRIBUTIONS ..... 1258    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........  110 DAYS │
-│ SIGNAL HASH ....... 35B651   SIGNAL ......... ##########=.....  71%  PHASE 01 │
+│ UPLINK AGE ........  111 DAYS │
+│ SIGNAL HASH ....... C6EFD7   SIGNAL ......... #########=......  67%  PHASE 07 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -383,11 +383,11 @@ CONTRIBUTIONS ...... 1258
 REPOSITORIES ....... 90
 FOLLOWERS .......... 2
 COLLECTED STARS .... 36
-BROADCASTING FOR ... 110 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 111 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
+  Nortaq-PlayNexus             PUSHED 2026-11-19
   osmp                         PUSHED 2026-11-18
-  Nortaq-PlayNexus             PUSHED 2026-11-18
   ark-arena-architect          PUSHED 2026-11-10
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
@@ -409,8 +409,8 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX -- 90 FILES</code></summary>
 
 ```text
-  osmp                             TypeScript   *1
   Nortaq-PlayNexus                 TypeScript   *1
+  osmp                             TypeScript   *1
   ark-arena-architect              TypeScript   *0
   ark-mechanics-research-system    TypeScript   *0
   omeil                            TypeScript   *0
@@ -502,7 +502,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261118 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261119 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -560,22 +560,6 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
-│                                          │
-│ Open Source Modernization Platform - an autonomous e│
-│                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
 │ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
@@ -592,6 +576,22 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ OSMP                                  │
+│                                          │
+│ Open Source Modernization Platform - an autonomous e│
+│                                          │
+│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 10  │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ TERRORFIBERCRAFT-ADMIN                │
 │                                          │
 │ Terror Fibercraft 1000x cluster admin console (ARK A│
@@ -599,7 +599,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ ADMIN · ARK · ASE · CLUSTER             │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ███████░░░  76%     │
+│ STATUS ███████░░░  73%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/TerrorFibercraft-Admin]                        │
@@ -615,7 +615,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-AGENTS · ARK-SURVIVAL · AUTOMATION · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ███████░░░  76%     │
+│ STATUS ███████░░░  73%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ArkNexusX]                        │
@@ -631,7 +631,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS ███████░░░  76%     │
+│ STATUS ███████░░░  73%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
@@ -647,7 +647,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI · AUDIO · BEAT-DETECTION · CAMELOT   │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ███████░░░  76%     │
+│ STATUS ███████░░░  73%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/synthesis-dj]                        │
@@ -656,7 +656,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261118
+20261119
 
 NEW REPOSITORIES ........ 90
 CONTRIBUTIONS (YR) ...... 1258
@@ -665,17 +665,17 @@ LANGUAGES ............... 10
 TOTAL STARS ............. 36
 
 MOST ACTIVE (7 DAYS):
-  01 osmp                           0d ago
-  02 Nortaq-PlayNexus               0d ago
+  01 Nortaq-PlayNexus               0d ago
+  02 osmp                           1d ago
 
 SIGNAL WEATHER:
   ACTIVITY       █████████░░░  83%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] opencode-on-render-mvaxb9pd -- no activity for 32 days
-  [!] nasa-investigation -- no activity for 38 days
-  [!] FreeStack -- no activity for 39 days
+  [!] opencode-on-render-mvaxb9pd -- no activity for 33 days
+  [!] nasa-investigation -- no activity for 39 days
+  [!] FreeStack -- no activity for 40 days
 
 FORECAST:
   HIGH development activity
@@ -695,7 +695,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261118  ║
+║ LAST AUDIT          20261119  ║
 ╚════════════════════════════════╝
 ```
 
@@ -745,8 +745,8 @@ PROJECT LIFECYCLE
     └─ ... +23 more
 
   ACTIVE (24)
-    ├─ osmp
     ├─ Nortaq-PlayNexus
+    ├─ osmp
     ├─ ark-arena-architect
     ├─ ark-mechanics-research-system
     ├─ omeil

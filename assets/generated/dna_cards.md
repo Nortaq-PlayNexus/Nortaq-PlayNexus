@@ -1,21 +1,5 @@
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
-│                                          │
-│ Open Source Modernization Platform - an autonomous e│
-│                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
 │ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
@@ -32,6 +16,22 @@
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ OSMP                                  │
+│                                          │
+│ Open Source Modernization Platform - an autonomous e│
+│                                          │
+│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 10  │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ TERRORFIBERCRAFT-ADMIN                │
 │                                          │
 │ Terror Fibercraft 1000x cluster admin console (ARK A│
@@ -39,7 +39,7 @@
 │ ADMIN · ARK · ASE · CLUSTER             │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ███████░░░  76%     │
+│ STATUS ███████░░░  73%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/TerrorFibercraft-Admin]                        │
@@ -55,7 +55,7 @@
 │ AI-AGENTS · ARK-SURVIVAL · AUTOMATION · COMPUTER-VISION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ███████░░░  76%     │
+│ STATUS ███████░░░  73%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ArkNexusX]                        │
@@ -71,7 +71,7 @@
 │ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS ███████░░░  76%     │
+│ STATUS ███████░░░  73%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
@@ -87,7 +87,7 @@
 │ AI · AUDIO · BEAT-DETECTION · CAMELOT   │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ███████░░░  76%     │
+│ STATUS ███████░░░  73%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/synthesis-dj]                        │

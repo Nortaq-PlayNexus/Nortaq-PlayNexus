@@ -10,8 +10,8 @@ PROJECT LIFECYCLE
     └─ ... +23 more
 
   ACTIVE (24)
-    ├─ osmp
     ├─ Nortaq-PlayNexus
+    ├─ osmp
     ├─ ark-arena-architect
     ├─ ark-mechanics-research-system
     ├─ omeil
