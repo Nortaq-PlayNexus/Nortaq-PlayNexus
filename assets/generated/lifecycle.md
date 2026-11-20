@@ -9,13 +9,13 @@ PROJECT LIFECYCLE
     ├─ phantom_vision_lab
     └─ ... +23 more
 
-  ACTIVE (24)
+  ACTIVE (25)
     ├─ Nortaq-PlayNexus
+    ├─ jfujhgv
     ├─ osmp
     ├─ ark-arena-architect
     ├─ ark-mechanics-research-system
-    ├─ omeil
-    └─ ... +19 more
+    └─ ... +20 more
 
   MAINTENANCE (38)
     ├─ orion-sentinel-ai
