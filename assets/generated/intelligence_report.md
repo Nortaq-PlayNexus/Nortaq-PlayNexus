@@ -1,6 +1,6 @@
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261120
+20261121
 
 NEW REPOSITORIES ........ 91
 CONTRIBUTIONS (YR) ...... 1259
@@ -10,17 +10,17 @@ TOTAL STARS ............. 36
 
 MOST ACTIVE (7 DAYS):
   01 Nortaq-PlayNexus               0d ago
-  02 jfujhgv                        0d ago
-  03 osmp                           2d ago
+  02 jfujhgv                        1d ago
+  03 osmp                           3d ago
 
 SIGNAL WEATHER:
   ACTIVITY       █████████░░░  83%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] opencode-on-render-mvaxb9pd -- no activity for 34 days
-  [!] nasa-investigation -- no activity for 40 days
-  [!] FreeStack -- no activity for 41 days
+  [!] Personanal -- no activity for 31 days
+  [!] opencode-on-render-mvaxb9pd -- no activity for 35 days
+  [!] nasa-investigation -- no activity for 41 days
 
 FORECAST:
   HIGH development activity
