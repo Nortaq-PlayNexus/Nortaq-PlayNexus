@@ -23,10 +23,42 @@
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ NASA-ANOMALY-SCANNER                  │
+│                                          │
+│ PyQt6 desktop app for scanning public NASA imagery, │
+│                                          │
+│ ASTRONOMY · CITIZEN-SCIENCE · COMPUTER-VISION · DESKTOP-APP│
+│                                          │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/NASA-Anomaly-Scanner]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ RUST-OUTPOST-DJ-9D                    │
+│                                          │
+│ Rust Outpost DJ 9D Ultimate - PhantomTape Windows br│
+│                                          │
+│ AUDIO · BROADCAST · DESKTOP-APP · DJ    │
+│                                          │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/rust-outpost-dj-9d]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -39,7 +71,7 @@
 │ OTHER                                   │
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ██░░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/jfujhgv]                        │
@@ -55,41 +87,9 @@
 │ ADMIN · ARK · ASE · CLUSTER             │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ██████░░░░  67%     │
+│ STATUS ██████░░░░  64%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/TerrorFibercraft-Admin]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ ARKNEXUSX                             │
-│                                          │
-│ An autonomous desktop automation operating system fo│
-│                                          │
-│ AI-AGENTS · ARK-SURVIVAL · AUTOMATION · COMPUTER-VISION│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ██████░░░░  67%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/ArkNexusX]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ SECUREVAULT                           │
-│                                          │
-│ Local-first, hardware-backed password manager for Wi│
-│                                          │
-│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS ██████░░░░  67%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
 ╰──────────────────────────────────────────╯
 ```

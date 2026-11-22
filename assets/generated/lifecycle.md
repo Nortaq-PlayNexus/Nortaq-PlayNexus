@@ -9,13 +9,13 @@ PROJECT LIFECYCLE
     ├─ phantom_vision_lab
     └─ ... +23 more
 
-  ACTIVE (25)
+  ACTIVE (27)
     ├─ Nortaq-PlayNexus
+    ├─ NASA-Anomaly-Scanner
+    ├─ rust-outpost-dj-9d
     ├─ jfujhgv
     ├─ osmp
-    ├─ ark-arena-architect
-    ├─ ark-mechanics-research-system
-    └─ ... +20 more
+    └─ ... +22 more
 
   MAINTENANCE (38)
     ├─ orion-sentinel-ai
@@ -24,5 +24,8 @@ PROJECT LIFECYCLE
     ├─ better_bing_image_downloader
     ├─ forge
     └─ ... +33 more
+
+  ARCHIVED (1)
+    ├─ ark-ini-manager
 
 ```

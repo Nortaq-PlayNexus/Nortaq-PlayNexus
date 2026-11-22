@@ -212,6 +212,13 @@ Full list of published Zenodo records (auto-synced from my account):
 
 | Record | Title | DOI |
 |---|---|---|
+| 24438210 | RAMSEY Omega: An Auditable Computational Laboratory for Ramsey Theory | [10.5281/zenodo.24438210](https://doi.org/10.5281/zenodo.24438210) |
+| 24438192 | MICROBIOME OMEGA: A Reproducible Computational Laboratory for Microbiome Ecosystem Discovery | [10.5281/zenodo.24438192](https://doi.org/10.5281/zenodo.24438192) |
+| 24438174 | ONCOLOGY OMEGA: An Auditable Computational Research Laboratory for Cancer Evolution | [10.5281/zenodo.24438174](https://doi.org/10.5281/zenodo.24438174) |
+| 24438172 | HODGE-Omega: A Provenance-First Research Core for Investigating the Hodge Conjecture | [10.5281/zenodo.24438172](https://doi.org/10.5281/zenodo.24438172) |
+| 24438168 | CELLULAR OMEGA: A Reproducible Computational Research Platform for Cellular Ageing | [10.5281/zenodo.24438168](https://doi.org/10.5281/zenodo.24438168) |
+| 24438159 | GRACEFUL Omega: A Reproducible Research Laboratory for Graceful Labellings of Trees | [10.5281/zenodo.24438159](https://doi.org/10.5281/zenodo.24438159) |
+| 24438153 | HADAMARD Omega: A Reproducible Computational Laboratory for Hadamard Matrices | [10.5281/zenodo.24438153](https://doi.org/10.5281/zenodo.24438153) |
 | 24021970 | ENCYCLOSOUNDIA: An Encyclopedia of Sound: From the Earliest Vibrations to the Sounds of the Universe | [10.5281/zenodo.24021970](https://doi.org/10.5281/zenodo.24021970) |
 | 23990924 | SuperIntel Lab (sil): Scientific Tool Suite for Superintelligence Research | [10.5281/zenodo.23990924](https://doi.org/10.5281/zenodo.23990924) |
 | 23923627 | Human Genome Intelligence Engine (H-GIE) v0.8.0 | [10.5281/zenodo.23923627](https://doi.org/10.5281/zenodo.23923627) |
@@ -235,7 +242,7 @@ Full list of published Zenodo records (auto-synced from my account):
 | 23132746 | ScientificDiscoveryLab investigation: Vortex density in random wave fields | [10.5281/zenodo.23132746](https://doi.org/10.5281/zenodo.23132746) |
 | 23132744 | ScientificDiscoveryLab investigation: Speckle contrast law | [10.5281/zenodo.23132744](https://doi.org/10.5281/zenodo.23132744) |
 
-<sup>ZENODO ARCHIVE · 22 RECORDS · SYNCED 2026-11-21 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
+<sup>ZENODO ARCHIVE · 29 RECORDS · SYNCED 2026-11-22 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
 
 Zenodo profile: https://zenodo.org/search?q=owners:1912072
 
@@ -367,28 +374,28 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
-│ GITHUB ........... ONLINE      REPOS .............   91 │
-│ CONTRIBUTIONS ..... 1259    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........  113 DAYS │
-│ SIGNAL HASH ....... 88CB95   SIGNAL ......... ########=.......  53%  PHASE 05 │
+│ GITHUB ........... ONLINE      REPOS .............   94 │
+│ CONTRIBUTIONS ..... 1260    FOLLOWERS ..........    2 │
+│ UPLINK AGE ........  114 DAYS │
+│ SIGNAL HASH ....... B661EF   SIGNAL ......... #########=......  63%  PHASE 07 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
-   ....................................==#-###--##==###-
+   ...................................==#-###--##==###--
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 1259
-REPOSITORIES ....... 91
+CONTRIBUTIONS ...... 1260
+REPOSITORIES ....... 94
 FOLLOWERS .......... 2
-COLLECTED STARS .... 36
-BROADCASTING FOR ... 113 DAYS (SINCE 2026-07-31 UTC)
+COLLECTED STARS .... 37
+BROADCASTING FOR ... 114 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  Nortaq-PlayNexus             PUSHED 2026-11-21
-  jfujhgv                      PUSHED 2026-11-19
-  osmp                         PUSHED 2026-11-18
+  Nortaq-PlayNexus             PUSHED 2026-11-22
+  NASA-Anomaly-Scanner         PUSHED 2026-11-22
+  rust-outpost-dj-9d           PUSHED 2026-11-22
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -406,10 +413,12 @@ COFFEE ........ REQUIRED
 ```
 
 <details>
-  <summary><code>CASES:// RAW ARCHIVE INDEX -- 91 FILES</code></summary>
+  <summary><code>CASES:// RAW ARCHIVE INDEX -- 94 FILES</code></summary>
 
 ```text
   Nortaq-PlayNexus                 TypeScript   *1
+  NASA-Anomaly-Scanner             Python       *0
+  rust-outpost-dj-9d               HTML         *0
   jfujhgv                          -            *0
   osmp                             TypeScript   *1
   ark-arena-architect              TypeScript   *0
@@ -464,6 +473,7 @@ COFFEE ........ REQUIRED
   alien-image-investigation        HTML         *1
   orion-sentinel-ai                JavaScript   *1
   aurora-audio-engine              Rust         *1
+  ark-ini-manager                  -            *1
   911-investigation                -            *1
   better_bing_image_downloader     Python       *0
   forge                            Python       *0
@@ -503,7 +513,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261121 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261122 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -522,13 +532,14 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ║       PHANTOMTAPE SIGNAL WEATHER     ║
 ╠══════════════════════════════════════╣
 ║                                      ║
-║  ACTIVITY       █████████░░░   83%    ║
-║  MOMENTUM       ████░░░░░░░░   36%    ║
+║  ACTIVITY       ██████████░░   84%    ║
+║  MOMENTUM       ███████░░░░░   60%    ║
 ║  BUILD PRESSURE ████████████  100%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
 ║  FORECAST                             ║
   [!] HIGH DEVELOPMENT ACTIVITY
+  [~] MULTIPLE SYSTEMS IN DEVELOPMENT
   [*] CHAOS INDEX ELEVATED
   [+] BUILD PRESSURE INCREASING
 ╚══════════════════════════════════════╝
@@ -537,11 +548,11 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ```
 PHANTOMTAPE TECHNOLOGY GENOME
 
-Python         ████████████████████  47
+Python         ████████████████████  48
 TypeScript     ████░░░░░░░░░░░░░░░░  11
+HTML           ██░░░░░░░░░░░░░░░░░░  5
 JavaScript     ██░░░░░░░░░░░░░░░░░░  5
 C#             █░░░░░░░░░░░░░░░░░░░  4
-HTML           █░░░░░░░░░░░░░░░░░░░  4
 Rust           █░░░░░░░░░░░░░░░░░░░  3
 Go             ░░░░░░░░░░░░░░░░░░░░  2
 Shell          ░░░░░░░░░░░░░░░░░░░░  2
@@ -549,13 +560,13 @@ Shell          ░░░░░░░░░░░░░░░░░░░░  2
 DOMAIN GENOME
 
 AI             ████████████████████  35
+AUDIO          ██████░░░░░░░░░░░░░░  11
 LANG           ██████░░░░░░░░░░░░░░  11
-AUDIO          █████░░░░░░░░░░░░░░░  10
+GAMING         █████░░░░░░░░░░░░░░░  9
 DATA           █████░░░░░░░░░░░░░░░  9
-GAMING         ████░░░░░░░░░░░░░░░░  8
 SYSTEMS        ████░░░░░░░░░░░░░░░░  7
+EARTH          ██░░░░░░░░░░░░░░░░░░  5
 OTHER          ██░░░░░░░░░░░░░░░░░░  5
-EARTH          ██░░░░░░░░░░░░░░░░░░  4
 WEB            █░░░░░░░░░░░░░░░░░░░  2
 ```
 
@@ -584,10 +595,42 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS █████████░  91%     │
+│ STATUS ████████░░  88%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ NASA-ANOMALY-SCANNER                  │
+│                                          │
+│ PyQt6 desktop app for scanning public NASA imagery, │
+│                                          │
+│ ASTRONOMY · CITIZEN-SCIENCE · COMPUTER-VISION · DESKTOP-APP│
+│                                          │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/NASA-Anomaly-Scanner]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ RUST-OUTPOST-DJ-9D                    │
+│                                          │
+│ Rust Outpost DJ 9D Ultimate - PhantomTape Windows br│
+│                                          │
+│ AUDIO · BROADCAST · DESKTOP-APP · DJ    │
+│                                          │
+│ STARS  0     FORKS  0     ISSUES 0   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ██░░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/rust-outpost-dj-9d]                        │
 ╰──────────────────────────────────────────╯
 ```
 
@@ -600,7 +643,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ OTHER                                   │
 │                                          │
 │ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ██░░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/jfujhgv]                        │
@@ -616,72 +659,42 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ ADMIN · ARK · ASE · CLUSTER             │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ██████░░░░  67%     │
+│ STATUS ██████░░░░  64%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/TerrorFibercraft-Admin]                        │
 ╰──────────────────────────────────────────╯
 ```
 
-```
-╭──────────────────────────────────────────╮
-│ ◉ ARKNEXUSX                             │
-│                                          │
-│ An autonomous desktop automation operating system fo│
-│                                          │
-│ AI-AGENTS · ARK-SURVIVAL · AUTOMATION · COMPUTER-VISION│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ██████░░░░  67%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/ArkNexusX]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ SECUREVAULT                           │
-│                                          │
-│ Local-first, hardware-backed password manager for Wi│
-│                                          │
-│ AES-GCM · ARGON2 · CSHARP · ENCRYPTION  │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS ██████░░░░  67%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/SecureVault]                        │
-╰──────────────────────────────────────────╯
-```
-
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261121
+20261122
 
-NEW REPOSITORIES ........ 91
-CONTRIBUTIONS (YR) ...... 1259
-REPOSITORIES ............ 91
+NEW REPOSITORIES ........ 94
+CONTRIBUTIONS (YR) ...... 1260
+REPOSITORIES ............ 94
 LANGUAGES ............... 10
-TOTAL STARS ............. 36
+TOTAL STARS ............. 37
 
 MOST ACTIVE (7 DAYS):
   01 Nortaq-PlayNexus               0d ago
-  02 jfujhgv                        1d ago
-  03 osmp                           3d ago
+  02 NASA-Anomaly-Scanner           0d ago
+  03 rust-outpost-dj-9d             0d ago
+  04 jfujhgv                        2d ago
+  05 osmp                           4d ago
 
 SIGNAL WEATHER:
-  ACTIVITY       █████████░░░  83%
+  ACTIVITY       ██████████░░  84%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] Personanal -- no activity for 31 days
-  [!] opencode-on-render-mvaxb9pd -- no activity for 35 days
-  [!] nasa-investigation -- no activity for 41 days
+  [!] playnexus-musicvidforge -- no activity for 31 days
+  [!] Personanal -- no activity for 32 days
+  [!] opencode-on-render-mvaxb9pd -- no activity for 36 days
 
 FORECAST:
   HIGH development activity
-  25 repositories active in last 14 days
+  27 repositories active in last 14 days
 
 ```
 
@@ -697,7 +710,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261121  ║
+║ LAST AUDIT          20261122  ║
 ╚════════════════════════════════╝
 ```
 
@@ -707,9 +720,9 @@ FORECAST:
 │
 │  Python                        │
 │  TypeScript                    │
+│  HTML                          │
 │  Rust                          │
 │  C#                            │
-│  JavaScript                    │
 │  #python                       │
 │  #research                     │
 │  #typescript                   │
@@ -727,10 +740,10 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +3 repositories modified
-  +1259 contributions (rolling year)
-  +91 new experiments this year
-  +91 total transmissions
+  +4 repositories modified
+  +1260 contributions (rolling year)
+  +94 new experiments this year
+  +94 total transmissions
 
   The machine did not sleep.
 ```
@@ -746,13 +759,13 @@ PROJECT LIFECYCLE
     ├─ phantom_vision_lab
     └─ ... +23 more
 
-  ACTIVE (25)
+  ACTIVE (27)
     ├─ Nortaq-PlayNexus
+    ├─ NASA-Anomaly-Scanner
+    ├─ rust-outpost-dj-9d
     ├─ jfujhgv
     ├─ osmp
-    ├─ ark-arena-architect
-    ├─ ark-mechanics-research-system
-    └─ ... +20 more
+    └─ ... +22 more
 
   MAINTENANCE (38)
     ├─ orion-sentinel-ai
@@ -761,6 +774,9 @@ PROJECT LIFECYCLE
     ├─ better_bing_image_downloader
     ├─ forge
     └─ ... +33 more
+
+  ARCHIVED (1)
+    ├─ ark-ini-manager
 
 ```
 
