@@ -1,5 +1,21 @@
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ THRESHOLD                             │
+│                                          │
+│ THRESHOLD — browser first-person liminal-horror prot│
+│                                          │
+│ AMBIENTCG · BROWSER-GAME · FIRST-PERSON · GAME-PROTOTYPE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 6   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/threshold]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
@@ -16,80 +32,64 @@
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
+│ ◉ ARK-OMNISUITE                         │
 │                                          │
-│ Open Source Modernization Platform - an autonomous e│
+│ Unofficial local-first ARK: Survival Evolved plannin│
 │                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│ ARK · ARK-SURVIVAL-EVOLVED · CALCULATOR · DISCORD-BOT│
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS ████████░░  88%     │
+│ STARS  1     FORKS  0     ISSUES 4   │
+│ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+│ [https://github.com/Nortaq-PlayNexus/ark-omnisuite]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ NASA-ANOMALY-SCANNER                  │
+│ ◉ RELAYSTUDIO                           │
 │                                          │
-│ PyQt6 desktop app for scanning public NASA imagery, │
+│ Relay Studio Desktop — Windows 11 x64 Electron codin│
 │                                          │
-│ ASTRONOMY · CITIZEN-SCIENCE · COMPUTER-VISION · DESKTOP-APP│
+│ AI-ASSISTANT · CODE-REVIEW · CODING-ASSISTANT · DESKTOP-APP│
 │                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
+│ STARS  1     FORKS  0     ISSUES 3   │
 │ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/NASA-Anomaly-Scanner]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ RUST-OUTPOST-DJ-9D                    │
-│                                          │
-│ Rust Outpost DJ 9D Ultimate - PhantomTape Windows br│
-│                                          │
-│ AUDIO · BROADCAST · DESKTOP-APP · DJ    │
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/rust-outpost-dj-9d]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ JFUJHGV                               │
-│                                          │
-│ no description                          │
-│                                          │
-│ OTHER                                   │
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  91%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/jfujhgv]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ TERRORFIBERCRAFT-ADMIN                │
-│                                          │
-│ Terror Fibercraft 1000x cluster admin console (ARK A│
-│                                          │
-│ ADMIN · ARK · ASE · CLUSTER             │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ██████░░░░  64%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/TerrorFibercraft-Admin]                        │
+│ [https://github.com/Nortaq-PlayNexus/RelayStudio]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ LOOPBRIDGE                            │
+│                                          │
+│ Local-first Windows relay that bridges ChatGPT (Brav│
+│                                          │
+│ AI-AGENTS · AUTOMATION · CDP · CHATGPT  │
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 2   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/LoopBridge]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ ROYAL-COMMISION                       │
+│                                          │
+│ The Royal Commission: local-first, source-discipline│
+│                                          │
+│ COMPLIANCE · EDUCATION · FORENSICS · INVESTIGATION│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/Royal-Commision]                        │
 ╰──────────────────────────────────────────╯
 ```

@@ -4,12 +4,12 @@
 │
 │  Python                        │
 │  TypeScript                    │
+│  JavaScript                    │
 │  HTML                          │
-│  Rust                          │
-│  C#                            │
+│  Go                            │
 │  #python                       │
 │  #research                     │
-│  #typescript                   │
+│  #electron                     │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯

@@ -9,20 +9,20 @@ PROJECT LIFECYCLE
     ├─ phantom_vision_lab
     └─ ... +23 more
 
-  ACTIVE (27)
+  ACTIVE (34)
+    ├─ threshold
+    ├─ derceto-1992
     ├─ Nortaq-PlayNexus
-    ├─ NASA-Anomaly-Scanner
-    ├─ rust-outpost-dj-9d
-    ├─ jfujhgv
-    ├─ osmp
-    └─ ... +22 more
+    ├─ ark-omnisuite
+    ├─ RelayStudio
+    └─ ... +29 more
 
   MAINTENANCE (38)
     ├─ orion-sentinel-ai
     ├─ aurora-audio-engine
     ├─ 911-investigation
     ├─ better_bing_image_downloader
-    ├─ forge
+    ├─ swarmforge
     └─ ... +33 more
 
   ARCHIVED (1)

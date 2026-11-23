@@ -242,7 +242,7 @@ Full list of published Zenodo records (auto-synced from my account):
 | 23132746 | ScientificDiscoveryLab investigation: Vortex density in random wave fields | [10.5281/zenodo.23132746](https://doi.org/10.5281/zenodo.23132746) |
 | 23132744 | ScientificDiscoveryLab investigation: Speckle contrast law | [10.5281/zenodo.23132744](https://doi.org/10.5281/zenodo.23132744) |
 
-<sup>ZENODO ARCHIVE · 29 RECORDS · SYNCED 2026-11-22 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
+<sup>ZENODO ARCHIVE · 29 RECORDS · SYNCED 2026-11-23 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
 
 Zenodo profile: https://zenodo.org/search?q=owners:1912072
 
@@ -374,28 +374,28 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 
 ```text
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
-│ GITHUB ........... ONLINE      REPOS .............   94 │
-│ CONTRIBUTIONS ..... 1260    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........  114 DAYS │
-│ SIGNAL HASH ....... B661EF   SIGNAL ......... #########=......  63%  PHASE 07 │
+│ GITHUB ........... ONLINE      REPOS .............  101 │
+│ CONTRIBUTIONS ..... 1262    FOLLOWERS ..........    2 │
+│ UPLINK AGE ........  115 DAYS │
+│ SIGNAL HASH ....... CD5C68   SIGNAL ......... ##########=.....  76%  PHASE 00 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
    00                            10                            20                            30                            40                            50    52
-   ...................................==#-###--##==###--
+   ...................................==#-###--##==###-=
    LOW ───────────────────────────────────────────── HIGH
 
 // SYSTEM METRICS -- SNAPSHOT (AUDITABLE)
-CONTRIBUTIONS ...... 1260
-REPOSITORIES ....... 94
+CONTRIBUTIONS ...... 1262
+REPOSITORIES ....... 101
 FOLLOWERS .......... 2
-COLLECTED STARS .... 37
-BROADCASTING FOR ... 114 DAYS (SINCE 2026-07-31 UTC)
+COLLECTED STARS .... 51
+BROADCASTING FOR ... 115 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
-  Nortaq-PlayNexus             PUSHED 2026-11-22
-  NASA-Anomaly-Scanner         PUSHED 2026-11-22
-  rust-outpost-dj-9d           PUSHED 2026-11-22
+  threshold                    PUSHED 2026-11-23
+  derceto-1992                 PUSHED 2026-11-23
+  Nortaq-PlayNexus             PUSHED 2026-11-23
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -413,19 +413,26 @@ COFFEE ........ REQUIRED
 ```
 
 <details>
-  <summary><code>CASES:// RAW ARCHIVE INDEX -- 94 FILES</code></summary>
+  <summary><code>CASES:// RAW ARCHIVE INDEX -- 101 FILES</code></summary>
 
 ```text
+  threshold                        JavaScript   *1
+  derceto-1992                     HTML         *0
   Nortaq-PlayNexus                 TypeScript   *1
-  NASA-Anomaly-Scanner             Python       *0
-  rust-outpost-dj-9d               HTML         *0
-  jfujhgv                          -            *0
+  ark-omnisuite                    Python       *1
+  RelayStudio                      JavaScript   *1
+  LoopBridge                       Python       *1
+  Royal-Commision                  JavaScript   *1
+  resourcegather-vigil             Go           *1
+  NASA-Anomaly-Scanner             Python       *1
+  rust-outpost-dj-9d               HTML         *1
+  jfujhgv                          -            *1
   osmp                             TypeScript   *1
-  ark-arena-architect              TypeScript   *0
-  ark-mechanics-research-system    TypeScript   *0
-  omeil                            TypeScript   *0
-  omeil-counterfactual-research-workbench TypeScript   *0
-  resourcegather                   Python       *0
+  ark-arena-architect              TypeScript   *1
+  ark-mechanics-research-system    TypeScript   *1
+  omeil                            TypeScript   *1
+  omeil-counterfactual-research-workbench TypeScript   *1
+  resourcegather                   Python       *1
   TerrorFibercraft-Admin           Python       *1
   playnexus-sovereign-meta-agent   Python       *0
   ArkNexusX                        Rust         *1
@@ -476,8 +483,8 @@ COFFEE ........ REQUIRED
   ark-ini-manager                  -            *1
   911-investigation                -            *1
   better_bing_image_downloader     Python       *0
-  forge                            Python       *0
   swarmforge                       Python       *0
+  forge                            Python       *0
   archive-07                       -            *0
   ProjectPhoenix                   C#           *0
   phantom                          Python       *0
@@ -509,11 +516,10 @@ COFFEE ........ REQUIRED
   Starminder                       Python       *0
   cookiecutter-wagtail-vix         -            *0
   python-hid-parser                -            *1
-  pygeofilter                      -            *0
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261122 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261123 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -533,7 +539,7 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ╠══════════════════════════════════════╣
 ║                                      ║
 ║  ACTIVITY       ██████████░░   84%    ║
-║  MOMENTUM       ███████░░░░░   60%    ║
+║  MOMENTUM       ████████████  100%    ║
 ║  BUILD PRESSURE ████████████  100%    ║
 ║  CHAOS INDEX    ████████████  100%    ║
 ║                                      ║
@@ -548,26 +554,42 @@ All generated nightly from real GitHub API data by `scripts/generate_assets.py`.
 ```
 PHANTOMTAPE TECHNOLOGY GENOME
 
-Python         ████████████████████  48
+Python         ████████████████████  50
 TypeScript     ████░░░░░░░░░░░░░░░░  11
-HTML           ██░░░░░░░░░░░░░░░░░░  5
-JavaScript     ██░░░░░░░░░░░░░░░░░░  5
+JavaScript     ███░░░░░░░░░░░░░░░░░  8
+HTML           ██░░░░░░░░░░░░░░░░░░  6
 C#             █░░░░░░░░░░░░░░░░░░░  4
+Go             █░░░░░░░░░░░░░░░░░░░  3
 Rust           █░░░░░░░░░░░░░░░░░░░  3
-Go             ░░░░░░░░░░░░░░░░░░░░  2
 Shell          ░░░░░░░░░░░░░░░░░░░░  2
 
 DOMAIN GENOME
 
-AI             ████████████████████  35
-AUDIO          ██████░░░░░░░░░░░░░░  11
-LANG           ██████░░░░░░░░░░░░░░  11
-GAMING         █████░░░░░░░░░░░░░░░  9
-DATA           █████░░░░░░░░░░░░░░░  9
-SYSTEMS        ████░░░░░░░░░░░░░░░░  7
+AI             ████████████████████  38
+AUDIO          ██████░░░░░░░░░░░░░░  12
+GAMING         █████░░░░░░░░░░░░░░░  11
+LANG           █████░░░░░░░░░░░░░░░  11
+DATA           █████░░░░░░░░░░░░░░░  10
+SYSTEMS        ███░░░░░░░░░░░░░░░░░  7
 EARTH          ██░░░░░░░░░░░░░░░░░░  5
 OTHER          ██░░░░░░░░░░░░░░░░░░  5
 WEB            █░░░░░░░░░░░░░░░░░░░  2
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ THRESHOLD                             │
+│                                          │
+│ THRESHOLD — browser first-person liminal-horror prot│
+│                                          │
+│ AMBIENTCG · BROWSER-GAME · FIRST-PERSON · GAME-PROTOTYPE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 6   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/threshold]                        │
+╰──────────────────────────────────────────╯
 ```
 
 ```
@@ -588,113 +610,97 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
+│ ◉ ARK-OMNISUITE                         │
 │                                          │
-│ Open Source Modernization Platform - an autonomous e│
+│ Unofficial local-first ARK: Survival Evolved plannin│
 │                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│ ARK · ARK-SURVIVAL-EVOLVED · CALCULATOR · DISCORD-BOT│
 │                                          │
-│ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS ████████░░  88%     │
+│ STARS  1     FORKS  0     ISSUES 4   │
+│ STATUS ██████████ 100%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+│ [https://github.com/Nortaq-PlayNexus/ark-omnisuite]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ NASA-ANOMALY-SCANNER                  │
+│ ◉ RELAYSTUDIO                           │
 │                                          │
-│ PyQt6 desktop app for scanning public NASA imagery, │
+│ Relay Studio Desktop — Windows 11 x64 Electron codin│
 │                                          │
-│ ASTRONOMY · CITIZEN-SCIENCE · COMPUTER-VISION · DESKTOP-APP│
+│ AI-ASSISTANT · CODE-REVIEW · CODING-ASSISTANT · DESKTOP-APP│
 │                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
+│ STARS  1     FORKS  0     ISSUES 3   │
 │ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/NASA-Anomaly-Scanner]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ RUST-OUTPOST-DJ-9D                    │
-│                                          │
-│ Rust Outpost DJ 9D Ultimate - PhantomTape Windows br│
-│                                          │
-│ AUDIO · BROADCAST · DESKTOP-APP · DJ    │
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/rust-outpost-dj-9d]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ JFUJHGV                               │
-│                                          │
-│ no description                          │
-│                                          │
-│ OTHER                                   │
-│                                          │
-│ STARS  0     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  91%     │
-│ MATURITY ██░░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/jfujhgv]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
-│ ◉ TERRORFIBERCRAFT-ADMIN                │
-│                                          │
-│ Terror Fibercraft 1000x cluster admin console (ARK A│
-│                                          │
-│ ADMIN · ARK · ASE · CLUSTER             │
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 1   │
-│ STATUS ██████░░░░  64%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
-│ [https://github.com/Nortaq-PlayNexus/TerrorFibercraft-Admin]                        │
+│ [https://github.com/Nortaq-PlayNexus/RelayStudio]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ LOOPBRIDGE                            │
+│                                          │
+│ Local-first Windows relay that bridges ChatGPT (Brav│
+│                                          │
+│ AI-AGENTS · AUTOMATION · CDP · CHATGPT  │
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 2   │
+│ STATUS ██████████ 100%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/LoopBridge]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
+│ ◉ ROYAL-COMMISION                       │
+│                                          │
+│ The Royal Commission: local-first, source-discipline│
+│                                          │
+│ COMPLIANCE · EDUCATION · FORENSICS · INVESTIGATION│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 0   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/Royal-Commision]                        │
 ╰──────────────────────────────────────────╯
 ```
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261122
+20261123
 
-NEW REPOSITORIES ........ 94
-CONTRIBUTIONS (YR) ...... 1260
-REPOSITORIES ............ 94
+NEW REPOSITORIES ........ 101
+CONTRIBUTIONS (YR) ...... 1262
+REPOSITORIES ............ 101
 LANGUAGES ............... 10
-TOTAL STARS ............. 37
+TOTAL STARS ............. 51
 
 MOST ACTIVE (7 DAYS):
-  01 Nortaq-PlayNexus               0d ago
-  02 NASA-Anomaly-Scanner           0d ago
-  03 rust-outpost-dj-9d             0d ago
-  04 jfujhgv                        2d ago
-  05 osmp                           4d ago
+  01 threshold                      0d ago
+  02 derceto-1992                   0d ago
+  03 Nortaq-PlayNexus               0d ago
+  04 ark-omnisuite                  0d ago
+  05 RelayStudio                    0d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ██████████░░  84%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] playnexus-musicvidforge -- no activity for 31 days
-  [!] Personanal -- no activity for 32 days
-  [!] opencode-on-render-mvaxb9pd -- no activity for 36 days
+  [!] playnexus-musicvidforge -- no activity for 32 days
+  [!] Personanal -- no activity for 33 days
+  [!] opencode-on-render-mvaxb9pd -- no activity for 38 days
 
 FORECAST:
   HIGH development activity
-  27 repositories active in last 14 days
+  34 repositories active in last 14 days
 
 ```
 
@@ -710,7 +716,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261122  ║
+║ LAST AUDIT          20261123  ║
 ╚════════════════════════════════╝
 ```
 
@@ -720,12 +726,12 @@ FORECAST:
 │
 │  Python                        │
 │  TypeScript                    │
+│  JavaScript                    │
 │  HTML                          │
-│  Rust                          │
-│  C#                            │
+│  Go                            │
 │  #python                       │
 │  #research                     │
-│  #typescript                   │
+│  #electron                     │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
@@ -740,10 +746,10 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +4 repositories modified
-  +1260 contributions (rolling year)
-  +94 new experiments this year
-  +94 total transmissions
+  +11 repositories modified
+  +1262 contributions (rolling year)
+  +101 new experiments this year
+  +101 total transmissions
 
   The machine did not sleep.
 ```
@@ -759,20 +765,20 @@ PROJECT LIFECYCLE
     ├─ phantom_vision_lab
     └─ ... +23 more
 
-  ACTIVE (27)
+  ACTIVE (34)
+    ├─ threshold
+    ├─ derceto-1992
     ├─ Nortaq-PlayNexus
-    ├─ NASA-Anomaly-Scanner
-    ├─ rust-outpost-dj-9d
-    ├─ jfujhgv
-    ├─ osmp
-    └─ ... +22 more
+    ├─ ark-omnisuite
+    ├─ RelayStudio
+    └─ ... +29 more
 
   MAINTENANCE (38)
     ├─ orion-sentinel-ai
     ├─ aurora-audio-engine
     ├─ 911-investigation
     ├─ better_bing_image_downloader
-    ├─ forge
+    ├─ swarmforge
     └─ ... +33 more
 
   ARCHIVED (1)
