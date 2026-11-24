@@ -242,7 +242,7 @@ Full list of published Zenodo records (auto-synced from my account):
 | 23132746 | ScientificDiscoveryLab investigation: Vortex density in random wave fields | [10.5281/zenodo.23132746](https://doi.org/10.5281/zenodo.23132746) |
 | 23132744 | ScientificDiscoveryLab investigation: Speckle contrast law | [10.5281/zenodo.23132744](https://doi.org/10.5281/zenodo.23132744) |
 
-<sup>ZENODO ARCHIVE · 29 RECORDS · SYNCED 2026-11-23 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
+<sup>ZENODO ARCHIVE · 29 RECORDS · SYNCED 2026-11-24 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
 
 Zenodo profile: https://zenodo.org/search?q=owners:1912072
 
@@ -376,8 +376,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............  101 │
 │ CONTRIBUTIONS ..... 1262    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........  115 DAYS │
-│ SIGNAL HASH ....... CD5C68   SIGNAL ......... ##########=.....  76%  PHASE 00 │
+│ UPLINK AGE ........  116 DAYS │
+│ SIGNAL HASH ....... DBFE85   SIGNAL ......... ###########=....  81%  PHASE 05 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -390,12 +390,12 @@ CONTRIBUTIONS ...... 1262
 REPOSITORIES ....... 101
 FOLLOWERS .......... 2
 COLLECTED STARS .... 51
-BROADCASTING FOR ... 115 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 116 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
+  Nortaq-PlayNexus             PUSHED 2026-11-24
   threshold                    PUSHED 2026-11-23
   derceto-1992                 PUSHED 2026-11-23
-  Nortaq-PlayNexus             PUSHED 2026-11-23
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
   SNAKE TRANSMITTER [daily] -> .github/workflows/snake.yml
@@ -416,9 +416,9 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX -- 101 FILES</code></summary>
 
 ```text
+  Nortaq-PlayNexus                 TypeScript   *1
   threshold                        JavaScript   *1
   derceto-1992                     HTML         *0
-  Nortaq-PlayNexus                 TypeScript   *1
   ark-omnisuite                    Python       *1
   RelayStudio                      JavaScript   *1
   LoopBridge                       Python       *1
@@ -519,7 +519,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261123 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261124 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -578,22 +578,6 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ THRESHOLD                             │
-│                                          │
-│ THRESHOLD — browser first-person liminal-horror prot│
-│                                          │
-│ AMBIENTCG · BROWSER-GAME · FIRST-PERSON · GAME-PROTOTYPE│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/threshold]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
 │ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
@@ -610,6 +594,22 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ THRESHOLD                             │
+│                                          │
+│ THRESHOLD — browser first-person liminal-horror prot│
+│                                          │
+│ AMBIENTCG · BROWSER-GAME · FIRST-PERSON · GAME-PROTOTYPE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 6   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/threshold]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ ARK-OMNISUITE                         │
 │                                          │
 │ Unofficial local-first ARK: Survival Evolved plannin│
@@ -617,7 +617,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ ARK · ARK-SURVIVAL-EVOLVED · CALCULATOR · DISCORD-BOT│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 4   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ark-omnisuite]                        │
@@ -633,7 +633,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-ASSISTANT · CODE-REVIEW · CODING-ASSISTANT · DESKTOP-APP│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 3   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/RelayStudio]                        │
@@ -649,7 +649,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-AGENTS · AUTOMATION · CDP · CHATGPT  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 2   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/LoopBridge]                        │
@@ -665,7 +665,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ COMPLIANCE · EDUCATION · FORENSICS · INVESTIGATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/Royal-Commision]                        │
@@ -674,7 +674,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261123
+20261124
 
 NEW REPOSITORIES ........ 101
 CONTRIBUTIONS (YR) ...... 1262
@@ -683,20 +683,20 @@ LANGUAGES ............... 10
 TOTAL STARS ............. 51
 
 MOST ACTIVE (7 DAYS):
-  01 threshold                      0d ago
-  02 derceto-1992                   0d ago
-  03 Nortaq-PlayNexus               0d ago
-  04 ark-omnisuite                  0d ago
-  05 RelayStudio                    0d ago
+  01 Nortaq-PlayNexus               0d ago
+  02 threshold                      1d ago
+  03 derceto-1992                   1d ago
+  04 ark-omnisuite                  1d ago
+  05 RelayStudio                    1d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ██████████░░  84%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] playnexus-musicvidforge -- no activity for 32 days
-  [!] Personanal -- no activity for 33 days
-  [!] opencode-on-render-mvaxb9pd -- no activity for 38 days
+  [!] arena-workplace -- no activity for 31 days
+  [!] playnexus-musicvidforge -- no activity for 33 days
+  [!] Personanal -- no activity for 34 days
 
 FORECAST:
   HIGH development activity
@@ -716,7 +716,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261123  ║
+║ LAST AUDIT          20261124  ║
 ╚════════════════════════════════╝
 ```
 
@@ -746,7 +746,7 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +11 repositories modified
+  +10 repositories modified
   +1262 contributions (rolling year)
   +101 new experiments this year
   +101 total transmissions
@@ -766,9 +766,9 @@ PROJECT LIFECYCLE
     └─ ... +23 more
 
   ACTIVE (34)
+    ├─ Nortaq-PlayNexus
     ├─ threshold
     ├─ derceto-1992
-    ├─ Nortaq-PlayNexus
     ├─ ark-omnisuite
     ├─ RelayStudio
     └─ ... +29 more

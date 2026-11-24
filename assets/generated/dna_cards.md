@@ -1,21 +1,5 @@
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ THRESHOLD                             │
-│                                          │
-│ THRESHOLD — browser first-person liminal-horror prot│
-│                                          │
-│ AMBIENTCG · BROWSER-GAME · FIRST-PERSON · GAME-PROTOTYPE│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/threshold]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
 │ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
@@ -32,6 +16,22 @@
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ THRESHOLD                             │
+│                                          │
+│ THRESHOLD — browser first-person liminal-horror prot│
+│                                          │
+│ AMBIENTCG · BROWSER-GAME · FIRST-PERSON · GAME-PROTOTYPE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 6   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/threshold]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ ARK-OMNISUITE                         │
 │                                          │
 │ Unofficial local-first ARK: Survival Evolved plannin│
@@ -39,7 +39,7 @@
 │ ARK · ARK-SURVIVAL-EVOLVED · CALCULATOR · DISCORD-BOT│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 4   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ark-omnisuite]                        │
@@ -55,7 +55,7 @@
 │ AI-ASSISTANT · CODE-REVIEW · CODING-ASSISTANT · DESKTOP-APP│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 3   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/RelayStudio]                        │
@@ -71,7 +71,7 @@
 │ AI-AGENTS · AUTOMATION · CDP · CHATGPT  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 2   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/LoopBridge]                        │
@@ -87,7 +87,7 @@
 │ COMPLIANCE · EDUCATION · FORENSICS · INVESTIGATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/Royal-Commision]                        │

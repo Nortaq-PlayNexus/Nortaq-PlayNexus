@@ -45,22 +45,6 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ THRESHOLD                             │
-│                                          │
-│ THRESHOLD — browser first-person liminal-horror prot│
-│                                          │
-│ AMBIENTCG · BROWSER-GAME · FIRST-PERSON · GAME-PROTOTYPE│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/threshold]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
 │ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
@@ -77,6 +61,22 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ THRESHOLD                             │
+│                                          │
+│ THRESHOLD — browser first-person liminal-horror prot│
+│                                          │
+│ AMBIENTCG · BROWSER-GAME · FIRST-PERSON · GAME-PROTOTYPE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 6   │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/threshold]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ ARK-OMNISUITE                         │
 │                                          │
 │ Unofficial local-first ARK: Survival Evolved plannin│
@@ -84,7 +84,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ ARK · ARK-SURVIVAL-EVOLVED · CALCULATOR · DISCORD-BOT│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 4   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ark-omnisuite]                        │
@@ -100,7 +100,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-ASSISTANT · CODE-REVIEW · CODING-ASSISTANT · DESKTOP-APP│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 3   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/RelayStudio]                        │
@@ -116,7 +116,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-AGENTS · AUTOMATION · CDP · CHATGPT  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 2   │
-│ STATUS ██████████ 100%     │
+│ STATUS █████████░  97%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/LoopBridge]                        │
@@ -132,7 +132,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ COMPLIANCE · EDUCATION · FORENSICS · INVESTIGATION│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 0   │
-│ STATUS █████████░  97%     │
+│ STATUS █████████░  94%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/Royal-Commision]                        │
@@ -141,7 +141,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261123
+20261124
 
 NEW REPOSITORIES ........ 101
 CONTRIBUTIONS (YR) ...... 1262
@@ -150,20 +150,20 @@ LANGUAGES ............... 10
 TOTAL STARS ............. 51
 
 MOST ACTIVE (7 DAYS):
-  01 threshold                      0d ago
-  02 derceto-1992                   0d ago
-  03 Nortaq-PlayNexus               0d ago
-  04 ark-omnisuite                  0d ago
-  05 RelayStudio                    0d ago
+  01 Nortaq-PlayNexus               0d ago
+  02 threshold                      1d ago
+  03 derceto-1992                   1d ago
+  04 ark-omnisuite                  1d ago
+  05 RelayStudio                    1d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ██████████░░  84%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] playnexus-musicvidforge -- no activity for 32 days
-  [!] Personanal -- no activity for 33 days
-  [!] opencode-on-render-mvaxb9pd -- no activity for 38 days
+  [!] arena-workplace -- no activity for 31 days
+  [!] playnexus-musicvidforge -- no activity for 33 days
+  [!] Personanal -- no activity for 34 days
 
 FORECAST:
   HIGH development activity
@@ -183,7 +183,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261123  ║
+║ LAST AUDIT          20261124  ║
 ╚════════════════════════════════╝
 ```
 
@@ -213,7 +213,7 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +11 repositories modified
+  +10 repositories modified
   +1262 contributions (rolling year)
   +101 new experiments this year
   +101 total transmissions
@@ -233,9 +233,9 @@ PROJECT LIFECYCLE
     └─ ... +23 more
 
   ACTIVE (34)
+    ├─ Nortaq-PlayNexus
     ├─ threshold
     ├─ derceto-1992
-    ├─ Nortaq-PlayNexus
     ├─ ark-omnisuite
     ├─ RelayStudio
     └─ ... +29 more

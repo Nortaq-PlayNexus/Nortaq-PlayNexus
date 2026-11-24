@@ -10,9 +10,9 @@ PROJECT LIFECYCLE
     └─ ... +23 more
 
   ACTIVE (34)
+    ├─ Nortaq-PlayNexus
     ├─ threshold
     ├─ derceto-1992
-    ├─ Nortaq-PlayNexus
     ├─ ark-omnisuite
     ├─ RelayStudio
     └─ ... +29 more
