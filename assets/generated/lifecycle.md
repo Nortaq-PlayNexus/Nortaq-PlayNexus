@@ -1,21 +1,21 @@
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (28)
-    ├─ aieval-lab
-    ├─ consciousness-indicator-battery
-    ├─ episodic-memory
-    ├─ ce-1-continuous-existence
-    ├─ phantom_vision_lab
-    └─ ... +23 more
+  PROTOTYPE (50)
+    ├─ ark-arena-architect
+    ├─ ark-mechanics-research-system
+    ├─ omeil
+    ├─ omeil-counterfactual-research-workbench
+    ├─ resourcegather
+    └─ ... +45 more
 
-  ACTIVE (34)
+  ACTIVE (12)
+    ├─ osmp
     ├─ Nortaq-PlayNexus
     ├─ threshold
     ├─ derceto-1992
     ├─ ark-omnisuite
-    ├─ RelayStudio
-    └─ ... +29 more
+    └─ ... +7 more
 
   MAINTENANCE (38)
     ├─ orion-sentinel-ai

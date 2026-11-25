@@ -2,14 +2,14 @@
 │ CURRENT OBSESSION              │
 ├────────────────────────────────┤
 │
+│  JavaScript                    │
 │  Python                        │
 │  TypeScript                    │
-│  JavaScript                    │
 │  HTML                          │
 │  Go                            │
-│  #python                       │
-│  #research                     │
-│  #electron                     │
+│  #desktop-app                  │
+│  #javascript                   │
+│  #webgl                        │
 │
 │ STATUS: OBSESSED               │
 ╰────────────────────────────────╯
