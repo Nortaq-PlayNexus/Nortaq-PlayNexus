@@ -242,7 +242,7 @@ Full list of published Zenodo records (auto-synced from my account):
 | 23132746 | ScientificDiscoveryLab investigation: Vortex density in random wave fields | [10.5281/zenodo.23132746](https://doi.org/10.5281/zenodo.23132746) |
 | 23132744 | ScientificDiscoveryLab investigation: Speckle contrast law | [10.5281/zenodo.23132744](https://doi.org/10.5281/zenodo.23132744) |
 
-<sup>ZENODO ARCHIVE · 29 RECORDS · SYNCED 2026-11-25 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
+<sup>ZENODO ARCHIVE · 29 RECORDS · SYNCED 2026-11-26 UTC · rebuilt by scripts/zenodo_sync.py · owner 1912072</sup>
 
 Zenodo profile: https://zenodo.org/search?q=owners:1912072
 
@@ -376,8 +376,8 @@ The real-time 53-week signal strip, system metrics, the verifiable **SIGNAL HASH
 ┌─ TRANSMISSION STATUS ─────────────────────────────┐
 │ GITHUB ........... ONLINE      REPOS .............  101 │
 │ CONTRIBUTIONS ..... 1262    FOLLOWERS ..........    2 │
-│ UPLINK AGE ........  117 DAYS │
-│ SIGNAL HASH ....... 779B32   SIGNAL ......... ########=.......  54%  PHASE 02 │
+│ UPLINK AGE ........  118 DAYS │
+│ SIGNAL HASH ....... 882D90   SIGNAL ......... ########=.......  50%  PHASE 00 │
 └──────────────────────────────────────────────────────┘
 
 // SIGNAL ACTIVITY -- REAL-TIME WEEK STRIP (LIVE DATA)
@@ -390,11 +390,11 @@ CONTRIBUTIONS ...... 1262
 REPOSITORIES ....... 101
 FOLLOWERS .......... 2
 COLLECTED STARS .... 51
-BROADCASTING FOR ... 117 DAYS (SINCE 2026-07-31 UTC)
+BROADCASTING FOR ... 118 DAYS (SINCE 2026-07-31 UTC)
 
 // RECENT CATCHES -- LAST 3 PUSHES
+  Nortaq-PlayNexus             PUSHED 2026-11-26
   osmp                         PUSHED 2026-11-25
-  Nortaq-PlayNexus             PUSHED 2026-11-25
   threshold                    PUSHED 2026-11-23
 
 // BROADCAST SCHEDULE -- REAL WORKFLOW CRONS
@@ -416,8 +416,8 @@ COFFEE ........ REQUIRED
   <summary><code>CASES:// RAW ARCHIVE INDEX -- 101 FILES</code></summary>
 
 ```text
-  osmp                             TypeScript   *1
   Nortaq-PlayNexus                 TypeScript   *1
+  osmp                             TypeScript   *1
   threshold                        JavaScript   *1
   derceto-1992                     HTML         *0
   ark-omnisuite                    Python       *1
@@ -519,7 +519,7 @@ COFFEE ........ REQUIRED
 ```
 </details>
 
-<sup>LAST REBROADCAST 20261125 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
+<sup>LAST REBROADCAST 20261126 UTC . data source: GRAPHQL . hash salt public in docs/how-to-verify.md</sup>
 
 <!-- REBROADCAST:END -->
 
@@ -578,22 +578,6 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
-│ ◉ OSMP                                  │
-│                                          │
-│ Open Source Modernization Platform - an autonomous e│
-│                                          │
-│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
-│                                          │
-│ STARS  1     FORKS  0     ISSUES 10  │
-│ STATUS ██████████ 100%     │
-│ MATURITY ███░░░░░░░            │
-│                                          │
-│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
-╰──────────────────────────────────────────╯
-```
-
-```
-╭──────────────────────────────────────────╮
 │ ◉ NORTAQ-PLAYNEXUS                      │
 │                                          │
 │ DJ PHANTOMTAPE // PIRATE DIGITAL BROADCAST - profile│
@@ -610,6 +594,22 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```
 ╭──────────────────────────────────────────╮
+│ ◉ OSMP                                  │
+│                                          │
+│ Open Source Modernization Platform - an autonomous e│
+│                                          │
+│ AUTOMATION · ENTERPRISE · MODERNIZATION · OPEN-SOURCE│
+│                                          │
+│ STARS  1     FORKS  0     ISSUES 10  │
+│ STATUS █████████░  97%     │
+│ MATURITY ███░░░░░░░            │
+│                                          │
+│ [https://github.com/Nortaq-PlayNexus/osmp]                        │
+╰──────────────────────────────────────────╯
+```
+
+```
+╭──────────────────────────────────────────╮
 │ ◉ THRESHOLD                             │
 │                                          │
 │ THRESHOLD — browser first-person liminal-horror prot│
@@ -617,7 +617,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AMBIENTCG · BROWSER-GAME · FIRST-PERSON · GAME-PROTOTYPE│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 6   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/threshold]                        │
@@ -633,7 +633,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ ARK · ARK-SURVIVAL-EVOLVED · CALCULATOR · DISCORD-BOT│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 4   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/ark-omnisuite]                        │
@@ -649,7 +649,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-ASSISTANT · CODE-REVIEW · CODING-ASSISTANT · DESKTOP-APP│
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 3   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/RelayStudio]                        │
@@ -665,7 +665,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 │ AI-AGENTS · AUTOMATION · CDP · CHATGPT  │
 │                                          │
 │ STARS  1     FORKS  0     ISSUES 2   │
-│ STATUS █████████░  94%     │
+│ STATUS █████████░  91%     │
 │ MATURITY ███░░░░░░░            │
 │                                          │
 │ [https://github.com/Nortaq-PlayNexus/LoopBridge]                        │
@@ -674,7 +674,7 @@ WEB            █░░░░░░░░░░░░░░░░░░░  2
 
 ```text
 PHANTOMTAPE // NIGHTLY INTELLIGENCE REPORT
-20261125
+20261126
 
 NEW REPOSITORIES ........ 101
 CONTRIBUTIONS (YR) ...... 1262
@@ -683,20 +683,20 @@ LANGUAGES ............... 10
 TOTAL STARS ............. 51
 
 MOST ACTIVE (7 DAYS):
-  01 osmp                           0d ago
-  02 Nortaq-PlayNexus               0d ago
-  03 threshold                      2d ago
-  04 derceto-1992                   2d ago
-  05 ark-omnisuite                  2d ago
+  01 Nortaq-PlayNexus               0d ago
+  02 osmp                           1d ago
+  03 threshold                      3d ago
+  04 derceto-1992                   3d ago
+  05 ark-omnisuite                  3d ago
 
 SIGNAL WEATHER:
   ACTIVITY       ██████████░░  84%
   CHAOS INDEX    ████████████  100%
 
 ANOMALIES:
-  [!] arena-workplace -- no activity for 32 days
-  [!] playnexus-musicvidforge -- no activity for 34 days
-  [!] Personanal -- no activity for 35 days
+  [!] c4-advanced-file-checker -- no activity for 31 days
+  [!] arena-workplace -- no activity for 33 days
+  [!] playnexus-musicvidforge -- no activity for 35 days
 
 FORECAST:
   HIGH development activity
@@ -716,7 +716,7 @@ FORECAST:
 ║ BUILD ...............● PASS    ║
 ║ DOCUMENTATION .......● PASS    ║
 ║                                ║
-║ LAST AUDIT          20261125  ║
+║ LAST AUDIT          20261126  ║
 ╚════════════════════════════════╝
 ```
 
@@ -746,7 +746,7 @@ FORECAST:
 ```text
 WHILE YOU WERE AWAY...
 
-  +11 repositories modified
+  +9 repositories modified
   +1262 contributions (rolling year)
   +101 new experiments this year
   +101 total transmissions
@@ -757,29 +757,29 @@ WHILE YOU WERE AWAY...
 ```text
 PROJECT LIFECYCLE
 
-  PROTOTYPE (50)
+  PROTOTYPE (49)
     ├─ ark-arena-architect
     ├─ ark-mechanics-research-system
     ├─ omeil
     ├─ omeil-counterfactual-research-workbench
     ├─ resourcegather
-    └─ ... +45 more
+    └─ ... +44 more
 
   ACTIVE (12)
-    ├─ osmp
     ├─ Nortaq-PlayNexus
+    ├─ osmp
     ├─ threshold
     ├─ derceto-1992
     ├─ ark-omnisuite
     └─ ... +7 more
 
-  MAINTENANCE (38)
+  MAINTENANCE (39)
+    ├─ alien-image-investigation
     ├─ orion-sentinel-ai
     ├─ aurora-audio-engine
     ├─ 911-investigation
     ├─ better_bing_image_downloader
-    ├─ swarmforge
-    └─ ... +33 more
+    └─ ... +34 more
 
   ARCHIVED (1)
     ├─ ark-ini-manager
