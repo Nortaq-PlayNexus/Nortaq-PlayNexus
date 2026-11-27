@@ -23,7 +23,7 @@
 <text x="52" y="189" fill="#E8E8E8" font-size="9">synthesis-dj</text>
 <text x="660" y="189" fill="#8A8A8A" font-size="9">JavaScript</text>
 <line x1="40" y1="192" x2="40" y2="214" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="214" r="3" fill="#FFC430"/>
+<circle cx="40" cy="214" r="3" fill="#8A8A8A"/>
 <text x="52" y="217" fill="#E8E8E8" font-size="9">phantomtape-radio</text>
 <text x="660" y="217" fill="#8A8A8A" font-size="9">JavaScript</text>
 <line x1="40" y1="220" x2="40" y2="242" stroke="#FF3B3B" stroke-width="1" opacity="0.4"/>
@@ -415,7 +415,7 @@
 <circle cx="40" cy="2986" r="5" fill="#8A8A8A"/>
 <text x="52" y="2990" fill="#8A8A8A" font-size="11" font-weight="bold">. OTHER (5)</text>
 <line x1="40" y1="2992" x2="40" y2="3014" stroke="#8A8A8A" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="3014" r="3" fill="#B8FF1E"/>
+<circle cx="40" cy="3014" r="3" fill="#FFC430"/>
 <text x="52" y="3017" fill="#E8E8E8" font-size="9">jfujhgv</text>
 <text x="660" y="3017" fill="#8A8A8A" font-size="9">?</text>
 <line x1="40" y1="3020" x2="40" y2="3042" stroke="#8A8A8A" stroke-width="1" opacity="0.4"/>
