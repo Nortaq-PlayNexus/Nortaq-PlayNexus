@@ -134,15 +134,15 @@
 <text x="52" y="973" fill="#E8E8E8" font-size="9">phantom_vision_lab</text>
 <text x="660" y="973" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="976" x2="40" y2="998" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="998" r="3" fill="#FFC430"/>
+<circle cx="40" cy="998" r="3" fill="#8A8A8A"/>
 <text x="52" y="1001" fill="#E8E8E8" font-size="9">pineal-godseye</text>
 <text x="660" y="1001" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1004" x2="40" y2="1026" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1026" r="3" fill="#FFC430"/>
+<circle cx="40" cy="1026" r="3" fill="#8A8A8A"/>
 <text x="52" y="1029" fill="#E8E8E8" font-size="9">sapphire-continuity-research</text>
 <text x="660" y="1029" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1032" x2="40" y2="1054" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="1054" r="3" fill="#FFC430"/>
+<circle cx="40" cy="1054" r="3" fill="#8A8A8A"/>
 <text x="52" y="1057" fill="#E8E8E8" font-size="9">amis</text>
 <text x="660" y="1057" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="1060" x2="40" y2="1082" stroke="#B8FF1E" stroke-width="1" opacity="0.4"/>
@@ -287,7 +287,7 @@
 <text x="52" y="2065" fill="#E8E8E8" font-size="9">TerrorFibercraft-Admin</text>
 <text x="660" y="2065" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="2068" x2="40" y2="2090" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
-<circle cx="40" cy="2090" r="3" fill="#FFC430"/>
+<circle cx="40" cy="2090" r="3" fill="#8A8A8A"/>
 <text x="52" y="2093" fill="#E8E8E8" font-size="9">cosmic-discovery-engine</text>
 <text x="660" y="2093" fill="#8A8A8A" font-size="9">Python</text>
 <line x1="40" y1="2096" x2="40" y2="2118" stroke="#FF4D00" stroke-width="1" opacity="0.4"/>
